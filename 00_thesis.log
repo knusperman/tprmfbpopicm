@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.22)  23 NOV 2016 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.22)  23 NOV 2016 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1770,14 +1770,14 @@ LaTeX Info: Redefining \nameref on input line 58.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<assets/wwu-logo.pdf, id=130, 244.90295pt x 52.63805pt>
+<assets/wwu-logo.pdf, id=263, 244.90295pt x 52.63805pt>
 File: assets/wwu-logo.pdf Graphic file (type pdf)
 
 <use assets/wwu-logo.pdf>
 Package pdftex.def Info: assets/wwu-logo.pdf used on input line 60.
 (pdftex.def)             Requested size: 211.80823pt x 45.5244pt.
 
-<assets/faculty-en.pdf, id=131, 636.96269pt x 150.5625pt>
+<assets/faculty-en.pdf, id=264, 636.96269pt x 150.5625pt>
 File: assets/faculty-en.pdf Graphic file (type pdf)
 
 <use assets/faculty-en.pdf>
@@ -1816,38 +1816,38 @@ File: utxsyc.fd 2000/12/15 v3.1
 s/wwu-logo.pdf> <./assets/faculty-en.pdf>] [2
 
 
-] (./00_thesis.toc)
+] (./00_thesis.toc [3
+
+
+
+])
 \tf@toc=\write9
 \openout9 = `00_thesis.toc'.
 
- [3
-
-
-
-] (./00_thesis.lof)
+ [4] (./00_thesis.lof)
 \tf@lof=\write10
 \openout10 = `00_thesis.lof'.
 
 
-[4
+[5
 
 ] (./00_thesis.lot)
 \tf@lot=\write11
 \openout11 = `00_thesis.lot'.
 
- [5
+ [6
 
 ] (./00_thesis.lol)
 \tf@lol=\write12
 \openout12 = `00_thesis.lol'.
 
- [6
+ [7
 
 ]
 No file 00_thesis.acr.
-[7]
+[8]
 No file 00_thesis.gls.
-[8] (./abstract.tex)pdfTeX warning (ext4): destination with the same identifier
+[9] (./abstract.tex)pdfTeX warning (ext4): destination with the same identifier
  (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1856,138 +1856,166 @@ l.94     \begin{content}
 
 ] (./body01.tex
 Chapter 1.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 5.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
-Overfull \hbox (28.74425pt too wide) in paragraph at lines 11--12
-\T1/txr/m/n/12 ter-wards you will be able to clone the tem-plate from $\T1/txtt
-/m/n/12 https : / / wiwi-[]gitlab . uni-[]muenster .
- []
-
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 15.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 15.
- [1
+[1
 
 
 ]
 Chapter 2.
+[2
 
-Overfull \hbox (43.82448pt too wide) in paragraph at lines 29--30
+]
+Chapter 3.
+[3
+
+]
+Chapter 4.
+[4
+
+]
+Chapter 5.
+[5
+
+]
+Chapter 6.
+[6
+
+]
+Chapter 7.
+[7
+
+]
+Chapter 8.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 49.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Overfull \hbox (28.74425pt too wide) in paragraph at lines 55--56
+\T1/txr/m/n/12 ter-wards you will be able to clone the tem-plate from $\T1/txtt
+/m/n/12 https : / / wiwi-[]gitlab . uni-[]muenster .
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 59.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 59.
+ [8
+
+]
+Chapter 9.
+
+Overfull \hbox (43.82448pt too wide) in paragraph at lines 73--74
 []\T1/txr/m/n/12 Footnotes are con-tigu-ously num-bered through-out the whole d
 oc-u-ment. Use the \T1/txtt/m/n/12 \footnote{text}
  []
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 32.
+ine 76.
 
-Overfull \hbox (14.35982pt too wide) in paragraph at lines 35--36
+Overfull \hbox (14.35982pt too wide) in paragraph at lines 79--80
 \T1/txr/m/n/12 L[]T[]X- pro-vides \T1/txtt/m/n/12 \textit{text} \T1/txr/m/n/12 
 for \T1/txr/m/it/12 ital-ics\T1/txr/m/n/12 , \T1/txtt/m/n/12 \textbf{text} \T1/
 txr/m/n/12 for \T1/txr/bx/n/12 bold face\T1/txr/m/n/12 , \T1/txtt/m/n/12 \textt
 t{text}
  []
 
-[2
+[9
 
-] <figures/figure01.pdf, id=266, 624.3325pt x 100.375pt>
+] <figures/figure01.pdf, id=467, 624.3325pt x 100.375pt>
 File: figures/figure01.pdf Graphic file (type pdf)
 
 <use figures/figure01.pdf>
-Package pdftex.def Info: figures/figure01.pdf used on input line 72.
+Package pdftex.def Info: figures/figure01.pdf used on input line 116.
 (pdftex.def)             Requested size: 256.07741pt x 41.17085pt.
- [3]
+ [10]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-) [4 <./figures/figure01.pdf>]
+) [11 <./figures/figure01.pdf>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 155.
- [5] [6] [7]
-Overfull \hbox (7.9078pt too wide) in paragraph at lines 282--284
+put line 199.
+ [12] [13] [14]
+Overfull \hbox (7.9078pt too wide) in paragraph at lines 326--328
 \T1/txtt/m/n/12 \newacronym[longplural={<long plural>}, shortplural={<short plu
 ral>}] 
  []
 
 
-Overfull \hbox (9.68414pt too wide) in paragraph at lines 306--307
+Overfull \hbox (9.68414pt too wide) in paragraph at lines 350--351
 \T1/txtt/m/n/12 \addsymboltolist{<symbol>}{<label>}{<name>} \T1/txr/m/n/12 com-
 mand. The sym-bols are sorted
  []
 
-[8
+[15
 
 ]
 
-Package natbib Warning: Citation `Hammer2015' on page 9 undefined on input line
- 311.
+Package natbib Warning: Citation `Hammer2015' on page 16 undefined on input lin
+e 355.
 
 
-Package natbib Warning: Citation `Hammer2015' on page 9 undefined on input line
- 316.
+Package natbib Warning: Citation `Hammer2015' on page 16 undefined on input lin
+e 360.
 
 
-Package natbib Warning: Citation `VomBrocke2014a' on page 9 undefined on input 
-line 316.
+Package natbib Warning: Citation `VomBrocke2014a' on page 16 undefined on input
+ line 360.
 
 
-Package natbib Warning: Citation `VomBrocke2014a' on page 9 undefined on input 
-line 317.
+Package natbib Warning: Citation `VomBrocke2014a' on page 16 undefined on input
+ line 361.
 
 
-Package natbib Warning: Citation `VomBrocke2014a' on page 9 undefined on input 
-line 318.
+Package natbib Warning: Citation `VomBrocke2014a' on page 16 undefined on input
+ line 362.
 
 
-Package natbib Warning: Citation `Hammer2015' on page 9 undefined on input line
- 319.
+Package natbib Warning: Citation `Hammer2015' on page 16 undefined on input lin
+e 363.
 
 
-Package natbib Warning: Citation `Hammer2015' on page 9 undefined on input line
- 319.
+Package natbib Warning: Citation `Hammer2015' on page 16 undefined on input lin
+e 363.
 
 
-Package natbib Warning: Citation `VomBrocke2014a' on page 9 undefined on input 
-line 319.
+Package natbib Warning: Citation `VomBrocke2014a' on page 16 undefined on input
+ line 363.
 
 
-Package natbib Warning: Citation `Becker2011' on page 9 undefined on input line
- 320.
+Package natbib Warning: Citation `Becker2011' on page 16 undefined on input lin
+e 364.
 
 
-Package natbib Warning: Citation `VomBrocke2014a' on page 9 undefined on input 
-line 321.
+Package natbib Warning: Citation `VomBrocke2014a' on page 16 undefined on input
+ line 365.
 
-[9]
-Chapter 3.
+[16]
+Chapter 10.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 ))
-Overfull \hbox (8.92848pt too wide) in paragraph at lines 357--98
+Overfull \hbox (8.92848pt too wide) in paragraph at lines 401--98
 \T1/txr/m/n/12 Under some con-fig-u-ra-tions on Win-dows ma-chines, the \T1/txt
 t/m/n/12 makeglossaries \T1/txr/m/n/12 com-mand silently
  []
 
-[10
+[17
 
 ] (./appendix.tex)
 No file 00_thesis.bbl.
-[11
+[18
 
 ]
 
 Package natbib Warning: There were undefined citations.
 
-[12
+[19
 
 
 ]
@@ -1997,16 +2025,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `00_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B63CD09BEA9CD2C045BE41430C3916DE;1817.
+(rerunfilecheck)             Checksum: B77293C47C121BA8501588D899A4B72D;3883.
  ) 
 Here is how much of TeX's memory you used:
- 40174 strings out of 493089
- 847221 string characters out of 6134842
- 1237658 words of memory out of 5000000
- 42659 multiletter control sequences out of 15000+600000
+ 40248 strings out of 493089
+ 848137 string characters out of 6134842
+ 1239318 words of memory out of 5000000
+ 42692 multiletter control sequences out of 15000+600000
  72229 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,94p,1798b,2255s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,12n,94p,1798b,2369s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2044,10 +2072,10 @@ mf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist
 /txfonts/txsyc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 00_thesis.pdf (21 pages, 227169 bytes).
+Output written on 00_thesis.pdf (29 pages, 235359 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
- 115 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 678 PDF objects out of 1000 (max. 8388607)
+ 614 compressed objects within 7 object streams
+ 156 named destinations out of 1000 (max. 500000)
+ 540 words of extra memory for PDF output out of 10000 (max. 10000000)
 
