@@ -3,32 +3,164 @@
 
 \chapter{Motivation}
 
+
+	\begin{itemize}
+		\item Janina BA
+		\item ECIS Paper
+		\item Refmod motivation Püster?
+		\item Omnichannel 
+		\item purpose statement
+		\item research question and hyptoheses
+	\end{itemize}
+
+	\begin{itemize}
+		\item Crewsell: State problem, 
+		\item review studies that have addressed the problem,
+		\item  indicate definciencies in studies, 
+		\item advance significance, 
+		\item state purpose statement
+	\end{itemize}
+%%%%%%%%%%
 \chapter{Methodology}
-\section{Overview}
-\section{Literature Review}
-\section{Empirical Research}
-\section{Design Science}
+%%%%%%%%%%
+	\section{Overview}
+	%%%%%%%%%%		
+		\begin{itemize}
+			\item Creswell Preliminary Cosiderations:
+			\item 1Selection of Research Approach
+			\item 2Litreview
+			\item 3UseofTheory ?
+			\item 4Writing Strategy?
+			\item Figure for my approach
+		\end{itemize}
+	
+	
+	\begin{tikzpicture}
+	[node distance=.6cm,
+	start chain=going below,]
+	\node[punktchain, join] (intro) {Introduktion};
 
+	\node[punktchain, join] (investeringer)      {Investeringsteori};
+	\node[punktchain, join] (perfekt) {Det perfekte kapitalmarked};
+	\node[punktchain, join, ] (emperi) {Emperi};
+	\node (asym) [punktchain ]  {Asymmetrisk information};
+	\begin{scope}[start branch=venstre,
+	%We need to redefine the join-style to have the -> turn out right
+	every join/.style={->, thick, shorten <=1pt}, ]
+	\node[punktchain, on chain=going left, join=by {<-}]
+	(risiko) {Risiko og gamble};
+	\end{scope}
+	\begin{scope}[start branch=hoejre,]
+	\node (finans) [punktchain, on chain=going right] {Det finansielle system};
+	\end{scope}
+	\node[punktchain, join,] (disk) {Det imperfekte finansielle marked};
+	\node[punktchain, join,] (makro) {Investeringsmssige konsekvenser};
+	\node[punktchain] (konk) {Konklusion};
+	\node[punktchain,  left = of konk] (konk2) {Konklusi2on};
+	
+	% Now that we have finished the main figure let us add some "after-drawings"
+	%% First, let us connect (finans) with (disk). We want it to have
+	%% square corners.
+	\draw[|-,-|,->, thick,] (finans.south) |-+(0,-1em)-| (disk.north);
+	\draw[|-,-|,->, thick,] (emperi.south) |-+(0,-1em)-| (risiko.north);
+	\draw[|-,-|,->, thick,] (emperi.south) |-+(0,-1em)-| (asym.north);
+
+	% Now, let us add some braches. 
+
+	\draw[tuborg, decoration={brace}] let \p1=(perfekt.north), \p2=(emperi.south) in
+	($(2.5, \y1)$) -- ($(2.5, \y2)$) node[tubnode] {Problemfelt};
+	\end{tikzpicture}
+		\begin{itemize}
+			\item Designing research Creswell
+			
+		\end{itemize}
+	%%%%%%%%%%
+	\section{Literature Review}
+	%%%%%%%%%%
+		\begin{itemize}
+			\item Where, How, For what
+		\end{itemize}
+	%%%%%%%%%%
+	\section{Empirical Research}
+	%%%%%%%%%%
+		\begin{itemize}
+			\item Qualitative Methods
+			\item Interviews, how many, how long, with whom, sample
+		\end{itemize}
+	%%%%%%%%%%
+	\section{Design Science}
+		\begin{itemize}
+			\item Hefner, Peffers. Draw line complete the view of used research methods.
+		\end{itemize}
+%%%%%%%%%%
 \chapter{Research Background}
-\section{Domain}
-\subsection{Business Process Outsourcing}
-\subsection{Customer Management}
-\subsection{Customer Management Business Process Outsourcing Providers}
+	%%%%%%%%%%
+	DEFINITIONS DEFINITIONS DEFINITIONS
+	\section{Domain}
+	%%%%%%%%%%
+	
 
-\section{Reference Modeling}
-\subsection{Concept}
-\subsection{Benefits}
-\subsection{icebricks as a means}
-
+	
+		%%%%%%%%%%
+		\subsection{Business Process Outsourcing}
+		%%%%%%%%%%
+		\begin{itemize}
+			\item BPO with PO
+			\item offshore, nearshore, inshore
+		\end{itemize}
+		%%%%%%%%%%
+		\subsection{Customer Management}
+		%%%%%%%%%%
+		\begin{itemize}
+			\item CSM or CM?
+			\item Value Chain
+			\item Importance for businesses
+		\end{itemize}
+		%%%%%%%%%%
+		\subsection{Customer Management Business Process Outsourcing Providers}
+		%%%%%%%%%%
+		\begin{itemize}
+			\item Strategy, Capabilities
+			\item B2B2X
+			\item virtual company
+		\end{itemize}
+	%%%%%%%%%%
+	\section{Reference Modeling}
+	%%%%%%%%%%
+		%%%%%%%%%%
+		\subsection{Concept}
+		%%%%%%%%%%
+		%%%%%%%%%%
+		\subsection{Benefits}
+		%%%%%%%%%%
+		%%%%%%%%%%
+		\subsection{icebricks as a means}
+		%%%%%%%%%%
 \chapter{Case}
+%%%%%%%%%%
+%%%%%%%%%%
 \section{DSR Application for Arvato}
+%%%%%%%%%%
+%%%%%%%%%%
 \section{Problem Identification}
+%%%%%%%%%%
+%%%%%%%%%%
 \section{Solution Objective and Stakeholders}
+%%%%%%%%%%
+%%%%%%%%%%
 \section{Limitiations}
+%%%%%%%%%%
+%%%%%%%%%%
 
 \chapter{Reference Model Construction}
+%%%%%%%%%%
+%%%%%%%%%%
 \section{Process Framework}
+%%%%%%%%%%
+%%%%%%%%%%
 \section{Internal Services}
+%%%%%%%%%%
+%%%%%%%%%%
 \subsection{...}
 \section{Client Services}
 \subsection{...}

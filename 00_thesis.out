@@ -38,25 +38,25 @@
 \BOOKMARK [1][-]{section.6.3}{Customer Services}{chapter.6}% 38
 \BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 39
 \BOOKMARK [0][-]{chapter.8}{Sample}{}% 40
-\BOOKMARK [0][-]{chapter.9}{Elements}{}% 41
-\BOOKMARK [1][-]{section.9.1}{Structure}{chapter.9}% 42
-\BOOKMARK [2][-]{subsection.9.1.1}{Lists}{section.9.1}% 43
-\BOOKMARK [2][-]{subsection.9.1.2}{Footnotes}{section.9.1}% 44
-\BOOKMARK [2][-]{subsection.9.1.3}{ToDo-Notes}{section.9.1}% 45
-\BOOKMARK [1][-]{section.9.2}{Formatting Text}{chapter.9}% 46
-\BOOKMARK [2][-]{subsection.9.2.1}{Colors}{section.9.2}% 47
-\BOOKMARK [1][-]{section.9.3}{Figures}{chapter.9}% 48
-\BOOKMARK [2][-]{subsection.9.3.1}{Subfigures}{section.9.3}% 49
-\BOOKMARK [1][-]{section.9.4}{Listings}{chapter.9}% 50
-\BOOKMARK [1][-]{section.9.5}{Algorithms}{chapter.9}% 51
-\BOOKMARK [1][-]{section.9.6}{Acronyms and Abbreviations}{chapter.9}% 52
-\BOOKMARK [2][-]{subsection.9.6.1}{Common Abbreviations}{section.9.6}% 53
-\BOOKMARK [2][-]{subsection.9.6.2}{Custom Abbreviations}{section.9.6}% 54
-\BOOKMARK [2][-]{subsection.9.6.3}{Symbols}{section.9.6}% 55
-\BOOKMARK [1][-]{section.9.7}{Citations and Bibliography}{chapter.9}% 56
-\BOOKMARK [2][-]{subsection.9.7.1}{Misc}{section.9.7}% 57
-\BOOKMARK [0][-]{chapter.10}{Compiling the document}{}% 58
-\BOOKMARK [1][-]{section.10.1}{Known Issues}{chapter.10}% 59
+\BOOKMARK [1][-]{section.8.1}{Elements}{chapter.8}% 41
+\BOOKMARK [1][-]{section.8.2}{Structure}{chapter.8}% 42
+\BOOKMARK [2][-]{subsection.8.2.1}{Lists}{section.8.2}% 43
+\BOOKMARK [2][-]{subsection.8.2.2}{Footnotes}{section.8.2}% 44
+\BOOKMARK [2][-]{subsection.8.2.3}{ToDo-Notes}{section.8.2}% 45
+\BOOKMARK [1][-]{section.8.3}{Formatting Text}{chapter.8}% 46
+\BOOKMARK [2][-]{subsection.8.3.1}{Colors}{section.8.3}% 47
+\BOOKMARK [1][-]{section.8.4}{Figures}{chapter.8}% 48
+\BOOKMARK [2][-]{subsection.8.4.1}{Subfigures}{section.8.4}% 49
+\BOOKMARK [1][-]{section.8.5}{Listings}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.6}{Algorithms}{chapter.8}% 51
+\BOOKMARK [1][-]{section.8.7}{Acronyms and Abbreviations}{chapter.8}% 52
+\BOOKMARK [2][-]{subsection.8.7.1}{Common Abbreviations}{section.8.7}% 53
+\BOOKMARK [2][-]{subsection.8.7.2}{Custom Abbreviations}{section.8.7}% 54
+\BOOKMARK [2][-]{subsection.8.7.3}{Symbols}{section.8.7}% 55
+\BOOKMARK [1][-]{section.8.8}{Citations and Bibliography}{chapter.8}% 56
+\BOOKMARK [2][-]{subsection.8.8.1}{Misc}{section.8.8}% 57
+\BOOKMARK [0][-]{chapter.9}{Compiling the document}{}% 58
+\BOOKMARK [1][-]{section.9.1}{Known Issues}{chapter.9}% 59
 \BOOKMARK [0][-]{appendix*.23}{Appendix}{}% 60
 \BOOKMARK [1][-]{section.Alph0.1}{Some Appendix Section}{appendix*.23}% 61
 \BOOKMARK [2][-]{subsection.Alph0.1.1}{Some Appendix Subsection}{section.Alph0.1}% 62

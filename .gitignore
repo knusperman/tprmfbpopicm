@@ -4,3 +4,11 @@
 *.gz
 
 *.log
+
+*.out
+
+*.lot
+
+*.lol
+
+*.acn
