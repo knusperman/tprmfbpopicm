@@ -4,67 +4,75 @@
 \contentsline {chapter}{Tables}{VI}{section*.5}
 \contentsline {chapter}{Listings}{VII}{section*.7}
 \contentsline {chapter}{Abbreviations}{VIII}{section*.9}
-\contentsline {chapter}{Symbols}{IX}{section*.10}
+\contentsline {chapter}{Symbols}{IX}{section*.12}
 \contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Methodology}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}Overview}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Literature Review}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}Empirical Research}{3}{section.2.3}
-\contentsline {section}{\numberline {2.4}Design Science}{3}{section.2.4}
-\contentsline {chapter}{\numberline {3}Research Background}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}Domain}{4}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Business Process Outsourcing}{4}{subsection.3.1.1}
-\contentsline {subsubsection}{Parent Company}{4}{subsubsection*.11}
-\contentsline {subsubsection}{Outsourcing Provider}{4}{subsubsection*.12}
-\contentsline {subsection}{\numberline {3.1.2}Customer Management}{4}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Customer Management Business Process Outsourcing Providers}{5}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Reference Modeling}{5}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Concept}{5}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Benefits}{5}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}icebricks as a means}{5}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Case}{6}{chapter.4}
-\contentsline {section}{\numberline {4.1}DSR Application for Arvato}{6}{section.4.1}
-\contentsline {section}{\numberline {4.2}Problem Identification}{6}{section.4.2}
-\contentsline {section}{\numberline {4.3}Solution Objective and Stakeholders}{6}{section.4.3}
-\contentsline {section}{\numberline {4.4}Limitiations}{6}{section.4.4}
-\contentsline {chapter}{\numberline {5}Reference Model Construction}{7}{chapter.5}
-\contentsline {section}{\numberline {5.1}Process Framework}{7}{section.5.1}
-\contentsline {section}{\numberline {5.2}Internal Services}{7}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}...}{7}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Client Services}{7}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}...}{7}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Customer Services}{7}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}...}{7}{subsection.5.4.1}
-\contentsline {chapter}{\numberline {6}Evaluation}{8}{chapter.6}
-\contentsline {section}{\numberline {6.1}Internal Services}{8}{section.6.1}
-\contentsline {section}{\numberline {6.2}Client Services}{8}{section.6.2}
-\contentsline {section}{\numberline {6.3}Customer Services}{8}{section.6.3}
-\contentsline {chapter}{\numberline {7}Conclusion}{9}{chapter.7}
-\contentsline {chapter}{\numberline {8}Sample}{10}{chapter.8}
-\contentsline {paragraph}{TODO}{10}{paragraph*.13}
-\contentsline {section}{\numberline {8.1}Elements}{10}{section.8.1}
-\contentsline {section}{\numberline {8.2}Structure}{10}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Lists}{10}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Footnotes}{11}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}ToDo-Notes}{11}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Formatting Text}{11}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Colors}{11}{subsection.8.3.1}
-\contentsline {section}{\numberline {8.4}Figures}{12}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Subfigures}{12}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Listings}{13}{section.8.5}
-\contentsline {section}{\numberline {8.6}Algorithms}{13}{section.8.6}
-\contentsline {section}{\numberline {8.7}Acronyms and Abbreviations}{14}{section.8.7}
-\contentsline {subsection}{\numberline {8.7.1}Common Abbreviations}{14}{subsection.8.7.1}
-\contentsline {subsection}{\numberline {8.7.2}Custom Abbreviations}{17}{subsection.8.7.2}
-\contentsline {subsection}{\numberline {8.7.3}Symbols}{17}{subsection.8.7.3}
-\contentsline {section}{\numberline {8.8}Citations and Bibliography}{18}{section.8.8}
-\contentsline {paragraph}{Exemplary citations}{18}{paragraph*.22}
-\contentsline {subsection}{\numberline {8.8.1}Misc}{18}{subsection.8.8.1}
-\contentsline {chapter}{\numberline {9}Compiling the document}{19}{chapter.9}
-\contentsline {section}{\numberline {9.1}Known Issues}{19}{section.9.1}
-\contentsline {chapter}{Appendix}{20}{appendix*.25}
+\contentsline {chapter}{\numberline {2}Methodology}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Literature Review}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Empirical Research}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Design Science}{4}{section.2.4}
+\contentsline {chapter}{\numberline {3}Research Background}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Domain}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Business Process Outsourcing}{5}{subsection.3.1.1}
+\contentsline {subsubsection}{Parent Company}{5}{subsubsection*.15}
+\contentsline {subsubsection}{Outsourcing Provider}{5}{subsubsection*.16}
+\contentsline {subsection}{\numberline {3.1.2}Customer Relationship Management}{5}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Customer Relationship Management Business Process Outsourcing Providers}{6}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Reference Modeling}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Concept}{6}{subsection.3.2.1}
+\contentsline {subsubsection}{Process orientation}{7}{subsubsection*.17}
+\contentsline {subsubsection}{Selected Reference Models}{7}{subsubsection*.18}
+\contentsline {subsection}{\numberline {3.2.2}Benefits}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}icebricks as a Process Modeling Language}{9}{subsection.3.2.3}
+\contentsline {subsubsection}{Correctness}{10}{subsubsection*.21}
+\contentsline {subsubsection}{Relevance}{10}{subsubsection*.22}
+\contentsline {subsubsection}{Economic efficiency}{10}{subsubsection*.23}
+\contentsline {subsubsection}{Clarity}{10}{subsubsection*.24}
+\contentsline {subsubsection}{Comparability}{10}{subsubsection*.25}
+\contentsline {subsubsection}{Systematic Design}{10}{subsubsection*.26}
+\contentsline {chapter}{\numberline {4}Case}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}DSR Application for Arvato}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Problem Identification}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Solution Objective and Stakeholders}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}Limitiations}{12}{section.4.4}
+\contentsline {chapter}{\numberline {5}Reference Model Construction}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Process Framework}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Internal Services}{13}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}...}{13}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Client Services}{13}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}...}{13}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Customer Services}{13}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}...}{13}{subsection.5.4.1}
+\contentsline {chapter}{\numberline {6}Evaluation}{14}{chapter.6}
+\contentsline {section}{\numberline {6.1}Internal Services}{14}{section.6.1}
+\contentsline {section}{\numberline {6.2}Client Services}{14}{section.6.2}
+\contentsline {section}{\numberline {6.3}Customer Services}{14}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion}{15}{chapter.7}
+\contentsline {chapter}{\numberline {8}Sample}{16}{chapter.8}
+\contentsline {paragraph}{TODO}{16}{paragraph*.27}
+\contentsline {section}{\numberline {8.1}Elements}{16}{section.8.1}
+\contentsline {section}{\numberline {8.2}Structure}{16}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Lists}{16}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Footnotes}{17}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}ToDo-Notes}{17}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Formatting Text}{17}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Colors}{17}{subsection.8.3.1}
+\contentsline {section}{\numberline {8.4}Figures}{18}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Subfigures}{18}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Listings}{19}{section.8.5}
+\contentsline {section}{\numberline {8.6}Algorithms}{19}{section.8.6}
+\contentsline {section}{\numberline {8.7}Acronyms and Abbreviations}{20}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Common Abbreviations}{20}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Custom Abbreviations}{23}{subsection.8.7.2}
+\contentsline {subsection}{\numberline {8.7.3}Symbols}{23}{subsection.8.7.3}
+\contentsline {section}{\numberline {8.8}Citations and Bibliography}{24}{section.8.8}
+\contentsline {paragraph}{Exemplary citations}{24}{paragraph*.36}
+\contentsline {subsection}{\numberline {8.8.1}Misc}{24}{subsection.8.8.1}
+\contentsline {chapter}{\numberline {9}Compiling the document}{25}{chapter.9}
+\contentsline {section}{\numberline {9.1}Known Issues}{25}{section.9.1}
+\contentsline {chapter}{Appendix}{26}{appendix*.39}
 \save@tocdepth \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Some Appendix Section}{20}{section.Alph0.1}
-\contentsline {subsection}{\numberline {A.1}Some Appendix Subsection}{20}{subsection.Alph0.1.1}
+\contentsline {section}{\numberline {A}Some Appendix Section}{26}{section.Alph0.1}
+\contentsline {subsection}{\numberline {A.1}Some Appendix Subsection}{26}{subsection.Alph0.1.1}
 \reset@tocdepth 
-\contentsline {chapter}{References}{20}{subsection.Alph0.1.1}
+\contentsline {chapter}{References}{26}{subsection.Alph0.1.1}
