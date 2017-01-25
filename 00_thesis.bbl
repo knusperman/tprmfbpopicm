@@ -1,8 +1,19 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
 \providecommand{\urldateprefix}{Access date: }
+
+\bibitem[{APICS(2015)}]{APICS2015}
+APICS 2015. \enquote{{American Production and Inventory Control Society -
+  Supply Chain Operations Reference model (SCOR)},} .
+\newline\urlprefix\url{http://www.apics.org/sites/apics-supply-chain-council/frameworks/scor}\newline\urldateprefix2016-12-01
+
+\bibitem[{Becker et~al.(2007)Becker, Delfmann, and Knackstedt}]{Becker2007}
+Becker, J., Delfmann, P., and Knackstedt, R. 2007. \enquote{{Adaptive reference
+  modeling: Integrating configurative and generic adaptation techniques for
+  information models},} in {\it Reference Modeling: Efficient Information
+  Systems Design Through Reuse of Information Models\/}, , pp. 27--58.
 
 \bibitem[{Becker and Kahn(2011)}]{Becker2011}
 Becker, J., and Kahn, D. 2011. \enquote{{The Process in Focus},} in {\it
@@ -10,11 +21,65 @@ Becker, J., and Kahn, D. 2011. \enquote{{The Process in Focus},} in {\it
   J.~Becker, M.~Kugeler, and M.~Rosemann,  (eds.), Berlin, Heidelberg:
   Springer, pp. 1--13, 2nd ed.
 
+\bibitem[{Becker and Knackstedt(2004)}]{Becker2004}
+Becker, J., and Knackstedt, R. 2004. \enquote{{Referenzmodellierung im
+  Data-Warehousing --- State-of-the-Art und konfigurative Ans{\"{a}}tze
+  f{\"{u}}r die Fachkonzeption},} {\it Wirtschaftsinformatik\/} (46:1), pp.
+  39--49.
+
+
+\bibitem[{Becker et~al.(2012)Becker, Probandt, and Vering}]{Becker2012Gom}
+Becker, J., Probandt, W., and Vering, O. 2012. {\it Grunds\"{a}tze
+  ordnungsm\"{a}{\ss}iger Modellierung\/}, Springer Nature.
+
+
+\bibitem[{Becker and Sch{\"{u}}tte(2004)}]{Becker2004a}
+Becker, J., and Sch{\"{u}}tte, R. 2004. {\it {Handelsinformationssysteme}\/},
+  M{\"{u}}nchen: MI Wirtschaftsbuch, 2nd ed.
+
+\bibitem[{{Dimension Data}(2016)}]{dimensiondata2016}
+{Dimension Data} 2016. \enquote{{Global Contact Centre Benchmark Summary
+  Report},} .
+\newline\urlprefix\url{http://dimensiondatacx.com/summary-report/}\newline\urldateprefix2016-12-01
+
 \bibitem[{Hammer(2015)}]{Hammer2015}
 Hammer, M. 2015. \enquote{{What is Business Process Management?}} in {\it
   Handbook on Business Process Management 1\/}, J.~{Vom Brocke} and
   M.~Rosemann,  (eds.), Berlin, Heidelberg: Springer, chap.~1, pp. 3--16, 2nd
   ed.
+
+\bibitem[{Hevner et~al.(2004)Hevner, March, Park, and Ram}]{Hevner2004}
+Hevner, A.~R., March, S.~T., Park, J., and Ram, S. 2004. \enquote{{Design
+  Science in Information Systems Research},} {\it MIS Quarterly\/} (28:1), pp.
+  75--105.
+
+
+\bibitem[{Meise(2001)}]{Meise2001}
+Meise, V. 2001. \enquote{{Das Vorgehensmodell zur Konstruktion von
+  Ordnungsrahmen zur prozessorientierten Organisationsgestaltung},} in {\it
+  Ordnungsrahmen zur prozessorientierten Organisationsgestaltung: Modelle
+  f{\"{u}}r das Management komplexer Reorganisationsprojekte\/}, , pp.
+  119--226.
+
+\bibitem[{Ramachandran and Voleti(2004)}]{Ramachandran2004}
+Ramachandran, K., and Voleti, S. 2004. \enquote{{Business Process Outsourcing
+  (BPO): Emerging Scenario and Strategic Options for IT-enabled Services},}
+  {\it Interfaces\/} (29:1).
+
+\bibitem[{Sch{\"{u}}tte(1998)}]{Schutte1998}
+Sch{\"{u}}tte, R. 1998. {\it {Grunds{\"{a}}tze ordnungsm{\"{a}}{\ss}iger
+  Referenzmodellierung: Konstruktion konfigurations- und anpassungsorientierter
+  Modelle}\/}.
+
+\bibitem[{Stachowiak(1973)}]{Stachowiak1973}
+Stachowiak, H. 1973. {\it {Allgemeine Modelltheorie}\/}, Wien: Springer.
+
+\bibitem[{Thomas(2006)}]{thomas2006refmod}
+Thomas, O. 2006. \enquote{Das Referenzmodellverst{\"a}ndnis in der
+  Wirtschaftsinformatik: Historie, Literaturanalyse und Begriffsexplikation,}
+  in {\it Ver{\"o}ffentlichungen des Instituts f{\"u}r Wirtschaftsinformatik im
+  Deutschen Forschungszentrum f{\"u}r K{\"u}nstliche Intelligenz\/}, P.~Loos,
+  (ed.), 187.
 
 \bibitem[{vom Brocke et~al.(2014)vom Brocke, Schmiedel, Recker, Trkman,
   Mertens, and Viaene}]{VomBrocke2014a}
