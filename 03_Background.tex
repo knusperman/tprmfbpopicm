@@ -45,10 +45,14 @@
 		\acrshort{BPO} is a special form of outsourcing. It is defined as BPO as the transfer of complete processes to an external service provider \cite{wullenweber2008impact}. \cite{mani2010emp} add that it-enabled processes are subject to BPO. It is unquestioned that the reduction in transaction costs driven by IT permits the BPO business and that IT will expand its importance. One can argue that BPO, which requires more coordination and a more complex relationship between client and provider than outsourcing, is only possible through IT as an enabler: The transaction costs without the empowerment of IT for outsourcing complete processes are too high to be reasonable from an economic point of view. Groundedly, this work views  BPO as \enquote{the delegation of one or more information technology enabled processes to an external service provider} \citep[\p{39}]{mani2010emp}. 
 		
 		\subsubsection{Process orientation}
-		
-	The concept of processes is a central part of this thesis. As it turns out, there are conflicts in the wording between the business process management and outsourcing domain. A process is defined a self-contained time-logical sequence of activities that work on a business relevant object. \citep[\p{6}]{becker2012pm}. A business process is a special process that is directed by the business objectives of a company and by the business environment \citep[\p{6}]{becker2012pm}. This definition needs to be carefully separated from the notion of business process within BPO, which only stresses the outsourcing of complete processes and does not necessarily limit its applicability to business processes as defined here. The author notes that BPO is a common term and it is therefore mandatory to use it to correctly describe the domain. However, for the act of process modeling, the distinction between processes and business processes is necessary. An example for this conflict is that outsourcing the payroll management process would be considered BPO, while the very nature of the process is clearly not directed by the business objectives of the company. 
+		\todo{ARIS}
+		\label{processorientation}
+	The concept of processes is a central part of this thesis. 
+	 %These perspectives can be motivated by \textit{pragmatism} as a model characteristic. The complexity of reality is reduced in a model through abstraction from insignificant parts for the purpose. From an organizational perspective responsibilities may be of highest importance, while they do not take this role in the data perspective. There, on the other hand, other aspects are essential like data entities and their relationships. 
+	As it turns out, there are conflicts in the wording between the business process management and outsourcing domain. A process is defined a self-contained time-logical sequence of activities that work on a business relevant object. \citep[\p{6}]{becker2012pm}. Drawing from the  \acrfull{ARIS}, one could take four different perspectives on modeling of business from an \acrshort{IS} perspective: organizational,functional, data and process. The process perspective integrates the other three views.
+	A business process is a special process that is directed by the business objectives of a company and by the business environment \citep[\p{6}]{becker2012pm}. This definition needs to be carefully separated from the notion of business process within BPO, which only stresses the outsourcing of complete processes and does not necessarily limit its applicability to business processes as defined here. The author notes that BPO is a common term and it is therefore mandatory to use it to correctly describe the domain. However, for the act of process modeling, the distinction between processes and business processes is necessary. An example for this conflict is that outsourcing the payroll management process would be considered BPO, while the very nature of the process is clearly not directed by the business objectives of the company. 
 	
-	Porters value chain differentiates into primary and supporting activities. The former are directly contributing to the created product or service and therefore have impact on the economic outcome of the company. Logistics, Operations or Service are parts of these primary activities. Supporting activities on the other hand do not have a direct relatedness to the product or service, but are necessary to perform primary activities. Human resource management or IT can be named here. This distinction between primary and support activities may be flowing and leaves room for interpretation and is additionally dependent on the business domain and company itself. The concept of the two activities is borrowed and applied to processes that shall be distinguished in core and support processes. 
+	Porters value chain differentiates into primary and supporting activities. \todo{Management activities are value-creating...} The former are directly contributing to the created product or service and therefore have impact on the economic outcome of the company. Logistics, Operations or Service are parts of these primary activities. Supporting activities on the other hand do not have a direct relatedness to the product or service, but are necessary to perform primary activities. Human resource management or IT can be named here. This distinction between primary and support activities may be flowing and leaves room for interpretation and is additionally dependent on the business domain and company itself. The concept of the two activities is borrowed and applied to processes that shall be distinguished in core and support processes. 
 	 
 		\subsubsection{A framework for BPO participants}
 	There are at least two parties involved in an outsourcing setting. The business that is outsourcing a process is called \textit{client}, while the business that is servicing the outsourced process is called \textit{provider}. This thesis focuses on building a model for the provider and takes its perspective. Due to this view, it is also referred to as the focal company. With respect to the outsourced process, there additionally may be \textit{customers} involved. These can be other businesses or private consumers.  \ref{fig:outsourcingerm} shows an ERM among participants. 
@@ -107,7 +111,7 @@
 		
 		
 		\begin{figure}[caption={CRM in the field of marketing}, label={fig:crmcirlces}]
-			{	\includegraphics[width=.8\textwidth]{figures/crmcirlces.pdf}}
+			{	\includegraphics[width=.8\textwidth]{figures/crmcircles.pdf}}
 		\end{figure}
 	
 		\cite{paynefrow2005} compile different standpoints and propose three views, that will be described in the following. As the name suggests, the building and sustaining of relationships to customers is always a defining characteristic of \acrshort{CRM}, but the importance of the technological component is varying. 
@@ -222,36 +226,45 @@ Conceptual models are representations of an application domain used to capture t
 			\item kurz geschichte
 			\item eigenes subheading für modellbegriff?
 			\item 
-		\end{itemize}
-		Reference Models can be seen as theory of information systems \cite{Schutte1998}. A model itself is defined as an "immaterial representation of an original for the purposes of a subject" \citep[\p{1}]{Becker2012Gom}. Based on the work of \cite{Stachowiak1973}, three characteristics of models are identified: mapping, reduction and pragmatism.  Mapping describes the representation of natural or artificial originals, which can be models themselves. Reduction underlines the omission of certain elements of the original in a model. Pragmatism means that the selection of parts of the original is dependent on the intent of the model. Based on this notion, models of information systems (or information models in short) are explicit models that have information systems as subject matter. Information modeling, the act of creating these, is a complex task, which is why reference models provide a useful means to reduce the effort \cite{Becker2007}. \cite{thomas2006refmod} compiles various definitions for reference models. 
+		\end{itemize} 
+		Reference Models can be seen as theory of information systems \cite{Schutte1998}. A model itself is defined as an "immaterial representation of an original for the purposes of a subject" \citep[\p{1}]{Becker2012Gom}. Based on the work of \cite{Stachowiak1973}, three characteristics of models are identified: mapping, reduction and pragmatism. Mapping describes the representation of natural or artificial originals, which can be models themselves. Reduction underlines the omission of certain elements of the original in a model. Pragmatism means that the selection of parts of the original is dependent on the intent of the model. Based on this notion, models of information systems (or information models in short) are explicit models that have information systems as subject matter. 
 		
-		%mehr auf definitionen eingehen
-		For this thesis, a reference model is defined as an information model with content that is reused in the construction of other information models \cite{Becker2004}.
+
+		and application systems, which can be put together as information systems. Information modeling, the act of creating these, is a complex task, which is why reference models are a useful means to reduce this effort \cite{Becker2007} to create application models. 
+			\subsubsection{Reference Models and Application Models}
+			An information model can be specified on a certain company, which is here denoted as an application model. Reference models on the other hand are not firm-specific and as the name suggests provide guidance in a defined modeling scenario. There is no accepted definition of reference model in the literature. \citeauthor{thomas2006refmod} compiles various definitions for reference models \cite{thomas2006refmod}. \citeauthor{vom2006reusable} brings in the notion of reusable conceptual models, where conceptual models are the representations of an application domain used to capture the important features to be incorporated in a specific information system \citep[\p {584}]{vom2006reusable}, as the term reference model is predominantly used in the German literature. It is agreed that a reference or application model of German understanding is a conceptual model. However it is refrained to use the terms reference conceptual model and application conceptual model over \acrfull{RM} or \acrfull{AM} . As an conceptual model's purpose is the representation of features of an information system, it is an information model. 
+			
+			\citeauthor{Schutte1998} puts \enquote{universal validity} and \enquote{recommending characteristics} as defining  for a reference model. Universal validity expresses that a reference model can only be valid for a class of companies, so that it can be used for creating application models. The recommending aspects states that a reference model should capture a wanted to-be state, which is in the modeler's intention. These two combined enable the wanted re-usability, which is planned by the modeler \citep[\p{36}]{vombrocke2003referenzmodellierung}. However, achieving a recommending characteristic is a subjective judgment and universal validity can always be achieved by shrinking down the target class of companies \cite{thomas2006a}. The other option, namely encompassing a large target class of companies to create \textit{one} reference model stands in contrast to practical use, as the creation of application models gets increasingly complicated the more general (and hence abstract and theoretical) \citep[\p{79}]{Schutte1998} the reference model is. Striking a balance between these trade-offs is known as the reference modeling dilemma. 
 		
-		Companies show growing individuality in their processes with increasing granularity. A reference model therefore needs to be as precise as possible, while maintaining the claim of being reusable. Approaches to find \textit{the} reference model that encompasses various domains stand in contrast to practical use, as the application of a very general reference model gets more and more effortful due to its abstract and theoretical nature \citep[\p{79}]{Schutte1998}. Striking a balance between these trade-offs is known as the reference modeling dilemma. The literature shows, that a defined application domain is a necessary ground for fruitful reference modeling.
-		
-		  %delfmann: Variantenmanagement
-		  
+			For this thesis, a reference model is defined as an information model with content that is reused in the construction of other application models. The relationship between a reference and application model is characterized by reuse of reference model components in application model construction (\cf \cite{Puster2015, vombrocke2003referenzmodellierung}). 
+			
+			To capture the complexity in business, a data, organizational, functional or process perspective can be taken (\cf \ref{processorientation}). As only process models are subject matter in this thesis, the term process reference model is used interchangeably with reference model from here on. 
+	\todo{generisches RefModVariantenmanagement}
+				  %delfmann: Variantenmanagement
+				  
+				  
+				  
+				  \begin{figure}[caption={Design Process of Reusable Conceptual Models}, label={fig:refmodconst}]
+				  	{	\includegraphics[width=.8\textwidth]{figures/refmodconst.pdf}}
+				  \end{figure} 
+				  
+				  \citep[\p{587}]{vom2006reusable}
+				  
 			%grafik aus refmod - enzyklopädie vom brocke
-		A model is always created by one or multiple subjects. This group shall be called designers and is in the context of reference modeling responsible for the reference model itself. The designer implements requirements from the reference model user. The idea behind is \textit{design for reuse} in contrast to application model side, where \textit{design with reuse} is the prevailing concept. There, one can identify an application model constructor and application model user. Akin to the reference model designer, the constructor takes requirements from the application model user. The difference is that he uses the reference model as the basis for adaption. By doing this, the application can represent characteristics of the application environment, while still being conformable to the reference model. As time proceeds, the reference and application model evolve and change states. As the name suggests, reference model can be used in multiple application model construction processes as they are typically tailored to a specific domain,\enquote{\eg}, retail, manufacturing or supply chain management.
+		A model is created by one or multiple subjects called designers and utilized by users \cite{becker2004handelsinformationssysteme}. Model designers in context of reference modeling responsible for creating the \acrshort{RM}l itself. Their intention is to design \textit{for} reuse, \ie creating an artifact that is to be reused. The other involved stakeholder in this modeling process in the reference model user which collaborates with the designer and defines requirements for use. This first process is visualized in the left chevron in \Fig \ref{fig:refmodconst} and takes input from the knowledge base as well as the environment. The output is the  \acrshort{RM} which itself contributes to the knowledge base as an artifact. 
 		
-		%languages noch ausführlicher?
+		The right chevron is similarly structured \wrt the stakeholders, but designs an application model on base of the now existing \acrshort{RM} which can be labeled as design \textit{by} reuse. Akin to the reference model designer, the application model designer takes requirements from the application model user. By doing this, the  \acrshort{AM} can represent characteristics of the application environment (\ie one organization), while still being conformable to the reference model. 
 		
+		\subsection{Construction}
+		A construction of an \acrshort{AM} on basis of a \acrshort{RM} requires the construction of the latter beforehand. 
+		\Fig \ref{fig:refmodconst} lists the knowledge base (theories and artifacts) and the environment (technology and organization) as inputs for reference modeling. For knowledge acquisition, one can differentiate in an inductive and deductive approach \cite{thomas2006mang}. Induction describes conclusions from particular cases to the general case. In this context these might be organizational settings that are observed or existing \acrshort{AM}s of organizations in the domain. Deduction infers a special from a general case and is especially employed when drawing on existing theories from the knowledge base. Loosely, these two approaches refer to the two inputs for design \textit{for} reuse in \Fig \ref{fig:refmodconst}. 
 		
-		%types: data, organizational
-		Information models can focus on different aspects of information systems. Drawing from the  \acrfull{ARIS}, one could take five different perspectives on \acrshort{IS}: organizational,functional, data, output and process. These perspectives can be motivated by \textit{pragmatism} as a model characteristic. The complexity of reality is reduced in a model through abstraction from insignificant parts for the purpose. From an organizational perspective responsibilities may be of highest importance, while they do not take this role in the data perspective. There, on the other hand, other aspects are essential like data entities and their relationships. 
+		The reader is referenced to \cite{Fettke2014meth} for an overview about different construction techniques. These show conformance with the design science approach \citep[\p{10}]{Puster2015} which is taken here. 
 		
-		
-		% der Process
-		\subsubsection{Process orientation}
-		% process def ist aber schon bei bpo 
-		 The process view is located in the center of \acrshort{ARIS}, integrating information from the organizational, functional, output and data context. 
-				
-	
 		
 		\subsubsection{Selected Reference Models}
 		
-		The purpose of this section is to briefly present two different reference models that are used in practice: The \acrfull{SCOR} Model and the Retail-H. Both show a layer structure to manage complexity and both encompass a process reference model. 
+		As mentioned, a reference model is suited to fit requirements of a certain domain. The purpose of this section is to briefly present two different reference models that are used in practice: The \acrfull{SCOR} Model and the Retail-H. Both show a layer structure to manage complexity and both encompass a process reference model. 
 		
 		\acrshort{SCOR} allows modelling of supply chains. It is a process reference model with three detail layers. It was developed in 1996 and is now maintained by the Association for Operations Management \cite{APICS2015}. On the highest level, typically called regulatory framework, \acrshort{SCOR}  is based on six distinct management processes: Plan, Source, Make, Deliver, Return and Enable. While the regulatory framework assists in defining scope, the second configures the type of supply chain (Make-to-Order, Build-to-Order, Engineer-to-Order). On the thirds level these are decomposed into generic process steps (e.g., issue product). Even more detailed processes are considered company specific and therefore no part of the model. Furthermore, performance metrics are also defined on each level. 
 
@@ -260,21 +273,16 @@ Conceptual models are representations of an application domain used to capture t
 		\end{figure}
 	
 
-		In the domain of retail, the Retail-H is a reference model that includes process, function and data models. Developed by \cite{Becker2004a}, it has been adapted to suit special segments of the domain (for instance eCommerce, Central Clearance, Central Settlement). 
-		It is structured along four layers of detail: the regulatory framework, main processes, detail processes and process building blocks. The core of the regulatory framework is made up of three parts that form the H (a connection to the German word for retail: “Handel”). While the left part of the H describes the supply side, the right covers the distribution side. Both are connected through logistics. All of these core processes are business processes, the roof and foundation consist of support processes thereby making use of the framework reference design as proposed in \cite{Meise2001}. 
+		In the domain of retail, the Retail-H is a reference model that includes process, function and data models. Developed by \cite{Becker2004a}, it has been adapted to suit special segments of the domain \footnote{for instance eCommerce, Central Clearance, Central Settlement. \cf \cite{Puster2015}}. 
+		It is structured with four layers of detail: the regulatory framework, main processes, detail processes and process building blocks. The core of the regulatory framework is made up of three parts that form the H (a connection to the German word for retail: \enquote{Handel}). While the left part of the H describes the supply side, the right covers the distribution side. Both are connected through logistics. All of these core processes are business processes, the roof and foundation consist of support processes thereby making use of the framework reference design as proposed in \cite{Meise2001} while simultaneously capturing domain-specific aspects in the set-up of the framework. 
 		Each segment on the regulatory framework is a main process, that has several main process steps and each of these is a detail process. The detail process steps are process building blocks and show the highest level of detail. 
 		\begin{figure}[caption={Retail-H}, label={fig:retailh}]
 			{	\includegraphics[width=.6\textwidth]{figures/retailh.pdf}}
 		\end{figure}
 		
+
 		%%%%%%%%%%
-	
-	
-	
-		%%%%%%%%%%
-		\subsection{Construction}
-		vielleicht hier die model levels erklären? - Nein, das ist mein Beitrag. Muss in RefModConstruction 
-		%%%%%%%%%%
+
 		%%%%%%%%%%
 		\subsection{Benefits}
 		%%%%%%%%%%
