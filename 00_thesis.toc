@@ -22,86 +22,86 @@
 \contentsline {subsubsection}{Theory of the Firm}{9}{subsubsection*.21}
 \contentsline {subsubsection}{The value chain}{9}{subsubsection*.24}
 \contentsline {subsubsection}{(Business Process) Outsourcing}{10}{subsubsection*.26}
-\contentsline {subsubsection}{Process orientation}{11}{subsubsection*.30}
-\contentsline {subsubsection}{A framework for BPO participants}{12}{subsubsection*.33}
-\contentsline {subsubsection}{Parent Company}{14}{subsubsection*.37}
-\contentsline {subsubsection}{Outsourcing Provider}{14}{subsubsection*.38}
-\contentsline {subsection}{\numberline {3.1.2}Customer Relationship Management}{14}{subsection.3.1.2}
-\contentsline {subsubsection}{Voice}{17}{subsubsection*.41}
-\contentsline {subsubsection}{E-Mail}{18}{subsubsection*.42}
-\contentsline {subsubsection}{Direct Messenger}{18}{subsubsection*.43}
-\contentsline {subsubsection}{Video}{19}{subsubsection*.44}
-\contentsline {subsubsection}{Social}{19}{subsubsection*.45}
-\contentsline {subsubsection}{Web site}{19}{subsubsection*.46}
-\contentsline {subsubsection}{Non-Digital Channels}{19}{subsubsection*.47}
-\contentsline {subsubsection}{Multi-Channel CRM}{20}{subsubsection*.48}
-\contentsline {subsubsection}{Omni-Channel CRM}{20}{subsubsection*.49}
+\contentsline {subsubsection}{Process orientation}{11}{subsubsection*.29}
+\contentsline {subsubsection}{A framework for BPO participants}{12}{subsubsection*.32}
+\contentsline {subsubsection}{Parent Company}{14}{subsubsection*.36}
+\contentsline {subsubsection}{Outsourcing Provider}{14}{subsubsection*.37}
+\contentsline {subsection}{\numberline {3.1.2}Customer Relationship Management}{15}{subsection.3.1.2}
+\contentsline {subsubsection}{Voice}{18}{subsubsection*.40}
+\contentsline {subsubsection}{E-Mail}{18}{subsubsection*.41}
+\contentsline {subsubsection}{Direct Messenger}{19}{subsubsection*.42}
+\contentsline {subsubsection}{Video}{19}{subsubsection*.43}
+\contentsline {subsubsection}{Social}{19}{subsubsection*.44}
+\contentsline {subsubsection}{Web site}{19}{subsubsection*.45}
+\contentsline {subsubsection}{Non-Digital Channels}{19}{subsubsection*.46}
+\contentsline {subsubsection}{Multi-Channel CRM}{20}{subsubsection*.47}
+\contentsline {subsubsection}{Omni-Channel CRM}{20}{subsubsection*.48}
 \contentsline {subsection}{\numberline {3.1.3}Customer Relationship Management Business Process Outsourcing Providers}{20}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Reference Modeling}{20}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Concept}{20}{subsection.3.2.1}
-\contentsline {subsubsection}{The Model as a construct}{20}{subsubsection*.50}
-\contentsline {subsubsection}{Reference Models and Application Models}{21}{subsubsection*.51}
+\contentsline {subsubsection}{The Model as a construct}{20}{subsubsection*.49}
+\contentsline {subsubsection}{Reference Models and Application Models}{21}{subsubsection*.50}
 \contentsline {subsection}{\numberline {3.2.2}Construction}{23}{subsection.3.2.2}
-\contentsline {subsubsection}{Selected Reference Models}{23}{subsubsection*.54}
+\contentsline {subsubsection}{Selected Reference Models}{23}{subsubsection*.53}
 \contentsline {subsection}{\numberline {3.2.3}Benefits}{25}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}icebricks as a Process Modeling Language}{25}{subsection.3.2.4}
-\contentsline {subsubsection}{Correctness}{26}{subsubsection*.57}
-\contentsline {subsubsection}{Relevance}{27}{subsubsection*.59}
-\contentsline {subsubsection}{Economic efficiency}{27}{subsubsection*.60}
-\contentsline {subsubsection}{Clarity}{28}{subsubsection*.61}
-\contentsline {subsubsection}{Comparability}{28}{subsubsection*.62}
-\contentsline {subsubsection}{Systematic Design}{28}{subsubsection*.63}
-\contentsline {chapter}{\numberline {4}Case}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Use of a Reference Model for BPO providers in CRM}{30}{section.4.1}
-\contentsline {section}{\numberline {4.2}Reference Modeling Approach}{32}{section.4.2}
-\contentsline {section}{\numberline {4.3}DSR Application for Arvato}{32}{section.4.3}
-\contentsline {section}{\numberline {4.4}Problem Identification}{32}{section.4.4}
-\contentsline {section}{\numberline {4.5}Solution Objective and Stakeholders}{32}{section.4.5}
-\contentsline {section}{\numberline {4.6}Limitiations}{33}{section.4.6}
-\contentsline {chapter}{\numberline {5}Reference Model Construction}{34}{chapter.5}
-\contentsline {subsubsection}{A proposed Architecture for Reference Models in BPO}{34}{subsubsection*.65}
-\contentsline {section}{\numberline {5.1}Process Framework}{34}{section.5.1}
-\contentsline {section}{\numberline {5.2}Internal Services}{34}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}...}{34}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Client Services}{34}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}...}{34}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Customer Services}{34}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}...}{34}{subsection.5.4.1}
-\contentsline {subsubsection}{A proposed Architecture for Reference Models in BPO}{34}{subsubsection*.66}
-\contentsline {section}{\numberline {5.5}Process Framework}{34}{section.5.5}
-\contentsline {section}{\numberline {5.6}Internal Services}{35}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}...}{35}{subsection.5.6.1}
-\contentsline {section}{\numberline {5.7}Client Services}{35}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}...}{35}{subsection.5.7.1}
-\contentsline {section}{\numberline {5.8}Customer Services}{35}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}...}{35}{subsection.5.8.1}
-\contentsline {chapter}{\numberline {6}Evaluation}{36}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{37}{chapter.7}
-\contentsline {chapter}{\numberline {8}Sample}{38}{chapter.8}
-\contentsline {paragraph}{TODO}{38}{paragraph*.67}
-\contentsline {section}{\numberline {8.1}Elements}{38}{section.8.1}
-\contentsline {section}{\numberline {8.2}Structure}{38}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Lists}{38}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Footnotes}{39}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}ToDo-Notes}{39}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Formatting Text}{39}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Colors}{39}{subsection.8.3.1}
-\contentsline {section}{\numberline {8.4}Figures}{40}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Subfigures}{40}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Listings}{41}{section.8.5}
-\contentsline {section}{\numberline {8.6}Algorithms}{41}{section.8.6}
-\contentsline {section}{\numberline {8.7}Acronyms and Abbreviations}{42}{section.8.7}
-\contentsline {subsection}{\numberline {8.7.1}Common Abbreviations}{42}{subsection.8.7.1}
-\contentsline {subsection}{\numberline {8.7.2}Custom Abbreviations}{45}{subsection.8.7.2}
-\contentsline {subsection}{\numberline {8.7.3}Symbols}{45}{subsection.8.7.3}
-\contentsline {section}{\numberline {8.8}Citations and Bibliography}{46}{section.8.8}
-\contentsline {paragraph}{Exemplary citations}{46}{paragraph*.76}
-\contentsline {subsection}{\numberline {8.8.1}Misc}{46}{subsection.8.8.1}
-\contentsline {chapter}{\numberline {9}Compiling the document}{47}{chapter.9}
-\contentsline {section}{\numberline {9.1}Known Issues}{47}{section.9.1}
-\contentsline {chapter}{Appendix}{48}{appendix*.79}
+\contentsline {subsection}{\numberline {3.2.4}icebricks as a Process Modeling Language}{26}{subsection.3.2.4}
+\contentsline {subsubsection}{Correctness}{27}{subsubsection*.56}
+\contentsline {subsubsection}{Relevance}{28}{subsubsection*.58}
+\contentsline {subsubsection}{Economic efficiency}{28}{subsubsection*.59}
+\contentsline {subsubsection}{Clarity}{29}{subsubsection*.60}
+\contentsline {subsubsection}{Comparability}{29}{subsubsection*.61}
+\contentsline {subsubsection}{Systematic Design}{29}{subsubsection*.62}
+\contentsline {chapter}{\numberline {4}Case}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}Use of a Reference Model for BPO providers in CRM}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Reference Modeling Approach}{33}{section.4.2}
+\contentsline {section}{\numberline {4.3}DSR Application for Arvato}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Problem Identification}{33}{section.4.4}
+\contentsline {section}{\numberline {4.5}Solution Objective and Stakeholders}{33}{section.4.5}
+\contentsline {section}{\numberline {4.6}Limitiations}{34}{section.4.6}
+\contentsline {chapter}{\numberline {5}Reference Model Construction}{35}{chapter.5}
+\contentsline {subsubsection}{A proposed Architecture for Reference Models in BPO}{35}{subsubsection*.64}
+\contentsline {section}{\numberline {5.1}Process Framework}{35}{section.5.1}
+\contentsline {section}{\numberline {5.2}Internal Services}{35}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}...}{35}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Client Services}{35}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}...}{35}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Customer Services}{35}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}...}{35}{subsection.5.4.1}
+\contentsline {subsubsection}{A proposed Architecture for Reference Models in BPO}{35}{subsubsection*.65}
+\contentsline {section}{\numberline {5.5}Process Framework}{35}{section.5.5}
+\contentsline {section}{\numberline {5.6}Internal Services}{36}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}...}{36}{subsection.5.6.1}
+\contentsline {section}{\numberline {5.7}Client Services}{36}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}...}{36}{subsection.5.7.1}
+\contentsline {section}{\numberline {5.8}Customer Services}{36}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}...}{36}{subsection.5.8.1}
+\contentsline {chapter}{\numberline {6}Evaluation}{37}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{38}{chapter.7}
+\contentsline {chapter}{\numberline {8}Sample}{39}{chapter.8}
+\contentsline {paragraph}{TODO}{39}{paragraph*.66}
+\contentsline {section}{\numberline {8.1}Elements}{39}{section.8.1}
+\contentsline {section}{\numberline {8.2}Structure}{39}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Lists}{39}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Footnotes}{40}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}ToDo-Notes}{40}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Formatting Text}{40}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Colors}{40}{subsection.8.3.1}
+\contentsline {section}{\numberline {8.4}Figures}{41}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Subfigures}{41}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Listings}{42}{section.8.5}
+\contentsline {section}{\numberline {8.6}Algorithms}{42}{section.8.6}
+\contentsline {section}{\numberline {8.7}Acronyms and Abbreviations}{43}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Common Abbreviations}{43}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Custom Abbreviations}{46}{subsection.8.7.2}
+\contentsline {subsection}{\numberline {8.7.3}Symbols}{46}{subsection.8.7.3}
+\contentsline {section}{\numberline {8.8}Citations and Bibliography}{47}{section.8.8}
+\contentsline {paragraph}{Exemplary citations}{47}{paragraph*.75}
+\contentsline {subsection}{\numberline {8.8.1}Misc}{47}{subsection.8.8.1}
+\contentsline {chapter}{\numberline {9}Compiling the document}{48}{chapter.9}
+\contentsline {section}{\numberline {9.1}Known Issues}{48}{section.9.1}
+\contentsline {chapter}{Appendix}{49}{appendix*.78}
 \save@tocdepth \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Customer relationship management}{48}{section.Alph0.1}
-\contentsline {subsection}{\numberline {A.1}Some Appendix Subsection}{48}{subsection.Alph0.1.1}
+\contentsline {section}{\numberline {A}Customer relationship management}{49}{section.Alph0.1}
+\contentsline {subsection}{\numberline {A.1}Some Appendix Subsection}{49}{subsection.Alph0.1.1}
 \reset@tocdepth 
-\contentsline {chapter}{References}{48}{subsection.Alph0.1.1}
+\contentsline {chapter}{References}{49}{subsection.Alph0.1.1}

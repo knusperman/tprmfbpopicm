@@ -272,15 +272,14 @@
 	year={1998},
 	publisher={Gabler-Verlag}
 }
-
-@Book{brocke2003referenzmodellierung,
-  title     = {Referenzmodellierung: Gestaltung und Verteilung von Konstruktionsprozessen},
-  publisher = {Logos-Verlag},
-  year      = {2003},
-  author    = {Brocke, J.V.},
-  series    = {Advances in information systems and management science},
-  isbn      = {9783832501792},
-  url       = {https://books.google.de/books?id=5wV2Ol2Cw4gC},
+@book{brocke2003referenzmodellierung,
+	title={Referenzmodellierung: Gestaltung und Verteilung von Konstruktionsprozessen},
+	author={Brocke, J.V. and Grob, H.L.},
+	isbn={9783832501792},
+	series={Advances in information systems and management science},
+	url={https://books.google.de/books?id=5wV2Ol2Cw4gC},
+	year={2003},
+	publisher={Logos-Verlag}
 }
 
 @Book{delfmann2006adaptive,

@@ -1,13 +1,43 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
 \providecommand{\urldateprefix}{Access date: }
 
+\bibitem[{dil(1995)}]{diller1995}
+ 1995. \enquote{Beziehungsmarketing,}  (24:9).
+
+\bibitem[{tho(2006)}]{thomas2006a}
+ 2006. \enquote{Das Referenzmodellverst{\"a}ndnis in der Wirtschaftsinformatik:
+  Historie, Literaturanalyse und Begriffsexplikation,} {\it
+  Ver{\"o}ffentlichungen des Instituts f{\"u}r Wirtschaftsinformatik im
+  Deutschen Forschungszentrum f{\"u}r K{\"u}nstliche Intelligenz\/} (187).
+
+\bibitem[{Alchian and Demsetz(1972)}]{alchian1972production}
+Alchian, A.~A., and Demsetz, H. 1972. \enquote{Production, information costs,
+  and economic organization,} {\it The American economic review\/} (62:5), pp.
+  777--795.
+
 \bibitem[{APICS(2015)}]{APICS2015}
 APICS 2015. \enquote{{American Production and Inventory Control Society -
   Supply Chain Operations Reference model (SCOR)},} .
 \newline\urlprefix\url{http://www.apics.org/sites/apics-supply-chain-council/frameworks/scor}\newline\urldateprefix2016-12-01
+
+\bibitem[{Aron et~al.(2005)Aron, Clemons, and Reddi}]{aron2005just}
+Aron, R., Clemons, E.~K., and Reddi, S. 2005. \enquote{Just right outsourcing:
+  understanding and managing risk,} {\it Journal of Management Information
+  Systems\/} (22:2), pp. 37--55.
+
+\bibitem[{Bartell(1998)}]{bartell1998information}
+Bartell, S.~M. 1998. \enquote{Information systems outsourcing: a literature
+  review and agenda for research,} {\it International Journal of Organization
+  Theory and Behavior\/} (1), pp. 17--44.
+
+\bibitem[{Becker et~al.(2015)Becker, Clever, Holler, and
+  Shitkova}]{becker2015icebricks}
+Becker, J., Clever, N., Holler, J., and Shitkova, M. 2015. \enquote{icebricks,}
+  in {\it International Conference on Design Science Research in Information
+  Systems\/}, Springer, pp. 361--365.
 
 \bibitem[{Becker et~al.(2007)Becker, Delfmann, and Knackstedt}]{Becker2007}
 Becker, J., Delfmann, P., and Knackstedt, R. 2007. \enquote{{Adaptive reference
@@ -21,26 +51,60 @@ Becker, J., and Kahn, D. 2011. \enquote{{The Process in Focus},} in {\it
   J.~Becker, M.~Kugeler, and M.~Rosemann,  (eds.), Berlin, Heidelberg:
   Springer, pp. 1--13, 2nd ed.
 
-\bibitem[{Becker and Knackstedt(2004)}]{Becker2004}
-Becker, J., and Knackstedt, R. 2004. \enquote{{Referenzmodellierung im
-  Data-Warehousing --- State-of-the-Art und konfigurative Ans{\"{a}}tze
-  f{\"{u}}r die Fachkonzeption},} {\it Wirtschaftsinformatik\/} (46:1), pp.
-  39--49.
+\bibitem[{Becker et~al.(2012{\natexlab{a}})Becker, Kugeler, and
+  Rosemann}]{becker2012pm}
+Becker, J., Kugeler, M., and Rosemann, M. (eds.) 2012{\natexlab{a}}. {\it
+  Prozessmanagement\/}, Springer Nature.
 
 
-\bibitem[{Becker et~al.(2012)Becker, Probandt, and Vering}]{Becker2012Gom}
-Becker, J., Probandt, W., and Vering, O. 2012. {\it Grunds\"{a}tze
-  ordnungsm\"{a}{\ss}iger Modellierung\/}, Springer Nature.
+\bibitem[{Becker and Niehaves(2007)}]{becker2007epistemological}
+Becker, J., and Niehaves, B. 2007. \enquote{Epistemological perspectives on IS
+  research: a framework for analysing and systematizing epistemological
+  assumptions,} {\it Information Systems Journal\/} (17:2), pp. 197--214.
 
 
-\bibitem[{Becker and Sch{\"{u}}tte(2004)}]{Becker2004a}
-Becker, J., and Sch{\"{u}}tte, R. 2004. {\it {Handelsinformationssysteme}\/},
-  M{\"{u}}nchen: MI Wirtschaftsbuch, 2nd ed.
+\bibitem[{Becker et~al.(2012{\natexlab{b}})Becker, Probandt, and
+  Vering}]{BeckerGOM2012}
+Becker, J., Probandt, W., and Vering, O. 2012{\natexlab{b}}. {\it
+  Grunds\"{a}tze ordnungsm\"{a}{\ss}iger Modellierung\/}, Springer Nature.
+
+
+\bibitem[{Becker and Sch{\"u}tte(2004)}]{becker2004handelsinformationssysteme}
+Becker, J., and Sch{\"u}tte, R. 2004. {\it Handelsinformationssysteme\/},
+  Redline Wirtschaft bei moderne industrie, mi-Wirtschaftsbuch.
+
+
+\bibitem[{Cohen and Young(2006)}]{cohen2006multisourcing}
+Cohen, L., and Young, A. 2006. {\it Multisourcing: Moving Beyond Outsourcing to
+  Achieve Growth and Agility\/}, Harvard Business School Press.
+
+
+\bibitem[{Coyne(1997)}]{coyne1997sampling}
+Coyne, I.~T. 1997. \enquote{Sampling in qualitative research. Purposeful and
+  theoretical sampling; merging or clear boundaries?} {\it Journal of advanced
+  nursing\/} (26:3), pp. 623--630.
+
+\bibitem[{Creswell(2014)}]{creswell2013research}
+Creswell, J.~W. 2014. {\it Research design : qualitative, quantitative, and
+  mixed methods approaches\/}, Los Angeles, Calif. [u.a]: SAGE, 4th ed.
 
 \bibitem[{{Dimension Data}(2016)}]{dimensiondata2016}
 {Dimension Data} 2016. \enquote{{Global Contact Centre Benchmark Summary
   Report},} .
 \newline\urlprefix\url{http://dimensiondatacx.com/summary-report/}\newline\urldateprefix2016-12-01
+
+\bibitem[{Evans()}]{evansted}
+Evans, P. ???? \enquote{How data will transform Business,} .
+
+
+\bibitem[{Fettke(2014)}]{Fettke2014meth}
+Fettke, P. 2014. \enquote{{Eine Methode zur induktiven Entwicklung von
+  Referenzmodellen},} Paderborn: Tagungsband Multikonferenz
+  Wirtschaftsinformatik 2014 (MKWI 2014), pp. 1035--1047.
+
+\bibitem[{Gill and Johnson(2002)}]{gilljohnson}
+Gill, J., and Johnson, P. 2002. {\it Research Methods for Managers\/}, London:
+  SAGE, 3rd ed.
 
 \bibitem[{Hammer(2015)}]{Hammer2015}
 Hammer, M. 2015. \enquote{{What is Business Process Management?}} in {\it
@@ -48,10 +112,52 @@ Hammer, M. 2015. \enquote{{What is Business Process Management?}} in {\it
   M.~Rosemann,  (eds.), Berlin, Heidelberg: Springer, chap.~1, pp. 3--16, 2nd
   ed.
 
+\bibitem[{Hevner and Chatterjee(2010)}]{Hevner2010}
+Hevner, A., and Chatterjee, S. 2010. \enquote{Design Science Research in
+  Information Systems,} in {\it Integrated Series in Information Systems\/}, ,
+  Springer Nature, pp. 9--22.
+
+
 \bibitem[{Hevner et~al.(2004)Hevner, March, Park, and Ram}]{Hevner2004}
 Hevner, A.~R., March, S.~T., Park, J., and Ram, S. 2004. \enquote{{Design
   Science in Information Systems Research},} {\it MIS Quarterly\/} (28:1), pp.
   75--105.
+
+
+\bibitem[{Hirschheim and Klein(2003)}]{hirschheim}
+Hirschheim, R., and Klein, H.~K. 2003. \enquote{Crisis in the IS Field? A
+  Critical Reflection on the State of the Discipline.} {\it Journal of the
+  Association for Information Systems\/} (4), pp. 237 -- 293.
+
+
+\bibitem[{Lacity and Hirschheim(1993)}]{lacity1993}
+Lacity, M.~C., and Hirschheim, R.~A. 1993. {\it Information Systems
+  Outsourcing; Myths, Metaphors, and Realities\/}, New York, NY, USA: John
+  Wiley \& Sons, Inc.
+
+\bibitem[{Lee et~al.(2000)Lee, Huynh, Chi-wai, and Pi}]{Lee:2000}
+Lee, J.-N., Huynh, M.~Q., Chi-wai, K.~R., and Pi, S.-M. 2000. \enquote{The
+  Evolution of Outsourcing Research: What is the Next Issue?} in {\it
+  Proceedings of the 33rd Hawaii International Conference on System
+  Sciences-Volume 7 - Volume 7\/}, HICSS '00, Washington, DC, USA: IEEE
+  Computer Society, pp. 7070--.
+
+
+\bibitem[{Lee and Kim(1999)}]{lee1999effect}
+Lee, J.-N., and Kim, Y.-G. 1999. \enquote{Effect of partnership quality on IS
+  outsourcing success: conceptual framework and empirical validation,} {\it
+  Journal of Management information systems\/} (15:4), pp. 29--61.
+
+\bibitem[{Leu{\ss}er et~al.(2011)Leu{\ss}er, Hippner, and Wilde}]{Leuer2011}
+Leu{\ss}er, W., Hippner, H., and Wilde, K.~D. 2011. \enquote{{CRM}
+  {\textendash} Grundlagen, Konzepte und Prozesse,} in {\it Grundlagen des
+  {CRM}\/}, , Springer Nature, pp. 15--55.
+
+
+\bibitem[{Mani et~al.(2010)Mani, Barua, and Whinston}]{mani2010emp}
+Mani, D., Barua, A., and Whinston, A. 2010. \enquote{An Empirical Analysis of
+  the Impact of Information Capabilities Design on Business Process Outsourcing
+  Performance,} {\it MIS Quarterly\/} (34:1), pp. 39--62.
 
 
 \bibitem[{Meise(2001)}]{Meise2001}
@@ -61,30 +167,99 @@ Meise, V. 2001. \enquote{{Das Vorgehensmodell zur Konstruktion von
   f{\"{u}}r das Management komplexer Reorganisationsprojekte\/}, , pp.
   119--226.
 
+\bibitem[{Mendling et~al.(2010)Mendling, Reijers, and van~der Aalst}]{7pmg}
+Mendling, J., Reijers, H.~A., and van~der Aalst, W. M.~P. 2010. \enquote{Seven
+  Process Modeling Guidelines (7PMG),} {\it Inf Softw Technol\/} (52:2), pp.
+  127--136.
+
+
+\bibitem[{Payne and Frow(2004)}]{payne2004role}
+Payne, A., and Frow, P. 2004. \enquote{The role of multichannel integration in
+  customer relationship management,} {\it Industrial marketing management\/}
+  (33:6), pp. 527--538.
+
+\bibitem[{Payne and Frow(2005)}]{paynefrow2005}
+Payne, A., and Frow, P. 2005. \enquote{A Strategic Framework for Customer
+  Relationship Management,} {\it Journal of Marketing\/} (69:4), pp. 167--176.
+
+
+\bibitem[{Porter(1985)}]{porter1985}
+Porter, M.~E. 1985. {\it Competitive advantage: creating and sustaining
+  superior performance\/}, New York: Free Press.
+
+\bibitem[{P{\"{u}}ster(2015)}]{Puster2015}
+P{\"{u}}ster, J. 2015. {\it {Prozessmodelle f{\"{u}}r Einzelhandel,
+  Gro{\ss}handel und E-Commerce. Entwicklung eines Referenzmodells f{\"{u}}r
+  Handelsinformationssysteme}\/}, Phd thesis, Berlin.
+
+\bibitem[{Rai et~al.(1996)Rai, Borah, and Ramaprasad}]{rai1996critical}
+Rai, A., Borah, S., and Ramaprasad, A. 1996. \enquote{Critical success factors
+  for strategic alliances in the information technology industry: An empirical
+  study,} {\it Decision Sciences\/} (27:1), pp. 141--155.
+
 \bibitem[{Ramachandran and Voleti(2004)}]{Ramachandran2004}
 Ramachandran, K., and Voleti, S. 2004. \enquote{{Business Process Outsourcing
   (BPO): Emerging Scenario and Strategic Options for IT-enabled Services},}
   {\it Interfaces\/} (29:1).
 
+\bibitem[{Ryals and Payne(2001)}]{ryals2001customer}
+Ryals, L., and Payne, A. 2001. \enquote{Customer relationship management in
+  financial services: towards information-enabled relationship marketing,} {\it
+  Journal of strategic marketing\/} (9:1), pp. 3--27.
+
 \bibitem[{Sch{\"{u}}tte(1998)}]{Schutte1998}
-Sch{\"{u}}tte, R. 1998. {\it {Grunds{\"{a}}tze ordnungsm{\"{a}}{\ss}iger
+Sch{\"{u}}tte, R. 1998. {\it Grunds{\"{a}}tze ordnungsgem{\"{a}}{\ss}er
   Referenzmodellierung: Konstruktion konfigurations- und anpassungsorientierter
-  Modelle}\/}.
+  Modelle\/}, Gabler-Verlag.
+
+\bibitem[{Simon(1996)}]{simon1996sciences}
+Simon, H.~A. 1996. {\it The sciences of the artificial\/}, MIT press.
 
 \bibitem[{Stachowiak(1973)}]{Stachowiak1973}
 Stachowiak, H. 1973. {\it {Allgemeine Modelltheorie}\/}, Wien: Springer.
 
-\bibitem[{Thomas(2006)}]{thomas2006refmod}
-Thomas, O. 2006. \enquote{Das Referenzmodellverst{\"a}ndnis in der
-  Wirtschaftsinformatik: Historie, Literaturanalyse und Begriffsexplikation,}
-  in {\it Ver{\"o}ffentlichungen des Instituts f{\"u}r Wirtschaftsinformatik im
-  Deutschen Forschungszentrum f{\"u}r K{\"u}nstliche Intelligenz\/}, P.~Loos,
-  (ed.), 187.
+\bibitem[{Thomas(2006)}]{thomas2006mang}
+Thomas, O. 2006. {\it Management von Referenzmodellen : Entwurf und
+  Realisierung eines Informationssystems zur Entwicklung und Anwendung von
+  Referenzmodellen\/}, Ph.D. thesis, Berlin - Zugl: Saarbr{\"u}cken,
+  Universit{\"a}t des Saarlandes, Dissertation.
+
+\bibitem[{Vom~Brocke and Buddendick(2006)}]{vom2006reusable}
+Vom~Brocke, J., and Buddendick, C. 2006. \enquote{Reusable conceptual
+  models--requirements based on the design science research paradigm,} in {\it
+  Proceedings of the First International Conference on Design Science Research
+  in Information Systems and Technology (DESRIST)\/}, Citeseer, pp. 576--604.
 
 \bibitem[{vom Brocke et~al.(2014)vom Brocke, Schmiedel, Recker, Trkman,
   Mertens, and Viaene}]{VomBrocke2014a}
 vom Brocke, J., Schmiedel, T., Recker, J., Trkman, P., Mertens, W., and Viaene,
   S. 2014. \enquote{{Ten Principles of Good Business Process Management},} {\it
   Business Process Management Journal\/} (20:4), pp. 530--548.
+
+\bibitem[{Wernerfelt(1984)}]{wernerfelt1984resource}
+Wernerfelt, B. 1984. \enquote{A resource-based view of the firm,} {\it
+  Strategic management journal\/} (5:2), pp. 171--180.
+
+\bibitem[{Williamson(1971)}]{williamson1971vertical}
+Williamson, O.~E. 1971. \enquote{The vertical integration of production: market
+  failure considerations,} {\it The American Economic Review\/} (61:2), pp.
+  112--123.
+
+\bibitem[{Williamson(1981)}]{williamson1981economics}
+Williamson, O.~E. 1981. \enquote{The economics of organization: The transaction
+  cost approach,} {\it American journal of sociology\/} pp. 548--577.
+
+\bibitem[{Winter(2008)}]{Winter2008Hevner}
+Winter, R. 2008. \enquote{Interview with Alan R. Hevner on
+  {\textquotedblleft}Design Science{\textquotedblright},} {\it Business {\&}
+  Information Systems Engineering\/} (1:1), pp. 126--129.
+
+
+\bibitem[{W{\"u}llenweber et~al.(2008)W{\"u}llenweber, Beimborn, Weitzel, and
+  K{\"o}nig}]{wullenweber2008impact}
+W{\"u}llenweber, K., Beimborn, D., Weitzel, T., and K{\"o}nig, W. 2008.
+  \enquote{The impact of process standardization on business process
+  outsourcing success,} {\it Information Systems Frontiers\/} (10:2), pp.
+  211--224.
 
 \end{thebibliography}
