@@ -3,20 +3,15 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: 00_thesis.aux
 The style file: assets/misq.bst
 Database file #1: library.bib
+Warning--I didn't find a database entry for "konig1996entwicklung"
 Warning--I didn't find a database entry for "deloitte2014outsourcing"
 Warning--I didn't find a database entry for "hippnerwilde2011"
 Warning--I didn't find a database entry for "ocm2015"
 Warning--I didn't find a database entry for "radial2016"
 Warning--I didn't find a database entry for "Becker2012Gom"
+Warning--I didn't find a database entry for "Rosemann2012proc"
 Warning--I didn't find a database entry for "vombrocke2003referenzmodellierung"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--to sort, need author or key in diller1995
-Warning--to sort, need author or key in thomas2006a
-Warning--empty author in diller1995
-`journal' is a missing field, not a string, for entry diller1995
-while executing---line 1733 of file assets/misq.bst
-Warning--empty journal in diller1995
-Warning--empty author in thomas2006a
 Warning--missing publisher in Becker2007
 `urldate' is a missing field, not a string, for entry becker2012pm
 while executing---line 1733 of file assets/misq.bst
@@ -26,12 +21,15 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry becker2004handelsinformationssysteme
 while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry brocke2003referenzmodellierung
+while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry cohen2006multisourcing
 while executing---line 1733 of file assets/misq.bst
 Warning--empty year in evansted; set to ????
 `urldate' is a missing field, not a string, for entry evansted
 while executing---line 1733 of file assets/misq.bst
-Warning--empty booktitle in Fettke2014meth
+`urldate' is a missing field, not a string, for entry Fettke2004
+while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Hevner2010
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Hevner2004
@@ -44,54 +42,51 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry mani2010emp
 while executing---line 1733 of file assets/misq.bst
-Warning--missing publisher in Meise2001
 `urldate' is a missing field, not a string, for entry 7pmg
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry paynefrow2005
 while executing---line 1733 of file assets/misq.bst
-Warning--missing school in Puster2015
-Warning--missing school in thomas2006mang
 `urldate' is a missing field, not a string, for entry Winter2008Hevner
 while executing---line 1733 of file assets/misq.bst
-You've used 49 entries,
+You've used 53 entries,
             3448 wiz_defined-function locations,
-            1018 strings with 14737 characters,
-and the built_in function-call counts, 53121 in all, are:
-= -- 6426
-> -- 910
-< -- 71
-+ -- 513
-- -- 291
-* -- 3153
-:= -- 5528
-add.period$ -- 134
-call.type$ -- 49
-change.case$ -- 300
-chr.to.int$ -- 68
-cite$ -- 64
-duplicate$ -- 5741
-empty$ -- 3355
-format.name$ -- 425
-if$ -- 11013
+            1048 strings with 15475 characters,
+and the built_in function-call counts, 56536 in all, are:
+= -- 6801
+> -- 990
+< -- 78
++ -- 547
+- -- 315
+* -- 3350
+:= -- 5974
+add.period$ -- 143
+call.type$ -- 53
+change.case$ -- 322
+chr.to.int$ -- 72
+cite$ -- 55
+duplicate$ -- 6094
+empty$ -- 3592
+format.name$ -- 460
+if$ -- 11714
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 415
-newline$ -- 171
-num.names$ -- 193
-pop$ -- 2215
+missing$ -- 450
+newline$ -- 185
+num.names$ -- 219
+pop$ -- 2338
 preamble$ -- 1
-purify$ -- 339
+purify$ -- 366
 quote$ -- 0
-skip$ -- 2556
+skip$ -- 2689
 stack$ -- 0
-substring$ -- 4407
-swap$ -- 3488
-text.length$ -- 31
+substring$ -- 4682
+swap$ -- 3655
+text.length$ -- 32
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 408
-warning$ -- 11
-while$ -- 287
+type$ -- 435
+warning$ -- 2
+while$ -- 311
 width$ -- 0
-write$ -- 555
-(There were 16 error messages)
+write$ -- 608
+(There were 17 error messages)

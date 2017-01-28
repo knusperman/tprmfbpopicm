@@ -1,17 +1,8 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
 \providecommand{\urldateprefix}{Access date: }
-
-\bibitem[{dil(1995)}]{diller1995}
- 1995. \enquote{Beziehungsmarketing,}  (24:9).
-
-\bibitem[{tho(2006)}]{thomas2006a}
- 2006. \enquote{Das Referenzmodellverst{\"a}ndnis in der Wirtschaftsinformatik:
-  Historie, Literaturanalyse und Begriffsexplikation,} {\it
-  Ver{\"o}ffentlichungen des Instituts f{\"u}r Wirtschaftsinformatik im
-  Deutschen Forschungszentrum f{\"u}r K{\"u}nstliche Intelligenz\/} (187).
 
 \bibitem[{Alchian and Demsetz(1972)}]{alchian1972production}
 Alchian, A.~A., and Demsetz, H. 1972. \enquote{Production, information costs,
@@ -74,6 +65,12 @@ Becker, J., and Sch{\"u}tte, R. 2004. {\it Handelsinformationssysteme\/},
   Redline Wirtschaft bei moderne industrie, mi-Wirtschaftsbuch.
 
 
+\bibitem[{Brocke(2003)}]{brocke2003referenzmodellierung}
+Brocke, J. 2003. {\it Referenzmodellierung: Gestaltung und Verteilung von
+  Konstruktionsprozessen\/}, Advances in information systems and management
+  science, Logos-Verlag.
+
+
 \bibitem[{Cohen and Young(2006)}]{cohen2006multisourcing}
 Cohen, L., and Young, A. 2006. {\it Multisourcing: Moving Beyond Outsourcing to
   Achieve Growth and Agility\/}, Harvard Business School Press.
@@ -88,6 +85,16 @@ Coyne, I.~T. 1997. \enquote{Sampling in qualitative research. Purposeful and
 Creswell, J.~W. 2014. {\it Research design : qualitative, quantitative, and
   mixed methods approaches\/}, Los Angeles, Calif. [u.a]: SAGE, 4th ed.
 
+\bibitem[{Delfmann(2006)}]{delfmann2006adaptive}
+Delfmann, P. 2006. {\it Adaptive Referenzmodellierung: methodische Konzepte zur
+  Konstruktion und Anwendung wiederverwendungsorientierter
+  Informationsmodelle\/}, Advances in information systems and management
+  science, Logos Verlag.
+
+\bibitem[{Diller(1995)}]{diller1995}
+Diller, H. 1995. \enquote{Beziehungsmarketing,} {\it
+  Wirtschaftswissenschaftliches Studium\/} (24:9).
+
 \bibitem[{{Dimension Data}(2016)}]{dimensiondata2016}
 {Dimension Data} 2016. \enquote{{Global Contact Centre Benchmark Summary
   Report},} .
@@ -99,8 +106,15 @@ Evans, P. ???? \enquote{How data will transform Business,} .
 
 \bibitem[{Fettke(2014)}]{Fettke2014meth}
 Fettke, P. 2014. \enquote{{Eine Methode zur induktiven Entwicklung von
-  Referenzmodellen},} Paderborn: Tagungsband Multikonferenz
-  Wirtschaftsinformatik 2014 (MKWI 2014), pp. 1035--1047.
+  Referenzmodellen},} in {\it Tagungsband Multikonferenz Wirtschaftsinformatik
+  2014 (MKWI 2014)\/}D.~Kundisch, L.~Suhl, and L.~Beckmann,  (eds.), Paderborn:
+  Tagungsband Multikonferenz Wirtschaftsinformatik 2014 (MKWI 2014), pp.
+  1035--1047.
+
+\bibitem[{Fettke and Loos(2004)}]{Fettke2004}
+Fettke, P., and Loos, P. 2004. \enquote{Reference modeling research,} {\it
+  WIRTSCHAFTSINFORMATIK\/} (46:5), pp. 331--340.
+
 
 \bibitem[{Gill and Johnson(2002)}]{gilljohnson}
 Gill, J., and Johnson, P. 2002. {\it Research Methods for Managers\/}, London:
@@ -129,6 +143,17 @@ Hirschheim, R., and Klein, H.~K. 2003. \enquote{Crisis in the IS Field? A
   Critical Reflection on the State of the Discipline.} {\it Journal of the
   Association for Information Systems\/} (4), pp. 237 -- 293.
 
+
+\bibitem[{Holten(1999)}]{holten1999}
+Holten, R. 1999. {\it Entwicklung von F{\"{u}}hrungsinformationssystemen, Ein
+  methodenorientierter Ansatz\/}, Ph.D. thesis, Universität Münster,
+  Wiesbaden.
+
+\bibitem[{L(2006)}]{thomas2006a}
+L, T. 2006. \enquote{Das Referenzmodellverst{\"a}ndnis in der
+  Wirtschaftsinformatik: Historie, Literaturanalyse und Begriffsexplikation,}
+  {\it Ver{\"o}ffentlichungen des Instituts f{\"u}r Wirtschaftsinformatik im
+  Deutschen Forschungszentrum f{\"u}r K{\"u}nstliche Intelligenz\/} (187).
 
 \bibitem[{Lacity and Hirschheim(1993)}]{lacity1993}
 Lacity, M.~C., and Hirschheim, R.~A. 1993. {\it Information Systems
@@ -164,8 +189,8 @@ Mani, D., Barua, A., and Whinston, A. 2010. \enquote{An Empirical Analysis of
 Meise, V. 2001. \enquote{{Das Vorgehensmodell zur Konstruktion von
   Ordnungsrahmen zur prozessorientierten Organisationsgestaltung},} in {\it
   Ordnungsrahmen zur prozessorientierten Organisationsgestaltung: Modelle
-  f{\"{u}}r das Management komplexer Reorganisationsprojekte\/}, , pp.
-  119--226.
+  f{\"{u}}r das Management komplexer Reorganisationsprojekte\/}, , Logos
+  Verlog, pp. 119--226.
 
 \bibitem[{Mendling et~al.(2010)Mendling, Reijers, and van~der Aalst}]{7pmg}
 Mendling, J., Reijers, H.~A., and van~der Aalst, W. M.~P. 2010. \enquote{Seven
@@ -190,7 +215,8 @@ Porter, M.~E. 1985. {\it Competitive advantage: creating and sustaining
 \bibitem[{P{\"{u}}ster(2015)}]{Puster2015}
 P{\"{u}}ster, J. 2015. {\it {Prozessmodelle f{\"{u}}r Einzelhandel,
   Gro{\ss}handel und E-Commerce. Entwicklung eines Referenzmodells f{\"{u}}r
-  Handelsinformationssysteme}\/}, Phd thesis, Berlin.
+  Handelsinformationssysteme}\/}, Advances in information systems and
+  management science, Berlin: Logos Verlag.
 
 \bibitem[{Rai et~al.(1996)Rai, Borah, and Ramaprasad}]{rai1996critical}
 Rai, A., Borah, S., and Ramaprasad, A. 1996. \enquote{Critical success factors
@@ -221,8 +247,8 @@ Stachowiak, H. 1973. {\it {Allgemeine Modelltheorie}\/}, Wien: Springer.
 \bibitem[{Thomas(2006)}]{thomas2006mang}
 Thomas, O. 2006. {\it Management von Referenzmodellen : Entwurf und
   Realisierung eines Informationssystems zur Entwicklung und Anwendung von
-  Referenzmodellen\/}, Ph.D. thesis, Berlin - Zugl: Saarbr{\"u}cken,
-  Universit{\"a}t des Saarlandes, Dissertation.
+  Referenzmodellen\/}, Ph.D. thesis, Universit{\"a}t des Saarlandes,
+  Saarbr{\"u}cken.
 
 \bibitem[{Vom~Brocke and Buddendick(2006)}]{vom2006reusable}
 Vom~Brocke, J., and Buddendick, C. 2006. \enquote{Reusable conceptual

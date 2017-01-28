@@ -960,4 +960,11 @@ title = {Competitive Landscape: Building Differentiated Customer Management BPO 
   doi       = {10.1007/3-540-27153-8_3},
 }
 
+@TechReport{hfs2016top,
+  author      = {Jamie Snowdon and Phil Fersht and Barbra Sheridan McGann},
+  title       = {THE HfS BPO TOP 50},
+  institution = {HfS Research},
+  year        = {2016},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
