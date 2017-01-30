@@ -104,18 +104,19 @@
 	Year = {2013},
 	}
 
-@incollection{Becker2007,
-	Abstract = {Reference models have to be adapted to fit to the according application situation. In order to reduce the adaptation efforts, the concept of configurative reference modeling represents a promising approach. Nevertheless, since not every requirement of possible reference model users can be anticipated by the reference model developer, further model adaptations have to be performed. In order to support the reference model user decreasing his adaptation efforts by providing a higher methodological support, we propose to integrate generic model adaptation techniques with configurative reference modeling. Our paper presents recommendations for the construction of modeling languages that realize an integration of configurative and generic reference modeling.},
-	Author = {Becker, J{\"{o}}rg and Delfmann, Patrick and Knackstedt, Ralf},
-	Booktitle = {Reference Modeling: Efficient Information Systems Design Through Reuse of Information Models},
-	Date-Added = {2017-01-27 13:46:04 +0000},
-	Date-Modified = {2017-01-27 13:46:04 +0000},
-	Doi = {10.1007/978-3-7908-1966-3_2},
-	Isbn = {9783790819656},
-	Pages = {27--58},
-	Title = {{Adaptive reference modeling: Integrating configurative and generic adaptation techniques for information models}},
-	Year = {2007},
-	}
+@InCollection{Becker2007,
+  author        = {Becker, J{\"{o}}rg and Delfmann, Patrick and Knackstedt, Ralf},
+  title         = {{Adaptive reference modeling: Integrating configurative and generic adaptation techniques for information models}},
+  booktitle     = {Reference Modeling: Efficient Information Systems Design Through Reuse of Information Models},
+  publisher     = {Springer Nature},
+  year          = {2007},
+  pages         = {27--58},
+  isbn          = {9783790819656},
+  abstract      = {Reference models have to be adapted to fit to the according application situation. In order to reduce the adaptation efforts, the concept of configurative reference modeling represents a promising approach. Nevertheless, since not every requirement of possible reference model users can be anticipated by the reference model developer, further model adaptations have to be performed. In order to support the reference model user decreasing his adaptation efforts by providing a higher methodological support, we propose to integrate generic model adaptation techniques with configurative reference modeling. Our paper presents recommendations for the construction of modeling languages that realize an integration of configurative and generic reference modeling.},
+  date-added    = {2017-01-27 13:46:04 +0000},
+  date-modified = {2017-01-27 13:46:04 +0000},
+  doi           = {10.1007/978-3-7908-1966-3_2},
+}
 
 @article{Becker2004,
 	Abstract = {Referenzmodelle liefern Ausgangsl{\"{o}}sungen f{\"{u}}r projektspezifische Realisierungen und k{\"{o}}nnen damit einen Beitrag zur Erh{\"{o}}hung der Effizienz und Effektivit{\"{a}}t des Data-Warehousing leisten. - Es wird ein strukturierter {\"{U}}berblick {\"{u}}ber relevante Referenzl{\"{o}}sungen im Data-Warehousing geboten. - Die Entwicklung fachkonzeptioneller, konfigurierbarer Data-Warehouse-Referenzmodelle wird als wichtige Entwicklungsperspektive f{\"{u}}r die Forcierung des Einsatzes von Referenzmodellen im Data-Warehousing erkannt. - Die Konstruktion entsprechender Referenzmodelle unter Verwendung einer hierf{\"{u}}r entwickelten Modellierungstechnik wird anhand von Beispielen vorgestellt. - Die Anwendung der erhaltenen Referenzmodelle wird unter R{\"{u}}ckgriff auf ein Phasenmodell beschrieben.},
@@ -965,6 +966,66 @@ title = {Competitive Landscape: Building Differentiated Customer Management BPO 
   title       = {THE HfS BPO TOP 50},
   institution = {HfS Research},
   year        = {2016},
+}
+
+@Article{levitt1983,
+  author  = {Theodore Levitt},
+  title   = {After the Sale is Over ...},
+  journal = {Harvard Business Review},
+  year    = {1983},
+  volume  = {83},
+  pages   = {87 -- 93},
+}
+
+@InCollection{Helmke_2012,
+  author    = {Stefan Helmke and Matthias Uebel and Wilhelm Dangelmaier},
+  title     = {Inhalte des {CRM}-Ansatzes},
+  booktitle = {Effektives Customer Relationship Management},
+  publisher = {Springer Nature},
+  year      = {2012},
+  pages     = {3--21},
+  month     = {nov},
+  doi       = {10.1007/978-3-8349-4176-3_1},
+}
+
+@Book{Neckel2005,
+  title         = {Customer Relationship Analytics: praktische Anwendung des Data Mining im CRM},
+  publisher     = {dpunkt-Verlag},
+  year          = {2005},
+  author        = {Neckel, P. and Knobloch, B.},
+  isbn          = {9783898643092},
+  __markedentry = {[markusheuchert:6]},
+  url           = {https://books.google.de/books?id=PSSSAAAACAAJ},
+}
+
+@Book{rogers2010diffusion,
+  title     = {Diffusion of innovations},
+  publisher = {Simon and Schuster},
+  year      = {2010},
+  author    = {Rogers, Everett M},
+}
+
+@Article{Adams_1992,
+  author    = {Dennis A. Adams and R. Ryan Nelson and Peter A. Todd},
+  title     = {Perceived Usefulness, Ease of Use, and Usage of Information Technology: A Replication},
+  journal   = {{MIS} Quarterly},
+  year      = {1992},
+  volume    = {16},
+  number    = {2},
+  pages     = {227},
+  month     = {jun},
+  doi       = {10.2307/249577},
+  publisher = {{JSTOR}},
+}
+
+@Article{Hsieh_2017,
+  author    = {Pei-Ling Hsieh and Shang-Ling Wei},
+  title     = {Relationship formation within online brand communities: Bridging the virtual and the real},
+  journal   = {Asia Pacific Management Review},
+  year      = {2017},
+  month     = {jan},
+  doi       = {10.1016/j.apmrv.2016.10.008},
+  publisher = {Elsevier {BV}},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
