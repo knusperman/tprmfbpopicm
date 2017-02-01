@@ -977,4 +977,134 @@ title = {Competitive Landscape: Building Differentiated Customer Management BPO 
   pages   = {87 -- 93},
 }
 
+@InCollection{Helmke_2012,
+  author    = {Stefan Helmke and Matthias Uebel and Wilhelm Dangelmaier},
+  title     = {Inhalte des {CRM}-Ansatzes},
+  booktitle = {Effektives Customer Relationship Management},
+  publisher = {Springer Nature},
+  year      = {2012},
+  pages     = {3--21},
+  month     = {nov},
+  doi       = {10.1007/978-3-8349-4176-3_1},
+}
+
+@Book{Neckel2005,
+  title         = {Customer Relationship Analytics: praktische Anwendung des Data Mining im CRM},
+  publisher     = {dpunkt-Verlag},
+  year          = {2005},
+  author        = {Neckel, P. and Knobloch, B.},
+  isbn          = {9783898643092},
+  __markedentry = {[markusheuchert:6]},
+  url           = {https://books.google.de/books?id=PSSSAAAACAAJ},
+}
+
+@Book{rogers2010diffusion,
+  title     = {Diffusion of innovations},
+  publisher = {Simon and Schuster},
+  year      = {2010},
+  author    = {Rogers, Everett M},
+}
+
+@Article{Adams_1992,
+  author    = {Dennis A. Adams and R. Ryan Nelson and Peter A. Todd},
+  title     = {Perceived Usefulness, Ease of Use, and Usage of Information Technology: A Replication},
+  journal   = {{MIS} Quarterly},
+  year      = {1992},
+  volume    = {16},
+  number    = {2},
+  pages     = {227},
+  month     = {jun},
+  doi       = {10.2307/249577},
+  publisher = {{JSTOR}},
+}
+
+@Article{Hsieh_2017,
+  author    = {Pei-Ling Hsieh and Shang-Ling Wei},
+  title     = {Relationship formation within online brand communities: Bridging the virtual and the real},
+  journal   = {Asia Pacific Management Review},
+  year      = {2017},
+  month     = {jan},
+  doi       = {10.1016/j.apmrv.2016.10.008},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Lemon_2016,
+  author    = {Katherine N. Lemon and Peter C. Verhoef},
+  title     = {Understanding Customer Experience Throughout the Customer Journey},
+  journal   = {Journal of Marketing},
+  year      = {2016},
+  volume    = {80},
+  number    = {6},
+  pages     = {69--96},
+  month     = {nov},
+  doi       = {10.1509/jm.15.0420},
+  publisher = {American Marketing Association ({AMA})},
+}
+
+@Article{Payne_2004,
+  author    = {Adrian Payne and Pennie Frow},
+  title     = {The role of multichannel integration in customer relationship management},
+  journal   = {Industrial Marketing Management},
+  year      = {2004},
+  volume    = {33},
+  number    = {6},
+  pages     = {527--538},
+  month     = {aug},
+  doi       = {10.1016/j.indmarman.2004.02.002},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{meyer2007customer,
+  author  = {Meyer, Christopher and Schwager, Andre},
+  title   = {Customer Experience},
+  journal = {Harvard business review},
+  year    = {2007},
+  pages   = {1--11},
+}
+
+@Article{gilmore1998,
+  author    = {B.J. Pine and J.H. Gilmore},
+  title     = {Welcome to the experience economy},
+  journal   = {Harvard Business Review},
+  year      = {1998},
+  volume    = {76},
+  number    = {3},
+  pages     = {97--105},
+  month     = {jun},
+  doi       = {10.1108/09564231211248453},
+  editor    = {Rohit Verma},
+  publisher = {Emerald},
+}
+
+@Article{Teixeira_2012,
+  author    = {Jorge Teixeira and Lia Patr{\'{\i}}cio and Nuno J. Nunes and Leonel N{\'{o}}brega and Raymond P. Fisk and Larry Constantine},
+  title     = {Customer experience modeling: from customer experience to service design},
+  journal   = {Journal of Service Management},
+  year      = {2012},
+  volume    = {23},
+  number    = {3},
+  pages     = {362--376},
+  month     = {jun},
+  doi       = {10.1108/09564231211248453},
+  editor    = {Rohit Verma},
+  publisher = {Emerald},
+}
+
+@TechReport{v,
+  author      = {Accenture},
+  title       = {Digital Transformation In The Age Of The Customer},
+  institution = {Accenture},
+  year        = {2015},
+}
+
+@Article{rigby2011,
+  author  = {Dan Rigby},
+  title   = {The Future of Shopping},
+  journal = {Harvard Business Review},
+  year    = {2011},
+  volume  = {89},
+  number  = {12},
+  pages   = {65 -- 76},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
