@@ -1170,4 +1170,61 @@ title = {Competitive Landscape: Building Differentiated Customer Management BPO 
   address   = {Berlin},
 }
 
+@Article{Chen_2003,
+  author    = {Injazz J. Chen and Karen Popovich},
+  title     = {Understanding customer relationship management ({CRM})},
+  journal   = {Business Process Management Journal},
+  year      = {2003},
+  volume    = {9},
+  number    = {5},
+  pages     = {672--688},
+  month     = {oct},
+  doi       = {10.1108/14637150310496758},
+  publisher = {Emerald},
+}
+
+@Article{fickel1999,
+  author  = {L. Fickel},
+  title   = {Know your customer},
+  journal = {CIO Magazine},
+  year    = {1999},
+  volume  = {12},
+  number  = {21},
+  pages   = {62 -- 72},
+}
+
+@Article{Zomerdijk_2010,
+  author    = {Leonieke G. Zomerdijk and Christopher A. Voss},
+  title     = {{NSD} Processes and Practices in Experiential Services{\ast}},
+  journal   = {Journal of Product Innovation Management},
+  year      = {2010},
+  volume    = {28},
+  number    = {1},
+  pages     = {63--80},
+  month     = {dec},
+  doi       = {10.1111/j.1540-5885.2010.00781.x},
+  publisher = {Wiley-Blackwell},
+}
+
+@Article{gregor2013positioning,
+  author  = {Gregor, Shirley and Hevner, Alan R},
+  title   = {Positioning and presenting design science research for maximum impact.},
+  journal = {MIS quarterly},
+  year    = {2013},
+  volume  = {37},
+  number  = {2},
+  pages   = {337--355},
+}
+
+@Article{wilson2002responsible,
+  author    = {Wilson, James R},
+  title     = {Responsible authorship and peer review},
+  journal   = {Science and Engineering Ethics},
+  year      = {2002},
+  volume    = {8},
+  number    = {2},
+  pages     = {155--174},
+  publisher = {Springer},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

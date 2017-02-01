@@ -1107,4 +1107,90 @@ title = {Competitive Landscape: Building Differentiated Customer Management BPO 
   pages   = {65 -- 76},
 }
 
+@Article{Brynjolfsson20131,
+  author        = {Brynjolfsson, E. and Hu, Y.J. and Rahman, M.S.},
+  title         = {Competing in the age of omnichannel retailing},
+  journal       = {MIT Sloan Management Review},
+  year          = {2013},
+  volume        = {54},
+  number        = {4},
+  pages         = {1-7},
+  note          = {cited By 45},
+  document_type = {Article},
+  source        = {Scopus},
+  url           = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84880055271&partnerID=40&md5=f339d1b30b96db45edf4e78164f6493b},
+}
+
+@InCollection{Sch_ler_2011,
+  author    = {Andreas Schöler},
+  title     = {{IT}-Unterstützung von Service-Prozessen},
+  booktitle = {Grundlagen des {CRM}},
+  publisher = {Springer Nature},
+  year      = {2011},
+  pages     = {683--702},
+  doi       = {10.1007/978-3-8349-6618-6_22},
+}
+
+@Article{meuter2000self,
+  author    = {Meuter, Matthew L and Ostrom, Amy L and Roundtree, Robert I and Bitner, Mary Jo},
+  title     = {Self-service technologies: understanding customer satisfaction with technology-based service encounters},
+  journal   = {Journal of marketing},
+  year      = {2000},
+  volume    = {64},
+  number    = {3},
+  pages     = {50--64},
+  publisher = {American Marketing Association},
+}
+
+@Article{Blut_2016,
+  author    = {M. Blut and C. Wang and K. Schoefer},
+  title     = {Factors Influencing the Acceptance of Self-Service Technologies: A Meta-Analysis},
+  journal   = {Journal of Service Research},
+  year      = {2016},
+  volume    = {19},
+  number    = {4},
+  pages     = {396--416},
+  month     = {aug},
+  doi       = {10.1177/1094670516662352},
+  publisher = {{SAGE} Publications},
+}
+
+@TechReport{deloitte2014outsourcing,
+  author      = {Deloitte},
+  title       = {{Global Outsourcing Insourcing Survey 2014}},
+  institution = {Deloitte Development LLC},
+  year        = {2014},
+}
+
+@Book{schewe2007,
+  title     = {Business Process Outsourcing. Geschäftsprozesse kontextorientiert auslagern},
+  publisher = {Springer},
+  year      = {2007},
+  author    = {Gerhard Schewe and Ingo Kett},
+  address   = {Berlin},
+}
+
+@Article{Chen_2003,
+  author    = {Injazz J. Chen and Karen Popovich},
+  title     = {Understanding customer relationship management ({CRM})},
+  journal   = {Business Process Management Journal},
+  year      = {2003},
+  volume    = {9},
+  number    = {5},
+  pages     = {672--688},
+  month     = {oct},
+  doi       = {10.1108/14637150310496758},
+  publisher = {Emerald},
+}
+
+@Article{,
+  author  = {L. Fickel},
+  title   = {Know your customer},
+  journal = {CIO Magazine},
+  year    = {1999},
+  volume  = {12},
+  number  = {21},
+  pages   = {62 -- 72},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
