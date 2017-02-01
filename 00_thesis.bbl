@@ -1,8 +1,18 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{79}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
 \providecommand{\urldateprefix}{Access date: }
+
+\bibitem[{Adams et~al.(1992)Adams, Nelson, and Todd}]{Adams_1992}
+Adams, D.~A., Nelson, R.~R., and Todd, P.~A. 1992. \enquote{Perceived
+  Usefulness, Ease of Use, and Usage of Information Technology: A Replication,}
+  {\it {MIS} Quarterly\/} (16:2), p. 227.
+
+\bibitem[{Agnischock et~al.(2015)Agnischock, Grobe, Hanisch, Seifarth, and
+  Wodarz}]{Agnischock2015}
+Agnischock, H.-J., Grobe, S., Hanisch, T., Seifarth, D., and Wodarz, R. 2015.
+  \enquote{{Omni-Channel Monitor 2015},} Tech. rep., Arvato, G{\"{u}}tersloh.
 
 \bibitem[{Alchian and Demsetz(1972)}]{alchian1972production}
 Alchian, A.~A., and Demsetz, H. 1972. \enquote{Production, information costs,
@@ -34,7 +44,8 @@ Becker, J., Clever, N., Holler, J., and Shitkova, M. 2015. \enquote{icebricks,}
 Becker, J., Delfmann, P., and Knackstedt, R. 2007. \enquote{{Adaptive reference
   modeling: Integrating configurative and generic adaptation techniques for
   information models},} in {\it Reference Modeling: Efficient Information
-  Systems Design Through Reuse of Information Models\/}, , pp. 27--58.
+  Systems Design Through Reuse of Information Models\/}, , Springer Nature, pp.
+  27--58.
 
 \bibitem[{Becker and Kahn(2011)}]{Becker2011}
 Becker, J., and Kahn, D. 2011. \enquote{{The Process in Focus},} in {\it
@@ -65,11 +76,28 @@ Becker, J., and Sch{\"u}tte, R. 2004. {\it Handelsinformationssysteme\/},
   Redline Wirtschaft bei moderne industrie, mi-Wirtschaftsbuch.
 
 
+\bibitem[{Blut et~al.(2016)Blut, Wang, and Schoefer}]{Blut_2016}
+Blut, M., Wang, C., and Schoefer, K. 2016. \enquote{Factors Influencing the
+  Acceptance of Self-Service Technologies: A Meta-Analysis,} {\it Journal of
+  Service Research\/} (19:4), pp. 396--416.
+
 \bibitem[{Brocke(2003)}]{brocke2003referenzmodellierung}
 Brocke, J. 2003. {\it Referenzmodellierung: Gestaltung und Verteilung von
   Konstruktionsprozessen\/}, Advances in information systems and management
   science, Logos-Verlag.
 
+
+\bibitem[{Brynjolfsson et~al.(2013)Brynjolfsson, Hu, and
+  Rahman}]{Brynjolfsson20131}
+Brynjolfsson, E., Hu, Y., and Rahman, M. 2013. \enquote{Competing in the age of
+  omnichannel retailing,} {\it MIT Sloan Management Review\/} (54:4), pp. 1--7.
+\newblock Cited By 45.
+
+
+\bibitem[{Chen and Popovich(2003)}]{Chen_2003}
+Chen, I.~J., and Popovich, K. 2003. \enquote{Understanding customer
+  relationship management ({CRM}),} {\it Business Process Management Journal\/}
+  (9:5), pp. 672--688.
 
 \bibitem[{Cohen and Young(2006)}]{cohen2006multisourcing}
 Cohen, L., and Young, A. 2006. {\it Multisourcing: Moving Beyond Outsourcing to
@@ -90,6 +118,10 @@ Delfmann, P. 2006. {\it Adaptive Referenzmodellierung: methodische Konzepte zur
   Konstruktion und Anwendung wiederverwendungsorientierter
   Informationsmodelle\/}, Advances in information systems and management
   science, Logos Verlag.
+
+\bibitem[{Deloitte(2014)}]{deloitte2014outsourcing}
+Deloitte 2014. \enquote{{Global Outsourcing Insourcing Survey 2014},} Tech.
+  rep., Deloitte Development LLC.
 
 \bibitem[{Diller(1995)}]{diller1995}
 Diller, H. 1995. \enquote{Beziehungsmarketing,} {\it
@@ -120,11 +152,21 @@ Fettke, P., and Loos, P. 2004. \enquote{Reference modeling research,} {\it
 Gill, J., and Johnson, P. 2002. {\it Research Methods for Managers\/}, London:
   SAGE, 3rd ed.
 
+\bibitem[{Gregor and Hevner(2013)}]{gregor2013positioning}
+Gregor, S., and Hevner, A.~R. 2013. \enquote{Positioning and presenting design
+  science research for maximum impact.} {\it MIS quarterly\/} (37:2), pp.
+  337--355.
+
 \bibitem[{Hammer(2015)}]{Hammer2015}
 Hammer, M. 2015. \enquote{{What is Business Process Management?}} in {\it
   Handbook on Business Process Management 1\/}, J.~{Vom Brocke} and
   M.~Rosemann,  (eds.), Berlin, Heidelberg: Springer, chap.~1, pp. 3--16, 2nd
   ed.
+
+\bibitem[{Helmke et~al.(2012)Helmke, Uebel, and Dangelmaier}]{Helmke_2012}
+Helmke, S., Uebel, M., and Dangelmaier, W. 2012. \enquote{Inhalte des
+  {CRM}-Ansatzes,} in {\it Effektives Customer Relationship Management\/}, ,
+  Springer Nature, pp. 3--21.
 
 \bibitem[{Hevner and Chatterjee(2010)}]{Hevner2010}
 Hevner, A., and Chatterjee, S. 2010. \enquote{Design Science Research in
@@ -148,6 +190,18 @@ Hirschheim, R., and Klein, H.~K. 2003. \enquote{Crisis in the IS Field? A
 Holten, R. 1999. {\it Entwicklung von F{\"{u}}hrungsinformationssystemen, Ein
   methodenorientierter Ansatz\/}, Ph.D. thesis, Universität Münster,
   Wiesbaden.
+
+\bibitem[{Hsieh and Wei(2017)}]{Hsieh_2017}
+Hsieh, P.-L., and Wei, S.-L. 2017. \enquote{Relationship formation within
+  online brand communities: Bridging the virtual and the real,} {\it Asia
+  Pacific Management Review\/} .
+
+\bibitem[{K{\"o}nig et~al.(1996)K{\"o}nig, Heinzl, Rumpf, and von
+  Poblotzki}]{konig1996entwicklung}
+K{\"o}nig, W., Heinzl, A., Rumpf, M.-J., and von Poblotzki, A. 1996.
+  \enquote{Zur Entwicklung der Forschungsmethoden und Theoriekerne der
+  Wirtschaftsinformatik. Eine kombinierte Delphi-und AHP-Untersuchung,} {\it
+  Information Engineering Oldenbourg, M{\"u}nchen\/} pp. 35--65.
 
 \bibitem[{L(2006)}]{thomas2006a}
 L, T. 2006. \enquote{Das Referenzmodellverst{\"a}ndnis in der
@@ -173,11 +227,20 @@ Lee, J.-N., and Kim, Y.-G. 1999. \enquote{Effect of partnership quality on IS
   outsourcing success: conceptual framework and empirical validation,} {\it
   Journal of Management information systems\/} (15:4), pp. 29--61.
 
+\bibitem[{Lemon and Verhoef(2016)}]{Lemon_2016}
+Lemon, K.~N., and Verhoef, P.~C. 2016. \enquote{Understanding Customer
+  Experience Throughout the Customer Journey,} {\it Journal of Marketing\/}
+  (80:6), pp. 69--96.
+
 \bibitem[{Leu{\ss}er et~al.(2011)Leu{\ss}er, Hippner, and Wilde}]{Leuer2011}
 Leu{\ss}er, W., Hippner, H., and Wilde, K.~D. 2011. \enquote{{CRM}
   {\textendash} Grundlagen, Konzepte und Prozesse,} in {\it Grundlagen des
   {CRM}\/}, , Springer Nature, pp. 15--55.
 
+
+\bibitem[{Levitt(1983)}]{levitt1983}
+Levitt, T. 1983. \enquote{After the Sale is Over ...} {\it Harvard Business
+  Review\/} (83), pp. 87 -- 93.
 
 \bibitem[{Mani et~al.(2010)Mani, Barua, and Whinston}]{mani2010emp}
 Mani, D., Barua, A., and Whinston, A. 2010. \enquote{An Empirical Analysis of
@@ -198,6 +261,30 @@ Mendling, J., Reijers, H.~A., and van~der Aalst, W. M.~P. 2010. \enquote{Seven
   127--136.
 
 
+\bibitem[{Meuter et~al.(2000)Meuter, Ostrom, Roundtree, and
+  Bitner}]{meuter2000self}
+Meuter, M.~L., Ostrom, A.~L., Roundtree, R.~I., and Bitner, M.~J. 2000.
+  \enquote{Self-service technologies: understanding customer satisfaction with
+  technology-based service encounters,} {\it Journal of marketing\/} (64:3),
+  pp. 50--64.
+
+\bibitem[{Meyer and Schwager(2007)}]{meyer2007customer}
+Meyer, C., and Schwager, A. 2007. \enquote{Customer Experience,} {\it Harvard
+  business review\/} pp. 1--11.
+
+\bibitem[{Neckel and Knobloch(2005)}]{Neckel2005}
+Neckel, P., and Knobloch, B. 2005. {\it Customer Relationship Analytics:
+  praktische Anwendung des Data Mining im CRM\/}, dpunkt-Verlag.
+
+
+\bibitem[{Neslin et~al.(2006)Neslin, Grewal, Leghorn, Shankar, Teerling,
+  Thomas, and Verhoef}]{Neslin2006}
+Neslin, S.~A., Grewal, D., Leghorn, R., Shankar, V., Teerling, M.~L., Thomas,
+  J.~S., and Verhoef, P.~C. 2006. \enquote{Challenges and Opportunities in
+  Multichannel Customer Management,} {\it Journal of Service Research\/} (9:2),
+  pp. 95--112.
+
+
 \bibitem[{Payne and Frow(2004)}]{payne2004role}
 Payne, A., and Frow, P. 2004. \enquote{The role of multichannel integration in
   customer relationship management,} {\it Industrial marketing management\/}
@@ -207,6 +294,18 @@ Payne, A., and Frow, P. 2004. \enquote{The role of multichannel integration in
 Payne, A., and Frow, P. 2005. \enquote{A Strategic Framework for Customer
   Relationship Management,} {\it Journal of Marketing\/} (69:4), pp. 167--176.
 
+
+\bibitem[{Peffers et~al.(2007)Peffers, Tuunanen, Rothenberger, and
+  Chatterjee}]{Peffers2007}
+Peffers, K., Tuunanen, T., Rothenberger, M., and Chatterjee, S. 2007.
+  \enquote{{A design science research methodology for information systems
+  research},} {\it Journal of Management Information Systems\/} (24:3), pp.
+  45--77.
+
+
+\bibitem[{Pine and Gilmore(1998)}]{gilmore1998}
+Pine, B., and Gilmore, J. 1998. \enquote{Welcome to the experience economy,}
+  {\it Harvard Business Review\/} (76:3), pp. 97--105.
 
 \bibitem[{Porter(1985)}]{porter1985}
 Porter, M.~E. 1985. {\it Competitive advantage: creating and sustaining
@@ -228,10 +327,27 @@ Ramachandran, K., and Voleti, S. 2004. \enquote{{Business Process Outsourcing
   (BPO): Emerging Scenario and Strategic Options for IT-enabled Services},}
   {\it Interfaces\/} (29:1).
 
+\bibitem[{Rigby(2011)}]{rigby2011}
+Rigby, D. 2011. \enquote{The Future of Shopping,} {\it Harvard Business
+  Review\/} (89:12), pp. 65 -- 76.
+
+\bibitem[{Rogers(2010)}]{rogers2010diffusion}
+Rogers, E.~M. 2010. {\it Diffusion of innovations\/}, Simon and Schuster.
+
+\bibitem[{Rosemann et~al.(2012)Rosemann, Schwegmann, and
+  Delfmann}]{Rosemann2012proc}
+Rosemann, M., Schwegmann, A., and Delfmann, P. 2012. \enquote{Vorbereitung der
+  Prozessmodellierung,} in {\it Prozessmanagement\/}, , Springer Nature, pp.
+  45--103.
+
 \bibitem[{Ryals and Payne(2001)}]{ryals2001customer}
 Ryals, L., and Payne, A. 2001. \enquote{Customer relationship management in
   financial services: towards information-enabled relationship marketing,} {\it
   Journal of strategic marketing\/} (9:1), pp. 3--27.
+
+\bibitem[{Schewe and Kett(2007)}]{schewe2007}
+Schewe, G., and Kett, I. 2007. {\it Business Process Outsourcing.
+  Geschäftsprozesse kontextorientiert auslagern\/}, Berlin: Springer.
 
 \bibitem[{Sch{\"{u}}tte(1998)}]{Schutte1998}
 Sch{\"{u}}tte, R. 1998. {\it Grunds{\"{a}}tze ordnungsgem{\"{a}}{\ss}er
@@ -241,6 +357,10 @@ Sch{\"{u}}tte, R. 1998. {\it Grunds{\"{a}}tze ordnungsgem{\"{a}}{\ss}er
 \bibitem[{Simon(1996)}]{simon1996sciences}
 Simon, H.~A. 1996. {\it The sciences of the artificial\/}, MIT press.
 
+\bibitem[{Snowdon et~al.(2016)Snowdon, Fersht, and McGann}]{hfs2016top}
+Snowdon, J., Fersht, P., and McGann, B.~S. 2016. \enquote{THE HfS BPO TOP 50,}
+  Tech. rep., HfS Research.
+
 \bibitem[{Stachowiak(1973)}]{Stachowiak1973}
 Stachowiak, H. 1973. {\it {Allgemeine Modelltheorie}\/}, Wien: Springer.
 
@@ -249,6 +369,11 @@ Thomas, O. 2006. {\it Management von Referenzmodellen : Entwurf und
   Realisierung eines Informationssystems zur Entwicklung und Anwendung von
   Referenzmodellen\/}, Ph.D. thesis, Universit{\"a}t des Saarlandes,
   Saarbr{\"u}cken.
+
+\bibitem[{Verhoef et~al.(2015)Verhoef, Kannan, and Inman}]{vorhoef2015retail}
+Verhoef, P., Kannan, P., and Inman, J. 2015. \enquote{From Multi-Channel
+  Retailing to Omni-Channel Retailing: Introduction to the Special Issue on
+  Multi-Channel Retailing,} {\it Journal of Retailing\/} (91:2), pp. 174--181.
 
 \bibitem[{Vom~Brocke and Buddendick(2006)}]{vom2006reusable}
 Vom~Brocke, J., and Buddendick, C. 2006. \enquote{Reusable conceptual
@@ -275,6 +400,10 @@ Williamson, O.~E. 1971. \enquote{The vertical integration of production: market
 Williamson, O.~E. 1981. \enquote{The economics of organization: The transaction
   cost approach,} {\it American journal of sociology\/} pp. 548--577.
 
+\bibitem[{Wilson(2002)}]{wilson2002responsible}
+Wilson, J.~R. 2002. \enquote{Responsible authorship and peer review,} {\it
+  Science and Engineering Ethics\/} (8:2), pp. 155--174.
+
 \bibitem[{Winter(2008)}]{Winter2008Hevner}
 Winter, R. 2008. \enquote{Interview with Alan R. Hevner on
   {\textquotedblleft}Design Science{\textquotedblright},} {\it Business {\&}
@@ -287,5 +416,10 @@ W{\"u}llenweber, K., Beimborn, D., Weitzel, T., and K{\"o}nig, W. 2008.
   \enquote{The impact of process standardization on business process
   outsourcing success,} {\it Information Systems Frontiers\/} (10:2), pp.
   211--224.
+
+\bibitem[{Zomerdijk and Voss(2010)}]{Zomerdijk_2010}
+Zomerdijk, L.~G., and Voss, C.~A. 2010. \enquote{{NSD} Processes and Practices
+  in Experiential Services{\ast},} {\it Journal of Product Innovation
+  Management\/} (28:1), pp. 63--80.
 
 \end{thebibliography}
