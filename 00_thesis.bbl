@@ -1,4 +1,4 @@
-\begin{thebibliography}{79}
+\begin{thebibliography}{81}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -285,6 +285,10 @@ Neslin, S.~A., Grewal, D., Leghorn, R., Shankar, V., Teerling, M.~L., Thomas,
   pp. 95--112.
 
 
+\bibitem[{{OED Online}(2016)}]{oxford}
+{OED Online} 2016. \enquote{outsourcing, n.} {\it Oxford University Press\/} .
+
+
 \bibitem[{Payne and Frow(2004)}]{payne2004role}
 Payne, A., and Frow, P. 2004. \enquote{The role of multichannel integration in
   customer relationship management,} {\it Industrial marketing management\/}
@@ -418,8 +422,14 @@ W{\"u}llenweber, K., Beimborn, D., Weitzel, T., and K{\"o}nig, W. 2008.
   211--224.
 
 \bibitem[{Zomerdijk and Voss(2010)}]{Zomerdijk_2010}
-Zomerdijk, L.~G., and Voss, C.~A. 2010. \enquote{{NSD} Processes and Practices
-  in Experiential Services{\ast},} {\it Journal of Product Innovation
-  Management\/} (28:1), pp. 63--80.
+Zomerdijk, L.~G., and Voss, C.~A. 2010. \enquote{Processes and Practices in
+  Experiential Services,} {\it Journal of Product Innovation Management\/}
+  (28:1), pp. 63--80.
+
+\bibitem[{zur Muehlen and Recker(2008)}]{Muehlen}
+zur Muehlen, M., and Recker, J. 2008. \enquote{How Much Language Is Enough?
+  Theoretical and Practical Use of the Business Process Modeling Notation,} in
+  {\it Advanced Information Systems Engineering\/}, , Springer Nature, pp.
+  465--479.
 
 \end{thebibliography}
