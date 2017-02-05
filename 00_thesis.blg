@@ -2,15 +2,16 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: 00_thesis.aux
 The style file: assets/misq.bst
+White space in argument---line 350 of file 00_thesis.aux
+ : \citation{glossar
+ :                   nicht wirklich zwingend drin...}
+I'm skipping whatever remains of this command
 Database file #1: library.bib
+Warning--I didn't find a database entry for "Chen74"
 Warning--I didn't find a database entry for "hippnerwilde2011"
-Warning--I didn't find a database entry for "ocm2015"
 Warning--I didn't find a database entry for "radial2016"
 Warning--I didn't find a database entry for "acc2015ce"
-Warning--I didn't find a database entry for "Neslin_2009"
-Warning--I didn't find a database entry for "Piotrowicz_2014"
 Warning--I didn't find a database entry for "Becker2012Gom"
-Warning--I didn't find a database entry for "vombrocke2003referenzmodellierung"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 `urldate' is a missing field, not a string, for entry becker2012pm
 while executing---line 1733 of file assets/misq.bst
@@ -26,7 +27,6 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry cohen2006multisourcing
 while executing---line 1733 of file assets/misq.bst
-Warning--empty year in evansted; set to ????
 `urldate' is a missing field, not a string, for entry evansted
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Fettke2004
@@ -57,45 +57,45 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Winter2008Hevner
 while executing---line 1733 of file assets/misq.bst
-You've used 81 entries,
+You've used 84 entries,
             3448 wiz_defined-function locations,
-            1216 strings with 20061 characters,
-and the built_in function-call counts, 89713 in all, are:
-= -- 10842
-> -- 1636
-< -- 114
-+ -- 880
-- -- 528
-* -- 5356
-:= -- 9427
-add.period$ -- 225
-call.type$ -- 81
-change.case$ -- 509
-chr.to.int$ -- 100
-cite$ -- 82
-duplicate$ -- 9684
-empty$ -- 5607
-format.name$ -- 765
-if$ -- 18567
-int.to.chr$ -- 2
+            1231 strings with 20519 characters,
+and the built_in function-call counts, 93254 in all, are:
+= -- 11278
+> -- 1688
+< -- 121
++ -- 906
+- -- 543
+* -- 5574
+:= -- 9787
+add.period$ -- 233
+call.type$ -- 84
+change.case$ -- 528
+chr.to.int$ -- 109
+cite$ -- 84
+duplicate$ -- 10079
+empty$ -- 5839
+format.name$ -- 791
+if$ -- 19312
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 707
-newline$ -- 275
-num.names$ -- 331
-pop$ -- 3779
+missing$ -- 733
+newline$ -- 284
+num.names$ -- 343
+pop$ -- 3927
 preamble$ -- 1
-purify$ -- 577
+purify$ -- 598
 quote$ -- 0
-skip$ -- 4197
+skip$ -- 4342
 stack$ -- 0
-substring$ -- 7486
-swap$ -- 5808
-text.length$ -- 52
+substring$ -- 7833
+swap$ -- 6009
+text.length$ -- 54
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 678
-warning$ -- 1
-while$ -- 492
+type$ -- 702
+warning$ -- 0
+while$ -- 512
 width$ -- 0
-write$ -- 923
-(There were 22 error messages)
+write$ -- 956
+(There were 23 error messages)

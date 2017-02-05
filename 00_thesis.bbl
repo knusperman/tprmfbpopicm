@@ -1,4 +1,4 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{84}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -132,8 +132,8 @@ Diller, H. 1995. \enquote{Beziehungsmarketing,} {\it
   Report},} .
 \newline\urlprefix\url{http://dimensiondatacx.com/summary-report/}\newline\urldateprefix2016-12-01
 
-\bibitem[{Evans()}]{evansted}
-Evans, P. ???? \enquote{How data will transform Business,} .
+\bibitem[{Evans(2014)}]{evansted}
+Evans, P. 2014. \enquote{How data will transform Business,} .
 
 
 \bibitem[{Fettke(2014)}]{Fettke2014meth}
@@ -202,12 +202,6 @@ K{\"o}nig, W., Heinzl, A., Rumpf, M.-J., and von Poblotzki, A. 1996.
   \enquote{Zur Entwicklung der Forschungsmethoden und Theoriekerne der
   Wirtschaftsinformatik. Eine kombinierte Delphi-und AHP-Untersuchung,} {\it
   Information Engineering Oldenbourg, M{\"u}nchen\/} pp. 35--65.
-
-\bibitem[{L(2006)}]{thomas2006a}
-L, T. 2006. \enquote{Das Referenzmodellverst{\"a}ndnis in der
-  Wirtschaftsinformatik: Historie, Literaturanalyse und Begriffsexplikation,}
-  {\it Ver{\"o}ffentlichungen des Instituts f{\"u}r Wirtschaftsinformatik im
-  Deutschen Forschungszentrum f{\"u}r K{\"u}nstliche Intelligenz\/} (187).
 
 \bibitem[{Lacity and Hirschheim(1993)}]{lacity1993}
 Lacity, M.~C., and Hirschheim, R.~A. 1993. {\it Information Systems
@@ -285,6 +279,11 @@ Neslin, S.~A., Grewal, D., Leghorn, R., Shankar, V., Teerling, M.~L., Thomas,
   pp. 95--112.
 
 
+\bibitem[{Neslin and Shankar(2009)}]{Neslin_2009}
+Neslin, S.~A., and Shankar, V. 2009. \enquote{Key Issues in Multichannel
+  Customer Management: Current Knowledge and Future Directions,} {\it Journal
+  of Interactive Marketing\/} (23:1), pp. 70--81.
+
 \bibitem[{{OED Online}(2016)}]{oxford}
 {OED Online} 2016. \enquote{outsourcing, n.} {\it Oxford University Press\/} .
 
@@ -310,6 +309,11 @@ Peffers, K., Tuunanen, T., Rothenberger, M., and Chatterjee, S. 2007.
 \bibitem[{Pine and Gilmore(1998)}]{gilmore1998}
 Pine, B., and Gilmore, J. 1998. \enquote{Welcome to the experience economy,}
   {\it Harvard Business Review\/} (76:3), pp. 97--105.
+
+\bibitem[{Piotrowicz and Cuthbertson(2014)}]{Piotrowicz_2014}
+Piotrowicz, W., and Cuthbertson, R. 2014. \enquote{Introduction to the Special
+  Issue Information Technology in Retail: Toward Omnichannel Retailing,} {\it
+  International Journal of Electronic Commerce\/} (18:4), pp. 5--16.
 
 \bibitem[{Porter(1985)}]{porter1985}
 Porter, M.~E. 1985. {\it Competitive advantage: creating and sustaining
@@ -349,6 +353,10 @@ Ryals, L., and Payne, A. 2001. \enquote{Customer relationship management in
   financial services: towards information-enabled relationship marketing,} {\it
   Journal of strategic marketing\/} (9:1), pp. 3--27.
 
+\bibitem[{Scheer(1997)}]{Scheer1997}
+Scheer, A.~W. 1997. {\it {Wirtschaftsinformatik : Referenzmodelle f{\"u}r
+  industrielle Gesch{\"a}ftsprozesse}\/}, Berlin: Springer, 7th ed.
+
 \bibitem[{Schewe and Kett(2007)}]{schewe2007}
 Schewe, G., and Kett, I. 2007. {\it Business Process Outsourcing.
   Geschäftsprozesse kontextorientiert auslagern\/}, Berlin: Springer.
@@ -368,9 +376,16 @@ Snowdon, J., Fersht, P., and McGann, B.~S. 2016. \enquote{THE HfS BPO TOP 50,}
 \bibitem[{Stachowiak(1973)}]{Stachowiak1973}
 Stachowiak, H. 1973. {\it {Allgemeine Modelltheorie}\/}, Wien: Springer.
 
-\bibitem[{Thomas(2006)}]{thomas2006mang}
-Thomas, O. 2006. {\it Management von Referenzmodellen : Entwurf und
-  Realisierung eines Informationssystems zur Entwicklung und Anwendung von
+\bibitem[{Thomas(2006{\natexlab{a}})}]{thomas2006a}
+Thomas, O. 2006{\natexlab{a}}. \enquote{Das Referenzmodellverst{\"a}ndnis in
+  der Wirtschaftsinformatik: Historie, Literaturanalyse und
+  Begriffsexplikation,} {\it Ver{\"o}ffentlichungen des Instituts f{\"u}r
+  Wirtschaftsinformatik im Deutschen Forschungszentrum f{\"u}r K{\"u}nstliche
+  Intelligenz\/} (187).
+
+\bibitem[{Thomas(2006{\natexlab{b}})}]{thomas2006mang}
+Thomas, O. 2006{\natexlab{b}}. {\it Management von Referenzmodellen : Entwurf
+  und Realisierung eines Informationssystems zur Entwicklung und Anwendung von
   Referenzmodellen\/}, Ph.D. thesis, Universit{\"a}t des Saarlandes,
   Saarbr{\"u}cken.
 
