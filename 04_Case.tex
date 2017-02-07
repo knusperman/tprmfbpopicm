@@ -24,7 +24,7 @@ An investigation in organizational structures is not in scope of this work, but 
 
 \section{Use of a Reference Model for BPO providers in CRM}
 \label{sec:refmodusearvato}
-The business model of (CRM) outsourcing providers impacts the use of a reference model in the domain. Since the outsourcing service is provided for several clients, the provider’s internal organization has to cope with this kind of diversity. Each client has its own contract and different parts of customer service process outsourced. While in general the business objects to work on (e.g., schedule in workforce management) or process steps (e.g., route incoming call) apply to all clients, they will differ on detail level (e.g., Client A will have a different routing logic as Client B and Client C has routing still in-house and outsources only after this process step).
+The business model of (CRM) outsourcing providers impacts the use of a reference model in the domain. Overall goal of the provider is to produce services that improve the customer journey of their clients, which is the ultimate differentiating factor on the outsourcing market. Switching to an internal view of the organization, this service provision is done for multiple clients, so the organization has to cope with this kind of diversity. Each client has its own contract and different parts of customer service process outsourced. While in general the business objects to work on (e.g., schedule in workforce management) or process steps (e.g., route incoming call) apply to all clients, they will differ on detail level (e.g., Client A will have a different routing logic as Client B and Client C has routing still in-house and outsources only after this process step). This flexibility and agility is required in the provider organization and therefore one standardized manual is not expedient. 
 \todo{checken}
 The process differences between distinct client types of CRM outsourcing providers motivate to provide adaptive aspects in the \acrshort{RM} as described in \citep{delfmann2006adaptive}. In a provider model the organization can configure multiple client models based on the provided services that stay compatible and are linked with the provider model. By doing so, the provider model itself gets a reference model characteristics in the organization, while it is an application of the domain model . \Fig \ref{fig:modelleels} visualizes the model levels. The highlighted domain (reference) model is center of this work. The case at Arvato represents a provider model, while businesses of Arvato can be seen as client models. By abstracting from single client business characteristics, the view of a provider is encapsulated in the empirical data that is basis of this work. 
 \begin{figure}[caption={Model levels}, label={fig:modellevels}]
@@ -70,7 +70,8 @@ The last aspect called information exchange phrases the ability \todo{rephrase}t
 
  \citeauthor{wilson2002responsible} states that three questions should be asked to research contributions: \enquote{Is it new? Is it true? Is it interesting?} \citep[\p {168}]{wilson2002responsible}. As there is no research found that addresses processes of CRM BPO providers, one can consent the first question. The validity of the artifact, \viz the reference model, is examined on the case at Arvato and aligned with related literature. Regarding the value of this research, one can state the market of BPO amounts approximately 184 billion USD revenue today and CRM services grow above-average \citep{hfs2016top}. As sound processes are critical for both providers and clients. \todo{standardize processes}
 
-\citeauthor{gregor2013positioning} define three levels of design science contribution types, that model the maturity of knowledge in artifacts \citep{gregor2013positioning}. The first level refers to instantiations, \ie situated implementations of an artifact. Level two generalizes by designing constructs, models, that represent knowledge as operational principles or architecture. The highest level positions design theories that hold the most abstract, complete and mature knowledge. 
+\citeauthor{gregor2013positioning} define three levels of design science contribution types, that model the maturity of knowledge in artifacts \citep{gregor2013positioning}. The first level refers to instantiations, \ie situated implementations of an artifact. Level two generalizes by designing constructs, models, that represent knowledge as operational principles or architecture. The highest level positions design theories that hold the most abstract, complete and mature knowledge. Furthermore, \acrshort{DSR} contributions can be classified along application domain maturity and solution maturity \citep{gregor2013positioning}. Two classifications can fit to this thesis, which are exaptation and improvement. The former describes the extension of \textit{known} solutions to \textit{new} problems, while improvement develops \textit{new} solutions for \textit{known} problems. In this case, this work's main contribution is not to reference modeling itself, but using it as a means in the domain, to \textit{improve} existing approaches to model CRM BPO. As exisiting approaches to model the domain are either based process modeling for CRM or\footnote{Seen as an \textit{exclusive or} in this case} BPO. 
+
 
 One research project can build artifacts on multiple levels \citep{gregor2013positioning} and this work aims levels one and two. As the research primarily builds on the case at the research partner Arvato, an instantiation (level one), \viz application in reference modeling terminology, can be undertaken. This serves two purposes. First, it expresses company specifics in comparison to the reference model. Second, it evaluates the use and applicability in a practical use case.  Level two relates to the reference model, that has a higher degree of abstraction. The thesis pursues its construction with priority over the instantiation at Arvato, because there is a unidirectional dependency between the two artifacts: The instantiation has to build on the reference model. The environment in \acrshort{DSR} influences the research and is linked through the relevance cycle. \todo{rephrase}
 
@@ -86,6 +87,7 @@ Following \citeauthor{Hevner2004,Peffers2007}, this work addresses the problem i
 
 %%%%%%%%%%
 \subsection{Problem Identification}
+\label{sec:proide}
 %Activity 1. Problem identification and motivation. Define the specific research problem and justify the value of a solution. Since the problem definition will be used to develop an artifact that can effectively provide a solution, it may be useful to atomize the problem conceptually so that the solution can capture its complexity. Justifying the value of a solution accomplishes two things: it motivates the researcher and the audience of the research to pursue the solution and to accept the results and it helps to understand the reasoning associated with the researcher’s understanding of the problem. Resources required for this activity include knowledge of the state of the problem and the importance of its solution.
 CRM is characterized by the components people, process and technology \citep{Chen_2003}, hence BPO outsourcing in this domain needs to address these three components. Here, processes stand in focus.  \cite{schewe2007} see BPO as synthesis of outsourcing and process optimization. The latter necessitates coordination between provider and client, which would benefit from a common basis to build up on. In case of CRM, the distinctiveness of customer contact through the provider adds a challenge that is not typical for BPO in general. 
 
@@ -101,6 +103,7 @@ The change to a digital society and with it the increase in contact channels, th
 
 %%%%%%%%%%
 \subsection{Solution Objectives}
+\label{sec:solobj}
 %anforderungsdefinitionen nach püster
 %der kasten: thomas 248, vombrocke 98, püster 63, 
 
@@ -118,7 +121,7 @@ Based on identified problems, solution objectives outline requirements, that the
 			\multicolumn{1}{|l|}{\textit{Reusability}}          & \multicolumn{6}{c|}{\textbf{generic reference model}}                       & \multicolumn{6}{c|}{non-generic reference model}                  \\ \hline
 			\multicolumn{1}{|l|}{\textit{Purpose}}              & \multicolumn{6}{c|}{\textbf{organizational design}}                         & \multicolumn{6}{c|}{application system design}                    \\ \hline
 			\multicolumn{1}{|l|}{\textit{Description level}}    & \multicolumn{4}{c|}{\textbf{concept}}                & \multicolumn{4}{c|}{data processing concept} & \multicolumn{4}{c|}{implementation}       \\ \hline
-			\multicolumn{1}{|l|}{\textit{Description type}}     & \multicolumn{4}{c|}{\textbf{As-Is}}                  & \multicolumn{4}{c|}{To-Be}                   & \multicolumn{4}{c|}{Ideal}                \\ \hline
+			\multicolumn{1}{|l|}{\textit{Description type}}     & \multicolumn{6}{c|}{\textbf{As-Is}}                  & \multicolumn{6}{c|}{To-Be}                             \\ \hline
 			\multicolumn{1}{|l|}{\textit{View}}                 & \multicolumn{3}{c|}{organization} & \multicolumn{3}{c|}{data}    & \multicolumn{3}{c|}{functions}   & \multicolumn{3}{c|}{\textbf{process}} \\ \hline
 			\multicolumn{1}{|l|}{\textit{Knowledge generation}} & \multicolumn{6}{c|}{\textbf{induction}}                                     & \multicolumn{6}{c|}{\textbf{deduction}}                                    \\ \hline 
 			\multicolumn{13}{r}{Adapted from: \citep[\p{63}]{Puster2015},\citep[\p{98}]{brocke2003referenzmodellierung}, \citep[\p{248}]{thomas2006mang}  }       
@@ -133,7 +136,7 @@ The purpose of the model is seen in organizational design. Drawing on the listin
 The \acrshort{ARIS} introduces three different conceptual levels with increasing IT-orientation. The reference model is seen on concept level, which facilitates comfortable communication with the business. 
 \todo{+++}
 
-Regarding the description type, one can separate into three three model orientations. As-is aims to describe the current state of the domain, \viz showing common practices. To-be models a future state that incorporates wanted changes. \todo{ideal?} Ideal modeling displays an optimal scenario. In this case, the intention is to capture the current state of the domain. 
+Regarding the description type, one can separate into three three model orientations. As-is aims to describe the current state of the domain, \viz showing common practices. To-be models a future state that incorporates wanted changes. In this case, the intention is to capture the current state of the domain. 
 
 The process view integrates the organizational, data and functional perspective. It is noted that the time-logical sequence of processes may be of subordinate importance, as an application probably causes reordering of process steps. Nevertheless, the process view is the medium for capturing aspects from other perspectives, while leaving room for individual adjustments without sacrificing model integrity. 
 
@@ -169,22 +172,30 @@ Building on the discussion in \ref{sec:refmodusearvato}, the benefits of referen
 
 The organization uses an application model (provider model) that draws from the reference model, which is discussed in this work. Hence, stakeholder-related objectives are motivated by an application model and then mirrored towards the reference model. In this regard, the following paragraph uses the term model to express this ambiguity. 
 
-Sales is oriented towards clients and the model is a means to communicate more effectively with them. Their interest externally lies in a use as a statement of competence. The management uses it to encompass idiosyncrasies across client businesses. Thereby it facilitates alignment, which is incorporated in the use of reference models for organizational design (\cf \Tab \ref{tab:morph}). Operations is supported by the model to handle complexity of increasing channels and benefits from reference processes, as they enable standardized approaches. \todo{+++}
-\\
+Regarding sales, one can focus on external use cases. Sales communicates with clients and the model is a means to do this more effectively. Their interest externally lies in a use as a statement of competence. This becomes necessary, as trust of the client towards the provider's competence is naturally decreasing with increasing complexity of the services. Consequently, provider's need a way to communicate their approach in an understandable way. The complexity of services is linked to the complexity of the domain, which is increasing by multi- and omni-channel environments. Hence, the trust is decreasing if no means are given to improve communication. 
+
 
 \hfill\begin{minipage}{\dimexpr\textwidth-1.2cm}
 	\textbf{Solution Objective 5}: The model can be used as a statement of competence for sales activities towards clients.
-	\\
 	
-	\textbf{Solution Objective 6}: The model holds a process representation, which supports a common understanding across client businesses. 
-	\\
-	
-	\textbf{Solution Objective 7}: The model is able to represent an omni-channel environment. 
+\end{minipage}
 
+ The management uses it to encompass idiosyncrasies across client businesses and is thereby taking an internal view. Thereby it improves alignment, which is incorporated in the use of reference models for organizational design (\cf \Tab \ref{tab:morph}). The need for this is justified in best practice sharing and use of synergies inside the provider organization.
+ 
+ 
+\hfill\begin{minipage}{\dimexpr\textwidth-1.2cm}
+ \textbf{Solution Objective 6}: The model holds a process representation, which supports a common understanding across client businesses. 
+ 
 \end{minipage}
 
 
-\section{Limitiations}
+ Operations is supported by the model to handle complexity of increasing channels and benefits from reference processes, as they enable standardized approaches. As these processes are responsible delivering value to the customer in form of superior services, they should enable a view that encompasses multiple channels. Diversity in system landscape demands a reasonable level of abstraction. 
+ 
+	\hfill\begin{minipage}{\dimexpr\textwidth-1.2cm}
+	\textbf{Solution Objective 7}: The model is able to represent an omni-channel environment. 
+\end{minipage}
+
+\section{Limitations}
 %%%%%%%%%%
 
 The title of this thesis expresses limitations in two ways. Firstly, its research is \textit{towards} a reference model. It is not intended to complete the model with this work. It lays a foundation for detailed investigation in its components. Processes are only partly described on the lowest detail level. Also the focus is set on distinguishing processes in the domain, which neglects support processes as defined in \ref{processorientation}. The simplification in this thesis can be justified by the fact that the contribution to the knowledge base is insignificant for support processes, as these are subject to publications beyond number. 

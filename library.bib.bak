@@ -302,7 +302,7 @@
 }
 
 @Article{thomas2006a,
-  author    = {Thomas L},
+  author    = {O. Thomas},
   title     = {Das Referenzmodellverst{\"a}ndnis in der Wirtschaftsinformatik: Historie, Literaturanalyse und Begriffsexplikation},
   journal   = {Ver{\"o}ffentlichungen des Instituts f{\"u}r Wirtschaftsinformatik im Deutschen Forschungszentrum f{\"u}r K{\"u}nstliche Intelligenz},
   year      = {2006},
@@ -311,7 +311,7 @@
 }
 
 @PhdThesis{thomas2006mang,
-  author    = {Thomas, O.},
+  author    = {O. Thomas},
   title     = {Management von Referenzmodellen : Entwurf und Realisierung eines Informationssystems zur Entwicklung und Anwendung von Referenzmodellen},
   school    = {Universit{\"a}t des Saarlandes},
   year      = {2006},
@@ -1285,6 +1285,56 @@
   month     = {feb},
   doi       = {10.1016/j.intmar.2008.10.005},
   publisher = {Elsevier {BV}},
+}
+
+@Book{peppers,
+  title     = {The One to One Future},
+  publisher = {Currency},
+  year      = {1993},
+  author    = {Don Peppers and Martha Rogers},
+}
+
+@Book{seiffert2006einführung,
+  title     = {Einf{\"u}hrung in die Wissenschaftstheorie: Geisteswissenschaftliche Methoden : Ph{\"a}nomenologie, Hermeneutik und historische Methode, Dialektik},
+  publisher = {Beck},
+  year      = {2006},
+  author    = {Seiffert, H.},
+  series    = {Beck Reihe},
+  isbn      = {9783406541353},
+  url       = {https://books.google.de/books?id=7svYk7v2N9AC},
+}
+
+@Article{Butler1998,
+  author  = {Butler, Tom},
+  title   = {Towards a hermeneutic method for interpretive research in information systems},
+  journal = {Journal of Information Technology},
+  year    = {1998},
+  volume  = {13},
+  number  = {4},
+  pages   = {285--300},
+  issn    = {1466-4437},
+  doi     = {10.1057/jit.1998.7},
+  url     = {http://dx.doi.org/10.1057/jit.1998.7},
+}
+
+@InBook{habermas1973,
+  chapter   = {Wahrheitstheorien},
+  pages     = {211--265},
+  title     = {Wirklichkeit und Reflexion. Walter Schulz zum 60. Geburtstag},
+  publisher = {Neske},
+  year      = {1973},
+  author    = {J. Habermas},
+  editor    = {H. Fahrenbach},
+}
+
+@Article{tarski1944,
+  author  = {A. Tarksi},
+  title   = {The Semantic Concept of Truth and the foundation of semantics},
+  journal = {Philosophy and Phenomenological Research},
+  year    = {1944},
+  volume  = {4},
+  number  = {3},
+  pages   = {341--375},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
