@@ -1345,4 +1345,11 @@
   address   = {New York},
 }
 
+@Book{shannon1949,
+  title     = {The mathematical theory of communication},
+  publisher = {University of Illinois Press},
+  year      = {1949},
+  author    = {Claude E. Shannon and Warren Weaver},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
