@@ -1,4 +1,4 @@
-\begin{thebibliography}{84}
+\begin{thebibliography}{95}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -94,10 +94,22 @@ Brynjolfsson, E., Hu, Y., and Rahman, M. 2013. \enquote{Competing in the age of
 \newblock Cited By 45.
 
 
+\bibitem[{Butler(1998)}]{Butler1998}
+Butler, T. 1998. \enquote{Towards a hermeneutic method for interpretive
+  research in information systems,} {\it Journal of Information Technology\/}
+  (13:4), pp. 285--300.
+
+
 \bibitem[{Chen and Popovich(2003)}]{Chen_2003}
 Chen, I.~J., and Popovich, K. 2003. \enquote{Understanding customer
   relationship management ({CRM}),} {\it Business Process Management Journal\/}
   (9:5), pp. 672--688.
+
+\bibitem[{Chen(1976)}]{Chen:1976:ERM}
+Chen, P. P.-S.~S. 1976. \enquote{The Entity-Relationship Model: Toward a
+  Unified View of Data,} {\it ACM Transactions on Database Systems\/} (1:1),
+  pp. 9--36.
+\newblock Reprinted in \cite{Stonebraker:1988:RDS}.
 
 \bibitem[{Cohen and Young(2006)}]{cohen2006multisourcing}
 Cohen, L., and Young, A. 2006. {\it Multisourcing: Moving Beyond Outsourcing to
@@ -148,6 +160,10 @@ Fettke, P., and Loos, P. 2004. \enquote{Reference modeling research,} {\it
   WIRTSCHAFTSINFORMATIK\/} (46:5), pp. 331--340.
 
 
+\bibitem[{Frow and Payne(2007)}]{Frow_2007}
+Frow, P., and Payne, A. 2007. \enquote{Towards the `perfect' customer
+  experience,} {\it Journal of Brand Management\/} (15:2), pp. 89--101.
+
 \bibitem[{Gill and Johnson(2002)}]{gilljohnson}
 Gill, J., and Johnson, P. 2002. {\it Research Methods for Managers\/}, London:
   SAGE, 3rd ed.
@@ -156,6 +172,10 @@ Gill, J., and Johnson, P. 2002. {\it Research Methods for Managers\/}, London:
 Gregor, S., and Hevner, A.~R. 2013. \enquote{Positioning and presenting design
   science research for maximum impact.} {\it MIS quarterly\/} (37:2), pp.
   337--355.
+
+\bibitem[{Habermas(1973)}]{habermas1973}
+Habermas, J. 1973. {\it Wirklichkeit und Reflexion. Walter Schulz zum 60.
+  Geburtstag\/}, Neske, chap. Wahrheitstheorien, pp. 211--265.
 
 \bibitem[{Hammer(2015)}]{Hammer2015}
 Hammer, M. 2015. \enquote{{What is Business Process Management?}} in {\it
@@ -203,6 +223,9 @@ K{\"o}nig, W., Heinzl, A., Rumpf, M.-J., and von Poblotzki, A. 1996.
   Wirtschaftsinformatik. Eine kombinierte Delphi-und AHP-Untersuchung,} {\it
   Information Engineering Oldenbourg, M{\"u}nchen\/} pp. 35--65.
 
+\bibitem[{Kroeber-Riel and Weinberg(1997)}]{kroeber1997}
+Kroeber-Riel, W., and Weinberg, P. 1997. {\it Konsumentenverhalten\/}, Vahlen.
+
 \bibitem[{Lacity and Hirschheim(1993)}]{lacity1993}
 Lacity, M.~C., and Hirschheim, R.~A. 1993. {\it Information Systems
   Outsourcing; Myths, Metaphors, and Realities\/}, New York, NY, USA: John
@@ -249,11 +272,23 @@ Meise, V. 2001. \enquote{{Das Vorgehensmodell zur Konstruktion von
   f{\"{u}}r das Management komplexer Reorganisationsprojekte\/}, , Logos
   Verlog, pp. 119--226.
 
-\bibitem[{Mendling et~al.(2010)Mendling, Reijers, and van~der Aalst}]{7pmg}
-Mendling, J., Reijers, H.~A., and van~der Aalst, W. M.~P. 2010. \enquote{Seven
-  Process Modeling Guidelines (7PMG),} {\it Inf Softw Technol\/} (52:2), pp.
-  127--136.
+\bibitem[{Mendling et~al.(2010{\natexlab{a}})Mendling, Recker, and
+  Reijers}]{Mendling_2010}
+Mendling, J., Recker, J., and Reijers, H.~A. 2010{\natexlab{a}}. \enquote{On
+  the Usage of Labels and Icons in Business Process Modeling,} {\it
+  International Journal of Information System Modeling and Design\/} (1:2), pp.
+  40--58.
 
+\bibitem[{Mendling et~al.(2010{\natexlab{b}})Mendling, Reijers, and van~der
+  Aalst}]{7pmg}
+Mendling, J., Reijers, H.~A., and van~der Aalst, W. M.~P. 2010{\natexlab{b}}.
+  \enquote{Seven Process Modeling Guidelines (7PMG),} {\it Inf Softw Technol\/}
+  (52:2), pp. 127--136.
+
+
+\bibitem[{Mertens(2002)}]{mertens}
+Mertens, P. 2002. \enquote{Business Intelligence - Ein Überblick,} {\it
+  Information Management \& Consulting\/} (17), pp. 65--73.
 
 \bibitem[{Meuter et~al.(2000)Meuter, Ostrom, Roundtree, and
   Bitner}]{meuter2000self}
@@ -306,6 +341,9 @@ Peffers, K., Tuunanen, T., Rothenberger, M., and Chatterjee, S. 2007.
   45--77.
 
 
+\bibitem[{Peppers and Rogers(1993)}]{peppers}
+Peppers, D., and Rogers, M. 1993. {\it The One to One Future\/}, Currency.
+
 \bibitem[{Pine and Gilmore(1998)}]{gilmore1998}
 Pine, B., and Gilmore, J. 1998. \enquote{Welcome to the experience economy,}
   {\it Harvard Business Review\/} (76:3), pp. 97--105.
@@ -314,6 +352,10 @@ Pine, B., and Gilmore, J. 1998. \enquote{Welcome to the experience economy,}
 Piotrowicz, W., and Cuthbertson, R. 2014. \enquote{Introduction to the Special
   Issue Information Technology in Retail: Toward Omnichannel Retailing,} {\it
   International Journal of Electronic Commerce\/} (18:4), pp. 5--16.
+
+\bibitem[{Porter(1980)}]{porter1980}
+Porter, M.~E. 1980. {\it Competitive Strategy: Techniques for Analyzing
+  Industries and Competitors\/}, New York: Free Press.
 
 \bibitem[{Porter(1985)}]{porter1985}
 Porter, M.~E. 1985. {\it Competitive advantage: creating and sustaining
@@ -366,6 +408,10 @@ Sch{\"{u}}tte, R. 1998. {\it Grunds{\"{a}}tze ordnungsgem{\"{a}}{\ss}er
   Referenzmodellierung: Konstruktion konfigurations- und anpassungsorientierter
   Modelle\/}, Gabler-Verlag.
 
+\bibitem[{Shannon and Weaver(1949)}]{shannon1949}
+Shannon, C.~E., and Weaver, W. 1949. {\it The mathematical theory of
+  communication\/}, University of Illinois Press.
+
 \bibitem[{Simon(1996)}]{simon1996sciences}
 Simon, H.~A. 1996. {\it The sciences of the artificial\/}, MIT press.
 
@@ -375,6 +421,11 @@ Snowdon, J., Fersht, P., and McGann, B.~S. 2016. \enquote{THE HfS BPO TOP 50,}
 
 \bibitem[{Stachowiak(1973)}]{Stachowiak1973}
 Stachowiak, H. 1973. {\it {Allgemeine Modelltheorie}\/}, Wien: Springer.
+
+\bibitem[{Tarksi(1944)}]{tarski1944}
+Tarksi, A. 1944. \enquote{The Semantic Concept of Truth and the foundation of
+  semantics,} {\it Philosophy and Phenomenological Research\/} (4:3), pp.
+  341--375.
 
 \bibitem[{Thomas(2006{\natexlab{a}})}]{thomas2006a}
 Thomas, O. 2006{\natexlab{a}}. \enquote{Das Referenzmodellverst{\"a}ndnis in
