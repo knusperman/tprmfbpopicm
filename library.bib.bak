@@ -1430,12 +1430,30 @@
 }
 
 @Article{oxford,
-  author  = {{OED Online}},
+  author  = {{Oxford Dictionary}},
   title   = {outsourcing, n.},
   journal = {Oxford University Press},
   year    = {2016},
   comment = {(accessed February 03, 2017).},
   url     = {http://www.oed.com/view/Entry/257590;jsessionid=6087DE922B96255E6490B5969FD99574?redirectedFrom=outsourcing},
+}
+
+@Article{oxfordrequest,
+  author  = {{Oxford Dictionary}},
+  title   = {request},
+  journal = {Oxford University Press},
+  year    = {2017},
+  comment = {(accessed February 03, 2017).},
+  url     = {https://en.oxforddictionaries.com/definition/request},
+}
+
+@Article{oxfordreview,
+  author  = {{Oxford Dictionary}},
+  title   = {review},
+  journal = {Oxford University Press},
+  year    = {2017},
+  comment = {(accessed February 03, 2017).},
+  url     = {https://en.oxforddictionaries.com/definition/review},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

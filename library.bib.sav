@@ -1447,4 +1447,32 @@
   url     = {https://en.oxforddictionaries.com/definition/request},
 }
 
+@Article{oxfordreview,
+  author  = {{Oxford Dictionary}},
+  title   = {review},
+  journal = {Oxford University Press},
+  year    = {2017},
+  comment = {(accessed February 03, 2017).},
+  url     = {https://en.oxforddictionaries.com/definition/review},
+}
+
+@Article{Chen:2012:BIA:2481674.2481683,
+  author     = {Chen, Hsinchun and Chiang, Roger H. L. and Storey, Veda C.},
+  title      = {Business Intelligence and Analytics: From Big Data to Big Impact},
+  journal    = {MIS Q.},
+  year       = {2012},
+  volume     = {36},
+  number     = {4},
+  pages      = {1165--1188},
+  month      = dec,
+  issn       = {0276-7783},
+  acmid      = {2481683},
+  address    = {Minneapolis, MN, USA},
+  issue_date = {December 2012},
+  keywords   = {big data analytics, business intelligence and analytics, web 2.0},
+  numpages   = {24},
+  publisher  = {Society for Information Management and The Management Information Systems Research Center},
+  url        = {http://dl.acm.org/citation.cfm?id=2481674.2481683},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
