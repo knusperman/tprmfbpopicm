@@ -1,4 +1,4 @@
-\begin{thebibliography}{95}
+\begin{thebibliography}{104}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -13,6 +13,11 @@ Adams, D.~A., Nelson, R.~R., and Todd, P.~A. 1992. \enquote{Perceived
   Wodarz}]{Agnischock2015}
 Agnischock, H.-J., Grobe, S., Hanisch, T., Seifarth, D., and Wodarz, R. 2015.
   \enquote{{Omni-Channel Monitor 2015},} Tech. rep., Arvato, G{\"{u}}tersloh.
+
+\bibitem[{Aksin et~al.(2009)Aksin, Armony, and Mehrotra}]{Aksin_2009}
+Aksin, Z., Armony, M., and Mehrotra, V. 2009. \enquote{The Modern Call Center:
+  A Multi-Disciplinary Perspective on Operations Management Research,} {\it
+  Production and Operations Management\/} (16:6), pp. 665--688.
 
 \bibitem[{Alchian and Demsetz(1972)}]{alchian1972production}
 Alchian, A.~A., and Demsetz, H. 1972. \enquote{Production, information costs,
@@ -100,6 +105,12 @@ Butler, T. 1998. \enquote{Towards a hermeneutic method for interpretive
   (13:4), pp. 285--300.
 
 
+\bibitem[{Chen et~al.(2012)Chen, Chiang, and Storey}]{Chen:2012:BIA}
+Chen, H., Chiang, R. H.~L., and Storey, V.~C. 2012. \enquote{Business
+  Intelligence and Analytics: From Big Data to Big Impact,} {\it MIS Q\/}
+  (36:4), pp. 1165--1188.
+
+
 \bibitem[{Chen and Popovich(2003)}]{Chen_2003}
 Chen, I.~J., and Popovich, K. 2003. \enquote{Understanding customer
   relationship management ({CRM}),} {\it Business Process Management Journal\/}
@@ -168,10 +179,19 @@ Frow, P., and Payne, A. 2007. \enquote{Towards the `perfect' customer
 Gill, J., and Johnson, P. 2002. {\it Research Methods for Managers\/}, London:
   SAGE, 3rd ed.
 
+\bibitem[{Globerson and Maggard(1991)}]{Globerson_1991}
+Globerson, S., and Maggard, M.~J. 1991. \enquote{A Conceptual Model of
+  Self-service,} {\it International Journal of Operations {\&} Production
+  Management\/} (11:4), pp. 33--43.
+
 \bibitem[{Gregor and Hevner(2013)}]{gregor2013positioning}
 Gregor, S., and Hevner, A.~R. 2013. \enquote{Positioning and presenting design
   science research for maximum impact.} {\it MIS quarterly\/} (37:2), pp.
   337--355.
+
+\bibitem[{Gross et~al.(2006)Gross, Bordt, and Musmacher}]{gross2006}
+Gross, J., Bordt, J., and Musmacher, M. 2006. {\it Business Process
+  Outsourcing\/}, Springer Nature.
 
 \bibitem[{Habermas(1973)}]{habermas1973}
 Habermas, J. 1973. {\it Wirklichkeit und Reflexion. Walter Schulz zum 60.
@@ -319,8 +339,23 @@ Neslin, S.~A., and Shankar, V. 2009. \enquote{Key Issues in Multichannel
   Customer Management: Current Knowledge and Future Directions,} {\it Journal
   of Interactive Marketing\/} (23:1), pp. 70--81.
 
-\bibitem[{{OED Online}(2016)}]{oxford}
-{OED Online} 2016. \enquote{outsourcing, n.} {\it Oxford University Press\/} .
+\bibitem[{{OED Online}(2016)}]{oxfordenquiry}
+{OED Online} 2016. \enquote{enquiry,} {\it Oxford University Press\/} .
+
+
+\bibitem[{{Oxford Dictionary}(2016)}]{oxford}
+{Oxford Dictionary} 2016. \enquote{outsourcing, n.} {\it Oxford University
+  Press\/} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{a}})}]{oxfordrequest}
+{Oxford Dictionary} 2017{\natexlab{a}}. \enquote{request,} {\it Oxford
+  University Press\/} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{b}})}]{oxfordreview}
+{Oxford Dictionary} 2017{\natexlab{b}}. \enquote{review,} {\it Oxford
+  University Press\/} .
 
 
 \bibitem[{Payne and Frow(2004)}]{payne2004role}
@@ -456,6 +491,17 @@ Vom~Brocke, J., and Buddendick, C. 2006. \enquote{Reusable conceptual
 vom Brocke, J., Schmiedel, T., Recker, J., Trkman, P., Mertens, W., and Viaene,
   S. 2014. \enquote{{Ten Principles of Good Business Process Management},} {\it
   Business Process Management Journal\/} (20:4), pp. 530--548.
+
+\bibitem[{Walker et~al.(2002)Walker, Craig-Lees, Hecker, and
+  Francis}]{Walker_2002}
+Walker, R.~H., Craig-Lees, M., Hecker, R., and Francis, H. 2002.
+  \enquote{Technology-enabled service delivery,} {\it International Journal of
+  Service Industry Management\/} (13:1), pp. 91--106.
+
+\bibitem[{Walker and Francis(2003)}]{Walker_2003}
+Walker, R.~H., and Francis, H. 2003. \enquote{Customer Service and Relationship
+  Management in the Context of Technology-Enabled Service Delivery Systems,}
+  {\it Australasian Marketing Journal ({AMJ})\/} (11:2), pp. 23--33.
 
 \bibitem[{Wernerfelt(1984)}]{wernerfelt1984resource}
 Wernerfelt, B. 1984. \enquote{A resource-based view of the firm,} {\it
