@@ -1277,7 +1277,7 @@
   author    = {Don Peppers and Martha Rogers},
 }
 
-@Book{seiffert2006einführung,
+@Book{seiffert2006einfhrung,
   title     = {Einf{\"u}hrung in die Wissenschaftstheorie: Geisteswissenschaftliche Methoden : Ph{\"a}nomenologie, Hermeneutik und historische Methode, Dialektik},
   publisher = {Beck},
   year      = {2006},
@@ -1547,6 +1547,48 @@
   year    = {2017},
   comment = {(accessed February 20, 2017).},
   url     = {https://en.oxforddictionaries.com/definition/contact},
+}
+
+@InProceedings{thomas2008self,
+  author    = {Thomas, Jakita O and Grandison, Tyrone},
+  title     = {Self-service--lessons from industry},
+  booktitle = {Proceedings of the International Conference of Service Science},
+  year      = {2008},
+}
+
+@Article{PorterHeppelmann15hbr,
+  author    = {Porter, Michael E. and Heppelmann, James E.},
+  title     = {How Smart, Connected Products Are Transforming Companies},
+  journal   = {Harvard Business Review},
+  year      = {2015},
+  volume    = {93},
+  number    = {10},
+  pages     = {53--71},
+  month     = oct,
+  issn      = {0017-8012},
+  abstract  = {The operations and organizational structure of firms are being radically reshaped by products' evolution into intelligent, connected devices.},
+  added-at  = {2017-01-02T12:58:02.000+0100},
+  biburl    = {https://www.bibsonomy.org/bibtex/2f4fda0270cf248d5c67ea2de60f929ef/flint63},
+  file      = {Electronic version:2015/PorterHeppelmann15hbr.pdf:PDF},
+  groups    = {public},
+  interhash = {d93d2637255072b6247a8f1efb0a62b5},
+  intrahash = {f4fda0270cf248d5c67ea2de60f929ef},
+  keywords  = {01624 paper embedded ai enterprise business management product service economy zzz.iot},
+  timestamp = {2017-01-02T12:58:02.000+0100},
+  url       = {https://hbr.org/2015/10/how-smart-connected-products-are-transforming-companies},
+  username  = {flint63},
+}
+
+@Article{servitization,
+  author   = {Vandermerwe, Sandra and Rada, Juan},
+  title    = {Servitization of business: Adding value by adding services},
+  journal  = {European Management Journal},
+  year     = {1988},
+  volume   = {6},
+  number   = {4},
+  pages    = {314-324},
+  abstract = {More and more corporations throughout the world are adding value to their core corporate offerings through services. The trend is pervading almost all industries, is customer demand-driven, and perceived by corporations as sharpening their competitive edges. Modern corporations are increasingly offering fuller market packages or "bundles" of customer-focussed combinations of goods, services, support, self-service, and knowledge. But services are beginning to dominate. This movement is termed the "servitization of business" by authors Sandra Vandermerwe and Juan Rada, and is clearly a powerful new feature of total market strategy being adopted by the best companies. It is leading to new relationships between them and their customers. Giving many real-life examples, the authors assess the main motives driving corporations to servitization, and point out that its cumulative effects are changing the competitive dynamics in which managers will have to operate. The special challenge for top managers is how to blend services into the overall strategies of the company.},
+  url      = {http://EconPapers.repec.org/RePEc:eee:eurman:v:6:y:1988:i:4:p:314-324},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

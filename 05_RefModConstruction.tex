@@ -10,7 +10,7 @@ This chapter conceptions the process reference model and is central part of this
 	
 	\citeauthor{Meise2001} defines a framework as \enquote{an ordering of relevant elements and relationships on a high level of abstraction. [...] Purpose is to give an overview about an original and to support structuring of elements and relationships on lower detail levels} \citep[\p{62}]{Meise2001}. Drawing further on his work, which especially targets framework design in process-oriented organizations, the proposed procedure for construction is adopted (\Fig \ref{fig:meise}). Differences to his approach arise, as the reference model displays an as-is state of the domain and does not follow goals of reorganization set by a specific company. Therefore, the \textit{organization} represents a fictive BPO provider in CRM in the following, which captures generic aspects of the domain. The construction is split into two components. The structural part first encompasses strategic and fundamental reflections, while the graphical component transfers these into a visual form that supports communication.
 
-	\begin{figure}[caption={procedure for framework construction}, label={fig:meise}]
+	\begin{figure}[caption={Procedure for framework construction}, label={fig:meise}]
 		{	\includegraphics[width=.8\textwidth]{figures/framework-meise.pdf}}
 		\hspace{6.2cm}	SOURCE:  adapted from \citep[\p{122}]{Meise2001}
 	\end{figure} 
@@ -632,17 +632,16 @@ This justifies the last two process building blocks of all three variants, namel
 
 	
 	 
-	\subsection{Self Service}
+	\subsection{Self-Service}
 	
-	die anforderungen aus der wissenschaft sind in den systemen umgesetzt und deshalb müssen bestimmte dinge existieren. daraus lässt sich ein prozess ableiten. 
+	The third customer interaction process leaves inter-personal service \citep{Thomas2008self} and focuses on ways that enable the customer to be the main value-generating part in the service interaction. This is facilitated by a technological component which can relieve the customer of a varying extent of the problem. The following illustrates this continuum from a customer perspective: Simple self-services, like an \acrshort{FAQ} section offer answers to questions, which the customer has to select from a list. The customer must express the need, map it to the available information, select the appropriate answer and process its content. A more advanced self-service might be able to additionally support the customer by the expression of the need and takes care of the mapping by a textual input, which is a more natural way of communication. The textual is analyzed and algorithmically mapped to the most appropriate solution, which is then presented to the customer, who must consume its content and is hopefully satisfied. It is noted that both solutions address the customer's issue, but sophisticated \acrshort{IT} increases usability by an easier interface to the customer's issue and a computed provision of a solution. This addresses what \citep{Thomas2008self} names a minimal skill set, \viz the an increased usability decreases the minimal skill set that is required for use. 
 	
-	klar definieren was ich unter sst verstehe \citep{Thomas:2009} hält auch online tech support boards, live chat sessions with customer support personal, user forums, etc. drin. also da wo der CSR noch supported. 
-	starting point \citep{Thomas:2009}.
-		%When a customer calls into the call center for technical support, it is often with the belief that they are contacting a CSR who is either an expert at solving their problem or at least more knowledgeable about their problem than the caller.
-		\citep{ccn2016} s.44
-		
-	%	To determine the most efficient, effective and mutually acceptable use of technology in service delivery, the customer's perspective needs to be known and understood.  \citep{Walker_2002}
-		
+	From literature \citep{meuter2000self, Thomas2008self, Thomas:2009}, one can identify characteristics of self-services, which need to be considered in a process. As in the model the perspective of the service provider is chosen, the process needs to hold aspects which are seen from a system perspective. The previous example features the differences between a simple and technological enhanced serf-service. In both cases, the system has to provide information, but the simple self-services required the capability to express the need in the language of the service system, while the second allowed the customer to express it more naturally. The system perspective implies that the more active the customer takes the part in the process (\ie the simpler the self-service is), the less parts of the process are carried out by the system. 
+	
+	Furthermore, a self-service can be seen as part of a another customer service process. One can think of a self-service as support for a inter-personal contact, when it provides solutions based on customer information. Examples for this are \acrshort{IVR} or generated chat messages based on customer input.
+	
+	Unlike inter-personal services, self-services cannot be structured \wrt a communication channel, as they can be part of a service within one or multiple channels, or stand-alone in a web-based setting. A process representation is chosen which models both a supporting self-service for other services and a stand-alone implementation.
+	
 	\begin{figure}[caption={Self-Service process}, label={fig:selfservice}]
 		\begin{subfigure}[b]{.45\textwidth}
 			\begin{center}
@@ -655,14 +654,91 @@ This justifies the last two process building blocks of all three variants, namel
 				[node distance=.5cm, start chain=going below,]
 				\node[punktchain, join=by {-}] (eins)      {Identify customer needs};
 				\node[punktchain, join=by {-}] (zwei) {Process customer needs};
-				\node[punktchain, join=by {-}, ] (drei) {Present next-best-action};
-				\node[punktchain, join=by {-}, ] (vier) {Evaluate inquiry};
-		
+				\node[punktchain, join=by {-}, ] (drei) {Present solution};
+				\node[punktchain, join=by {-}, ] (vier) {Evaluate solution};
+				
 				\end{tikzpicture}
 			\end{center}
 		\end{subfigure}
 		
 	\end{figure}
+
+	The process object customer need is chosen over inquiry to express the differences over inbound processing. It is noted that a customer need is an abstract construct that is used to express the customer's intention of use. However, like the inbound process self-service gets input from a customer and tries to solve the issue. But as there is no \acrshort{CSR} directly involved, there is less certainty that the system adequately addresses the \enquote{inquiry}. Due to this lack of a human counterpart on provider side, the technological interface provided by the system to the customer takes an important part in \textit{identifying customer needs}. As the capabilities of this interface vary drastically among different self-service scenarios, customer needs are chosen to emphasize the difference to inbound processing. \textit{Process customer needs} then aims at mapping the identified need to a defined solution in the knowledge base. After creation, \textit{present solution} communicates the findings to the customer. Lastly, \textit{evaluate solution} represents post-processing activities. The process is shown in \Fig \ref{fig:selfservice}.
+	
+	The building blocks of the four detail processes are summarized in \Fig \ref{fig:selfservice:detail}, as their is no further split into variants. The following description emphasizes the differences in simple and advanced self-service scenarios. 
+	
+	The building blocks of \textit{identfiy customer needs} (\Fig \ref{fig:selfservice:1}) capture external circumstances, that might be processed by the system to have more data available for inferring the customer need. Environmental factors are implicitly collected, \ie the customer does not need to state them. Request information models the input that the customer gives to the system. While the active phrasing might fit to more advanced self-service systems better than to simple \acrshort{FAQ}s, as the latter hardly asks the customer for information, the step applies to the concept of self-services: in order to narrow down the customer needs, relevant information needs to be selected by the customer (in a simple self-service system) or demanded as input for the system (in the advanced case). The verb \textit{infer} is used to describe the stochastic component of the system's attempt to understand the customer need. Again, the selection of a \acrshort{FAQ} entry by the customer might minimize the system's influence, still it conceives the selection as an information input and infers that the customer is \textit{needing} answers in this regard. An increased usability in the technological interface (arbitrary text input instead of a selection of options) also increases uncertainty in need identification, because the system has to select the fitting case by itself. 
+	
+	After the customer needs are inferred and hence available in a manner that corresponds to the data available in the knowledge base, the \textit{process customer needs} detail process (\Fig \ref{fig:selfservice:2}) receives  suitable information and creates a solution based on it. The solution represents the appropriate response to the customer's need. This can be the needed information, so that the need is completely addressed. Another option is that the self-service system can identify the need, but solving it requires personal-interaction. This expresses the limitations of service automation. 
+	
+	\textit{Present solution} (\Fig \ref{fig:selfservice:3}) conveys the result to the customer. The solution is presented by the system and is an adequate response to the customer's input. The customer's reaction is an important indicator of satisfaction and captured during the presentation. As the identification of a customer is not required for self-service use, these data needs to be stored in relation to the self-service input to further improve customer experience. The last detail process \textit{evaluate solution} (\Fig \ref{fig:selfservice:4}) can include a request for feedback (\enquote{Did this solve your problem?}) and finally all relevant information of the self-service use is stored and hence updates knowledge base. 
+		
+	\begin{figure}[caption={Self-service detail processes}, label={fig:selfservice:detail}]
+		
+		\begin{subfigure}[b]{.45\textwidth}
+			\centering
+			\begin{tikzpicture}
+			[node distance=.5cm,
+			start chain=going below,]
+			
+			\node[punktchain, join=by {-}] (eins)      {analyze environment};
+				\node[punktchain, join=by {-}] (zwei)      {request information};
+				\node[punktchain, join=by {-}] (eins)      {infer customer needs};
+		
+			
+			\end{tikzpicture}
+			
+			\caption{Identify customer needs}\label{fig:selfservice:1}
+		\end{subfigure}
+		\begin{subfigure}[b]{.45\textwidth}
+			\centering	
+			\begin{tikzpicture}
+			[node distance=.5cm,
+			start chain=going below,]
+			
+			\node[punktchain, join=by {-}] (zwei) {query knowledge base};
+		%	\node[punktchain, join=by {-}] (zwei) {integrate subsystem information};
+			\node[punktchain, join=by {-}] (drei) {create solution};
+				\node[punktchain, draw=white,text=white] (sechs) {verify environment};
+			\end{tikzpicture}
+			\caption{Process customer needs}\label{fig:selfservice:2}
+		\end{subfigure}
+		\begin{subfigure}[b]{.45\textwidth}
+			\centering	
+			\begin{tikzpicture}
+			[node distance=.5cm,
+			start chain=going below,]
+				\node[punktchain, draw=white] (null) { };
+			\node[punktchain] (eins)      {present solution};
+			\node[punktchain, join=by {-}] (zwei) {process customer reaction};
+			\end{tikzpicture}
+			\caption{Present solution}\label{fig:selfservice:3}
+		\end{subfigure}
+		\begin{subfigure}[b]{.45\textwidth}
+			\centering	
+			\begin{tikzpicture}
+			[node distance=.5cm,
+			start chain=going below,]
+			\node[punktchain, draw=white] (null) { };
+			\node[punktchain] (eins) {request feedback};
+			\node[punktchain, join=by {-}] (zwei) {update knowledge base};
+			
+			\end{tikzpicture}
+			\caption{Evaluate solution}\label{fig:selfservice:4}
+		\end{subfigure}
+	\end{figure}
+
+
+	
+	
+	klar definieren was ich unter sst verstehe \citep{Thomas:2009} hält auch online tech support boards, live chat sessions with customer support personal, user forums, etc. drin. also da wo der CSR noch supported. 
+	starting point \citep{Thomas:2009}.
+		%When a customer calls into the call center for technical support, it is often with the belief that they are contacting a CSR who is either an expert at solving their problem or at least more knowledgeable about their problem than the caller.
+		\citep{ccn2016} s.44
+		
+	%	To determine the most efficient, effective and mutually acceptable use of technology in service delivery, the customer's perspective needs to be known and understood.  \citep{Walker_2002}
+		
+
 		\newpage
 	\newpage
 	
@@ -699,9 +775,9 @@ This justifies the last two process building blocks of all three variants, namel
 		A fundamental difference the inbound and outbound process is that outbound contact is proactive and needs more initial information to act on, whereas inbound contact is more reactive \citep{DimensionData2015}. \Fig \ref{fig:outbound} shows the detail process, which is composed of three steps. As an analogy to the inbound detail process, the \textit{prepare contact} represents activities that take place prior to the activity that actually addresses the process object (route, preprocess, classify inquiry in the inbound process). The following \textit{contact customer} step expresses the active approach of the customer (contact) from the company side and can mirror the process inquiry step in the inbound process. Lastly, the \textit{evaluate contact} step contains subsequent efforts. Here the wording evaluate is chosen over review to put more focus on an assessment of the contact and less on the intention to change parts if necessary (\cf \ref{inb:review}). Furthermore, the company as contact initiator can perform a review at an earlier stage and does not need to react on a customer. 
 		
 
-		\subsection{Prepare Contact}
+		\subsubsection{Prepare Contact}
 		
-		To actively approach a customer, there has to be a trigger or decision that lead to the initiation of the process, which is then assigned to the executing organizational unit, \ie \acrshort{CSR}. The information that captures the intention behind the contact is assumed to be stored in the knowledge base. The first step, consistent over channels, is consequently a query to get the \acrshort{CSR} informed. Next, the aforementioned reason for contact is processed by the \acrshort{CSR} to enable the transfer of it towards the upcoming contact of the customer. 
+		To actively approach a customer, there has to be a trigger or decision that lead to the initiation of the process, which is then assigned to the executing organizational unit, \ie \acrshort{CSR}. The information that captures the intention behind the contact is assumed to be stored in the knowledge base. The first step of this detail process (\Fig \ref{fig:outbound:prep}) is consequently a query to get the \acrshort{CSR} informed, which is consistent over all channel variants. Next, the aforementioned reason for contact is processed by the \acrshort{CSR} to enable the transfer of it towards the upcoming contact of the customer. 
 		
 		All channels except voice show three blocks, that also appear in the review inquiry inbound process variant (draft, review, finalize message/post). This early (optional) verification by a supervisor is possible because the communication is started by the company and the purpose is stored in the known reason for contact. Therefore, there is no processing of a customer inquiry necessary on which a response is formulated. Because of this, direct messengers can also have these component, even though it is a synchronous channel. In the voice variant, there is no review. The \acrshort{CSR} is assumed to understand the reason for contact or resolve any issues with it in the \textit{process reason for contact} step, as the scripting of a call is implausible. 
 		
@@ -772,9 +848,9 @@ This justifies the last two process building blocks of all three variants, namel
 		\end{figure}
 	
 	
-		\subsection{Contact Customer}
+		\subsubsection{Contact Customer}
 		
-		The second step of the outbound process models the approach of the client. The use of contact as a verb expresses that the customer is on the receiving end. (A)synchronous channels show a similar structure, respectively. As the message or post is already prepared, the select of the sending account and the actual transmission\footnote{Theoretically, the second block in the social variant should be named \textit{post post}. Considering writing style, the object is kept and the verb changed to send. } is left. As previously justified, the variant in social media includes a verification step of the network environment. 
+		The second step of the outbound process models the approach of the client (\Fig \ref{fig:outbound:con}) . The use of contact as a verb expresses that the customer is on the receiving end. (A)synchronous channels show a similar structure, respectively. As the message or post is already prepared, the select of the sending account and the actual transmission\footnote{Theoretically, the second block in the social variant should be named \textit{post post}. Considering writing style, the object is kept and the verb changed to send. } is left. As previously justified, the variant in social media includes a verification step of the network environment. 
 		
 		Synchronous communication establishes a \textit{conversation} with the customer on which is responded in a timely manner. It is noted that in contrast to the voice channel, a direct message does not require the customer to respond directly to the \acrshort{CSR}s message. With this open connection, the  \acrshort{CSR} is able to \textit{communicate} the \textit{reason of contact} to the customer. 
 		
@@ -840,9 +916,9 @@ This justifies the last two process building blocks of all three variants, namel
 
 
 
-		\subsection{Evaluate Contact}
+		\subsubsection{Evaluate Contact}
 		
-		This detail process step closes the synchronous conversation and represents closing activities that are related to the contact. Synchronous channels close the conversation at the beginning, while asynchronous channels are completed with posting or sending. Mirrored from the inbound process, the process building blocks \textit{update customer data} and \textit{update contact} draw a line to the review inquiry process. Here, the inquiry object is replaced by the contact object. 
+		This detail process step (\Fig \ref{fig:outbound:eval}) closes the synchronous conversation and represents closing activities that are related to the contact. Synchronous channels close the conversation at the beginning, while asynchronous channels are completed with posting or sending. Mirrored from the inbound process, the process building blocks \textit{update customer data} and \textit{update contact} draw a line to the review inquiry process. Here, the inquiry object is replaced by the contact object. 
 
 	\begin{figure}[caption={Evaluate contact detail process}, label={fig:outbound:eval}]
 	

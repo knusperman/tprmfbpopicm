@@ -1277,7 +1277,7 @@
   author    = {Don Peppers and Martha Rogers},
 }
 
-@Book{seiffert2006einführung,
+@Book{seiffert2006einfhrung,
   title     = {Einf{\"u}hrung in die Wissenschaftstheorie: Geisteswissenschaftliche Methoden : Ph{\"a}nomenologie, Hermeneutik und historische Methode, Dialektik},
   publisher = {Beck},
   year      = {2006},
@@ -1540,13 +1540,20 @@
   year        = {2016},
 }
 
-@Article{oxfordreview,
+@Article{oxfordcontact,
   author  = {{Oxford Dictionary}},
   title   = {contact},
   journal = {Oxford University Press},
   year    = {2017},
   comment = {(accessed February 20, 2017).},
   url     = {https://en.oxforddictionaries.com/definition/contact},
+}
+
+@InProceedings{thomas2008self,
+  author    = {Thomas, Jakita O and Grandison, Tyrone},
+  title     = {Self-service--lessons from industry},
+  booktitle = {Proceedings of the International Conference of Service Science},
+  year      = {2008},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
