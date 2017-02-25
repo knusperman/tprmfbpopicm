@@ -58,7 +58,7 @@ This chapter conceptions the process reference model and is central part of this
 	\end{figure} 
 	
 	\subsubsection{Sales-related}
-	Sales-related business processes cover processes that have touchpoints with the client. These take place along a lifecycle, which starts with initial contact between provider and client, and hopefully advances through creation of an outsourcing contract. For this agreement, the \acrshort{BPO} provider places its products (\ie, service blueprints) in the clients requirements profile to create solutions for identified problems. Also, the implementation and setup of the outsourced business must take place. After everything is set up, the client relationship is maintained under the umbrella of account management. 
+	Sales-related business processes cover processes that have touchpoints with the client. These take place along a lifecycle, which starts with initial contact between provider and client, and hopefully advances through creation of an outsourcing contract. For this agreement, the \acrshort{BPO} provider places its products (\ie, service blueprints) in the clients requirements profile to create solutions for identified problems. Also, the transition and setup of the outsourced business must take place. After everything is set up, the client relationship is maintained under the umbrella of account management. 
 	
 	\subsubsection{Management-related}
 	The management-related business processes bring together resources in the provider organization, so that the operations and business development capability are realized. Regarding the latter, it is important to have a products in place, which can be implemented as service solutions for clients.  \citep{schewe2007} names this delivery management, but explicitly refers to its similarities with product development. In addition to the development, the management of existing products inside a product portfolio becomes important. 
@@ -159,6 +159,852 @@ A framework's purpose is to manage complexity by displaying relevant elements. I
 	 
 	 The following dives into the process models below the framework. The icebricks language is used to meet solution objective 4 and hence the underlying structure below the main processes on the framework is composed of detail processes, which in turn have process building block underneath. 
 	 
+	 
+	 %%%%%%%%%%
+	 \section{Customer Processes}
+	 \todo{service delivery taxonomy from fitzsimmons}
+	 
+	 This section describes the Inbound, Outbound, Self-Service and Knowledge Management process. They describe the processing of transactions in the outsourcing contract and are driven by the target domain (\acrshort{CRM}). 
+	 
+	 There are several constructs by means of data, that encompass all means of contact to the outsourcing provider. First, every contact involves a customer that is asking for something or more generally put has a lack of information that should be addressed. This lack is possibly related to a product\footnote{Product here encompasses everything that is provided by the client to the market, \ie, services as well.} of the client (be it an actual purchase or solely the consideration), which is denoted as a transaction. Transactions also cover touch points like past customer service contacts or other events between the customer and the company. Together, these product-related and touch point-related transactions are determinants for forming a complete view of the customer. Transactions have a hierarchy, so that one transaction may have to a superior transaction. 
+	 
+	 Here, it is assumed that every transaction is related to a customer. Even if it is a new customer, the act of contacting implies a previous touch point with the company. It is noted that this transaction might be not known to the company. A customer can have multiple transactions. The contact happens as an inbound (customer contacts company), outbound (company contacts customer) or self-service (customer reaches company without involvement of a \acrshort{CSR} ). 
+	 
+	 Knowledge bases accessible by the outsourcing provider contain knowledge that is able to address the customer's issue that is reason for contact. As these issues are classifiable, structuring them leads to business cases that describe the solution to a known customer problem. Examples can the cancellation of a booking, the termination of a contract or change of address. This listing reveals that business cases are very dependent on the business of the client and hence are not a valid criterion for structuring customer contacts in a reference model. Not every customer contact needs to relate to a case. The \acrshort{ERM} in \Fig \ref{fig:contacterm} shows the described circumstances around the contact. It also reasons the structuring of the knowledge management process. 
+	 
+	 \begin{figure}[caption={\acrshort{ERM} of customer-facing services}, label={fig:contacterm}]
+	 	{	\includegraphics[width=.8\textwidth]{figures/contacterm.pdf}}
+	 \end{figure} 
+	 
+	 
+	 This analysis is necessary due to the complex and highly variable processes in Customer Service. Process Identification for Customer Service in the field of the After Sales Service as a Basis for “Lean After Sales Service”
+	 im hippner buch it automation chapter für self service!
+	 %%%%%%%%%%
+	 Self Service: Servitization paper 1988!
+	 
+	 hippner:692 muss nicht nur inbound sein, outbound geht auch
+	 
+	 \subsection{Inbound}
+	 The associated object to this process in the \textit{inquiry}\footnote{inquiry is American English; enquiry is British English.}. It is preferred over \textit{request} as it emphasizes an investigation in an issue over the politeness during asking. It is defined as an act of asking for information \citep{oxfordenquiry, oxfordrequest}. In this case, it is the customer who is lacking information in some regard and contacts the company. A \acrshort{CSR} of the outsourcing provider attends to the matter. 
+	 
+	 Reflections on the structure of the process become especially important in case of an omni-channel environment. There are multiple contact channels, asynchronous and synchronous communication and generic reasons that lead to the inquiry. Rationale behind omni-channel process modeling must be to keep the structure channel independent as long as possible to enable alignment. To capture the peculiarities of the channels, the concept of variants is used on the lowest level to distinguish between mail, voice, direct messenger and social channels. Reasons for this split is that other discussed channels (Video, Website, App) can be included in others by means of a process view (video to voice) or are not a contact channel by means of inbound customer service. The website and app are gateways to other channels (direct messenger) or to self-service, but do not offer direct engagement with a \acrshort{CSR}. Variants can be added, so that other channels can be easily added to the model. While there are similarities between (a)synchronous channels, using these as variants forecloses capturing of channel idiosyncrasies, because the underlying process building blocks would be the same for a variant. 
+	 
+	 The detail processes are structured so that their steps apply to all channels. This structuring was found to be applicable among the participants in the process modeling workshop and is shown in \Fig \ref{fig:inbproc}. First, the detail processes are described without going into details of their channel-variants. 
+	 
+	 \begin{figure}[caption={Inbound service process}, label={fig:inbproc}]
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\begin{center}
+	 			\includegraphics{figures/processes/inbound.pdf}
+	 		\end{center}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\begin{center}
+	 			\begin{tikzpicture}
+	 			[node distance=.5cm, start chain=going below,font=\sffamily]
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (eins)      {Route inquiry};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (zwei) {Preprocess inquiry};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}, ] (drei) {Classify inquiry};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}, ] (vier) {Process inquiry};
+	 			\node[punktchain,rounded corners=0pt,  join=by {-}, ] (fuenf) {Review inquiry};
+	 			\end{tikzpicture}
+	 		\end{center}
+	 	\end{subfigure}
+	 	
+	 \end{figure}
+	 
+	 First, an inbound inquiry reaches is initiated by a customer and the connection with the receiving end is established. Before an interaction starts, the inquiry needs to be guided to a \acrshort{CSR}, which is known as routing in telecommunications. During this \textit{routing} process, information from the caller is processed, so that part of his needs can be inferred before the employee starts the conversation and time (and money) is consumed. On the other hand, time that the customer spends in the system before the conversation is not consuming scarce resources from the provider, so the pre-extraction of information usable to address his problem is desirable. At the end of routing, a \acrshort{CSR} is found that starts the conversation with the customer. In the \textit{preprocessing} step, the \acrshort{CSR} takes on the inquiry and consumes the information that is available from the routing, as well as transmitted by the customer. After this familiarization the \acrshort{CSR} can \textit{classify} the \textit{inquiry}, so that he knows how to map the individual inquiry of the customer to a case (if existent). The \textit{process inquiry} detail process engages the inquiry and ideally solves the problem. The last step involves a \textit{review} and closes the interaction. It updates data related to the communication and stores it in the knowledge base. As every detail process in \Fig \ref{fig:inbproc} has four variants, these are shown one by one in the following. 
+	 
+	 \subsubsection{Route Inquiry}
+	 
+	 Going into the specifics of the route inquiry detail process, \Fig \ref{fig:inbound:route} shows the four variants comprised of process building blocks. One can observe similarities 
+	 across all variants, that especially in the beginning and end. During this step, no \acrshort{CSR} is actively involved.
+	 \\
+	 
+	 \begin{figure}[caption={Route inquiry detail process}, label={fig:inbound:route}]
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {determine language};
+	 		\node[punktchain, join=by {-}] (zwei) {analyze inquiry};
+	 		\node[punktchain, join=by {-}, ] (drei) {priorize inquiry};
+	 		\node[punktchain, join=by {-}, ] (vier) {select CSR};
+	 		\node[punktchain, join=by {-}, ] (fuenf) {route inquiry};
+	 		\node[punktchain, draw=white] (sechs) { };
+	 		
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Mail variant}\label{fig:inbound:route:mail}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {determine language};
+	 		\node[punktchain, join=by {-}] (zwei) {analyze inquiry};
+	 		\node[punktchain, join=by {-}, ] (drei) {analyze environment};
+	 		\node[punktchain, join=by {-}, ] (vier) {priorize inquiry};
+	 		\node[punktchain, join=by {-}, ] (fuenf) {select CSR};
+	 		\node[punktchain, join=by {-}, ] (sechs) {route inquiry};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Social variant}\label{fig:inbound:route:social}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {determine language};
+	 		\node[punktchain, join=by {-}] (zwei) {collect IVR data};
+	 		\node[punktchain, join=by {-}, ] (drei) {select CSR};
+	 		\node[punktchain, join=by {-}, ] (vier) {route inquiry};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Voice variant}\label{fig:inbound:route:voice}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {determine language};
+	 		\node[punktchain, join=by {-}] (zwei) {analzye inquiry};
+	 		\node[punktchain, join=by {-}, ] (drei) {select CSR};
+	 		\node[punktchain, join=by {-}, ] (vier) {route inquiry};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Direct Messenger variant}\label{fig:inbound:route:dm}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 A common Language is a requirement for communication and needs to be known to understand the content of the inquiry. While this is required across channels, differences arise in the following step: All variants except voice can analyze the inquiry. This analysis uses available information from the inquiry, \ie its content or channel-specific data to identify the customer and infer the customer's need. In voice the inquiry itself is not existent at this point, as the customer has not expressed it verbally. However, \acrfull{IVR} technology helps to extract information from the customer without active involvement of a \acrshort{CSR} and is a typical technology in contact centers \citep{Thomas:2009}. The distinction between voice and the other variants is reasoned by the fact that the other inquiries are text-based and therefore analyzable by common means, which is not the case for voice. As \acrshort{IVR} is a standard in customer service, the naming of a explicit technology does not create conflicts in terms of universal applicability. The amount of information processed by it varies. Simple systems might just record input from the customer typed in via the phone keypad(\textit{if you have  a question regarding X, please press 2}), while sophisticated systems do natural language processing.
+	 
+	 The social variant includes an \textit{analyze environment} building block, which emphasizes the importance of the network's context in social media. The verb \textit{analyze} is again used to state automatism in this step. 
+	 
+	 Asynchronous channels (\ie, mail, social) have a \textit{priorize inquiry} step, that work around the \acrshort{FCFS} processing of inquiries. This step is not seen for synchronous channels, as the customer actively waits for a \acrshort{CSR} to take care of his inquiry. However, as the \textit{select  \acrshort{CSR}} step takes into account several aspects, it is not said that \acrshort{FCFS} applies to synchronous channels. The selection of the  \acrshort{CSR} depends on the requirements of the inquiry (\ie, language and to that point known content of the inquiry). Means to narrow down the variety content-wise is the availability of different contact channel instances. For example, there could be a dedicated mail address for reservations and another one for bookings. The fit of inquiry requirements to agent skills is known as skill-based routing. \acrshort{CSR}s can be clustered in agent groups that are the right contact person for the inquiry, so that additional rerouting is avoided. The last process building block models the actual routing of the inquiry, as now the receiving  \acrshort{CSR} is known. This can be done with an \acrfull{ACD} technology\footnote{Despite its naming, the technology is able to route calls of other channels \citep{ccn2016} } which is able to take available client and agent information into account.
+	 
+	 
+	 \subsubsection{Preprocess Inquiry}
+	 
+	 This detail process, shown in \Fig \ref{fig:inbound:prepr}, begins with a \acrshort{CSR} entering the process, that consumes the available information of the inquiry. This is not possible on the voice channel. There, the agent needs to open the conversation first, followed by the listening to the customer. Then he obtains understanding of the problem and can checks whether the data form the \acrshort{IVR} is correct. The other channels, analogous to the route inquiry detail process, \textit{check analytical results} so that there is consensus of manually read inquiry content and analytically derived aspects.
+	 
+	 In the same way, the social variant includes a manual verification of the environment in the network. As elements can be skipped if not applicable (\ie no analytical system in place to check the environment in the social network), this building block may be interpreted as a first check of the environmental situation. Contextual factors (related posts with the same issue) on the facebook wall for instance may require a different approach towards the inquiry to ensure the appropriate reaction of the company in public.   
+	 
+	 The synchronous channels, \ie, \Fig \ref{fig:inbound:prepr:voice}, \ref{fig:inbound:prepr:dm} show time-logic differences. While the voice channel needs to open the conversation to know about the inquiry, a \acrshort{CSR} in a direct messenger communication is able to do the preprocessing step beforehand and opens the conversation to the customer at the end. 
+	 
+	 \begin{figure}[caption={Preprocess inquiry detail process}, label={fig:inbound:prepr}]
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {read inquiry};
+	 		\node[punktchain, join=by {-}] (zwei) {check analytical results};
+	 		\node[punktchain,  draw=white,text=white] (sechs) {  verify environment};
+	 		
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Mail variant}\label{fig:inbound:prepr:mail}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {read inquiry};
+	 		\node[punktchain, join=by {-}] (zwei) {check analytical results};
+	 		\node[punktchain, join=by {-}, ] (drei) {check environment};
+	 		
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Social variant}\label{fig:inbound:prepr:social}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {open conversation};
+	 		\node[punktchain, join=by {-}] (zwei) {listen to inquiry};
+	 		\node[punktchain, join=by {-}, ] (drei) {check IVR data};
+	 		
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Voice variant}\label{fig:inbound:prepr:voice}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (zwei) {read inquiry};
+	 		\node[punktchain, join=by {-}, ] (drei) {check analytical results};
+	 		\node[punktchain, join=by {-}, ] (vier) {open conversation};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Direct Messenger variant}\label{fig:inbound:prepr:dm}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 
+	 \subsubsection{Classify Inquiry}
+	 
+	 \Fig \ref{fig:inbound:class} shows the four variants for the third detail process of the inbound process. One can see that there is no difference seen between asynchronous (top row) and synchronous (lower row), so it is possible to shrink the representation down to two variants or even one variant, as the \textit{request missing information} building block can be skipped in the icebricks language if not applicable. For the sake of consistency across all detail processes, the four variant split is preserved.
+	 
+	 \begin{figure}[caption={Classify inquiry detail process}, label={fig:inbound:class}]
+	 	
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {combine available information};
+	 		\node[punktchain, join=by {-}] (zwei) {correct analytical mistakes};
+	 		\node[punktchain, join=by {-}] (drei) {classify inquiry};
+	 		
+	 		
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Mail variant}\label{fig:inbound:class:mail}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {combine available information};
+	 		\node[punktchain, join=by {-}] (zwei) {correct analytical mistakes};
+	 		\node[punktchain, join=by {-}] (drei) {classify inquiry};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Social variant}\label{fig:inbound:class:social}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {combine available information};
+	 		\node[punktchain, join=by {-}] (zwei) {correct analytical mistakes};
+	 		\node[punktchain, join=by {-}] (drei) {request missing information};
+	 		\node[punktchain, join=by {-}] (vier) {classify inquiry};
+	 		
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Voice variant}\label{fig:inbound:class:voice}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {combine available information};
+	 		\node[punktchain, join=by {-}] (zwei) {correct analytical mistakes};
+	 		\node[punktchain, join=by {-}] (drei) {request missing information};
+	 		\node[punktchain, join=by {-}] (vier) {classify inquiry};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Direct Messenger variant}\label{fig:inbound:class:dm}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 First, the available information of the inquiry and the analytical support from the two previous detail processes is combined to form one understanding of the inquiry for the \acrshort{CSR}. Next, mistakes of the analytical support are corrected, so that the system gets feedback and may improve in future.
+	 
+	 Third, the \textit{ classify inquiry} building block connects the inquiry (up to here seen as an instantiation of an unknown case) to a class. This class is a known construct in the mind of the \acrfull{CSR} and ideally described in a knowledge base as a case. An example for this split is an inquiry by a customer a, that expresses his wish to swap his ticket of x on day y to day z. The \acrshort{CSR} can classify this inquiry as class \textit{change of booking}. With this link being established, the problem is understood by the  \acrshort{CSR} and inquiry processing can be commenced. 
+	 
+	 Synchronous channels contain a \textit{request additional information} building block, that enables the \acrshort{CSR} to get additional information from the customer needed prior to classification(a booking number is required for a change of booking and not known). This is put before classification, so that a class can have requirements that need to be fulfilled before assignment. By this logic, the \acrshort{CSR} needs to have a guess about the customer's need, so that the right information is requested.  
+	 
+	 This classification of the inquiry, \ie, the mapping of the customers individually expressed needs to a modeled case on company/provider-side is seen as the essential task of the \acrshort{CSR} here. If the case was correctly modeled and identified, in theory its process would be adequately represented by \acrshort{IS} and no human involvement from the customer service side would be necessary. 
+	 
+	 \subsubsection{Process Inquiry}
+	 
+	 The process inquiry detail process is shown in \Fig \ref{fig:inbound:proc}. It represents the addressing of the customer need, that was previously defined and classified. Similarities among all variants are the starting building block \textit{query knowledge base}. This models the \acrshort{CSR}'s lookup of information related to the case at hand, either to give the requested information to the customer or to look up the process to solve the customer's issue.  
+	 
+	 Asynchronous channels, \Fig \ref{fig:inbound:proc:mail}, \ref{fig:inbound:proc:social}, contain a \textit{draft response} building block. Draft is used to enable the possibility of a following review step. Response on the other hand represents the asynchronous property of the communication. The response to the inquiry does not necessarily solve the customer's problem, as no conversation is included that verifies the correct understanding of the problem. Synchronous channels are assumed to solve the inquiry within the bounds of possibility. 
+	 
+	 The models on the right side of \Fig \ref{fig:inbound:proc} both contain a \textit{check-privacy guidelines} and \textit{request channel switch} building block. As direct messengers or social networks are often platforms, operated by other parties that may have a different understanding of data privacy, certain business cases cannot be processed on these channels. Hence, a channel switch becomes necessary and ends the process. 
+	 
+	 The voice channel additionally includes an identification segment, that represents the \acrshort{CSR}s ability to verify the customer's identity during the conversation. This does not represent the identification of the customer to an entry in the \acrshort{CRM} database, but a legally binding statement, that may be required for certain business cases. Video communication is a means to achieve the certainty of identity for the \acrshort{CSR}.
+	 A channel like mail lacks the ability to identify a customer, as everyone with access to the customer's account can send on his behalf. This represents knowledge at the time of writing based on current practice. In future, a legally binding identification over different channels might be possible, for example via social media profile.
+	 
+	 
+	 \begin{figure}[caption={Process inquiry detail process}, label={fig:inbound:proc}]
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {query knowledge base};
+	 		\node[punktchain, join=by {-}] (zwei) {draft response};
+	 		\node[punktchain, text=white,draw=white] (drei) {request missing information};
+	 		\node[punktchain, text=white,draw=white] (vier) {classify inquiry};
+	 		
+	 		
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Mail variant}\label{fig:inbound:proc:mail}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {query knowledge base};
+	 		\node[punktchain, join=by {-}] (zwei) {check privacy guidelines};
+	 		\node[punktchain, join=by {-}] (drei) {request channel switch};
+	 		\node[punktchain, join=by {-}] (vier) {draft response};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Social variant}\label{fig:inbound:proc:social}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {query knowledge base};
+	 		\node[punktchain, join=by {-}] (zwei) {request identification};
+	 		\node[punktchain, join=by {-}] (drei) {identify customer};
+	 		\node[punktchain, join=by {-}] (vier) {solve inquiry};
+	 		
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Voice variant}\label{fig:inbound:proc:voice}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {query knowledge base};
+	 		\node[punktchain, join=by {-}] (zwei) {check privacy guidelines};
+	 		\node[punktchain, join=by {-}] (drei) {request channel switch};
+	 		\node[punktchain, join=by {-}] (vier) {solve inquiry};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Direct Messenger variant}\label{fig:inbound:proc:dm}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 
+	 \subsubsection{Review Inquiry}
+	 \label{inb:review}
+	 Review inquiry is the last detail process within the inbound process. Its four variants can be inspected in \Fig \ref{fig:inbound:revw}. Two meanings of the notion of review in the Oxford Dictionary \citep{oxfordreview} fit to explain the different variants. First, a review is a \enquote{formal assessment of something with the intention of instituting change if necessary}. This definition fits to describe building blocks in asynchronous channels mail and social. A \acrshort{CSR} might need to send a response to a supervisor for checking. The supervisor can change parts or approve it directly (called \textit{finalize} here). In social networks, the environment should be checked again, as it could have changed since compilation of the draft. Also, the submission of the response is called \textit{posting} to emphasize differences of public posting to private \textit{sending} of mails.
+	 
+	 Synchronous channels (\cf \Fig \ref{fig:inbound:revw:voice}, \ref{fig:inbound:revw:dm}) show the same components, that are again not aggregated into one variant for consistency reasons. As they solve the inquiry during the synchronous conversation, no review according to the given definition is possible. However, second meaning of the term review explains the purpose of this step: \enquote{A report on or evaluation of a subject or past events}. 
+	 
+	 This justifies the last two process building blocks of all three variants, namely \textit{update customer data} and \textit{update inquiry}. As the interaction is completed at this point (\viz the response is sent, posted and the synchronous conversation is closed), information from the customer contact is to be stored. On the one hand, the customer contact, seen as a touch point and therefore a transaction, is connected to the customer in the \acrshort{CRM} data base. Additional data that might be revealed during the contact can also be stored to enrich the profile by the \acrshort{CSR}. Furthermore, the inquiry itself can be updated to keep track of the customer's issue if not solved entirely. Ticket systems are a concept to model this matter. The system itself  keeps track of handling times and other measures of the inquiry, so that data for reporting is generated. 
+	 
+	 
+	 \begin{figure}[caption={Review inquiry detail process}, label={fig:inbound:revw}]
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {review response};
+	 		\node[punktchain, join=by {-}] (zwei) {finalize response};
+	 		\node[punktchain, join=by {-}] (drei) {send response};
+	 		\node[punktchain, join=by {-}] (vier) {update customer data};
+	 		\node[punktchain, join=by {-}] (fuenf) {update inquiry};
+	 		\node[punktchain, draw=white,text=white] (sechs) {verify environment};
+	 		
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Mail variant}\label{fig:inbound:revw:mail}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {review response};
+	 		\node[punktchain, join=by {-}] (zwei) {verify environment};
+	 		\node[punktchain, join=by {-}] (drei) {finalize response};
+	 		\node[punktchain, join=by {-}] (vier) {post response};
+	 		\node[punktchain, join=by {-}] (fuenf) {update customer data};
+	 		\node[punktchain, join=by {-}] (sechs) {update inquiry};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Social variant}\label{fig:inbound:revw:social}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {close conversation};
+	 		\node[punktchain, join=by {-}] (zwei) {update customer data};
+	 		\node[punktchain, join=by {-}] (drei) {update inquiry};
+	 		\end{tikzpicture}
+	 		\caption{Voice variant}\label{fig:inbound:revw:voice}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins) {close conversation};
+	 		\node[punktchain, join=by {-}] (zwei) {update customer data};
+	 		\node[punktchain, join=by {-}] (drei) {update inquiry};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Direct Messenger variant}\label{fig:inbound:revw:dm}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 \subsection{Self-Service}
+	 
+	 The third customer interaction process leaves inter-personal service \citep{Thomas2008self} and focuses on ways that enable the customer to be the main value-generating part in the service interaction. This is facilitated by a technological component which can relieve the customer of a varying extent of the problem. The following illustrates this continuum from a customer perspective: Simple self-services, like an \acrshort{FAQ} section offer answers to questions, which the customer has to select from a list. The customer must express the need, map it to the available information, select the appropriate answer and process its content. A more advanced self-service might be able to additionally support the customer by the expression of the need and takes care of the mapping by a textual input, which is a more natural way of communication. The textual is analyzed and algorithmically mapped to the most appropriate solution, which is then presented to the customer, who must consume its content and is hopefully satisfied. It is noted that both solutions address the customer's issue, but sophisticated \acrshort{IT} increases usability by an easier interface to the customer's issue and a computed provision of a solution. This addresses what \citep{Thomas2008self} names a minimal skill set, \viz the an increased usability decreases the minimal skill set that is required for use. 
+	 
+	 From literature \citep{meuter2000self, Thomas2008self, Thomas:2009}, one can identify characteristics of self-services, which need to be considered in a process. As in the model the perspective of the service provider is chosen, the process needs to hold aspects which are seen from a system perspective. The previous example features the differences between a simple and technological enhanced serf-service. In both cases, the system has to provide information, but the simple self-services required the capability to express the need in the language of the service system, while the second allowed the customer to express it more naturally. The system perspective implies that the more active the customer takes the part in the process (\ie the simpler the self-service is), the less parts of the process are carried out by the system. 
+	 
+	 Furthermore, a self-service can be seen as part of a another customer service process. One can think of a self-service as support for a inter-personal contact, when it provides solutions based on customer information. Examples for this are \acrshort{IVR} or generated chat messages based on customer input.
+	 
+	 Unlike inter-personal services, self-services cannot be structured \wrt a communication channel, as they can be part of a service within one or multiple channels, or stand-alone in a web-based setting. A process representation is chosen which models both a supporting self-service for other services and a stand-alone implementation.
+	 
+	 \begin{figure}[caption={Self-Service process}, label={fig:selfservice}]
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\begin{center}
+	 			\includegraphics{figures/processes/selfservice.pdf}
+	 		\end{center}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\begin{center}
+	 			\begin{tikzpicture}
+	 			[node distance=.5cm, start chain=going below,font=\sffamily]
+	 			\node[punktchain, rounded corners = 0pt, join=by {-}] (eins)      {Identify customer needs};
+	 			\node[punktchain,  rounded corners = 0pt,  join=by {-}] (zwei) {Process customer needs};
+	 			\node[punktchain,  rounded corners = 0pt, join=by {-}, ] (drei) {Present solution};
+	 			\node[punktchain, rounded corners = 0pt,  join=by {-}, ] (vier) {Evaluate solution};
+	 			
+	 			\end{tikzpicture}
+	 		\end{center}
+	 	\end{subfigure}
+	 	
+	 \end{figure}
+	 
+	 The process object customer need is chosen over inquiry to express the differences over inbound processing. It is noted that a customer need is an abstract construct that is used to express the customer's intention of use. However, like the inbound process self-service gets input from a customer and tries to solve the issue. But as there is no \acrshort{CSR} directly involved, there is less certainty that the system adequately addresses the \enquote{inquiry}. Due to this lack of a human counterpart on provider side, the technological interface provided by the system to the customer takes an important part in \textit{identifying customer needs}. As the capabilities of this interface vary drastically among different self-service scenarios, customer needs are chosen to emphasize the difference to inbound processing. \textit{Process customer needs} then aims at mapping the identified need to a defined solution in the knowledge base. After creation, \textit{present solution} communicates the findings to the customer. Lastly, \textit{evaluate solution} represents post-processing activities. The process is shown in \Fig \ref{fig:selfservice}.
+	 
+	 The building blocks of the four detail processes are summarized in \Fig \ref{fig:selfservice:detail}, as their is no further split into variants. The following description emphasizes the differences in simple and advanced self-service scenarios. 
+	 
+	 The building blocks of \textit{identfiy customer needs} (\Fig \ref{fig:selfservice:1}) capture external circumstances, that might be processed by the system to have more data available for inferring the customer need. Environmental factors are implicitly collected, \ie the customer does not need to state them. Request information models the input that the customer gives to the system. While the active phrasing might fit to more advanced self-service systems better than to simple \acrshort{FAQ}s, as the latter hardly asks the customer for information, the step applies to the concept of self-services: in order to narrow down the customer needs, relevant information needs to be selected by the customer (in a simple self-service system) or demanded as input for the system (in the advanced case). The verb \textit{infer} is used to describe the stochastic component of the system's attempt to understand the customer need. Again, the selection of a \acrshort{FAQ} entry by the customer might minimize the system's influence, still it conceives the selection as an information input and infers that the customer is \textit{needing} answers in this regard. An increased usability in the technological interface (arbitrary text input instead of a selection of options) also increases uncertainty in need identification, because the system has to select the fitting case by itself. 
+	 
+	 After the customer needs are inferred and hence available in a manner that corresponds to the data available in the knowledge base, the \textit{process customer needs} detail process (\Fig \ref{fig:selfservice:2}) receives  suitable information and creates a solution based on it. The solution represents the appropriate response to the customer's need. This can be the needed information, so that the need is completely addressed. Another option is that the self-service system can identify the need, but solving it requires personal-interaction. This expresses the limitations of service automation. 
+	 
+	 \textit{Present solution} (\Fig \ref{fig:selfservice:3}) conveys the result to the customer. The solution is presented by the system and is an adequate response to the customer's input. The customer's reaction is an important indicator of satisfaction and captured during the presentation. As the identification of a customer is not required for self-service use, these data needs to be stored in relation to the self-service input to further improve customer experience. The last detail process \textit{evaluate solution} (\Fig \ref{fig:selfservice:4}) can include a request for feedback (\enquote{Did this solve your problem?}) and finally all relevant information of the self-service use is stored and hence updates knowledge base. 
+	 
+	 \begin{figure}[caption={Self-service detail processes}, label={fig:selfservice:detail}]
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {analyze environment};
+	 		\node[punktchain, join=by {-}] (zwei)      {request information};
+	 		\node[punktchain, join=by {-}] (eins)      {infer customer needs};
+	 		
+	 		
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Identify customer needs}\label{fig:selfservice:1}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (zwei) {query knowledge base};
+	 		%	\node[punktchain, join=by {-}] (zwei) {integrate subsystem information};
+	 		\node[punktchain, join=by {-}] (drei) {create solution};
+	 		\node[punktchain, draw=white,text=white] (sechs) {verify environment};
+	 		\end{tikzpicture}
+	 		\caption{Process customer needs}\label{fig:selfservice:2}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {present solution};
+	 		\node[punktchain, join=by {-}] (zwei) {process customer reaction};
+	 		\end{tikzpicture}
+	 		\caption{Present solution}\label{fig:selfservice:3}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins) {request feedback};
+	 		\node[punktchain, join=by {-}] (zwei) {update knowledge base};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Evaluate solution}\label{fig:selfservice:4}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 
+	 
+	 
+	 klar definieren was ich unter sst verstehe \citep{Thomas:2009} hält auch online tech support boards, live chat sessions with customer support personal, user forums, etc. drin. also da wo der CSR noch supported. 
+	 starting point \citep{Thomas:2009}.
+	 %When a customer calls into the call center for technical support, it is often with the belief that they are contacting a CSR who is either an expert at solving their problem or at least more knowledgeable about their problem than the caller.
+	 \citep{ccn2016} s.44
+	 
+	 %	To determine the most efficient, effective and mutually acceptable use of technology in service delivery, the customer's perspective needs to be known and understood.  \citep{Walker_2002}
+	 
+	 
+	 \newpage
+	 \newpage
+	 
+	 \subsection{Outbound Service}
+	 
+	 In contrast to inbound interactions that have an inquiry as central object of the process, the outreaching communications do not necessarily target a customer's issue. Its root depends on the purpose of the communication, which can be related to a previous interaction (call-back service in voice) or e-mail marketing (new offers via mail) for instance. Therefore, the general term \textit{contact} is used and defined as \enquote{a meeting, communication, or relationship with someone} \citep{oxfordcontact}. The verb refers to the communication with someone.
+	 
+	 Alike to inbound processing, omni-channel applicability is enabled by having a universal detail process, which has variants for each of the four contact channel categories. It is noted that outbound communication may apply differently across the channel types and dependent on implemented technology. There is the necessity of knowing the identifier of a customer within a contact channel to reach him. This identifier is the phone number in voice, mail address or a social media account. Direct messengers may be designed to enable use without individual sign-up, which excludes the ability to reach the customer. However, using direct messenger platforms such as WhatsApp enables outgoing communications, as work with identifiers. 
+	 
+	 \begin{figure}[caption={Outbound process}, label={fig:outbound}]
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\begin{center}
+	 			\includegraphics{figures/processes/outbound.pdf}
+	 		\end{center}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\begin{center}
+	 			\begin{tikzpicture}
+	 			[node distance=.5cm, start chain=going below,font=\sffamily]
+	 			\node[punktchain,rounded corners=0pt, join=by {-}] (eins)      {Prepare contact};
+	 			\node[punktchain,rounded corners=0pt, join=by {-}] (zwei) {Contact customer};
+	 			\node[punktchain,rounded corners=0pt, join=by {-}, ] (drei) {Evaluate contact};
+	 			\node[punktchain, draw=white ] (vier) { };
+	 			
+	 			\end{tikzpicture}
+	 		\end{center}
+	 	\end{subfigure}
+	 	
+	 \end{figure}
+	 
+	 
+	 
+	 
+	 A fundamental difference the inbound and outbound process is that outbound contact is proactive and needs more initial information to act on, whereas inbound contact is more reactive \citep{DimensionData2015}. \Fig \ref{fig:outbound} shows the detail process, which is composed of three steps. As an analogy to the inbound detail process, the \textit{prepare contact} represents activities that take place prior to the activity that actually addresses the process object (route, preprocess, classify inquiry in the inbound process). The following \textit{contact customer} step expresses the active approach of the customer (contact) from the company side and can mirror the process inquiry step in the inbound process. Lastly, the \textit{evaluate contact} step contains subsequent efforts. Here the wording evaluate is chosen over review to put more focus on an assessment of the contact and less on the intention to change parts if necessary (\cf \ref{inb:review}). Furthermore, the company as contact initiator can perform a review at an earlier stage and does not need to react on a customer. 
+	 
+	 
+	 \subsubsection{Prepare Contact}
+	 
+	 To actively approach a customer, there has to be a trigger or decision that lead to the initiation of the process, which is then assigned to the executing organizational unit, \ie \acrshort{CSR}. The information that captures the intention behind the contact is assumed to be stored in the knowledge base. The first step of this detail process (\Fig \ref{fig:outbound:prep}) is consequently a query to get the \acrshort{CSR} informed, which is consistent over all channel variants. Next, the aforementioned reason for contact is processed by the \acrshort{CSR} to enable the transfer of it towards the upcoming contact of the customer. 
+	 
+	 All channels except voice show three blocks, that also appear in the review inquiry inbound process variant (draft, review, finalize message/post). This early (optional) verification by a supervisor is possible because the communication is started by the company and the purpose is stored in the known reason for contact. Therefore, there is no processing of a customer inquiry necessary on which a response is formulated. Because of this, direct messengers can also have these component, even though it is a synchronous channel. In the voice variant, there is no review. The \acrshort{CSR} is assumed to understand the reason for contact or resolve any issues with it in the \textit{process reason for contact} step, as the scripting of a call is implausible. 
+	 
+	 The case of a proactive post of a company on a customer's social profile might seem less typical on platforms like facebook, but it cannot be foreclosed. In addition, it depends on the social behavior on the network that might change over time and varies across networks.  
+	 
+	 \begin{figure}[caption={Prepare contact detail process}, label={fig:outbound:prep}]
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {query knowledge base};
+	 		\node[punktchain, join=by {-}] (zwei) {process reason for contact};
+	 		\node[punktchain, join=by {-}] (drei) {draft message};
+	 		\node[punktchain, join=by {-}] (vier) {review message};
+	 		\node[punktchain, join=by {-}] (fuenf) {finalize message};
+	 		
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Mail variant}\label{fig:outbound:prep:mail}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {query knowledge base};
+	 		\node[punktchain, join=by {-}] (zwei) {process reason for contact};
+	 		\node[punktchain, join=by {-}] (drei) {draft post};
+	 		\node[punktchain, join=by {-}] (vier) {review post};
+	 		\node[punktchain, join=by {-}] (fuenf) {finalize post};
+	 		\end{tikzpicture}
+	 		\caption{Social variant}\label{fig:outbound:prep:social}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {query knowledge base};
+	 		\node[punktchain, join=by {-}] (zwei) {process reason for contact};
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain, draw=white] (null) { };
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Voice variant}\label{fig:outbound:prep:voice}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins) {query knowledge base};
+	 		\node[punktchain, join=by {-}] (zwei) {process reason for contact};
+	 		\node[punktchain, join=by {-}] (drei) {draft message};
+	 		\node[punktchain, join=by {-}] (vier) {review message};
+	 		\node[punktchain, join=by {-}] (fuenf) {finalize message};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Direct Messenger variant}\label{fig:outbound:prep:dm}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 
+	 \subsubsection{Contact Customer}
+	 
+	 The second step of the outbound process models the approach of the client (\Fig \ref{fig:outbound:con}) . The use of contact as a verb expresses that the customer is on the receiving end. (A)synchronous channels show a similar structure, respectively. As the message or post is already prepared, the select of the sending account and the actual transmission\footnote{Theoretically, the second block in the social variant should be named \textit{post post}. Considering writing style, the object is kept and the verb changed to send. } is left. As previously justified, the variant in social media includes a verification step of the network environment. 
+	 
+	 Synchronous communication establishes a \textit{conversation} with the customer on which is responded in a timely manner. It is noted that in contrast to the voice channel, a direct message does not require the customer to respond directly to the \acrshort{CSR}s message. With this open connection, the  \acrshort{CSR} is able to \textit{communicate} the \textit{reason of contact} to the customer. 
+	 
+	 As the contact is initiated by the company, the customer might not understand the reason for contact properly. In this case of synchronous communication, it is possible for the \acrshort{CSR} to\textit{ solve complications} on the spot. The last block of the detail contact customer detail process encompasses the \textit{solving of }further \textit{questions}. Reason for this is that in the outbound case, there is object encapsulating the customer's need (as it is the inquiry in the inbound process). Ergo, the customer can have additional unresolved questions which can, but not necessarily have to, relate to the reason of contact. In analogy to the \textit{solve inquiry} block in inbound processing, the verb solve is again used to emphasize the activity of the  \acrshort{CSR}. 
+	 
+	 
+	 \begin{figure}[caption={Contact customer detail process}, label={fig:outbound:con}]
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {select account};
+	 		\node[punktchain, join=by {-}] (zwei) {send message};
+	 		\node[punktchain, draw=white] (null) { };
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Mail variant}\label{fig:outbound:con:mail}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {select account};
+	 		\node[punktchain, join=by {-}] (zwei) {verify environment};
+	 		\node[punktchain, join=by {-}] (drei) {send post};
+	 		\end{tikzpicture}
+	 		\caption{Social variant}\label{fig:outbound:con:social}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {open conversation};
+	 		\node[punktchain, join=by {-}] (zwei) {communicate reason for contact};
+	 		\node[punktchain, join=by {-}] (drei) {solve complications};
+	 		\node[punktchain, join=by {-}] (vier) {solve further questions};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Voice variant}\label{fig:outbound:con:voice}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {open conversation};
+	 		\node[punktchain, join=by {-}] (zwei) {communicate reason for contact};
+	 		\node[punktchain, join=by {-}] (drei) {solve complications};
+	 		\node[punktchain, join=by {-}] (vier) {solve further questions};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Direct Messenger variant}\label{fig:outbound:con:dm}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 
+	 
+	 \subsubsection{Evaluate Contact}
+	 
+	 This detail process step (\Fig \ref{fig:outbound:eval}) closes the synchronous conversation and represents closing activities that are related to the contact. Synchronous channels close the conversation at the beginning, while asynchronous channels are completed with posting or sending. Mirrored from the inbound process, the process building blocks \textit{update customer data} and \textit{update contact} draw a line to the review inquiry process. Here, the inquiry object is replaced by the contact object. 
+	 
+	 \begin{figure}[caption={Evaluate contact detail process}, label={fig:outbound:eval}]
+	 	
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {update customer data};
+	 		\node[punktchain, join=by {-}] (zwei) {update contact};
+	 		\end{tikzpicture}
+	 		
+	 		\caption{Mail variant}\label{fig:outbound:eval:mail}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		
+	 		\node[punktchain, join=by {-}] (eins)      {update customer data};
+	 		\node[punktchain, join=by {-}] (zwei) {update contact};
+	 		\end{tikzpicture}
+	 		\caption{Social variant}\label{fig:outbound:eval:social}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {close conversation};
+	 		\node[punktchain, join=by {-}] (zwei) {update customer data};
+	 		\node[punktchain, join=by {-}] (drei) {update contact};
+	 		
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Voice variant}\label{fig:outbound:eval:voice}
+	 	\end{subfigure}
+	 	\begin{subfigure}[b]{.45\textwidth}
+	 		\centering	
+	 		\begin{tikzpicture}
+	 		[node distance=.5cm,
+	 		start chain=going below,font=\sffamily]
+	 		\node[punktchain, draw=white] (null) { };
+	 		\node[punktchain] (eins)      {close conversation};
+	 		\node[punktchain, join=by {-}] (zwei) {update customer data};
+	 		\node[punktchain, join=by {-}] (drei) {update contact};
+	 		
+	 		\end{tikzpicture}
+	 		\caption{Direct Messenger variant}\label{fig:outbound:eval:dm}
+	 	\end{subfigure}
+	 \end{figure}
+	 
+	 
+	 
+	 
+	 \subsection{Knowledge Management}
+	 
+
+Knowledge management is a widely used term across different fields of academic research. \cite{girard2015defining} compile over 100 definitions and analyze their content. They propose to define it as \enquote{the process of creating, sharing, using and managing the knowledge and information of an organization\footnote{Organization refers to a client business in this case.}.} \citep[\p{14}]{girard2015defining} based on the most frequent words. It is noted that this definition can be criticized as too general, but it is chosen because it takes a process view and fits to the position in the framework: The interpretation as part of the customer-facing processes emphasizes the role of knowledge management in operative business. Hence, this view of knowledge management limits its boundaries to a certain client business. Knowledge management for the provider organization is seen as an important aspect, yet it encompasses various areas which are separated into distinct management processes. Therefore it is desisted from the creation of a global knowledge management process. The importance of knowledge management in operative business is stressed by its third rank regarding upcoming investments in contact centers \citep{ccnet2016}. 
+
+Building on the previously proposed \acrshort{ERM} for customer-facing services (\ref{fig:contacterm}), a transaction, customer and case are entities that stand in relation to the customer contact. The latter represents the business object of the three services that form the interface to the customer. In these processes, the remaining transaction, customer and case entity become an integral component and shall be modeled as three variants of the main process. 
+
+\acrshort{CSR}s need a source of information so that they can adequately perform the mapping of customer inquiries to organizational knowledge. When the cancellation of contract is requested by a customer, the \acrshort{CSR} can look up whether a case exists that contains the knowledge to satisfy the customer, \viz instructions for performing the cancellation in relevant systems. In a self-service scenario, the knowledge base is largely defining the capabilities of the service. 
+
+Transactions capture events and are always connected to a customer. They relate to a product or a touch point and have a hierarchy: a purchase can be the result of a previous touch point (informing about its features for instance). This information is critical to uncover a customer journey and the more transactions are known, the better the \acrshort{CSR}'s understanding of the customer is. 
+
+The customer as the focal point in \acrshort{CRM} and may or may not be known during a contact. When an identification can be performed, the knowledge base provides information regarding master data and transactions assigned to the entity. In order to achieve an omni-channel \acrshort{CRM} experience, the existence of a knowledge base about customers is critical for providing personalized services. 
+
+Myriad frameworks try to distillate  the essence of knowledge management.  \cite{Rubenstein_Montano_2001} have examined various proposals and compared their similarities. Drawing on their analysis, activities in these frameworks serve as basis for the assessment of their applicability in the reference model. The omission of strategic frameworks narrows down the list. Frameworks that do not contain a procedural description are also excluded from further consideration. As several of the remaining frameworks show rather abstract and philosophical characteristics, the ones showing activities that can be understood from an \acrshort{IS} implementation perspective are selected. After evaluating the remaining four frameworks (\cf \ref{app:knowmang}), \citep{van_Heijst_1997} is chosen as a basis.
+
+\citeauthor{van_Heijst_1997} list knowledge (1) development, (2) combination, (3) consolidation and (4) distribution as basic processes. They refer to the knowledge cycle in \citep{Wiig_1997}, where these are constituents of the \textit{act}-phases\footnote{The cycle contains four phases in total: conceptualize, reflect, act, review}. This placement fits well into the operative interpretation of knowledge management with the framework. 
+
+Development is seen here as the acquisition of new knowledge  \citep{van_Heijst_1997} and the maintenance of the knowledge base. Combination uses the connection of different knowledge sources as a lever, which especially can gets important in the field of omni-channel \acrshort{CRM}. Consolidating signifies the processing of knowledge data so that it is available and usable. This relates one to one hand to analytical activities so that decisions can be based on aggregated data or \acrfull{KPI}s that provide decision-support. On the other hand, indexing and structuring of knowledge is necessary to facilitate fast access. This is important in manual access through \acrshort{CSR}s, as well as in the case of a self-service technology. Lastly, the distribution of knowledge describes the provision of knowledge to the organization. As the customer-facing processes show \textit{query knowledge base} as the active part of requesting, its counterpart is seen in this last process of knowledge management. 
+
+In order to fit the three variants (case-related, customer-related, transaction-related) to these steps, the verbs \textit{maintain}, \textit{consolidate}, \textit{combine} and \textit{provide} are to represent the four processes of knowledge management. The object in the main process variants corresponds to the information that stands in center of the variant, which reasons the split so that distinct process building blocks can be added. For this thesis, only the textual description of the processes shall represent their content. There is no explicit modeling of the lowest layer of the framework. 
+
+\begin{figure}[caption={Knowlege Management main process variants}, label={fig:knowledge}]
+	\begin{subfigure}[b]{.6\textwidth}
+		\begin{center}
+			\includegraphics{figures/processes/knowledgemanagement.pdf}
+		\end{center}
+	\end{subfigure}
+
+	\begin{subfigure}[b]{.32\textwidth}
+		\begin{center}
+			\begin{tikzpicture}
+			[node distance=.5cm, minimum height=4.5em, start chain=going below,font=\sffamily]
+			\node[punktchain, rounded corners=0pt , minimum height=2.8em,join=by {-}] (eins)      {Maintain case master data};
+			\node[punktchain,rounded corners=0pt, minimum height=2.8em,  join=by {-}] (zwei) {Consolidate case data };
+			\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (drei) {Combine case data};
+			\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (vier) {Provide case data };
+
+			\end{tikzpicture}
+			\caption{Case-related variant}\label{fig:knowmang:case}
+		\end{center}
+	\end{subfigure}
+\begin{subfigure}[b]{.32\textwidth}
+	\begin{center}
+		\begin{tikzpicture}
+		[node distance=.5cm, start chain=going below,font=\sffamily]
+		\node[punktchain, rounded corners=0pt, minimum height=2.8em,join=by {-}] (eins)      {Maintain customer master data};
+		\node[punktchain,rounded corners=0pt,  
+		minimum height=2.8em,join=by {-}] (zwei) {Consolidate customer data};
+		\node[punktchain, rounded corners=0pt,  
+		 minimum height=2.8em,join=by {-}, ] (drei) {Combine customer data};
+		\node[punktchain, minimum height=2.8em, rounded corners=0pt, join=by {-}, ] (vier) {Provide customer data};
+	
+		\end{tikzpicture}
+				\caption{Customer-related variant}\label{fig:knowmang:cust}
+	\end{center}
+\end{subfigure}
+\begin{subfigure}[b]{.32\textwidth}
+	\begin{center}
+		\begin{tikzpicture}
+		[node distance=.5cm, start chain=going below,font=\sffamily]
+		\node[punktchain, rounded corners=0pt,minimum height=2.8em ,join=by {-}] (eins)      {Maintain transaction data};
+		\node[punktchain,rounded corners=0pt, minimum height=2.8em , join=by {-}] (zwei) {Consolidate transaction data};
+		\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (drei) {Combine transaction data};
+		\node[punktchain, rounded corners=0pt , minimum height=2.8em,join=by {-}, ] (vier) {Provide transaction data};
+		
+		\end{tikzpicture}
+				\caption{Transaction-related variant}\label{fig:knowmang:trans}
+	\end{center}
+\end{subfigure}
+	
+\end{figure}
+	 
 	%%%%%%%%%%
 	\section{Management Processes}
 	%%%%%%%%%%
@@ -186,821 +1032,32 @@ A framework's purpose is to manage complexity by displaying relevant elements. I
 	%%%%%%%%%%
 	%%%%%%%%%%
 	\section{Client Processes}
-	%%%%%%%%%%
-	%%%%%%%%%%
-	\subsection{Sales}
-	gross 154 rfi rfp
-	b2b sales process als grundlage
 	
-	%birgit1, docs
-	\subsection{Solution Design}
-	%wollenberg, hybride leistungsbündel .. vielleicht oben noch rein 
+	With respect to the other two process groups of the framework, the client  processes show the smallest domain specificity, as the outsourcing process and the agreement between provider and client stands in focus. \acrshort{CRM} encloses the services themselves, but it does not impact the B2B-relationship that forms around provider and client in order to establish the service transition. 
+	
+	The outsourcing process is described in different frameworks in literature. \citep{perunovic2007outsourcing} investigate in outsourcing theories that cover the process as a whole and synthesize a five step process. It occurs that the greater part of frameworks takes the perspective of the outsourcing client, so that processes like \textit{vendor selection} or the alike are often part of frameworks. \citep{Agarwal_2008} presents a rather neutral framework that is not fit on the role of the client and names activities that are driven by client and provider. \citep{deloittehandbook}, an advisory in the domain, provides a comprehensive handbook for clients that is build around a six step process. 
+	
+	As the provider's perspective is taken in this thesis, the presented frameworks need to examined in terms of their applicability. Activities prior to signing of an outsourcing contract are either driven by internal analysis in the client organization whether outsourcing is a beneficial means or an external analysis of the available providers (vendors) on the market \citep{Franceschini_2003}. It is common practice to issue a \acrfull{RFP} to considered providers that mark the engagement of a relationship between the provider and the client. The following B2B-sales process ends with a signed contract between both parties that is followed by the service realization. This is chosen to be modeled in one sales process (\cf \Fig \ref{fig:outsourcingprocess}), as the split into multiple components is motivated by (client)-internal steps prior to the approach of potential vendors. Provider can engage in activities that may invoke the submission of a \acrshort{RFP} in the first place, but this pro-active sales approach can be seen as an optional part at the beginning of the sales process.
+	
+	The realization of the outsourcing agreement can be split into two streams, as seen in \citep{Agarwal_2008}. On the hand there is the creation of the provider's solution that addresses the client's problem. On the other hand, the client needs to pass over the existing in-house business to the provider in order to realize the outsourcing. These two aspects are separated into two processes, Solution Design and Transition. The former ends with the implementation of the service for the client, while the latter is completed with the takeover. The interdependency of these two is visualized by their parallel arrangement. 
+	
+	The last part of the examined outsourcing frameworks characterizes activities that take place after the outsourcing is in place. From a provider perspective, this can be described as (client) relationship management. However, this wording would lead to confusion, as the purpose of the outsourcing (\viz \acrshort{CRM}) is not explicitly named on the framework. Due to this the related notion of account management is chosen to represent this process, which emphasizes the B2B-aspect. 
+	
+	
+	Each of the stages has to provide an answer on various questions, thus emphasising the complexity of the outsourcing process and arguing for a need that it has to be managed carefully throughout all of its life cycle \citep{perunovic2007outsourcing}
+	\\
+		
+	
+	\begin{figure}[caption={Outsourcing process framework comparison}, label={fig:outsourcingprocesses}]
+		{	\includegraphics[width=.95\textwidth]{figures/outsourcingprocs.pdf}}
+	\end{figure} 
+	
+	
+	\subsection{Sales}
+	The contract development step, as in Figure 2, is the formalization of the relationship between outsourced and the outsourcer. \citep{Franceschini_2003}
 	
 	\subsection{Implementation}
-	gross 160, projektmanagement
 	
-	%birgit2, docs, software einführung
+	\subsection{Solution Design}
+	Deloitte: differentiate between service definition (\ie requirements) and service solution (how provider meets the requirements)
 	\subsection{Account Management}
-	%wiebel, docs, lit
-	gross 160, account management process
-	%%%%%%%%%%
-	%%%%%%%%%%
-	\section{Customer Processes}
-	\todo{service delivery taxonomy from fitzsimmons}
-	
-	This section describes the Inbound, Outbound, Self-Service and Knowledge Management process. They describe the processing of transactions in the outsourcing contract and are driven by the target domain (\acrshort{CRM}). 
-	
-	There are several constructs by means of data, that encompass all means of contact to the outsourcing provider. First, every contact involves a customer that is asking for something or more generally put has a lack of information that should be addressed. This lack is possibly related to a product\footnote{Product here encompasses everything that is provided by the client to the market, \ie, services as well.} of the client (be it an actual purchase or solely the consideration), which is denoted as a transaction. Transactions also cover touch points like past customer service contacts or other events between the customer and the company. Together, these product-related and touch point-related transactions are determinants for forming a complete view of the customer. Transactions have a hierarchy, so that one transaction may have to a superior transaction. 
-	
-	Here, it is assumed that every transaction is related to a customer. Even if it is a new customer, the act of contacting implies a previous touch point with the company. It is noted that this transaction might be not known to the company. A customer can have multiple transactions. The contact happens as an inbound (customer contacts company), outbound (company contacts customer) or self-service (customer reaches company with no involvement of a \acrshort{CSR} ). 
-	
-	Knowledge bases accessible by the outsourcing provider contain knowledge that is able to address the customer's issue that is reason for contact. As these issues are classifiable, structuring them leads to business cases that describe the solution to a known customer problem. Examples can the cancellation of a booking, the termination of a contract or change of address. This listing reveals that business cases are very dependent on the business of the client and hence are not a valid criterion for structuring customer contacts in a reference model. Not every customer contact needs to relate to a case. The \acrshort{ERM} in \Fig \ref{fig:contacterm} shows the described circumstances around the contact. It also reasons the structuring of the knowledge management process. 
-	
-	\begin{figure}[caption={Framework}, label={fig:contacterm}]
-		{	\includegraphics[width=.8\textwidth]{figures/contacterm.pdf}}
-	\end{figure} 
-
-	
-	This analysis is necessary due to the complex and highly variable processes in Customer Service. Process Identification for Customer Service in the field of the After Sales Service as a Basis for “Lean After Sales Service”
-	im hippner buch it automation chapter für self service!
-	%%%%%%%%%%
-	Self Service: Servitization paper 1988!
-	
-	hippner:692 muss nicht nur inbound sein, outbound geht auch
-	
-	\subsection{Inbound}
-	The associated object to this process in the \textit{inquiry}\footnote{inquiry is American English; enquiry is British English.}. It is preferred over \textit{request} as it emphasizes an investigation in an issue over the politeness during asking. It is defined as an act of asking for information \citep{oxfordenquiry, oxfordrequest}. In this case, it is the customer who is lacking information in some regard and contacts the company. A \acrshort{CSR} of the outsourcing provider attends to the matter. 
-	
-	Reflections on the structure of the process become especially important in case of an omni-channel environment. There are multiple contact channels, asynchronous and synchronous communication and generic reasons that lead to the inquiry. Rationale behind omni-channel process modeling must be to keep the structure channel independent as long as possible to enable alignment. To capture the peculiarities of the channels, the concept of variants is used on the lowest level to distinguish between mail, voice, direct messenger and social channels. Reasons for this split is that other discussed channels (Video, Website, App) can be included in others by means of a process view (video to voice) or are not a contact channel by means of inbound customer service. The website and app are gateways to other channels (direct messenger) or to self-service, but do not offer direct engagement with a \acrshort{CSR}. Variants can be added, so that other channels can be easily added to the model. While there are similarities between (a)synchronous channels, using these as variants forecloses capturing of channel idiosyncrasies, because the underlying process building blocks would be the same for a variant. 
-	
-	The detail processes are structured so that their steps apply to all channels. This structuring was found to be applicable among the participants in the process modeling workshop and is shown in \Fig \ref{fig:inbproc}. First, the detail processes are described without going into details of their channel-variants. 
-	
-\begin{figure}[caption={Inbound process}, label={fig:inbproc}]
-		\begin{subfigure}[b]{.45\textwidth}
-			\begin{center}
-			\includegraphics{figures/inbound.pdf}
-			\end{center}
-		\end{subfigure}
-		\begin{subfigure}[b]{.45\textwidth}
-				\begin{center}
-				\begin{tikzpicture}
-				[node distance=.5cm, start chain=going below,]
-				\node[punktchain, join=by {-}] (eins)      {Route inquiry};
-				\node[punktchain, join=by {-}] (zwei) {Preprocess inquiry};
-				\node[punktchain, join=by {-}, ] (drei) {Classify inquiry};
-				\node[punktchain, join=by {-}, ] (vier) {Process inquiry};
-				\node[punktchain, join=by {-}, ] (fuenf) {Review inquiry};
-				\end{tikzpicture}
-			\end{center}
-		\end{subfigure}
-
-\end{figure}
-
-First, an inbound inquiry reaches is initiated by a customer and the connection with the receiving end is established. Before an interaction starts, the inquiry needs to be guided to a \acrshort{CSR}, which is known as routing in telecommunications. During this \textit{routing} process, information from the caller is processed, so that part of his needs can be inferred before the employee starts the conversation and time (and money) is consumed. On the other hand, time that the customer spends in the system before the conversation is not consuming scarce resources from the provider, so the pre-extraction of information usable to address his problem is desirable. At the end of routing, a \acrshort{CSR} is found that starts the conversation with the customer. In the \textit{preprocessing} step, the \acrshort{CSR} takes on the inquiry and consumes the information that is available from the routing, as well as transmitted by the customer. After this familiarization the \acrshort{CSR} can \textit{classify} the \textit{inquiry}, so that he knows how to map the individual inquiry of the customer to a case (if existent). The \textit{process inquiry} detail process engages the inquiry and ideally solves the problem. The last step involves a \textit{review} and closes the interaction. It updates data related to the communication and stores it in the knowledge base. As every detail process in \Fig \ref{fig:inbproc} has four variants, these are shown one by one in the following. 
-
-\subsubsection{Route Inquiry}
-
-Going into the specifics of the route inquiry detail process, \Fig \ref{fig:inbound:route} shows the four variants comprised of process building blocks. One can observe similarities 
-across all variants, that especially in the beginning and end. During this step, no \acrshort{CSR} is actively involved.
-\\
-
-\begin{figure}[caption={Route inquiry detail process}, label={fig:inbound:route}]
-	
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {determine language};
-		\node[punktchain, join=by {-}] (zwei) {analyze inquiry};
-		\node[punktchain, join=by {-}, ] (drei) {priorize inquiry};
-		\node[punktchain, join=by {-}, ] (vier) {select CSR};
-		\node[punktchain, join=by {-}, ] (fuenf) {route inquiry};
-		\node[punktchain, draw=white] (sechs) { };
-		
-		\end{tikzpicture}
-		
-		\caption{Mail variant}\label{fig:inbound:route:mail}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {determine language};
-		\node[punktchain, join=by {-}] (zwei) {analyze inquiry};
-		\node[punktchain, join=by {-}, ] (drei) {analyze environment};
-		\node[punktchain, join=by {-}, ] (vier) {priorize inquiry};
-		\node[punktchain, join=by {-}, ] (fuenf) {select CSR};
-		\node[punktchain, join=by {-}, ] (sechs) {route inquiry};
-		
-		\end{tikzpicture}
-		\caption{Social variant}\label{fig:inbound:route:social}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {determine language};
-		\node[punktchain, join=by {-}] (zwei) {collect IVR data};
-		\node[punktchain, join=by {-}, ] (drei) {select CSR};
-		\node[punktchain, join=by {-}, ] (vier) {route inquiry};
-		
-		\end{tikzpicture}
-		\caption{Voice variant}\label{fig:inbound:route:voice}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {determine language};
-		\node[punktchain, join=by {-}] (zwei) {analzye inquiry};
-		\node[punktchain, join=by {-}, ] (drei) {select CSR};
-		\node[punktchain, join=by {-}, ] (vier) {route inquiry};
-		
-		\end{tikzpicture}
-		\caption{Direct Messenger variant}\label{fig:inbound:route:dm}
-	\end{subfigure}
-\end{figure}
-
-A common Language is a requirement for communication and needs to be known to understand the content of the inquiry. While this is required across channels, differences arise in the following step: All variants except voice can analyze the inquiry. This analysis uses available information from the inquiry, \ie its content or channel-specific data to identify the customer and infer the customer's need. In voice the inquiry itself is not existent at this point, as the customer has not expressed it verbally. However, \acrfull{IVR} technology helps to extract information from the customer without active involvement of a \acrshort{CSR} and is a typical technology in contact centers \citep{Thomas:2009}. The distinction between voice and the other variants is reasoned by the fact that the other inquiries are text-based and therefore analyzable by common means, which is not the case for voice. As \acrshort{IVR} is a standard in customer service, the naming of a explicit technology does not create conflicts in terms of universal applicability. The amount of information processed by it varies. Simple systems might just record input from the customer typed in via the phone keypad(\textit{if you have  a question regarding X, please press 2}), while sophisticated systems do natural language processing.
-
-The social variant includes an \textit{analyze environment} building block, which emphasizes the importance of the network's context in social media. The verb \textit{analyze} is again used to state automatism in this step. 
-
-Asynchronous channels (\ie, mail, social) have a \textit{priorize inquiry} step, that work around the \acrshort{FCFS} processing of inquiries. This step is not seen for synchronous channels, as the customer actively waits for a \acrshort{CSR} to take care of his inquiry. However, as the \textit{select  \acrshort{CSR}} step takes into account several aspects, it is not said that \acrshort{FCFS} applies to synchronous channels. The selection of the  \acrshort{CSR} depends on the requirements of the inquiry (\ie, language and to that point known content of the inquiry). Means to narrow down the variety content-wise is the availability of different contact channel instances. For example, there could be a dedicated mail address for reservations and another one for bookings. The fit of inquiry requirements to agent skills is known as skill-based routing. \acrshort{CSR}s can be clustered in agent groups that are the right contact person for the inquiry, so that additional rerouting is avoided. The last process building block models the actual routing of the inquiry, as now the receiving  \acrshort{CSR} is known. This can be done with an \acrfull{ACD} technology\footnote{Despite its naming, the technology is able to route calls of other channels \citep{ccn2016} } which is able to take available client and agent information into account.
-
-
-\subsubsection{Preprocess Inquiry}
-
-This detail process, shown in \Fig \ref{fig:inbound:prepr}, begins with a \acrshort{CSR} entering the process, that consumes the available information of the inquiry. This is not possible on the voice channel. There, the agent needs to open the conversation first, followed by the listening to the customer. Then he obtains understanding of the problem and can checks whether the data form the \acrshort{IVR} is correct. The other channels, analogous to the route inquiry detail process, \textit{check analytical results} so that there is consensus of manually read inquiry content and analytically derived aspects.
-
-In the same way, the social variant includes a manual verification of the environment in the network. As elements can be skipped if not applicable (\ie no analytical system in place to check the environment in the social network), this building block may be interpreted as a first check of the environmental situation. Contextual factors (related posts with the same issue) on the facebook wall for instance may require a different approach towards the inquiry to ensure the appropriate reaction of the company in public.   
-
-The synchronous channels, \ie, \Fig \ref{fig:inbound:prepr:voice}, \ref{fig:inbound:prepr:dm} show time-logic differences. While the voice channel needs to open the conversation to know about the inquiry, a \acrshort{CSR} in a direct messenger communication is able to do the preprocessing step beforehand and opens the conversation to the customer at the end. 
-
-\begin{figure}[caption={Preprocess inquiry detail process}, label={fig:inbound:prepr}]
-	
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {read inquiry};
-		\node[punktchain, join=by {-}] (zwei) {check analytical results};
-		\node[punktchain,  draw=white,text=white] (sechs) {  verify environment};
-		
-		\end{tikzpicture}
-		
-		\caption{Mail variant}\label{fig:inbound:prepr:mail}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {read inquiry};
-		\node[punktchain, join=by {-}] (zwei) {check analytical results};
-		\node[punktchain, join=by {-}, ] (drei) {check environment};
-	
-		
-		\end{tikzpicture}
-		\caption{Social variant}\label{fig:inbound:prepr:social}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {open conversation};
-		\node[punktchain, join=by {-}] (zwei) {listen to inquiry};
-		\node[punktchain, join=by {-}, ] (drei) {check IVR data};
-
-		
-		\end{tikzpicture}
-		\caption{Voice variant}\label{fig:inbound:prepr:voice}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (zwei) {read inquiry};
-		\node[punktchain, join=by {-}, ] (drei) {check analytical results};
-		\node[punktchain, join=by {-}, ] (vier) {open conversation};
-		
-		\end{tikzpicture}
-		\caption{Direct Messenger variant}\label{fig:inbound:prepr:dm}
-	\end{subfigure}
-\end{figure}
-
-
-\subsubsection{Classify Inquiry}
-
-\Fig \ref{fig:inbound:class} shows the four variants for the third detail process of the inbound process. One can see that there is no difference seen between asynchronous (top row) and synchronous (lower row), so it is possible to shrink the representation down to two variants or even one variant, as the \textit{request missing information} building block can be skipped in the icebricks language if not applicable. For the sake of consistency across all detail processes, the four variant split is preserved.
-
-\begin{figure}[caption={Classify inquiry detail process}, label={fig:inbound:class}]
-	
-	
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {combine available information};
-		\node[punktchain, join=by {-}] (zwei) {correct analytical mistakes};
-		\node[punktchain, join=by {-}] (drei) {classify inquiry};
-		
-		
-		\end{tikzpicture}
-		
-		\caption{Mail variant}\label{fig:inbound:class:mail}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {combine available information};
-		\node[punktchain, join=by {-}] (zwei) {correct analytical mistakes};
-		\node[punktchain, join=by {-}] (drei) {classify inquiry};
-		
-		\end{tikzpicture}
-		\caption{Social variant}\label{fig:inbound:class:social}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-			\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {combine available information};
-		\node[punktchain, join=by {-}] (zwei) {correct analytical mistakes};
-		\node[punktchain, join=by {-}] (drei) {request missing information};
-		\node[punktchain, join=by {-}] (vier) {classify inquiry};
-		
-		
-		\end{tikzpicture}
-		\caption{Voice variant}\label{fig:inbound:class:voice}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-			\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {combine available information};
-		\node[punktchain, join=by {-}] (zwei) {correct analytical mistakes};
-		\node[punktchain, join=by {-}] (drei) {request missing information};
-		\node[punktchain, join=by {-}] (vier) {classify inquiry};
-		
-		\end{tikzpicture}
-		\caption{Direct Messenger variant}\label{fig:inbound:class:dm}
-	\end{subfigure}
-\end{figure}
-
-First, the available information of the inquiry and the analytical support from the two previous detail processes is combined to form one understanding of the inquiry for the \acrshort{CSR}. Next, mistakes of the analytical support are corrected, so that the system gets feedback and may improve in future.
-
-Third, the \textit{ classify inquiry} building block connects the inquiry (up to here seen as an instantiation of an unknown case) to a class. This class is a known construct in the mind of the \acrfull{CSR} and ideally described in a knowledge base as a case. An example for this split is an inquiry by a customer a, that expresses his wish to swap his ticket of x on day y to day z. The \acrshort{CSR} can classify this inquiry as class \textit{change of booking}. With this link being established, the problem is understood by the  \acrshort{CSR} and inquiry processing can be commenced. 
-
-Synchronous channels contain a \textit{request additional information} building block, that enables the \acrshort{CSR} to get additional information from the customer needed prior to classification(a booking number is required for a change of booking and not known). This is put before classification, so that a class can have requirements that need to be fulfilled before assignment. By this logic, the \acrshort{CSR} needs to have a guess about the customer's need, so that the right information is requested.  
-
-This classification of the inquiry, \ie, the mapping of the customers individually expressed needs to a modeled case on company/provider-side is seen as the essential task of the \acrshort{CSR} here. If the case was correctly modeled and identified, in theory its process would be adequately represented by \acrshort{IS} and no human involvement from the customer service side would be necessary. 
-
-\subsubsection{Process Inquiry}
-
-The process inquiry detail process is shown in \Fig \ref{fig:inbound:proc}. It represents the addressing of the customer need, that was previously defined and classified. Similarities among all variants are the starting building block \textit{query knowledge base}. This models the \acrshort{CSR}'s lookup of information related to the case at hand, either to give the requested information to the customer or to look up the process to solve the customer's issue.  
-
-Asynchronous channels, \Fig \ref{fig:inbound:proc:mail}, \ref{fig:inbound:proc:social}, contain a \textit{draft response} building block. Draft is used to enable the possibility of a following review step. Response on the other hand represents the asynchronous property of the communication. The response to the inquiry does not necessarily solve the customer's problem, as no conversation is included that verifies the correct understanding of the problem. Synchronous channels are assumed to solve the inquiry within the bounds of possibility. 
-
-The models on the right side of \Fig \ref{fig:inbound:proc} both contain a \textit{check-privacy guidelines} and \textit{request channel switch} building block. As direct messengers or social networks are often platforms, operated by other parties that may have a different understanding of data privacy, certain business cases cannot be processed on these channels. Hence, a channel switch becomes necessary and ends the process. 
-
-The voice channel additionally includes an identification segment, that represents the \acrshort{CSR}s ability to verify the customer's identity during the conversation. This does not represent the identification of the customer to an entry in the \acrshort{CRM} database, but a legally binding statement, that may be required for certain business cases. Video communication is a means to achieve the certainty of identity for the \acrshort{CSR}.
- A channel like mail lacks the ability to identify a customer, as everyone with access to the customer's account can send on his behalf. This represents knowledge at the time of writing based on current practice. In future, a legally binding identification over different channels might be possible, for example via social media profile.
-
- 
-\begin{figure}[caption={Process inquiry detail process}, label={fig:inbound:proc}]
-	
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {query knowledge base};
-\node[punktchain, join=by {-}] (zwei) {draft response};
-\node[punktchain, text=white,draw=white] (drei) {request missing information};
-\node[punktchain, text=white,draw=white] (vier) {classify inquiry};
-
-		
-		\end{tikzpicture}
-		
-		\caption{Mail variant}\label{fig:inbound:proc:mail}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {query knowledge base};
-\node[punktchain, join=by {-}] (zwei) {check privacy guidelines};
-\node[punktchain, join=by {-}] (drei) {request channel switch};
-\node[punktchain, join=by {-}] (vier) {draft response};
-
-		\end{tikzpicture}
-		\caption{Social variant}\label{fig:inbound:proc:social}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-			\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {query knowledge base};
-		\node[punktchain, join=by {-}] (zwei) {request identification};
-		\node[punktchain, join=by {-}] (drei) {identify customer};
-		\node[punktchain, join=by {-}] (vier) {solve inquiry};
-		
-		
-		\end{tikzpicture}
-		\caption{Voice variant}\label{fig:inbound:proc:voice}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-			\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {query knowledge base};
-		\node[punktchain, join=by {-}] (zwei) {check privacy guidelines};
-		\node[punktchain, join=by {-}] (drei) {request channel switch};
-		\node[punktchain, join=by {-}] (vier) {solve inquiry};
-		
-		\end{tikzpicture}
-		\caption{Direct Messenger variant}\label{fig:inbound:proc:dm}
-	\end{subfigure}
-\end{figure}
-
-
-\subsubsection{Review Inquiry}
-\label{inb:review}
-Review inquiry is the last detail process within the inbound process. Its four variants can be inspected in \Fig \ref{fig:inbound:revw}. Two meanings of the notion of review in the Oxford Dictionary \citep{oxfordreview} fit to explain the different variants. First, a review is a \enquote{formal assessment of something with the intention of instituting change if necessary}. This definition fits to describe building blocks in asynchronous channels mail and social. A \acrshort{CSR} might need to send a response to a supervisor for checking. The supervisor can change parts or approve it directly (called \textit{finalize} here). In social networks, the environment should be checked again, as it could have changed since compilation of the draft. Also, the submission of the response is called \textit{posting} to emphasize differences of public posting to private \textit{sending} of mails.
-
-Synchronous channels (\cf \Fig \ref{fig:inbound:revw:voice}, \ref{fig:inbound:revw:dm}) show the same components, that are again not aggregated into one variant for consistency reasons. As they solve the inquiry during the synchronous conversation, no review according to the given definition is possible. However, second meaning of the term review explains the purpose of this step: \enquote{A report on or evaluation of a subject or past events}. 
-
-This justifies the last two process building blocks of all three variants, namely \textit{update customer data} and \textit{update inquiry}. As the interaction is completed at this point (\viz the response is sent, posted and the synchronous conversation is closed), information from the customer contact is to be stored. On the one hand, the customer contact, seen as a touch point and therefore a transaction, is connected to the customer in the \acrshort{CRM} data base. Additional data that might be revealed during the contact can also be stored to enrich the profile by the \acrshort{CSR}. Furthermore, the inquiry itself can be updated to keep track of the customer's issue if not solved entirely. Ticket systems are a concept to model this matter. The system itself  keeps track of handling times and other measures of the inquiry, so that data for reporting is generated. 
-
-
-\begin{figure}[caption={Review inquiry detail process}, label={fig:inbound:revw}]
-	
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {review response};
-		\node[punktchain, join=by {-}] (zwei) {finalize response};
-		\node[punktchain, join=by {-}] (drei) {send response};
-		\node[punktchain, join=by {-}] (vier) {update customer data};
-		\node[punktchain, join=by {-}] (fuenf) {update inquiry};
-		\node[punktchain, draw=white,text=white] (sechs) {verify environment};
-		
-		\end{tikzpicture}
-		
-		\caption{Mail variant}\label{fig:inbound:revw:mail}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {review response};
-		\node[punktchain, join=by {-}] (zwei) {verify environment};
-		\node[punktchain, join=by {-}] (drei) {finalize response};
-		\node[punktchain, join=by {-}] (vier) {post response};
-		\node[punktchain, join=by {-}] (fuenf) {update customer data};
-		\node[punktchain, join=by {-}] (sechs) {update inquiry};
-		
-		\end{tikzpicture}
-		\caption{Social variant}\label{fig:inbound:revw:social}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {close conversation};
-		\node[punktchain, join=by {-}] (zwei) {update customer data};
-		\node[punktchain, join=by {-}] (drei) {update inquiry};
-		\end{tikzpicture}
-		\caption{Voice variant}\label{fig:inbound:revw:voice}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins) {close conversation};
-		\node[punktchain, join=by {-}] (zwei) {update customer data};
-		\node[punktchain, join=by {-}] (drei) {update inquiry};
-		
-		\end{tikzpicture}
-		\caption{Direct Messenger variant}\label{fig:inbound:revw:dm}
-	\end{subfigure}
-\end{figure}
-
-
-
-
-
-
-	
-	 
-	\subsection{Self-Service}
-	
-	The third customer interaction process leaves inter-personal service \citep{Thomas2008self} and focuses on ways that enable the customer to be the main value-generating part in the service interaction. This is facilitated by a technological component which can relieve the customer of a varying extent of the problem. The following illustrates this continuum from a customer perspective: Simple self-services, like an \acrshort{FAQ} section offer answers to questions, which the customer has to select from a list. The customer must express the need, map it to the available information, select the appropriate answer and process its content. A more advanced self-service might be able to additionally support the customer by the expression of the need and takes care of the mapping by a textual input, which is a more natural way of communication. The textual is analyzed and algorithmically mapped to the most appropriate solution, which is then presented to the customer, who must consume its content and is hopefully satisfied. It is noted that both solutions address the customer's issue, but sophisticated \acrshort{IT} increases usability by an easier interface to the customer's issue and a computed provision of a solution. This addresses what \citep{Thomas2008self} names a minimal skill set, \viz the an increased usability decreases the minimal skill set that is required for use. 
-	
-	From literature \citep{meuter2000self, Thomas2008self, Thomas:2009}, one can identify characteristics of self-services, which need to be considered in a process. As in the model the perspective of the service provider is chosen, the process needs to hold aspects which are seen from a system perspective. The previous example features the differences between a simple and technological enhanced serf-service. In both cases, the system has to provide information, but the simple self-services required the capability to express the need in the language of the service system, while the second allowed the customer to express it more naturally. The system perspective implies that the more active the customer takes the part in the process (\ie the simpler the self-service is), the less parts of the process are carried out by the system. 
-	
-	Furthermore, a self-service can be seen as part of a another customer service process. One can think of a self-service as support for a inter-personal contact, when it provides solutions based on customer information. Examples for this are \acrshort{IVR} or generated chat messages based on customer input.
-	
-	Unlike inter-personal services, self-services cannot be structured \wrt a communication channel, as they can be part of a service within one or multiple channels, or stand-alone in a web-based setting. A process representation is chosen which models both a supporting self-service for other services and a stand-alone implementation.
-	
-	\begin{figure}[caption={Self-Service process}, label={fig:selfservice}]
-		\begin{subfigure}[b]{.45\textwidth}
-			\begin{center}
-				\includegraphics{figures/self-service.pdf}
-			\end{center}
-		\end{subfigure}
-		\begin{subfigure}[b]{.45\textwidth}
-			\begin{center}
-				\begin{tikzpicture}
-				[node distance=.5cm, start chain=going below,]
-				\node[punktchain, join=by {-}] (eins)      {Identify customer needs};
-				\node[punktchain, join=by {-}] (zwei) {Process customer needs};
-				\node[punktchain, join=by {-}, ] (drei) {Present solution};
-				\node[punktchain, join=by {-}, ] (vier) {Evaluate solution};
-				
-				\end{tikzpicture}
-			\end{center}
-		\end{subfigure}
-		
-	\end{figure}
-
-	The process object customer need is chosen over inquiry to express the differences over inbound processing. It is noted that a customer need is an abstract construct that is used to express the customer's intention of use. However, like the inbound process self-service gets input from a customer and tries to solve the issue. But as there is no \acrshort{CSR} directly involved, there is less certainty that the system adequately addresses the \enquote{inquiry}. Due to this lack of a human counterpart on provider side, the technological interface provided by the system to the customer takes an important part in \textit{identifying customer needs}. As the capabilities of this interface vary drastically among different self-service scenarios, customer needs are chosen to emphasize the difference to inbound processing. \textit{Process customer needs} then aims at mapping the identified need to a defined solution in the knowledge base. After creation, \textit{present solution} communicates the findings to the customer. Lastly, \textit{evaluate solution} represents post-processing activities. The process is shown in \Fig \ref{fig:selfservice}.
-	
-	The building blocks of the four detail processes are summarized in \Fig \ref{fig:selfservice:detail}, as their is no further split into variants. The following description emphasizes the differences in simple and advanced self-service scenarios. 
-	
-	The building blocks of \textit{identfiy customer needs} (\Fig \ref{fig:selfservice:1}) capture external circumstances, that might be processed by the system to have more data available for inferring the customer need. Environmental factors are implicitly collected, \ie the customer does not need to state them. Request information models the input that the customer gives to the system. While the active phrasing might fit to more advanced self-service systems better than to simple \acrshort{FAQ}s, as the latter hardly asks the customer for information, the step applies to the concept of self-services: in order to narrow down the customer needs, relevant information needs to be selected by the customer (in a simple self-service system) or demanded as input for the system (in the advanced case). The verb \textit{infer} is used to describe the stochastic component of the system's attempt to understand the customer need. Again, the selection of a \acrshort{FAQ} entry by the customer might minimize the system's influence, still it conceives the selection as an information input and infers that the customer is \textit{needing} answers in this regard. An increased usability in the technological interface (arbitrary text input instead of a selection of options) also increases uncertainty in need identification, because the system has to select the fitting case by itself. 
-	
-	After the customer needs are inferred and hence available in a manner that corresponds to the data available in the knowledge base, the \textit{process customer needs} detail process (\Fig \ref{fig:selfservice:2}) receives  suitable information and creates a solution based on it. The solution represents the appropriate response to the customer's need. This can be the needed information, so that the need is completely addressed. Another option is that the self-service system can identify the need, but solving it requires personal-interaction. This expresses the limitations of service automation. 
-	
-	\textit{Present solution} (\Fig \ref{fig:selfservice:3}) conveys the result to the customer. The solution is presented by the system and is an adequate response to the customer's input. The customer's reaction is an important indicator of satisfaction and captured during the presentation. As the identification of a customer is not required for self-service use, these data needs to be stored in relation to the self-service input to further improve customer experience. The last detail process \textit{evaluate solution} (\Fig \ref{fig:selfservice:4}) can include a request for feedback (\enquote{Did this solve your problem?}) and finally all relevant information of the self-service use is stored and hence updates knowledge base. 
-		
-	\begin{figure}[caption={Self-service detail processes}, label={fig:selfservice:detail}]
-		
-		\begin{subfigure}[b]{.45\textwidth}
-			\centering
-			\begin{tikzpicture}
-			[node distance=.5cm,
-			start chain=going below,]
-			
-			\node[punktchain, join=by {-}] (eins)      {analyze environment};
-				\node[punktchain, join=by {-}] (zwei)      {request information};
-				\node[punktchain, join=by {-}] (eins)      {infer customer needs};
-		
-			
-			\end{tikzpicture}
-			
-			\caption{Identify customer needs}\label{fig:selfservice:1}
-		\end{subfigure}
-		\begin{subfigure}[b]{.45\textwidth}
-			\centering	
-			\begin{tikzpicture}
-			[node distance=.5cm,
-			start chain=going below,]
-			
-			\node[punktchain, join=by {-}] (zwei) {query knowledge base};
-		%	\node[punktchain, join=by {-}] (zwei) {integrate subsystem information};
-			\node[punktchain, join=by {-}] (drei) {create solution};
-				\node[punktchain, draw=white,text=white] (sechs) {verify environment};
-			\end{tikzpicture}
-			\caption{Process customer needs}\label{fig:selfservice:2}
-		\end{subfigure}
-		\begin{subfigure}[b]{.45\textwidth}
-			\centering	
-			\begin{tikzpicture}
-			[node distance=.5cm,
-			start chain=going below,]
-				\node[punktchain, draw=white] (null) { };
-			\node[punktchain] (eins)      {present solution};
-			\node[punktchain, join=by {-}] (zwei) {process customer reaction};
-			\end{tikzpicture}
-			\caption{Present solution}\label{fig:selfservice:3}
-		\end{subfigure}
-		\begin{subfigure}[b]{.45\textwidth}
-			\centering	
-			\begin{tikzpicture}
-			[node distance=.5cm,
-			start chain=going below,]
-			\node[punktchain, draw=white] (null) { };
-			\node[punktchain] (eins) {request feedback};
-			\node[punktchain, join=by {-}] (zwei) {update knowledge base};
-			
-			\end{tikzpicture}
-			\caption{Evaluate solution}\label{fig:selfservice:4}
-		\end{subfigure}
-	\end{figure}
-
-
-	
-	
-	klar definieren was ich unter sst verstehe \citep{Thomas:2009} hält auch online tech support boards, live chat sessions with customer support personal, user forums, etc. drin. also da wo der CSR noch supported. 
-	starting point \citep{Thomas:2009}.
-		%When a customer calls into the call center for technical support, it is often with the belief that they are contacting a CSR who is either an expert at solving their problem or at least more knowledgeable about their problem than the caller.
-		\citep{ccn2016} s.44
-		
-	%	To determine the most efficient, effective and mutually acceptable use of technology in service delivery, the customer's perspective needs to be known and understood.  \citep{Walker_2002}
-		
-
-		\newpage
-	\newpage
-	
-	\subsection{Outbound}
-		
-		In contrast to inbound interactions that have an inquiry as central object of the process, the outreaching communications do not necessarily target a customer's issue. Its root depends on the purpose of the communication, which can be related to a previous interaction (call-back service in voice) or e-mail marketing (new offers via mail) for instance. Therefore, the general term \textit{contact} is used and defined as \enquote{a meeting, communication, or relationship with someone} \citep{oxfordcontact}. The verb refers to the communication with someone.
-		
-		Alike to inbound processing, omni-channel applicability is enabled by having a universal detail process, which has variants for each of the four contact channel categories. It is noted that outbound communication may apply differently across the channel types and dependent on implemented technology. There is the necessity of knowing the identifier of a customer within a contact channel to reach him. This identifier is the phone number in voice, mail address or a social media account. Direct messengers may be designed to enable use without individual sign-up, which excludes the ability to reach the customer. However, using direct messenger platforms such as WhatsApp enables outgoing communications, as work with identifiers. 
-		
-				\begin{figure}[caption={Outbound process}, label={fig:outbound}]
-			\begin{subfigure}[b]{.45\textwidth}
-				\begin{center}
-					\includegraphics{figures/outbound.pdf}
-				\end{center}
-			\end{subfigure}
-			\begin{subfigure}[b]{.45\textwidth}
-				\begin{center}
-					\begin{tikzpicture}
-					[node distance=.5cm, start chain=going below,]
-					\node[punktchain, join=by {-}] (eins)      {Prepare contact};
-					\node[punktchain, join=by {-}] (zwei) {Contact customer};
-					\node[punktchain, join=by {-}, ] (drei) {Evaluate contact};
-					\node[punktchain, draw=white ] (vier) { };
-					
-					\end{tikzpicture}
-				\end{center}
-			\end{subfigure}
-			
-		\end{figure}
-		
-		
-		
-		
-		A fundamental difference the inbound and outbound process is that outbound contact is proactive and needs more initial information to act on, whereas inbound contact is more reactive \citep{DimensionData2015}. \Fig \ref{fig:outbound} shows the detail process, which is composed of three steps. As an analogy to the inbound detail process, the \textit{prepare contact} represents activities that take place prior to the activity that actually addresses the process object (route, preprocess, classify inquiry in the inbound process). The following \textit{contact customer} step expresses the active approach of the customer (contact) from the company side and can mirror the process inquiry step in the inbound process. Lastly, the \textit{evaluate contact} step contains subsequent efforts. Here the wording evaluate is chosen over review to put more focus on an assessment of the contact and less on the intention to change parts if necessary (\cf \ref{inb:review}). Furthermore, the company as contact initiator can perform a review at an earlier stage and does not need to react on a customer. 
-		
-
-		\subsubsection{Prepare Contact}
-		
-		To actively approach a customer, there has to be a trigger or decision that lead to the initiation of the process, which is then assigned to the executing organizational unit, \ie \acrshort{CSR}. The information that captures the intention behind the contact is assumed to be stored in the knowledge base. The first step of this detail process (\Fig \ref{fig:outbound:prep}) is consequently a query to get the \acrshort{CSR} informed, which is consistent over all channel variants. Next, the aforementioned reason for contact is processed by the \acrshort{CSR} to enable the transfer of it towards the upcoming contact of the customer. 
-		
-		All channels except voice show three blocks, that also appear in the review inquiry inbound process variant (draft, review, finalize message/post). This early (optional) verification by a supervisor is possible because the communication is started by the company and the purpose is stored in the known reason for contact. Therefore, there is no processing of a customer inquiry necessary on which a response is formulated. Because of this, direct messengers can also have these component, even though it is a synchronous channel. In the voice variant, there is no review. The \acrshort{CSR} is assumed to understand the reason for contact or resolve any issues with it in the \textit{process reason for contact} step, as the scripting of a call is implausible. 
-		
-		The case of a proactive post of a company on a customer's social profile might seem less typical on platforms like facebook, but it cannot be foreclosed. In addition, it depends on the social behavior on the network that might change over time and varies across networks.  
-		
-		\begin{figure}[caption={Prepare contact detail process}, label={fig:outbound:prep}]
-			
-			\begin{subfigure}[b]{.45\textwidth}
-				\centering
-				\begin{tikzpicture}
-				[node distance=.5cm,
-				start chain=going below,]
-				
-				\node[punktchain, join=by {-}] (eins)      {query knowledge base};
-				\node[punktchain, join=by {-}] (zwei) {process reason for contact};
-				\node[punktchain, join=by {-}] (drei) {draft message};
-				\node[punktchain, join=by {-}] (vier) {review message};
-				\node[punktchain, join=by {-}] (fuenf) {finalize message};
-				
-				\end{tikzpicture}
-				
-				\caption{Mail variant}\label{fig:outbound:prep:mail}
-			\end{subfigure}
-			\begin{subfigure}[b]{.45\textwidth}
-				\centering	
-				\begin{tikzpicture}
-				[node distance=.5cm,
-				start chain=going below,]
-				
-				\node[punktchain, join=by {-}] (eins)      {query knowledge base};
-				\node[punktchain, join=by {-}] (zwei) {process reason for contact};
-				\node[punktchain, join=by {-}] (drei) {draft post};
-				\node[punktchain, join=by {-}] (vier) {review post};
-				\node[punktchain, join=by {-}] (fuenf) {finalize post};
-				\end{tikzpicture}
-				\caption{Social variant}\label{fig:outbound:prep:social}
-			\end{subfigure}
-			\begin{subfigure}[b]{.45\textwidth}
-				\centering	
-				\begin{tikzpicture}
-				[node distance=.5cm,
-				start chain=going below,]
-				\node[punktchain, draw=white] (null) { };
-				\node[punktchain] (eins)      {query knowledge base};
-				\node[punktchain, join=by {-}] (zwei) {process reason for contact};
-				\node[punktchain, draw=white] (null) { };
-				\node[punktchain, draw=white] (null) { };
-				\node[punktchain, draw=white] (null) { };
-								
-				\end{tikzpicture}
-				\caption{Voice variant}\label{fig:outbound:prep:voice}
-			\end{subfigure}
-			\begin{subfigure}[b]{.45\textwidth}
-				\centering	
-				\begin{tikzpicture}
-				[node distance=.5cm,
-				start chain=going below,]
-				\node[punktchain, draw=white] (null) { };
-				\node[punktchain] (eins) {query knowledge base};
-				\node[punktchain, join=by {-}] (zwei) {process reason for contact};
-				\node[punktchain, join=by {-}] (drei) {draft message};
-				\node[punktchain, join=by {-}] (vier) {review message};
-				\node[punktchain, join=by {-}] (fuenf) {finalize message};
-				
-				\end{tikzpicture}
-				\caption{Direct Messenger variant}\label{fig:outbound:prep:dm}
-			\end{subfigure}
-		\end{figure}
-	
-	
-		\subsubsection{Contact Customer}
-		
-		The second step of the outbound process models the approach of the client (\Fig \ref{fig:outbound:con}) . The use of contact as a verb expresses that the customer is on the receiving end. (A)synchronous channels show a similar structure, respectively. As the message or post is already prepared, the select of the sending account and the actual transmission\footnote{Theoretically, the second block in the social variant should be named \textit{post post}. Considering writing style, the object is kept and the verb changed to send. } is left. As previously justified, the variant in social media includes a verification step of the network environment. 
-		
-		Synchronous communication establishes a \textit{conversation} with the customer on which is responded in a timely manner. It is noted that in contrast to the voice channel, a direct message does not require the customer to respond directly to the \acrshort{CSR}s message. With this open connection, the  \acrshort{CSR} is able to \textit{communicate} the \textit{reason of contact} to the customer. 
-		
-		As the contact is initiated by the company, the customer might not understand the reason for contact properly. In this case of synchronous communication, it is possible for the \acrshort{CSR} to\textit{ solve complications} on the spot. The last block of the detail contact customer detail process encompasses the \textit{solving of }further \textit{questions}. Reason for this is that in the outbound case, there is object encapsulating the customer's need (as it is the inquiry in the inbound process). Ergo, the customer can have additional unresolved questions which can, but not necessarily have to, relate to the reason of contact. In analogy to the \textit{solve inquiry} block in inbound processing, the verb solve is again used to emphasize the activity of the  \acrshort{CSR}. 
-		
-		
-		\begin{figure}[caption={Contact customer detail process}, label={fig:outbound:con}]
-		
-		\begin{subfigure}[b]{.45\textwidth}
-			\centering
-			\begin{tikzpicture}
-			[node distance=.5cm,
-			start chain=going below,]
-			
-			\node[punktchain, join=by {-}] (eins)      {select account};
-			\node[punktchain, join=by {-}] (zwei) {send message};
-			\node[punktchain, draw=white] (null) { };
-			\end{tikzpicture}
-			
-			\caption{Mail variant}\label{fig:outbound:con:mail}
-		\end{subfigure}
-		\begin{subfigure}[b]{.45\textwidth}
-			\centering	
-			\begin{tikzpicture}
-			[node distance=.5cm,
-			start chain=going below,]
-			
-			\node[punktchain, join=by {-}] (eins)      {select account};
-			\node[punktchain, join=by {-}] (zwei) {verify environment};
-			\node[punktchain, join=by {-}] (drei) {send post};
-			\end{tikzpicture}
-			\caption{Social variant}\label{fig:outbound:con:social}
-		\end{subfigure}
-		\begin{subfigure}[b]{.45\textwidth}
-			\centering	
-			\begin{tikzpicture}
-			[node distance=.5cm,
-			start chain=going below,]
-			\node[punktchain, draw=white] (null) { };
-			\node[punktchain] (eins)      {open conversation};
-			\node[punktchain, join=by {-}] (zwei) {communicate reason for contact};
-			\node[punktchain, join=by {-}] (drei) {solve complications};
-			\node[punktchain, join=by {-}] (vier) {solve further questions};
-
-			\end{tikzpicture}
-			\caption{Voice variant}\label{fig:outbound:con:voice}
-		\end{subfigure}
-		\begin{subfigure}[b]{.45\textwidth}
-			\centering	
-			\begin{tikzpicture}
-			[node distance=.5cm,
-			start chain=going below,]
-			\node[punktchain, draw=white] (null) { };
-			\node[punktchain] (eins)      {open conversation};
-			\node[punktchain, join=by {-}] (zwei) {communicate reason for contact};
-			\node[punktchain, join=by {-}] (drei) {solve complications};
-			\node[punktchain, join=by {-}] (vier) {solve further questions};
-			
-			\end{tikzpicture}
-			\caption{Direct Messenger variant}\label{fig:outbound:con:dm}
-		\end{subfigure}
-	\end{figure}
-
-
-
-		\subsubsection{Evaluate Contact}
-		
-		This detail process step (\Fig \ref{fig:outbound:eval}) closes the synchronous conversation and represents closing activities that are related to the contact. Synchronous channels close the conversation at the beginning, while asynchronous channels are completed with posting or sending. Mirrored from the inbound process, the process building blocks \textit{update customer data} and \textit{update contact} draw a line to the review inquiry process. Here, the inquiry object is replaced by the contact object. 
-
-	\begin{figure}[caption={Evaluate contact detail process}, label={fig:outbound:eval}]
-	
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {update customer data};
-		\node[punktchain, join=by {-}] (zwei) {update contact};
-		\end{tikzpicture}
-		
-		\caption{Mail variant}\label{fig:outbound:eval:mail}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		
-		\node[punktchain, join=by {-}] (eins)      {update customer data};
-		\node[punktchain, join=by {-}] (zwei) {update contact};
-		\end{tikzpicture}
-		\caption{Social variant}\label{fig:outbound:eval:social}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {close conversation};
-		\node[punktchain, join=by {-}] (zwei) {update customer data};
-		\node[punktchain, join=by {-}] (drei) {update contact};
-
-		
-		\end{tikzpicture}
-		\caption{Voice variant}\label{fig:outbound:eval:voice}
-	\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\centering	
-		\begin{tikzpicture}
-		[node distance=.5cm,
-		start chain=going below,]
-		\node[punktchain, draw=white] (null) { };
-		\node[punktchain] (eins)      {close conversation};
-		\node[punktchain, join=by {-}] (zwei) {update customer data};
-		\node[punktchain, join=by {-}] (drei) {update contact};
-		
-		\end{tikzpicture}
-		\caption{Direct Messenger variant}\label{fig:outbound:eval:dm}
-	\end{subfigure}
-\end{figure}
-
-
-		
-
-	\subsection{Knowledge Management}
-	Investitionsziele: platz 3 \citep{ccnet2016}
-	\begin{figure}[caption={Knowlege Management detail process}, label={fig:knowledge}]
-		\begin{subfigure}[b]{.45\textwidth}
-			\begin{center}
-				\includegraphics{figures/knowledgemanagement.pdf}
-			\end{center}
-		\end{subfigure}
-	\begin{subfigure}[b]{.45\textwidth}
-		\begin{center}
-			\begin{tikzpicture}
-			[node distance=.5cm, start chain=going below,]
-			\node[punktchain, join=by {-}] (eins)      {Prepare contact};
-			\node[punktchain, join=by {-}] (zwei) {Contact customer};
-			\node[punktchain, join=by {-}, ] (drei) {Evaluate contact};
-			\node[punktchain, draw=white ] (vier) { };
-			
-			\end{tikzpicture}
-		\end{center}
-	\end{subfigure}
-	
-\end{figure}
-
-	KM-CustomerServiceProcessInnovation
-	%%%%%%%%%%
-	%%%%%%%%%%
-	%%%%%%%%%%
