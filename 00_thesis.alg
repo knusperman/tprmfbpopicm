@@ -1,7 +1,18 @@
-This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
-Scanning style file ./00_thesis.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file 00_thesis.acn....done (221 entries accepted, 0 rejected).
-Sorting entries.....done (1827 comparisons).
-Generating output file 00_thesis.acr....done (125 lines written, 0 warnings).
-Output written in 00_thesis.acr.
-Transcript written in 00_thesis.alg.
+
+
+*** Unable to execute: '"makeindex"  -s "00_thesis.ist" -t "00_thesis.alg" -o "00_thesis.acr" "00_thesis.acn"' ***
+
+Failed with error code 127.
+
+Status report:
+
+sh: makeindex: command not found
+
+makeindex didn't create a transcript.
+Check that makeindex has been installed and
+is on your system's PATH.
+Your PATH environment variable is set to: 
+/usr/bin:/bin:/usr/sbin:/sbin
+Try manually running:
+"makeindex"  -s "00_thesis.ist" -t "00_thesis.alg" -o "00_thesis.acr" "00_thesis.acn"
+

@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{123}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -8,6 +8,15 @@
 Adams, D.~A., Nelson, R.~R., and Todd, P.~A. 1992. \enquote{Perceived
   Usefulness, Ease of Use, and Usage of Information Technology: A Replication,}
   {\it {MIS} Quarterly\/} (16:2), p. 227.
+
+\bibitem[{Agarwal and Bajaj(2008)}]{Agarwal_2008}
+Agarwal, R., and Bajaj, N. 2008. \enquote{Managing outsourcing process:
+  applying six sigma,} {\it Business Process Management Journal\/} (14:6), pp.
+  829--837.
+
+\bibitem[{{\AA}ge(2011)}]{_ge_2011}
+{\AA}ge, L.-J. 2011. \enquote{Business manoeuvring: a model of B2B selling
+  processes,} {\it Management Decision\/} (49:9), pp. 1574--1591.
 
 \bibitem[{Agnischock et~al.(2015)Agnischock, Grobe, Hanisch, Seifarth, and
   Wodarz}]{Agnischock2015}
@@ -127,6 +136,10 @@ Cohen, L., and Young, A. 2006. {\it Multisourcing: Moving Beyond Outsourcing to
   Achieve Growth and Agility\/}, Harvard Business School Press.
 
 
+\bibitem[{{Contact-Center-Network}(2016)}]{ccnet2016}
+{Contact-Center-Network} 2016. \enquote{Contact Center Investitionsstudie
+  2016,} Tech. rep., {Contact-Center-Network e.V.}
+
 \bibitem[{Coyne(1997)}]{coyne1997sampling}
 Coyne, I.~T. 1997. \enquote{Sampling in qualitative research. Purposeful and
   theoretical sampling; merging or clear boundaries?} {\it Journal of advanced
@@ -142,6 +155,11 @@ Delfmann, P. 2006. {\it Adaptive Referenzmodellierung: methodische Konzepte zur
   Informationsmodelle\/}, Advances in information systems and management
   science, Logos Verlag.
 
+\bibitem[{{Deloitte}(2013)}]{deloittehandbook}
+{Deloitte} 2013. \enquote{The Outsourcing Handbook. A guide to outsourcing.}
+  Tech. rep., Deloitte.
+
+
 \bibitem[{Deloitte(2014)}]{deloitte2014outsourcing}
 Deloitte 2014. \enquote{{Global Outsourcing Insourcing Survey 2014},} Tech.
   rep., Deloitte Development LLC.
@@ -149,6 +167,13 @@ Deloitte 2014. \enquote{{Global Outsourcing Insourcing Survey 2014},} Tech.
 \bibitem[{Diller(1995)}]{diller1995}
 Diller, H. 1995. \enquote{Beziehungsmarketing,} {\it
   Wirtschaftswissenschaftliches Studium\/} (24:9).
+
+\bibitem[{{Dimension Data}(2015)}]{DimensionData2015}
+{Dimension Data} 2015. \enquote{{Global Contact Centre Benchmarking Summary
+  Report},} .
+\newline\urlprefix\url{https://www.dimensiondata.com/Global/Downloadable
+  Documents/2015 Global Contact Centre Benchmarking Summary
+  Report.pdf}\newline\urldateprefix2016-12-01
 
 \bibitem[{{Dimension Data}(2016)}]{dimensiondata2016}
 {Dimension Data} 2016. \enquote{{Global Contact Centre Benchmark Summary
@@ -171,6 +196,12 @@ Fettke, P., and Loos, P. 2004. \enquote{Reference modeling research,} {\it
   WIRTSCHAFTSINFORMATIK\/} (46:5), pp. 331--340.
 
 
+\bibitem[{Franceschini et~al.(2003)Franceschini, Galetto, Pignatelli, and
+  Varetto}]{Franceschini_2003}
+Franceschini, F., Galetto, M., Pignatelli, A., and Varetto, M. 2003.
+  \enquote{Outsourcing: guidelines for a structured approach,} {\it
+  Benchmarking: An International Journal\/} (10:3), pp. 246--260.
+
 \bibitem[{Frow and Payne(2007)}]{Frow_2007}
 Frow, P., and Payne, A. 2007. \enquote{Towards the `perfect' customer
   experience,} {\it Journal of Brand Management\/} (15:2), pp. 89--101.
@@ -178,6 +209,11 @@ Frow, P., and Payne, A. 2007. \enquote{Towards the `perfect' customer
 \bibitem[{Gill and Johnson(2002)}]{gilljohnson}
 Gill, J., and Johnson, P. 2002. {\it Research Methods for Managers\/}, London:
   SAGE, 3rd ed.
+
+\bibitem[{Girard and Girard(2015)}]{girard2015defining}
+Girard, J., and Girard, J. 2015. \enquote{Defining knowledge management: Toward
+  an applied compendium,} {\it Online Journal of Applied Knowledge Management,
+  3 (1), 1\/} (20).
 
 \bibitem[{Globerson and Maggard(1991)}]{Globerson_1991}
 Globerson, S., and Maggard, M.~J. 1991. \enquote{A Conceptual Model of
@@ -321,6 +357,11 @@ Meuter, M.~L., Ostrom, A.~L., Roundtree, R.~I., and Bitner, M.~J. 2000.
 Meyer, C., and Schwager, A. 2007. \enquote{Customer Experience,} {\it Harvard
   business review\/} pp. 1--11.
 
+\bibitem[{Moncrief and Marshall(2005)}]{Moncrief_2005}
+Moncrief, W.~C., and Marshall, G.~W. 2005. \enquote{The evolution of the seven
+  steps of selling,} {\it Industrial Marketing Management\/} (34:1), pp.
+  13--22.
+
 \bibitem[{Neckel and Knobloch(2005)}]{Neckel2005}
 Neckel, P., and Knobloch, B. 2005. {\it Customer Relationship Analytics:
   praktische Anwendung des Data Mining im CRM\/}, dpunkt-Verlag.
@@ -339,22 +380,33 @@ Neslin, S.~A., and Shankar, V. 2009. \enquote{Key Issues in Multichannel
   Customer Management: Current Knowledge and Future Directions,} {\it Journal
   of Interactive Marketing\/} (23:1), pp. 70--81.
 
-\bibitem[{{OED Online}(2016)}]{oxfordenquiry}
-{OED Online} 2016. \enquote{enquiry,} {\it Oxford University Press\/} .
-
-
-\bibitem[{{Oxford Dictionary}(2016)}]{oxford}
-{Oxford Dictionary} 2016. \enquote{outsourcing, n.} {\it Oxford University
-  Press\/} .
-
-
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{a}})}]{oxfordrequest}
-{Oxford Dictionary} 2017{\natexlab{a}}. \enquote{request,} {\it Oxford
+\bibitem[{{Oxford Dictionary}(2016{\natexlab{a}})}]{oxfordenquiry}
+{Oxford Dictionary} 2016{\natexlab{a}}. \enquote{enquiry,} {\it Oxford
   University Press\/} .
 
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{b}})}]{oxfordreview}
-{Oxford Dictionary} 2017{\natexlab{b}}. \enquote{review,} {\it Oxford
+\bibitem[{{Oxford Dictionary}(2016{\natexlab{b}})}]{oxford}
+{Oxford Dictionary} 2016{\natexlab{b}}. \enquote{outsourcing, n.} {\it Oxford
+  University Press\/} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{a}})}]{oxfordcontact}
+{Oxford Dictionary} 2017{\natexlab{a}}. \enquote{contact,} {\it Oxford
+  University Press\/} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{b}})}]{oxfordprospect}
+{Oxford Dictionary} 2017{\natexlab{b}}. \enquote{prospect,} {\it Oxford
+  University Press\/} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{c}})}]{oxfordrequest}
+{Oxford Dictionary} 2017{\natexlab{c}}. \enquote{request,} {\it Oxford
+  University Press\/} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{d}})}]{oxfordreview}
+{Oxford Dictionary} 2017{\natexlab{d}}. \enquote{review,} {\it Oxford
   University Press\/} .
 
 
@@ -379,6 +431,11 @@ Peffers, K., Tuunanen, T., Rothenberger, M., and Chatterjee, S. 2007.
 \bibitem[{Peppers and Rogers(1993)}]{peppers}
 Peppers, D., and Rogers, M. 1993. {\it The One to One Future\/}, Currency.
 
+\bibitem[{Perunovi{\'c} and Pedersen(2007)}]{perunovic2007outsourcing}
+Perunovi{\'c}, Z., and Pedersen, J.~L. 2007. \enquote{Outsourcing process and
+  theories,} in {\it Proceedings of the POMS 18th Annual Conference, May 4--7,
+  Dallas, Texas, 007\/}, vol.~3.
+
 \bibitem[{Pine and Gilmore(1998)}]{gilmore1998}
 Pine, B., and Gilmore, J. 1998. \enquote{Welcome to the experience economy,}
   {\it Harvard Business Review\/} (76:3), pp. 97--105.
@@ -395,6 +452,12 @@ Porter, M.~E. 1980. {\it Competitive Strategy: Techniques for Analyzing
 \bibitem[{Porter(1985)}]{porter1985}
 Porter, M.~E. 1985. {\it Competitive advantage: creating and sustaining
   superior performance\/}, New York: Free Press.
+
+\bibitem[{Porter and Heppelmann(2015)}]{PorterHeppelmann15hbr}
+Porter, M.~E., and Heppelmann, J.~E. 2015. \enquote{How Smart, Connected
+  Products Are Transforming Companies,} {\it Harvard Business Review\/}
+  (93:10), pp. 53--71.
+
 
 \bibitem[{P{\"{u}}ster(2015)}]{Puster2015}
 P{\"{u}}ster, J. 2015. {\it {Prozessmodelle f{\"{u}}r Einzelhandel,
@@ -425,6 +488,12 @@ Rosemann, M., Schwegmann, A., and Delfmann, P. 2012. \enquote{Vorbereitung der
   Prozessmodellierung,} in {\it Prozessmanagement\/}, , Springer Nature, pp.
   45--103.
 
+\bibitem[{Rubenstein-Montano et~al.(2001)Rubenstein-Montano, Liebowitz,
+  Buchwalter, McCaw, Newman, and Rebeck}]{Rubenstein_Montano_2001}
+Rubenstein-Montano, B., Liebowitz, J., Buchwalter, J., McCaw, D., Newman, B.,
+  and Rebeck, K. 2001. \enquote{A systems thinking framework for knowledge
+  management,} {\it Decision Support Systems\/} (31:1), pp. 5--16.
+
 \bibitem[{Ryals and Payne(2001)}]{ryals2001customer}
 Ryals, L., and Payne, A. 2001. \enquote{Customer relationship management in
   financial services: towards information-enabled relationship marketing,} {\it
@@ -442,6 +511,12 @@ Schewe, G., and Kett, I. 2007. {\it Business Process Outsourcing.
 Sch{\"{u}}tte, R. 1998. {\it Grunds{\"{a}}tze ordnungsgem{\"{a}}{\ss}er
   Referenzmodellierung: Konstruktion konfigurations- und anpassungsorientierter
   Modelle\/}, Gabler-Verlag.
+
+\bibitem[{Seiffert(2006)}]{seiffert2006einfhrung}
+Seiffert, H. 2006. {\it Einf{\"u}hrung in die Wissenschaftstheorie:
+  Geisteswissenschaftliche Methoden : Ph{\"a}nomenologie, Hermeneutik und
+  historische Methode, Dialektik\/}, Beck Reihe, Beck.
+
 
 \bibitem[{Shannon and Weaver(1949)}]{shannon1949}
 Shannon, C.~E., and Weaver, W. 1949. {\it The mathematical theory of
@@ -462,6 +537,19 @@ Tarksi, A. 1944. \enquote{The Semantic Concept of Truth and the foundation of
   semantics,} {\it Philosophy and Phenomenological Research\/} (4:3), pp.
   341--375.
 
+\bibitem[{Thomas and Grandison(2008)}]{Thomas2008self}
+Thomas, J.~O., and Grandison, T. 2008. \enquote{Self-service--lessons from
+  industry,} in {\it Proceedings of the International Conference of Service
+  Science\/}.
+
+\bibitem[{Thomas et~al.(2009)Thomas, Rankin, and Boyette}]{Thomas:2009}
+Thomas, J.~O., Rankin, Y.~A., and Boyette, N. 2009. \enquote{Self Service
+  Technologies: Eliminating Pain Points of Traditional Call Centers,} in {\it
+  Proceedings of the Symposium on Computer Human Interaction for the Management
+  of Information Technology\/}, CHiMiT '09, New York, NY, USA: ACM, pp.
+  9:60--9:63.
+
+
 \bibitem[{Thomas(2006{\natexlab{a}})}]{thomas2006a}
 Thomas, O. 2006{\natexlab{a}}. \enquote{Das Referenzmodellverst{\"a}ndnis in
   der Wirtschaftsinformatik: Historie, Literaturanalyse und
@@ -474,6 +562,18 @@ Thomas, O. 2006{\natexlab{b}}. {\it Management von Referenzmodellen : Entwurf
   und Realisierung eines Informationssystems zur Entwicklung und Anwendung von
   Referenzmodellen\/}, Ph.D. thesis, Universit{\"a}t des Saarlandes,
   Saarbr{\"u}cken.
+
+\bibitem[{van Heijst et~al.(1997)van Heijst, van~der Spek, and
+  Kruizinga}]{van_Heijst_1997}
+van Heijst, G., van~der Spek, R., and Kruizinga, E. 1997. \enquote{Corporate
+  memories as a tool for knowledge management,} {\it Expert Systems with
+  Applications\/} (13:1), pp. 41--54.
+
+\bibitem[{Vandermerwe and Rada(1988)}]{servitization}
+Vandermerwe, S., and Rada, J. 1988. \enquote{Servitization of business: Adding
+  value by adding services,} {\it European Management Journal\/} (6:4), pp.
+  314--324.
+
 
 \bibitem[{Verhoef et~al.(2015)Verhoef, Kannan, and Inman}]{vorhoef2015retail}
 Verhoef, P., Kannan, P., and Inman, J. 2015. \enquote{From Multi-Channel
@@ -506,6 +606,11 @@ Walker, R.~H., and Francis, H. 2003. \enquote{Customer Service and Relationship
 \bibitem[{Wernerfelt(1984)}]{wernerfelt1984resource}
 Wernerfelt, B. 1984. \enquote{A resource-based view of the firm,} {\it
   Strategic management journal\/} (5:2), pp. 171--180.
+
+\bibitem[{Wiig et~al.(1997)Wiig, de~Hoog, and van~der Spek}]{Wiig_1997}
+Wiig, K.~M., de~Hoog, R., and van~der Spek, R. 1997. \enquote{Supporting
+  knowledge management: A selection of methods and techniques,} {\it Expert
+  Systems with Applications\/} (13:1), pp. 15--27.
 
 \bibitem[{Williamson(1971)}]{williamson1971vertical}
 Williamson, O.~E. 1971. \enquote{The vertical integration of production: market

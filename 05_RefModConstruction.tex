@@ -12,7 +12,7 @@ This chapter conceptions the process reference model and is central part of this
 
 	\begin{figure}[caption={Procedure for framework construction}, label={fig:meise}]
 		{	\includegraphics[width=.8\textwidth]{figures/framework-meise.pdf}}
-		\hspace{6.2cm}	SOURCE:  adapted from \citep[\p{122}]{Meise2001}
+		\parbox{0.7\textwidth }{\quelle{Adapted from \citep[\p{122}]{Meise2001}}}
 	\end{figure} 
 	
 	\subsection{Set structural goals}
@@ -201,11 +201,11 @@ A framework's purpose is to manage complexity by displaying relevant elements. I
 	 		\begin{center}
 	 			\begin{tikzpicture}
 	 			[node distance=.5cm, start chain=going below,font=\sffamily]
-	 			\node[punktchain, rounded corners=0pt, join=by {-}] (eins)      {Route inquiry};
-	 			\node[punktchain, rounded corners=0pt, join=by {-}] (zwei) {Preprocess inquiry};
-	 			\node[punktchain, rounded corners=0pt, join=by {-}, ] (drei) {Classify inquiry};
-	 			\node[punktchain, rounded corners=0pt, join=by {-}, ] (vier) {Process inquiry};
-	 			\node[punktchain,rounded corners=0pt,  join=by {-}, ] (fuenf) {Review inquiry};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (eins)      {route inquiry};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (zwei) {preprocess inquiry};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}, ] (drei) {classify inquiry};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}, ] (vier) {process inquiry};
+	 			\node[punktchain,rounded corners=0pt,  join=by {-}, ] (fuenf) {review inquiry};
 	 			\end{tikzpicture}
 	 		\end{center}
 	 	\end{subfigure}
@@ -608,10 +608,10 @@ A framework's purpose is to manage complexity by displaying relevant elements. I
 	 		\begin{center}
 	 			\begin{tikzpicture}
 	 			[node distance=.5cm, start chain=going below,font=\sffamily]
-	 			\node[punktchain, rounded corners = 0pt, join=by {-}] (eins)      {Identify customer needs};
-	 			\node[punktchain,  rounded corners = 0pt,  join=by {-}] (zwei) {Process customer needs};
-	 			\node[punktchain,  rounded corners = 0pt, join=by {-}, ] (drei) {Present solution};
-	 			\node[punktchain, rounded corners = 0pt,  join=by {-}, ] (vier) {Evaluate solution};
+	 			\node[punktchain, rounded corners = 0pt, join=by {-}] (eins)      {identify customer needs};
+	 			\node[punktchain,  rounded corners = 0pt,  join=by {-}] (zwei) {process customer needs};
+	 			\node[punktchain,  rounded corners = 0pt, join=by {-}, ] (drei) {present solution};
+	 			\node[punktchain, rounded corners = 0pt,  join=by {-}, ] (vier) {evaluate solution};
 	 			
 	 			\end{tikzpicture}
 	 		\end{center}
@@ -704,7 +704,7 @@ A framework's purpose is to manage complexity by displaying relevant elements. I
 	 
 	 Alike to inbound processing, omni-channel applicability is enabled by having a universal detail process, which has variants for each of the four contact channel categories. It is noted that outbound communication may apply differently across the channel types and dependent on implemented technology. There is the necessity of knowing the identifier of a customer within a contact channel to reach him. This identifier is the phone number in voice, mail address or a social media account. Direct messengers may be designed to enable use without individual sign-up, which excludes the ability to reach the customer. However, using direct messenger platforms such as WhatsApp enables outgoing communications, as work with identifiers. 
 	 
-	 \begin{figure}[caption={Outbound process}, label={fig:outbound}]
+	 \begin{figure}[caption={Outbound service process}, label={fig:outbound}]
 	 	\begin{subfigure}[b]{.45\textwidth}
 	 		\begin{center}
 	 			\includegraphics{figures/processes/outbound.pdf}
@@ -714,9 +714,9 @@ A framework's purpose is to manage complexity by displaying relevant elements. I
 	 		\begin{center}
 	 			\begin{tikzpicture}
 	 			[node distance=.5cm, start chain=going below,font=\sffamily]
-	 			\node[punktchain,rounded corners=0pt, join=by {-}] (eins)      {Prepare contact};
-	 			\node[punktchain,rounded corners=0pt, join=by {-}] (zwei) {Contact customer};
-	 			\node[punktchain,rounded corners=0pt, join=by {-}, ] (drei) {Evaluate contact};
+	 			\node[punktchain,rounded corners=0pt, join=by {-}] (eins)      {prepare contact};
+	 			\node[punktchain,rounded corners=0pt, join=by {-}] (zwei) {contact customer};
+	 			\node[punktchain,rounded corners=0pt, join=by {-}, ] (drei) {evaluate contact};
 	 			\node[punktchain, draw=white ] (vier) { };
 	 			
 	 			\end{tikzpicture}
@@ -965,10 +965,10 @@ In order to fit the three variants (case-related, customer-related, transaction-
 		\begin{center}
 			\begin{tikzpicture}
 			[node distance=.5cm, minimum height=4.5em, start chain=going below,font=\sffamily]
-			\node[punktchain, rounded corners=0pt , minimum height=2.8em,join=by {-}] (eins)      {Maintain case master data};
-			\node[punktchain,rounded corners=0pt, minimum height=2.8em,  join=by {-}] (zwei) {Consolidate case data };
-			\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (drei) {Combine case data};
-			\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (vier) {Provide case data };
+			\node[punktchain, rounded corners=0pt , minimum height=2.8em,join=by {-}] (eins)      {maintain case master data};
+			\node[punktchain,rounded corners=0pt, minimum height=2.8em,  join=by {-}] (zwei) {consolidate case data };
+			\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (drei) {combine case data};
+			\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (vier) {provide case data };
 
 			\end{tikzpicture}
 			\caption{Case-related variant}\label{fig:knowmang:case}
@@ -978,12 +978,12 @@ In order to fit the three variants (case-related, customer-related, transaction-
 	\begin{center}
 		\begin{tikzpicture}
 		[node distance=.5cm, start chain=going below,font=\sffamily]
-		\node[punktchain, rounded corners=0pt, minimum height=2.8em,join=by {-}] (eins)      {Maintain customer master data};
+		\node[punktchain, rounded corners=0pt, minimum height=2.8em,join=by {-}] (eins)      {maintain customer master data};
 		\node[punktchain,rounded corners=0pt,  
-		minimum height=2.8em,join=by {-}] (zwei) {Consolidate customer data};
+		minimum height=2.8em,join=by {-}] (zwei) {consolidate customer data};
 		\node[punktchain, rounded corners=0pt,  
-		 minimum height=2.8em,join=by {-}, ] (drei) {Combine customer data};
-		\node[punktchain, minimum height=2.8em, rounded corners=0pt, join=by {-}, ] (vier) {Provide customer data};
+		 minimum height=2.8em,join=by {-}, ] (drei) {combine customer data};
+		\node[punktchain, minimum height=2.8em, rounded corners=0pt, join=by {-}, ] (vier) {provide customer data};
 	
 		\end{tikzpicture}
 				\caption{Customer-related variant}\label{fig:knowmang:cust}
@@ -993,10 +993,10 @@ In order to fit the three variants (case-related, customer-related, transaction-
 	\begin{center}
 		\begin{tikzpicture}
 		[node distance=.5cm, start chain=going below,font=\sffamily]
-		\node[punktchain, rounded corners=0pt,minimum height=2.8em ,join=by {-}] (eins)      {Maintain transaction data};
-		\node[punktchain,rounded corners=0pt, minimum height=2.8em , join=by {-}] (zwei) {Consolidate transaction data};
-		\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (drei) {Combine transaction data};
-		\node[punktchain, rounded corners=0pt , minimum height=2.8em,join=by {-}, ] (vier) {Provide transaction data};
+		\node[punktchain, rounded corners=0pt,minimum height=2.8em ,join=by {-}] (eins)      {maintain transaction data};
+		\node[punktchain,rounded corners=0pt, minimum height=2.8em , join=by {-}] (zwei) {consolidate transaction data};
+		\node[punktchain, rounded corners=0pt, minimum height=2.8em, join=by {-}, ] (drei) {combine transaction data};
+		\node[punktchain, rounded corners=0pt , minimum height=2.8em,join=by {-}, ] (vier) {provide transaction data};
 		
 		\end{tikzpicture}
 				\caption{Transaction-related variant}\label{fig:knowmang:trans}
@@ -1035,18 +1035,13 @@ In order to fit the three variants (case-related, customer-related, transaction-
 	
 	With respect to the other two process groups of the framework, the client  processes show the smallest domain specificity, as the outsourcing process and the agreement between provider and client stands in focus. \acrshort{CRM} encloses the services themselves, but it does not impact the B2B-relationship that forms around provider and client in order to establish the service transition. 
 	
-	The outsourcing process is described in different frameworks in literature. \citep{perunovic2007outsourcing} investigate in outsourcing theories that cover the process as a whole and synthesize a five step process. It occurs that the greater part of frameworks takes the perspective of the outsourcing client, so that processes like \textit{vendor selection} or the alike are often part of frameworks. \citep{Agarwal_2008} presents a rather neutral framework that is not fit on the role of the client and names activities that are driven by client and provider. \citep{deloittehandbook}, an advisory in the domain, provides a comprehensive handbook for clients that is build around a six step process. 
+	The outsourcing process is described in different frameworks in literature. \citep{perunovic2007outsourcing} investigate in outsourcing theories that cover the process as a whole and synthesize a five step process. It occurs that the greater part of frameworks take the outsourcing client's perspective, so that processes like \textit{vendor selection} or the alike are often part of frameworks. \citep{Agarwal_2008} present a rather neutral framework that is not fit on the role of the client and names activities that are driven by client and provider. \citep{deloittehandbook}, as practitioners, provide a comprehensive handbook for clients that is build around a six step process. 
 	
-	As the provider's perspective is taken in this thesis, the presented frameworks need to examined in terms of their applicability. Activities prior to signing of an outsourcing contract are either driven by internal analysis in the client organization whether outsourcing is a beneficial means or an external analysis of the available providers (vendors) on the market \citep{Franceschini_2003}. It is common practice to issue a \acrfull{RFP} to considered providers that mark the engagement of a relationship between the provider and the client. The following B2B-sales process ends with a signed contract between both parties that is followed by the service realization. This is chosen to be modeled in one sales process (\cf \Fig \ref{fig:outsourcingprocess}), as the split into multiple components is motivated by (client)-internal steps prior to the approach of potential vendors. Provider can engage in activities that may invoke the submission of a \acrshort{RFP} in the first place, but this pro-active sales approach can be seen as an optional part at the beginning of the sales process.
+	As the provider's perspective is taken in this thesis, the presented frameworks need to examined in terms of their applicability. Activities prior to signing of an outsourcing contract are either driven by internal analysis in the client organization whether outsourcing is a beneficial means or an external analysis of the available providers (vendors) on the market \citep{Franceschini_2003}. It is common practice to issue a \acrfull{RFP} to considered providers that mark the engagement of a relationship between the provider and the client. The following B2B-sales process ends with a signed contract between both parties that is followed by the service realization. This is chosen to be modeled in a single \textit{Sales} process (\cf \Fig \ref{fig:outsourcingprocess}), as the split into multiple components is motivated by (client)-internal steps prior to the approach of potential vendors. Providers can engage in pre-sales activities that may invoke the submission of a \acrshort{RFP} in the first place, but this pro-active sales approach can be seen as an optional part at the beginning of the sales process.
 	
-	The realization of the outsourcing agreement can be split into two streams, as seen in \citep{Agarwal_2008}. On the hand there is the creation of the provider's solution that addresses the client's problem. On the other hand, the client needs to pass over the existing in-house business to the provider in order to realize the outsourcing. These two aspects are separated into two processes, Solution Design and Transition. The former ends with the implementation of the service for the client, while the latter is completed with the takeover. The interdependency of these two is visualized by their parallel arrangement. 
+	The realization of the outsourcing agreement can be split into two streams, as seen in \citep{Agarwal_2008}. On the hand there is the creation of the provider's solution that addresses the client's problem. The solution relates to the provider's product portfolio and it's application on the case.  On the other hand, the client needs to pass over the existing in-house business to the provider in order to realize the outsourcing. These two aspects are separated into the two processes \textit{Solution Design} and \textit{Transition}. The former ends with the implementation of the service for the client, while the latter is completed with the takeover. The interdependency of these two is visualized by their parallel arrangement. 
 	
-	The last part of the examined outsourcing frameworks characterizes activities that take place after the outsourcing is in place. From a provider perspective, this can be described as (client) relationship management. However, this wording would lead to confusion, as the purpose of the outsourcing (\viz \acrshort{CRM}) is not explicitly named on the framework. Due to this the related notion of account management is chosen to represent this process, which emphasizes the B2B-aspect. 
-	
-	
-	Each of the stages has to provide an answer on various questions, thus emphasising the complexity of the outsourcing process and arguing for a need that it has to be managed carefully throughout all of its life cycle \citep{perunovic2007outsourcing}
-	\\
-		
+	The last part of the examined outsourcing frameworks characterizes activities that take place after the transition is completed. From a provider perspective, this follow-up can be described as client relationship maintenance \citep{Moncrief_2005}. However, this wording would lead to confusion, as the target of the outsourcing activity (\viz \acrshort{CRM}) is not explicitly named on the framework. Due to this the related notion of \textit{Account Management }is chosen to represent this process, which emphasizes the B2B-aspect. 
 	
 	\begin{figure}[caption={Outsourcing process framework comparison}, label={fig:outsourcingprocesses}]
 		{	\includegraphics[width=.95\textwidth]{figures/outsourcingprocs.pdf}}
@@ -1054,8 +1049,89 @@ In order to fit the three variants (case-related, customer-related, transaction-
 	
 	
 	\subsection{Sales}
-	The contract development step, as in Figure 2, is the formalization of the relationship between outsourced and the outsourcer. \citep{Franceschini_2003}
 	
+	This process marks the starting point of an outsourcing life cycle of a provider with a client. Building on a review existing paradigms for B2B-selling processes in the literature \citep{_ge_2011}, a linear process known as the  \enquote{seven steps of selling} shall serve as a blueprint for the process structure here. 
+	
+	With roots in the 1920s, \citep{Moncrief_2005} reviews the traditional seven steps and focuses on its applicability towards relationship selling, which aims at the \enquote{securing, building, and maintaining long-term relationships with profitable customers} \citep[\p{13}]{Moncrief_2005}. The technological progress has impacted the steps significantly, which is why the wording is to be accepted with reservation. The steps are (1) Prospecting, (2) Preapproach, (3) Approach, (4) Presentation, (5) Overcoming Objections, (6) Close, (7) Follow-Up. In contrast to the initial intent, the steps do not need to be sequentially completed and multiple people are involved instead of a single sales person. Moreover, it is abstracted from the physical meaning of \textit{approach} or \textit{presentation} for instance.
+	
+	\Fig \ref{fig:salesproc} shows the sales process and its detail processes are discussed in the following \wrt the steps of selling. Underlying process building blocks are not explicitly specified in this work, but suggestions for components are given in the textual description. 
+	
+	\begin{figure}[caption={Sales process}, label={fig:salesproc}]
+		\begin{subfigure}[b]{.40\textwidth}
+			\begin{center}
+				\includegraphics{figures/processes/sales.pdf}
+			\end{center}
+		\end{subfigure}
+		\begin{subfigure}[b]{.9\textwidth}
+			\begin{center}
+				\begin{tikzpicture}
+				[node distance=.5cm, start chain=going below,font=\sffamily]
+				\node[punktchain, rounded corners=0pt, join=by {-}] (eins)      {identify prospect};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (zwei) {approach prospect};
+				\node[punktchain, rounded corners=0pt, join=by {-}, ] (drei) {evaluate \acrshort{RFP}};
+				\node[punktchain, rounded corners=0pt, join=by {-}, ] (vier) {create offer};
+				\node[punktchain, rounded corners = 0pt, minimum height=2.6em,] (fuenf) {negotiate contract};
+				\node[punktchain, left = of fuenf, minimum height=2.6em, rounded corners = 0pt,] (sechs) {perform due diligence};
+				\node[punktchain, right = of fuenf, minimum height=2.6em, rounded corners = 0pt,] (sieben) {create commercial deal};
+				\node[punktchain, below = of fuenf, rounded corners = 0pt,] (acht) {create contract};
+					\draw[|-,-|,-, thick,] (vier.south) |-+(0,-0.5em)-| (fuenf.north);
+					\draw[|-,-|,-, thick,] (vier.south) |-+(0,-0.5em)-| (sechs.north);
+					\draw[|-,-|,-, thick,] (vier.south) |-+(0,-0.5em)-| (sieben.north);
+						\draw[|-,-|,-, thick,] (fuenf.south) |-+(0,-0.5em)-| (acht.north);
+					\draw[|-,-|,-, thick,] (sechs.south) |-+(0,-0.5em)-| (acht.north);
+					\draw[|-,-|,-, thick,] (sieben.south) |-+(0,-0.5em)-| (acht.north);
+				\end{tikzpicture}
+			\end{center}
+		\end{subfigure}
+	
+\end{figure}
+	
+	\subsubsection{Identify prospects}
+	In order to enable a pro-active client approach in the selling process, the market has to be analyzed so that potential prospects can be targeted by the provider. It corresponds to the first step of selling (Prospecting), while the efforts towards a specific prospect can be seen as part of the pre-approach. 
+	A prospect can be \enquote{ regarded [...] as a potential customer, client, \etc} \citep{oxfordprospect} and the provider's perception is that this organization can benefit from outsourcing processes. This activity requires the screening of in-house services, so that added-value for can be worked out. As there is no internal information (for example about costs) available at this point, this detail process is especially important in scenarios where the \acrshort{BPO} provider sees its strengths in providing a better service over solely cost reduction. The prospect might not be aware of the efforts of the provider and might not consider outsourcing as an option. Hence, the provider can expand its market and bring itself in an advantageous position in the following contact with the client. 
+
+	
+	\subsubsection{Approach prospects}
+	
+	Building on the market analysis that brought out a prospect, this step describes the provider's \textit{approach} towards the potential client, so that the provider can communicate its ideas. Clearly, this describes the third step of selling. The prospect can evaluate these and form a clearer picture of the circumstances, as the provider's ideas must base on assumptions due to lack of internal information. In the positive case, the prospect creates a bid, which represents the intent of a prospect to engage in outsourcing of a specified process. Considered providers are contacted and receive an \acrshort{RFP}. 
+	
+	The hitherto described two detail processes of selling can be seen as optional. If a client contacts a provider self-motivated, the process starts with the evaluation of the \acrshort{RFP}.
+	
+	\subsubsection{Evaluate \acrshort{RFP}}
+	
+	The third detail process has less foundation in the selling process, but represents a review of the received \acrshort{RFP}. This is due to the fact that in the selling process, the willingness of the selling party is not in question. However, in the domain of outsourcing, a matching between client needs and offered services by the provider is necessary in order to establish a win-win situation. Furthermore, the action of issuing the \acrshort{RFP} (initiated by the prospect) requires a \textit{reaction} of the provider. This reaction needs to consider the requirements of the prospect internally in order to decide whether to participate in the bid. This evaluation examines the fit to the provider's service offerings, its sales strategy, but also macro-environmental factors of the bid. The PEST-framework \citep{0314852336} illustrates these as a mnemonic for political, economic, social and technological aspects that surround and influence the decision of an provider. 
+	When the provider decides to continue the sales activity, the following process step, namely the creation of an offer is started. 
+	
+	\subsubsection{Create offer}
+	The fourth detail process of sales describes the activities that are done to respond  to the client's \acrshort{RFP} by means of an offer. The corresponding fourth step in the selling (presentation), describes the presentation as the demonstration of the seller's products in terms of features, advantages and benefits \citep{Moncrief_2005}. This can also be implicitly seen in the offer, only that the boundaries are given by the \acrshort{RFP}. However, provider's need to make assumptions in the process. 
+	
+	As multiple providers receive an \acrshort{RFP}, there is competition. It is common for \acrshort{RFP} issuing companies to narrow down the candidates by creation of a \textit{short list} after reviewing the responses to the \acrshort{RFP}. This short list marks the next stage in the provider selection process, where more details are given to the remaining providers. In turn, these work in the new information to further specify the offer. As the final selection of a provider is a decision by the prospect, it is not further located in this process. 
+	
+	The following fifth part of the process is split into three parts in order to emphasize their connection to the fifth part of the steps of selling (overcoming objections). 
+	
+		
+	\subsubsection{Negotiate contract}
+	
+	As the client\footnote{The contract describes a state where both parties have agreed to do outsourcing. Therefore, the term client is used instead of prospect from now on.} and provider move closer to an outsourcing agreement, both need to discuss terms and conditions. The contract is the legal formalization of the relationship between provider and the client \citep{Franceschini_2003}. 
+	
+	A \acrfull{SLA} describes \enquote{the performance level at which the service should be provided by the client} \citep[\p{32}]{deloittehandbook}. The contract specifies these to align the operational objectives of both parties and to incentivize correct behavior. Related to \acrshort{SLA}s is credits regime, which specifies how performance below the \acrshort{SLA} is treated. 
+	
+	Covered aspects can be the operating model, process and scope, technology and tools, people, change management, transition planning, location management, security \& control, regulation or data privacy for instance \citep{deloittehandbook}. Aim of this detail process is to find an agreement, so that both parties are willing to set up and sign the contract.
+	
+	
+	\subsubsection{Perform due diligence}
+	
+	Outsourcing can involve the transfer of personnel, infrastructure or licensing agreements for instance. The decrease of information asymmetries between provider and prospect helps the provider to compile a more detailed offer. Due diligence is the provider's act to collect this knowledge, so that risks can be minimized by depending less on assumptions. This detail process aims at including more information from the client side in the sales process. 
+
+	\subsubsection{Create commercial deal}
+	
+	The provider needs to develop a commercial model for its services that are subject to this outsourcing project. Financial engineering of the provider leads to a pricing model that needs to be agreed on\footnote{This agreement is reason for naming the object commercial deal instead of commercial model.}. The reader is referred to \ref{app:fineng} for typical pricing model elements. The activity of defining a commercial model is oriented towards the provider organization, which is reason for its explicit modeling \wrt client-oriented due diligence and bilateral negotiation detail process. 
+	
+	\subsubsection{Create contract}
+	
+	The sixth step of selling (close) describes the agreement of selling and buying party. In \acrshort{BPO} this document is the contract between provider and client. Previous negotiations, information from due diligence and the commercial deal are foundations for setup of the contract. This detail process ends with the signing of the contract, which leads to the transition phase of the outsourcing life cycle. The seventh step of selling (follow-up) is represented in the Account Management process that covers the development of an existing outsourcing relationship. 
+	
+		
 	\subsection{Implementation}
 	
 	\subsection{Solution Design}

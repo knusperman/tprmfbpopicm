@@ -1664,4 +1664,21 @@
   publisher = {Emerald},
 }
 
+@InProceedings{perunovic2007outsourcing,
+  author    = {Perunovi{\'c}, Zoran and Pedersen, J{\o}rgen Lindgaard},
+  title     = {Outsourcing process and theories},
+  booktitle = {Proceedings of the POMS 18th Annual Conference, May 4--7, Dallas, Texas, 007},
+  year      = {2007},
+  volume    = {3},
+}
+
+@TechReport{deloittehandbook,
+  author      = {{Deloitte}},
+  title       = {The Outsourcing Handbook. A guide to outsourcing.},
+  institution = {Deloitte},
+  year        = {2013},
+  comment     = {(accessed February 03, 2017).},
+  url         = {https://www.deloitte.co.uk/makeconnections/assets/pdf/the-outsourcing-handbook-a-guide-to-outsourcing.pdf},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
