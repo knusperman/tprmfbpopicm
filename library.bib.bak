@@ -1222,13 +1222,13 @@
   doi       = {10.1007/978-3-540-69534-9_35},
 }
 
-@Article{oxfordenquiry,
+@Misc{oxfordenquiry,
   author  = {{Oxford Dictionary}},
   title   = {enquiry},
-  journal = {Oxford University Press},
-  year    = {2016},
-  comment = {(accessed February 03, 2017).},
+  year    = {2017},
+  comment = {(accessed February 03, 2017)},
   url     = {https://en.oxforddictionaries.com/definition/enquiry},
+  urldate = {02.02.2017},
 }
 
 @Article{Frow_2007,
@@ -1429,30 +1429,30 @@
   doi       = {10.1007/978-3-8349-9088-4},
 }
 
-@Article{oxford,
+@Misc{oxford,
   author  = {{Oxford Dictionary}},
-  title   = {outsourcing, n.},
-  journal = {Oxford University Press},
-  year    = {2016},
+  title   = {outsourcing},
+  year    = {2017},
   comment = {(accessed February 03, 2017).},
+  journal = {Oxford University Press},
   url     = {http://www.oed.com/view/Entry/257590;jsessionid=6087DE922B96255E6490B5969FD99574?redirectedFrom=outsourcing},
 }
 
-@Article{oxfordrequest,
+@Misc{oxfordrequest,
   author  = {{Oxford Dictionary}},
   title   = {request},
-  journal = {Oxford University Press},
   year    = {2017},
   comment = {(accessed February 03, 2017).},
+  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/request},
 }
 
-@Article{oxfordreview,
+@Misc{oxfordreview,
   author  = {{Oxford Dictionary}},
   title   = {review},
-  journal = {Oxford University Press},
   year    = {2017},
   comment = {(accessed February 03, 2017).},
+  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/review},
 }
 
@@ -1540,12 +1540,12 @@
   year        = {2016},
 }
 
-@Article{oxfordcontact,
+@Misc{oxfordcontact,
   author  = {{Oxford Dictionary}},
   title   = {contact},
-  journal = {Oxford University Press},
   year    = {2017},
   comment = {(accessed February 20, 2017).},
+  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/contact},
 }
 
@@ -1679,6 +1679,83 @@
   year        = {2013},
   comment     = {(accessed February 03, 2017).},
   url         = {https://www.deloitte.co.uk/makeconnections/assets/pdf/the-outsourcing-handbook-a-guide-to-outsourcing.pdf},
+}
+
+@Article{_ge_2011,
+  author    = {Lars-Johan {\AA}ge},
+  title     = {Business manoeuvring: a model of B2B selling processes},
+  journal   = {Management Decision},
+  year      = {2011},
+  volume    = {49},
+  number    = {9},
+  pages     = {1574--1591},
+  month     = {oct},
+  doi       = {10.1108/00251741111173998},
+  publisher = {Emerald},
+}
+
+@Article{Moncrief_2005,
+  author    = {William C. Moncrief and Greg W. Marshall},
+  title     = {The evolution of the seven steps of selling},
+  journal   = {Industrial Marketing Management},
+  year      = {2005},
+  volume    = {34},
+  number    = {1},
+  pages     = {13--22},
+  month     = {jan},
+  doi       = {10.1016/j.indmarman.2004.06.001},
+  publisher = {Elsevier {BV}},
+}
+
+@Misc{oxfordprospect,
+  author  = {{Oxford Dictionary}},
+  title   = {prospect},
+  year    = {2017},
+  comment = {(accessed February 26, 2017).},
+  journal = {Oxford University Press},
+  url     = {https://en.oxforddictionaries.com/definition/prospect},
+}
+
+@Book{0314852336,
+  title     = {Macroenvironmental Analysis for Strategic Management (The West Series in Strategic Management)},
+  publisher = {South-Western},
+  year      = {1986},
+  author    = {Liam Fahey and V. K. Narayanan},
+  isbn      = {0-314-85233-6},
+  url       = {https://www.amazon.com/Macroenvironmental-Analysis-Strategic-Management-West/dp/0314852336%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0314852336},
+}
+
+@TechReport{bitkom2008,
+  author      = {Kai Kuhlmann},
+  title       = {Rechtliche Aspekte von Outsourcing in der Praxis},
+  institution = {BITKOM},
+  year        = {2008},
+  url         = {https://www.bitkom.org/Bitkom/Publikationen/Rechtliche-Aspekte-von-Outsourcing-in-der-Praxis.html},
+}
+
+@Misc{oxfordtransition,
+  author  = {{Oxford Dictionary}},
+  title   = {transition},
+  year    = {2017},
+  comment = {(accessed February 26, 2017).},
+  journal = {Oxford University Press},
+  url     = {https://en.oxforddictionaries.com/definition/transition},
+}
+
+@Misc{oxfordtransformation,
+  author  = {{Oxford Dictionary}},
+  title   = {prospect},
+  year    = {2017},
+  comment = {(accessed February 26, 2017).},
+  journal = {Oxford University Press},
+  url     = {https://en.oxforddictionaries.com/definition/transformation},
+}
+
+@TechReport{itgov2005,
+  author = {{IT Governance Institute}},
+  title  = {Governance of Outsourcing},
+  year   = {2005},
+  url    = {http://www.isaca.org/Knowledge-Center/Research/Documents/Governance-of-Outsourcing_res_Eng_0105.pdf},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{123}
+\begin{thebibliography}{128}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -184,6 +184,12 @@ Diller, H. 1995. \enquote{Beziehungsmarketing,} {\it
 Evans, P. 2014. \enquote{How data will transform Business,} .
 
 
+\bibitem[{Fahey and Narayanan(1986)}]{0314852336}
+Fahey, L., and Narayanan, V.~K. 1986. {\it Macroenvironmental Analysis for
+  Strategic Management (The West Series in Strategic Management)\/},
+  South-Western.
+
+
 \bibitem[{Fettke(2014)}]{Fettke2014meth}
 Fettke, P. 2014. \enquote{{Eine Methode zur induktiven Entwicklung von
   Referenzmodellen},} in {\it Tagungsband Multikonferenz Wirtschaftsinformatik
@@ -272,6 +278,10 @@ Hsieh, P.-L., and Wei, S.-L. 2017. \enquote{Relationship formation within
   online brand communities: Bridging the virtual and the real,} {\it Asia
   Pacific Management Review\/} .
 
+\bibitem[{{IT Governance Institute}(2005)}]{itgov2005}
+{IT Governance Institute} 2005. \enquote{Governance of Outsourcing,} Tech. rep.
+
+
 \bibitem[{K{\"o}nig et~al.(1996)K{\"o}nig, Heinzl, Rumpf, and von
   Poblotzki}]{konig1996entwicklung}
 K{\"o}nig, W., Heinzl, A., Rumpf, M.-J., and von Poblotzki, A. 1996.
@@ -281,6 +291,11 @@ K{\"o}nig, W., Heinzl, A., Rumpf, M.-J., and von Poblotzki, A. 1996.
 
 \bibitem[{Kroeber-Riel and Weinberg(1997)}]{kroeber1997}
 Kroeber-Riel, W., and Weinberg, P. 1997. {\it Konsumentenverhalten\/}, Vahlen.
+
+\bibitem[{Kuhlmann(2008)}]{bitkom2008}
+Kuhlmann, K. 2008. \enquote{Rechtliche Aspekte von Outsourcing in der Praxis,}
+  Tech. rep., BITKOM.
+
 
 \bibitem[{Lacity and Hirschheim(1993)}]{lacity1993}
 Lacity, M.~C., and Hirschheim, R.~A. 1993. {\it Information Systems
@@ -380,34 +395,36 @@ Neslin, S.~A., and Shankar, V. 2009. \enquote{Key Issues in Multichannel
   Customer Management: Current Knowledge and Future Directions,} {\it Journal
   of Interactive Marketing\/} (23:1), pp. 70--81.
 
-\bibitem[{{Oxford Dictionary}(2016{\natexlab{a}})}]{oxfordenquiry}
-{Oxford Dictionary} 2016{\natexlab{a}}. \enquote{enquiry,} {\it Oxford
-  University Press\/} .
-
-
-\bibitem[{{Oxford Dictionary}(2016{\natexlab{b}})}]{oxford}
-{Oxford Dictionary} 2016{\natexlab{b}}. \enquote{outsourcing, n.} {\it Oxford
-  University Press\/} .
-
-
 \bibitem[{{Oxford Dictionary}(2017{\natexlab{a}})}]{oxfordcontact}
-{Oxford Dictionary} 2017{\natexlab{a}}. \enquote{contact,} {\it Oxford
-  University Press\/} .
+{Oxford Dictionary} 2017{\natexlab{a}}. \enquote{contact,} .
 
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{b}})}]{oxfordprospect}
-{Oxford Dictionary} 2017{\natexlab{b}}. \enquote{prospect,} {\it Oxford
-  University Press\/} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{b}})}]{oxfordenquiry}
+{Oxford Dictionary} 2017{\natexlab{b}}. \enquote{enquiry,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/enquiry}\newline\urldateprefix02.02.2017
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{c}})}]{oxford}
+{Oxford Dictionary} 2017{\natexlab{c}}. \enquote{outsourcing,} .
 
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{c}})}]{oxfordrequest}
-{Oxford Dictionary} 2017{\natexlab{c}}. \enquote{request,} {\it Oxford
-  University Press\/} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{d}})}]{oxfordprospect}
+{Oxford Dictionary} 2017{\natexlab{d}}. \enquote{prospect,} .
 
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{d}})}]{oxfordreview}
-{Oxford Dictionary} 2017{\natexlab{d}}. \enquote{review,} {\it Oxford
-  University Press\/} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{e}})}]{oxfordtransformation}
+{Oxford Dictionary} 2017{\natexlab{e}}. \enquote{prospect,} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{f}})}]{oxfordrequest}
+{Oxford Dictionary} 2017{\natexlab{f}}. \enquote{request,} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{g}})}]{oxfordreview}
+{Oxford Dictionary} 2017{\natexlab{g}}. \enquote{review,} .
+
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{h}})}]{oxfordtransition}
+{Oxford Dictionary} 2017{\natexlab{h}}. \enquote{transition,} .
 
 
 \bibitem[{Payne and Frow(2004)}]{payne2004role}

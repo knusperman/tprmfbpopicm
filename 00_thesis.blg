@@ -2,12 +2,8 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: 00_thesis.aux
 The style file: assets/misq.bst
-White space in argument---line 347 of file 00_thesis.aux
- : \citation{glossar
- :                   nicht wirklich zwingend drin...}
-I'm skipping whatever remains of this command
 Case mismatch error between cite keys Schewe2007 and schewe2007
----line 389 of file 00_thesis.aux
+---line 384 of file 00_thesis.aux
  : \citation{Schewe2007
  :                     }
 I'm skipping whatever remains of this command
@@ -20,7 +16,6 @@ Warning--I didn't find a database entry for "acc2015ce"
 Warning--I didn't find a database entry for "p"
 Warning--I didn't find a database entry for "Becker2012Gom"
 Warning--I didn't find a database entry for "ccn2016"
-Warning--I didn't find a database entry for "0314852336"
 Warning--I didn't find a database entry for "Stonebraker:1988:RDS"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 `urldate' is a missing field, not a string, for entry becker2012pm
@@ -45,6 +40,8 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry evansted
 while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry 0314852336
+while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Fettke2004
 while executing---line 1733 of file assets/misq.bst
 Warning--can't use both author and editor fields in habermas1973
@@ -53,6 +50,11 @@ while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Hevner2004
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry hirschheim
+while executing---line 1733 of file assets/misq.bst
+Warning--missing institution in itgov2005
+`urldate' is a missing field, not a string, for entry itgov2005
+while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry bitkom2008
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Lee:2000
 while executing---line 1733 of file assets/misq.bst
@@ -66,17 +68,19 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Neslin2006
 while executing---line 1733 of file assets/misq.bst
-`urldate' is a missing field, not a string, for entry oxfordenquiry
+`urldate' is a missing field, not a string, for entry oxfordcontact
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry oxford
 while executing---line 1733 of file assets/misq.bst
-`urldate' is a missing field, not a string, for entry oxfordcontact
-while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry oxfordprospect
+while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry oxfordtransformation
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry oxfordrequest
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry oxfordreview
+while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry oxfordtransition
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry paynefrow2005
 while executing---line 1733 of file assets/misq.bst
@@ -92,45 +96,45 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Winter2008Hevner
 while executing---line 1733 of file assets/misq.bst
-You've used 123 entries,
+You've used 128 entries,
             3448 wiz_defined-function locations,
-            1448 strings with 26629 characters,
-and the built_in function-call counts, 137868 in all, are:
-= -- 16742
-> -- 2415
-< -- 174
-+ -- 1311
-- -- 774
-* -- 8289
-:= -- 14402
-add.period$ -- 344
-call.type$ -- 123
-change.case$ -- 764
-chr.to.int$ -- 148
-cite$ -- 124
-duplicate$ -- 15011
-empty$ -- 8669
-format.name$ -- 1133
-if$ -- 28545
-int.to.chr$ -- 8
+            1468 strings with 27495 characters,
+and the built_in function-call counts, 137553 in all, are:
+= -- 16608
+> -- 2480
+< -- 179
++ -- 1337
+- -- 792
+* -- 8267
+:= -- 14553
+add.period$ -- 358
+call.type$ -- 128
+change.case$ -- 792
+chr.to.int$ -- 153
+cite$ -- 130
+duplicate$ -- 14835
+empty$ -- 8618
+format.name$ -- 1160
+if$ -- 28415
+int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 1061
-newline$ -- 415
-num.names$ -- 499
-pop$ -- 5889
+missing$ -- 1079
+newline$ -- 435
+num.names$ -- 519
+pop$ -- 5799
 preamble$ -- 1
-purify$ -- 870
+purify$ -- 901
 quote$ -- 0
-skip$ -- 6245
+skip$ -- 6287
 stack$ -- 0
-substring$ -- 12031
-swap$ -- 8638
+substring$ -- 11681
+swap$ -- 8692
 text.length$ -- 78
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1032
-warning$ -- 1
-while$ -- 742
+type$ -- 1074
+warning$ -- 2
+while$ -- 751
 width$ -- 0
-write$ -- 1389
-(There were 36 error messages)
+write$ -- 1437
+(There were 39 error messages)
