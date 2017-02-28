@@ -1223,12 +1223,12 @@
 }
 
 @Misc{oxfordenquiry,
-  author  = {{Oxford Dictionary}},
-  title   = {enquiry},
-  year    = {2017},
-  comment = {(accessed February 03, 2017)},
-  url     = {https://en.oxforddictionaries.com/definition/enquiry},
-  urldate = {02.02.2017},
+  author       = {{Oxford Dictionary}},
+  title        = {enquiry},
+  howpublished = {test},
+  year         = {2017},
+  url          = {https://en.oxforddictionaries.com/definition/enquiry},
+  urldate      = {02.02.2017},
 }
 
 @Article{Frow_2007,
@@ -1433,27 +1433,24 @@
   author  = {{Oxford Dictionary}},
   title   = {outsourcing},
   year    = {2017},
-  comment = {(accessed February 03, 2017).},
-  journal = {Oxford University Press},
   url     = {http://www.oed.com/view/Entry/257590;jsessionid=6087DE922B96255E6490B5969FD99574?redirectedFrom=outsourcing},
+  urldate = {02.02.2017},
 }
 
 @Misc{oxfordrequest,
   author  = {{Oxford Dictionary}},
   title   = {request},
   year    = {2017},
-  comment = {(accessed February 03, 2017).},
-  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/request},
+  urldate = {02.02.2017},
 }
 
 @Misc{oxfordreview,
   author  = {{Oxford Dictionary}},
   title   = {review},
   year    = {2017},
-  comment = {(accessed February 03, 2017).},
-  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/review},
+  urldate = {02.02.2017},
 }
 
 @Article{Chen:2012:BIA,
@@ -1544,9 +1541,8 @@
   author  = {{Oxford Dictionary}},
   title   = {contact},
   year    = {2017},
-  comment = {(accessed February 20, 2017).},
-  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/contact},
+  urldate = {02.02.2017},
 }
 
 @InProceedings{thomas2008self,
@@ -1711,9 +1707,8 @@
   author  = {{Oxford Dictionary}},
   title   = {prospect},
   year    = {2017},
-  comment = {(accessed February 26, 2017).},
-  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/prospect},
+  urldate = {02.02.2017},
 }
 
 @Book{0314852336,
@@ -1737,18 +1732,16 @@
   author  = {{Oxford Dictionary}},
   title   = {transition},
   year    = {2017},
-  comment = {(accessed February 26, 2017).},
-  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/transition},
+  urldate = {02.02.2017},
 }
 
 @Misc{oxfordtransformation,
   author  = {{Oxford Dictionary}},
   title   = {prospect},
   year    = {2017},
-  comment = {(accessed February 26, 2017).},
-  journal = {Oxford University Press},
   url     = {https://en.oxforddictionaries.com/definition/transformation},
+  urldate = {02.02.2017},
 }
 
 @TechReport{itgov2005,
@@ -1756,6 +1749,23 @@
   title  = {Governance of Outsourcing},
   year   = {2005},
   url    = {http://www.isaca.org/Knowledge-Center/Research/Documents/Governance-of-Outsourcing_res_Eng_0105.pdf},
+}
+
+@Book{0273705601,
+  title     = {Smarter Outsourcing: An executive guide to understanding, planning and exploiting successful outsourcing relationships},
+  publisher = {FT Press},
+  year      = {2006},
+  author    = {Jean-Louis Bravard and Robert Morgan},
+  isbn      = {0-273-70560-1},
+  url       = {https://www.amazon.com/Smarter-Outsourcing-understanding-outsourcing-relationships/dp/0273705601%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0273705601},
+}
+
+@Misc{oxfordaccount,
+  author  = {{Oxford Dictionary}},
+  title   = {account},
+  year    = {2017},
+  url     = {https://en.oxforddictionaries.com/definition/account},
+  urldate = {02.02.2017},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

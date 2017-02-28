@@ -1173,7 +1173,7 @@ In order to fit the three variants (case-related, customer-related, transaction-
 	\subsubsection{Perform \acrshort{TMO} phase}
 	After the as-is state is operating under the provider's responsibility, the implementation of changes can be initiated. The complexity of changes depend on the degree of innovation in the provided services \wrt as-is services. Reaching the \acrshort{FMO} phase ends this phase. With the service solutions in place, the regular \acrshort{SLA} and credit regime applies.
 	
-
+	\subsection{Solution Design}
 	Deloitte: differentiate between service definition (\ie requirements) and service solution (how provider meets the requirements)
 	
 	
@@ -1220,70 +1220,34 @@ In order to fit the three variants (case-related, customer-related, transaction-
 		
 	\subsubsection{manage disputes}
 	
-	Despite quantitative measures of the provider regarding the provider's performance (\eg conforming to \acrshort{SLA}s), dispute or issue management is a critical factor in the relationship. According to a survey, the reactive instead of proactive approach of provider's is seen as the most important issue from the client's perspective \citep{deloitte2014outsourcing}. This signifies the importance from the provider's perspective to actively consider this activity in their account management. Based on an identification of disputes, both parties should look for resolutions, discuss them and resolve the issue. Typically an escalation or enhanced governance processes are first steps taken by clients to resolve issues.
+	Despite quantitative measures of the provider regarding the provider's performance (\eg conforming to \acrshort{SLA}s), dispute or issue management is a critical factor in the relationship. According to a survey, the reactive instead of proactive approach of provider's is seen as the most important issue in dispute management \citep{deloitte2014outsourcing}. This signifies the importance from the provider's perspective to actively consider this activity in their account management. Based on an identification of disputes, both parties should look for resolutions, discuss them and resolve the issue. 
 	
 	\subsubsection{monitor service performance}
 	
-	It is task of the provider to ensure service performance in the client business to conform to \acrshort{SLA}s \cite{deloittehandbook}. Again referring to \citep{deloitte2014outsourcing}, poor service quality is the highest issue that clients face with their providers. It is done across locations to get an internal overview of service delivery across the account. While reporting part of this data to the client will be part of the contract, the operative insights identifies weak spots that can be addressed. On the one hand, these weak spots can yield efficiency gains regarding the existing service delivery, that decrease the provider's efforts to conform to the \acrshort{SLA}s. On the other hand, improvements regarding the overall service delivery can be proposed to the client as an innovation. This is captured in the following detail process, which builds on the previously gained insights from service performance monitoring. 
-	
-	\subsubsection{propose innovation}
-	
-	It is a pitfall in outsourcing to focus on operational objectives, instead of improving the entire arrangement \citep{deloittehandbook}. While providers heavily incorporate experience and skills in their outsourcing domain, lack of innovation is named the third most important issue from clients \citep{deloitte2014outsourcing}. Especially in a IT-driven field as \acrshort{CRM}, the provider, as a partner, must think outside the box to provide better solutions to the client that generate more value to the customer. The reader is referred to \citep{Saren_1984} for a review of intra-firm innovation processes for a more detailed view of possible steps. 
-	
+	It is task of the provider to ensure service performance in the client business to conform to \acrshort{SLA}s. 
+	\subsubsection{propose innovation
 	\subsubsection{manage contract}
-	
-	Over time operational and contractual requirements envolve and with respect to relationship maintenance, the contract management is seen as an important constituent in outsourcing \citep{Franceschini_2003, perunovic2007outsourcing}. To illustrate activities considered a must in contract management, \citep[\p{49}]{deloittehandbook} list: managing and tracking client and provider obligations, managing contract compliance, maintaining a contract library for contractual documentation, provide contract interpretation and advice, signing of all key decisions and formal correspondence, identifying change requirements and managing the contact change process. A contract change can be necessary if it is not possible to handle an issue solely over the relationship. 
-	
 	\subsubsection{renegotiate contract}
-	A renegotiation of a contract puts both parties into the position of rethinking the outsourcing agreement. Consequently, it shows parallels to the initial contracting located in the sales process. However, the relationship is established, information is exchanged and more details of the business are aware to both parties. This implies that there is less risk involved for the provider. The significance of contract renegotiations is seen as high in 43\% and medium in 50\% according to \cite{itgov2005}.
-	
-	
 	\subsubsection{end contract}
-	\cite{reinartz2004customer} name the last phase of \acrshort{CRM} \textit{terminate relationship}. Here, it is deferred from the rather drastic term \textit{terminate}, which implies an active role of the provider to bring the outsourcing agreement to an end. As both parties can finite the contract, the neutral word \textit{end} is chosen. In this case the provider stops service delivery so that the provider restores the process in-house or looks for a new provider. (Tangible) assets that were part of the agreement have to be correctly handled \wrt the contractual requirements. Moreover, data is returned into clients hands. The complexity of the exit and hence the transition back to the client depends on the complexity of the outsourcing agreement. With respect to the intensity of the relationship, it is noted that the termination of a partnership will result in increased efforts, as the mutual trust of both parties implies dependencies. 
 	 
-	\subsection{Solution Design}
-	ziel: solution designen für kunden
-	solution weil servitization hat zu hybriden leistungsbündeln geführt.  \citep{servitization}
-	kurzer schwenk zu soziotechnischen systemen -> core IS
-	
-	dabei wird zum angebotenen service (crm) auch die notwendigen systeme beigeführt.
-	in outsourcing ist diese komponente variabel (kunden können system auch mitbringen)
-	die systemkomponente wird von den providern beigefügt, um die dienstleistung zu realisieren. system werden nicht entwickelt. wohl aber services (und dementsprechend dann auch solutions)
-	
-	service design mit modularen komponenenten des service engineerings beschreibt das solution design. 
-	modulare komponenten weil produktkonzept. wiederverwendung. modularität. 
-	
-	requirements sind in der service definition zu finden, die im sales prozess übermittelt werden. 
-	 
-	
-	
-	def solution, def product, def service architecture, service product, service konfiguration.  bottom up (sd, pd, pm)
-	ref zu product development und so ... 
-	
-	servitiza
 	
 \section{Management Processes}
-
+	%%%%%%%%%%
+	%%%%%%%%%%
 	\subsection{Product Development}
 	
 	NSD vs SE vs SD
 	
-	
 	SD: viewing it from the designer perspective
 	
-	NSD: marketing- getrieben. passt hier besser. deshalb auch product development.
-	produkte im sinne eines bpo providers verstehen. 
 	
-	new product development 
+	
 	
 	\subsection{Portfolio Management}
 	
 	cooper
 	
-	\subsection{Quality Management}
-	benachmarking!! ref mod!
 	\subsection{People Lifecycle Management}
-	
 	gross bord 98
 	Investitionsziele: platz 2 personalentwicklung \citep{ccnet2016}, beschaffung platz 4
 	\subsection{Workforce Management}

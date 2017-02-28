@@ -1760,4 +1760,49 @@
   url       = {https://www.amazon.com/Smarter-Outsourcing-understanding-outsourcing-relationships/dp/0273705601%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0273705601},
 }
 
+@Misc{oxfordaccount,
+  author  = {{Oxford Dictionary}},
+  title   = {account},
+  year    = {2017},
+  url     = {https://en.oxforddictionaries.com/definition/account},
+  urldate = {02.02.2017},
+}
+
+@Article{reinartz2004customer,
+  author    = {Reinartz, Werner and Krafft, Manfred and Hoyer, Wayne D},
+  title     = {The customer relationship management process: Its measurement and impact on performance},
+  journal   = {Journal of marketing research},
+  year      = {2004},
+  volume    = {41},
+  number    = {3},
+  pages     = {293--305},
+  publisher = {American Marketing Association},
+}
+
+@Article{Saren_1984,
+  author    = {M. A. Saren},
+  title     = {A classification and review of models of the intra-firm innovation process},
+  journal   = {R{\&}D Management},
+  year      = {1984},
+  volume    = {14},
+  number    = {1},
+  pages     = {11--24},
+  month     = {jan},
+  doi       = {10.1111/j.1467-9310.1984.tb00504.x},
+  publisher = {Wiley-Blackwell},
+}
+
+@Article{Momme_2002,
+  author    = {Jesper Momme},
+  title     = {Framework for outsourcing manufacturing: strategic and operational implications},
+  journal   = {Computers in Industry},
+  year      = {2002},
+  volume    = {49},
+  number    = {1},
+  pages     = {59--75},
+  month     = {sep},
+  doi       = {10.1016/s0166-3615(02)00059-3},
+  publisher = {Elsevier {BV}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
