@@ -1,4 +1,4 @@
-\begin{thebibliography}{128}
+\begin{thebibliography}{140}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -95,6 +95,17 @@ Blut, M., Wang, C., and Schoefer, K. 2016. \enquote{Factors Influencing the
   Acceptance of Self-Service Technologies: A Meta-Analysis,} {\it Journal of
   Service Research\/} (19:4), pp. 396--416.
 
+\bibitem[{B{\"o}hmann and Krcmar(2006)}]{Bohmann2006}
+B{\"o}hmann, T., and Krcmar, H. 2006. {\it Modulare Servicearchitekturen\/},
+  Berlin, Heidelberg: Springer Berlin Heidelberg, pp. 377--401.
+
+
+\bibitem[{Bravard and Morgan(2006)}]{0273705601}
+Bravard, J.-L., and Morgan, R. 2006. {\it Smarter Outsourcing: An executive
+  guide to understanding, planning and exploiting successful outsourcing
+  relationships\/}, FT Press.
+
+
 \bibitem[{Brocke(2003)}]{brocke2003referenzmodellierung}
 Brocke, J. 2003. {\it Referenzmodellierung: Gestaltung und Verteilung von
   Konstruktionsprozessen\/}, Advances in information systems and management
@@ -140,6 +151,14 @@ Cohen, L., and Young, A. 2006. {\it Multisourcing: Moving Beyond Outsourcing to
 {Contact-Center-Network} 2016. \enquote{Contact Center Investitionsstudie
   2016,} Tech. rep., {Contact-Center-Network e.V.}
 
+\bibitem[{Cooper(1988)}]{cooper1988new}
+Cooper, R.~G. 1988. \enquote{The new product process: a decision guide for
+  management,} {\it Journal of Marketing Management\/} (3:3), pp. 238--255.
+
+\bibitem[{Cowell(1988)}]{cowell1988new}
+Cowell, D.~W. 1988. \enquote{New service development,} {\it Journal of
+  Marketing Management\/} (3:3), pp. 296--312.
+
 \bibitem[{Coyne(1997)}]{coyne1997sampling}
 Coyne, I.~T. 1997. \enquote{Sampling in qualitative research. Purposeful and
   theoretical sampling; merging or clear boundaries?} {\it Journal of advanced
@@ -164,6 +183,10 @@ Delfmann, P. 2006. {\it Adaptive Referenzmodellierung: methodische Konzepte zur
 Deloitte 2014. \enquote{{Global Outsourcing Insourcing Survey 2014},} Tech.
   rep., Deloitte Development LLC.
 
+\bibitem[{{Design Council}(2005)}]{dcdd}
+{Design Council} 2005. \enquote{Design methods for developing services,} .
+\newline\urlprefix\url{https://connect.innovateuk.org/documents/3338201/3753639/Design+methods+for+developing+services.pdf}\newline\urldateprefix2017-03-01
+
 \bibitem[{Diller(1995)}]{diller1995}
 Diller, H. 1995. \enquote{Beziehungsmarketing,} {\it
   Wirtschaftswissenschaftliches Studium\/} (24:9).
@@ -179,6 +202,11 @@ Diller, H. 1995. \enquote{Beziehungsmarketing,} {\it
 {Dimension Data} 2016. \enquote{{Global Contact Centre Benchmark Summary
   Report},} .
 \newline\urlprefix\url{http://dimensiondatacx.com/summary-report/}\newline\urldateprefix2016-12-01
+
+\bibitem[{Edgett(1996)}]{Edgett_1996}
+Edgett, S.~J. 1996. \enquote{The new product development process for commercial
+  financial services,} {\it Industrial Marketing Management\/} (25:6), pp.
+  507--515.
 
 \bibitem[{Evans(2014)}]{evansted}
 Evans, P. 2014. \enquote{How data will transform Business,} .
@@ -395,37 +423,41 @@ Neslin, S.~A., and Shankar, V. 2009. \enquote{Key Issues in Multichannel
   Customer Management: Current Knowledge and Future Directions,} {\it Journal
   of Interactive Marketing\/} (23:1), pp. 70--81.
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{a}})}]{oxfordcontact}
-{Oxford Dictionary} 2017{\natexlab{a}}. \enquote{contact,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{a}})}]{oxfordaccount}
+{Oxford Dictionary} 2017{\natexlab{a}}. \enquote{account,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/account}\newline\urldateprefix02.02.2017
 
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{b}})}]{oxfordcontact}
+{Oxford Dictionary} 2017{\natexlab{b}}. \enquote{contact,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/contact}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{b}})}]{oxfordenquiry}
-{Oxford Dictionary} 2017{\natexlab{b}}. \enquote{enquiry,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{c}})}]{oxfordenquiry}
+{Oxford Dictionary} 2017{\natexlab{c}}. \enquote{enquiry,} test.
 \newline\urlprefix\url{https://en.oxforddictionaries.com/definition/enquiry}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{c}})}]{oxford}
-{Oxford Dictionary} 2017{\natexlab{c}}. \enquote{outsourcing,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{d}})}]{oxford}
+{Oxford Dictionary} 2017{\natexlab{d}}. \enquote{outsourcing,} .
+\newline\urlprefix\url{http://www.oed.com/view/Entry/257590;jsessionid=6087DE922B96255E6490B5969FD99574?redirectedFrom=outsourcing}\newline\urldateprefix02.02.2017
 
-
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{d}})}]{oxfordprospect}
-{Oxford Dictionary} 2017{\natexlab{d}}. \enquote{prospect,} .
-
-
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{e}})}]{oxfordtransformation}
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{e}})}]{oxfordprospect}
 {Oxford Dictionary} 2017{\natexlab{e}}. \enquote{prospect,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/prospect}\newline\urldateprefix02.02.2017
 
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{f}})}]{oxfordtransformation}
+{Oxford Dictionary} 2017{\natexlab{f}}. \enquote{prospect,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/transformation}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{f}})}]{oxfordrequest}
-{Oxford Dictionary} 2017{\natexlab{f}}. \enquote{request,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{g}})}]{oxfordrequest}
+{Oxford Dictionary} 2017{\natexlab{g}}. \enquote{request,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/request}\newline\urldateprefix02.02.2017
 
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{h}})}]{oxfordreview}
+{Oxford Dictionary} 2017{\natexlab{h}}. \enquote{review,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/review}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{g}})}]{oxfordreview}
-{Oxford Dictionary} 2017{\natexlab{g}}. \enquote{review,} .
-
-
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{h}})}]{oxfordtransition}
-{Oxford Dictionary} 2017{\natexlab{h}}. \enquote{transition,} .
-
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{i}})}]{oxfordtransition}
+{Oxford Dictionary} 2017{\natexlab{i}}. \enquote{transition,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/transition}\newline\urldateprefix02.02.2017
 
 \bibitem[{Payne and Frow(2004)}]{payne2004role}
 Payne, A., and Frow, P. 2004. \enquote{The role of multichannel integration in
@@ -492,6 +524,12 @@ Ramachandran, K., and Voleti, S. 2004. \enquote{{Business Process Outsourcing
   (BPO): Emerging Scenario and Strategic Options for IT-enabled Services},}
   {\it Interfaces\/} (29:1).
 
+\bibitem[{Reinartz et~al.(2004)Reinartz, Krafft, and
+  Hoyer}]{reinartz2004customer}
+Reinartz, W., Krafft, M., and Hoyer, W.~D. 2004. \enquote{The customer
+  relationship management process: Its measurement and impact on performance,}
+  {\it Journal of marketing research\/} (41:3), pp. 293--305.
+
 \bibitem[{Rigby(2011)}]{rigby2011}
 Rigby, D. 2011. \enquote{The Future of Shopping,} {\it Harvard Business
   Review\/} (89:12), pp. 65 -- 76.
@@ -505,6 +543,10 @@ Rosemann, M., Schwegmann, A., and Delfmann, P. 2012. \enquote{Vorbereitung der
   Prozessmodellierung,} in {\it Prozessmanagement\/}, , Springer Nature, pp.
   45--103.
 
+\bibitem[{Rowe(1987)}]{rowe1987design}
+Rowe, P. 1987. {\it Design Thinking\/}, MIT Press.
+
+
 \bibitem[{Rubenstein-Montano et~al.(2001)Rubenstein-Montano, Liebowitz,
   Buchwalter, McCaw, Newman, and Rebeck}]{Rubenstein_Montano_2001}
 Rubenstein-Montano, B., Liebowitz, J., Buchwalter, J., McCaw, D., Newman, B.,
@@ -516,6 +558,10 @@ Ryals, L., and Payne, A. 2001. \enquote{Customer relationship management in
   financial services: towards information-enabled relationship marketing,} {\it
   Journal of strategic marketing\/} (9:1), pp. 3--27.
 
+\bibitem[{Saren(1984)}]{Saren_1984}
+Saren, M.~A. 1984. \enquote{A classification and review of models of the
+  intra-firm innovation process,} {\it R{\&}D Management\/} (14:1), pp. 11--24.
+
 \bibitem[{Scheer(1997)}]{Scheer1997}
 Scheer, A.~W. 1997. {\it {Wirtschaftsinformatik : Referenzmodelle f{\"u}r
   industrielle Gesch{\"a}ftsprozesse}\/}, Berlin: Springer, 7th ed.
@@ -523,6 +569,10 @@ Scheer, A.~W. 1997. {\it {Wirtschaftsinformatik : Referenzmodelle f{\"u}r
 \bibitem[{Schewe and Kett(2007)}]{schewe2007}
 Schewe, G., and Kett, I. 2007. {\it Business Process Outsourcing.
   Geschäftsprozesse kontextorientiert auslagern\/}, Berlin: Springer.
+
+\bibitem[{Schneider(2005)}]{9783540253242}
+Schneider, K. 2005. {\it Service Engineering\/}, Springer.
+
 
 \bibitem[{Sch{\"{u}}tte(1998)}]{Schutte1998}
 Sch{\"{u}}tte, R. 1998. {\it Grunds{\"{a}}tze ordnungsgem{\"{a}}{\ss}er
@@ -545,6 +595,12 @@ Simon, H.~A. 1996. {\it The sciences of the artificial\/}, MIT press.
 \bibitem[{Snowdon et~al.(2016)Snowdon, Fersht, and McGann}]{hfs2016top}
 Snowdon, J., Fersht, P., and McGann, B.~S. 2016. \enquote{THE HfS BPO TOP 50,}
   Tech. rep., HfS Research.
+
+\bibitem[{Spath and Demu{\ss}(2006)}]{Spath2006}
+Spath, D., and Demu{\ss}, L. 2006. {\it Entwicklung hybrider Produkte ---
+  Gestaltung materieller und immaterieller Leistungsb{\"u}ndel\/}, Berlin,
+  Heidelberg: Springer Berlin Heidelberg, pp. 463--502.
+
 
 \bibitem[{Stachowiak(1973)}]{Stachowiak1973}
 Stachowiak, H. 1973. {\it {Allgemeine Modelltheorie}\/}, Wien: Springer.

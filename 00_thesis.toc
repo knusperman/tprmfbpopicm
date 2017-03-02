@@ -1,10 +1,10 @@
 
 \select@language {english}
-\contentsline {chapter}{Figures}{V}{section*.3}
-\contentsline {chapter}{Tables}{VII}{section*.5}
-\contentsline {chapter}{Listings}{VIII}{section*.7}
-\contentsline {chapter}{Abbreviations}{IX}{section*.9}
-\contentsline {chapter}{Symbols}{X}{section*.12}
+\contentsline {chapter}{Figures}{VI}{section*.3}
+\contentsline {chapter}{Tables}{VIII}{section*.5}
+\contentsline {chapter}{Listings}{IX}{section*.7}
+\contentsline {chapter}{Abbreviations}{X}{section*.9}
+\contentsline {chapter}{Symbols}{XI}{section*.12}
 \contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Methodology}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Epistemological perspective}{4}{section.2.1}
@@ -102,8 +102,7 @@
 \contentsline {subsubsection}{Transfer people, process, technology}{88}{subsubsection*.145}
 \contentsline {subsubsection}{Perform \acrshort {PMO} phase}{89}{subsubsection*.146}
 \contentsline {subsubsection}{Perform \acrshort {TMO} phase}{89}{subsubsection*.147}
-\contentsline {subsection}{\numberline {5.3.3}Solution Design}{89}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Account Management}{89}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.3}Account Management}{89}{subsection.5.3.3}
 \contentsline {subsubsection}{build client relationship}{90}{subsubsection*.149}
 \contentsline {subsubsection}{manage disputes}{91}{subsubsection*.150}
 \contentsline {subsubsection}{monitor service performance}{91}{subsubsection*.151}
@@ -111,52 +110,67 @@
 \contentsline {subsubsection}{manage contract}{92}{subsubsection*.153}
 \contentsline {subsubsection}{renegotiate contract}{92}{subsubsection*.154}
 \contentsline {subsubsection}{end contract}{92}{subsubsection*.155}
-\contentsline {section}{\numberline {5.4}Management Processes}{92}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Product Development}{92}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Portfolio Management}{93}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Quality Management}{93}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}People Lifecycle Management}{93}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Workforce Management}{93}{subsection.5.4.5}
-\contentsline {chapter}{\numberline {6}Evaluation}{94}{chapter.6}
-\contentsline {section}{\numberline {6.1}Process Framework}{94}{section.6.1}
-\contentsline {section}{\numberline {6.2}Internal Services}{94}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}...}{94}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Client Services}{94}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}...}{94}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Customer Services}{94}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}...}{94}{subsection.6.4.1}
-\contentsline {chapter}{\numberline {7}Conclusion}{95}{chapter.7}
-\contentsline {chapter}{\numberline {8}Sample}{96}{chapter.8}
-\contentsline {paragraph}{TODO}{96}{paragraph*.156}
-\contentsline {section}{\numberline {8.1}Elements}{96}{section.8.1}
-\contentsline {section}{\numberline {8.2}Structure}{96}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Lists}{96}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Footnotes}{97}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}ToDo-Notes}{97}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Formatting Text}{97}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Colors}{97}{subsection.8.3.1}
-\contentsline {section}{\numberline {8.4}Figures}{98}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Subfigures}{98}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Listings}{99}{section.8.5}
-\contentsline {section}{\numberline {8.6}Algorithms}{99}{section.8.6}
-\contentsline {section}{\numberline {8.7}Acronyms and Abbreviations}{100}{section.8.7}
-\contentsline {subsection}{\numberline {8.7.1}Common Abbreviations}{100}{subsection.8.7.1}
-\contentsline {subsection}{\numberline {8.7.2}Custom Abbreviations}{103}{subsection.8.7.2}
-\contentsline {subsection}{\numberline {8.7.3}Symbols}{103}{subsection.8.7.3}
-\contentsline {section}{\numberline {8.8}Citations and Bibliography}{104}{section.8.8}
-\contentsline {paragraph}{Exemplary citations}{104}{paragraph*.165}
-\contentsline {subsection}{\numberline {8.8.1}Misc}{104}{subsection.8.8.1}
-\contentsline {chapter}{\numberline {9}Compiling the document}{105}{chapter.9}
-\contentsline {section}{\numberline {9.1}Known Issues}{105}{section.9.1}
-\contentsline {chapter}{Appendix}{106}{appendix*.168}
+\contentsline {subsection}{\numberline {5.3.4}Solution Design}{92}{subsection.5.3.4}
+\contentsline {subsubsection}{process service definition}{93}{subsubsection*.157}
+\contentsline {subsubsection}{match product}{94}{subsubsection*.158}
+\contentsline {subsubsection}{specify solution}{94}{subsubsection*.159}
+\contentsline {subsubsection}{develop solution}{94}{subsubsection*.160}
+\contentsline {subsubsection}{deliver solution}{95}{subsubsection*.161}
+\contentsline {section}{\numberline {5.4}Management Processes}{95}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Product Development}{95}{subsection.5.4.1}
+\contentsline {subsubsection}{evaluate idea}{96}{subsubsection*.164}
+\contentsline {subsubsection}{assess market requirements}{97}{subsubsection*.165}
+\contentsline {subsubsection}{assess technical requirements}{97}{subsubsection*.166}
+\contentsline {subsubsection}{conceptualize product}{98}{subsubsection*.167}
+\contentsline {subsubsection}{perform business analysis}{98}{subsubsection*.168}
+\contentsline {subsubsection}{develop product}{98}{subsubsection*.169}
+\contentsline {subsubsection}{test product}{98}{subsubsection*.170}
+\contentsline {subsubsection}{deliver product}{99}{subsubsection*.171}
+\contentsline {subsection}{\numberline {5.4.2}Portfolio Management}{99}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Quality Management}{100}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}People Lifecycle Management}{100}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Workforce Management}{100}{subsection.5.4.5}
+\contentsline {chapter}{\numberline {6}Evaluation}{101}{chapter.6}
+\contentsline {section}{\numberline {6.1}Process Framework}{101}{section.6.1}
+\contentsline {section}{\numberline {6.2}Internal Services}{101}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}...}{101}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Client Services}{101}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}...}{101}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Customer Services}{101}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}...}{101}{subsection.6.4.1}
+\contentsline {chapter}{\numberline {7}Conclusion}{102}{chapter.7}
+\contentsline {chapter}{\numberline {8}Sample}{103}{chapter.8}
+\contentsline {paragraph}{TODO}{103}{paragraph*.174}
+\contentsline {section}{\numberline {8.1}Elements}{103}{section.8.1}
+\contentsline {section}{\numberline {8.2}Structure}{103}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Lists}{103}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Footnotes}{104}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}ToDo-Notes}{104}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Formatting Text}{104}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Colors}{104}{subsection.8.3.1}
+\contentsline {section}{\numberline {8.4}Figures}{105}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Subfigures}{105}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Listings}{106}{section.8.5}
+\contentsline {section}{\numberline {8.6}Algorithms}{106}{section.8.6}
+\contentsline {section}{\numberline {8.7}Acronyms and Abbreviations}{107}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Common Abbreviations}{107}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Custom Abbreviations}{110}{subsection.8.7.2}
+\contentsline {subsection}{\numberline {8.7.3}Symbols}{110}{subsection.8.7.3}
+\contentsline {section}{\numberline {8.8}Citations and Bibliography}{111}{section.8.8}
+\contentsline {paragraph}{Exemplary citations}{111}{paragraph*.183}
+\contentsline {subsection}{\numberline {8.8.1}Misc}{111}{subsection.8.8.1}
+\contentsline {chapter}{\numberline {9}Compiling the document}{112}{chapter.9}
+\contentsline {section}{\numberline {9.1}Known Issues}{112}{section.9.1}
+\contentsline {chapter}{Appendix}{113}{appendix*.186}
 \save@tocdepth \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Customer relationship management}{106}{section.Alph0.1}
-\contentsline {subsection}{\numberline {A.1}CRM notions}{106}{subsection.Alph0.1.1}
-\contentsline {subsection}{\numberline {A.2}Multi- and Omni-channel}{106}{subsection.Alph0.1.2}
-\contentsline {subsection}{\numberline {A.3}Outsourcing provider processes}{107}{subsection.Alph0.1.3}
-\contentsline {subsection}{\numberline {A.4}Selected reference models}{107}{subsection.Alph0.1.4}
-\contentsline {subsection}{\numberline {A.5}Knowledge Management frameworks}{109}{subsection.Alph0.1.5}
-\contentsline {subsection}{\numberline {A.6}Financial engineering in the outsourcing deal}{109}{subsection.Alph0.1.6}
-\contentsline {subsection}{\numberline {A.7}Some Appendix Subsection}{109}{subsection.Alph0.1.7}
+\contentsline {section}{\numberline {A}Customer relationship management}{113}{section.Alph0.1}
+\contentsline {subsection}{\numberline {A.1}CRM notions}{113}{subsection.Alph0.1.1}
+\contentsline {subsection}{\numberline {A.2}Multi- and Omni-channel}{113}{subsection.Alph0.1.2}
+\contentsline {subsection}{\numberline {A.3}Outsourcing provider processes}{114}{subsection.Alph0.1.3}
+\contentsline {subsection}{\numberline {A.4}Selected reference models}{114}{subsection.Alph0.1.4}
+\contentsline {subsection}{\numberline {A.5}Knowledge Management frameworks}{116}{subsection.Alph0.1.5}
+\contentsline {subsection}{\numberline {A.6}Financial engineering in the outsourcing deal}{116}{subsection.Alph0.1.6}
+\contentsline {subsection}{\numberline {A.7}Frameworks for the Product Development process}{116}{subsection.Alph0.1.7}
+\contentsline {subsection}{\numberline {A.8}Some Appendix Subsection}{117}{subsection.Alph0.1.8}
 \reset@tocdepth 
-\contentsline {chapter}{References}{109}{subsection.Alph0.1.7}
+\contentsline {chapter}{References}{117}{subsection.Alph0.1.8}

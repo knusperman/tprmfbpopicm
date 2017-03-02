@@ -1241,52 +1241,200 @@ In order to fit the three variants (case-related, customer-related, transaction-
 	\subsubsection{end contract}
 	\cite{reinartz2004customer} name the last phase of \acrshort{CRM} \textit{terminate relationship}. Here, it is deferred from the rather drastic term \textit{terminate}, which implies an active role of the provider to bring the outsourcing agreement to an end. As both parties can finite the contract, the neutral word \textit{end} is chosen. In this case the provider stops service delivery so that the provider restores the process in-house or looks for a new provider. (Tangible) assets that were part of the agreement have to be correctly handled \wrt the contractual requirements. Moreover, data is returned into clients hands. The complexity of the exit and hence the transition back to the client depends on the complexity of the outsourcing agreement. With respect to the intensity of the relationship, it is noted that the termination of a partnership will result in increased efforts, as the mutual trust of both parties implies dependencies. 
 	 
-	\subsection{Solution Design}
-	ziel: solution designen für kunden
-	solution weil servitization hat zu hybriden leistungsbündeln geführt.  \citep{servitization}
-	kurzer schwenk zu soziotechnischen systemen -> core IS
+\subsection{Solution Design}
+	\label{sec:soldef}
+	As the transition phase, the solution design process typically starts during the sales process. Its purpose is the creation of a product-service-system that addresses the client's need. There are two main reasons for introducing the term \textit{solution} here, that link to literature and domain characteristics, respectively. First, with the trend \enquote{servitization} \citep{servitization} continuing the merge of classical products with immaterial services, outsourcing providers do not only provide a service, but also supply necessary \acrshort{CRM} systems for instance. A change of paradigms in product and service development propagates that services are no longer built around products, but products and services integrated in an individual \textit{solution}\citep[\p{465}]{Spath2006}.
+	Second, with the idea of generic products of \acrshort{BPO} providers and an connected portfolio being proposed in this thesis, these have to be \textit{instantiated} in an individual client case. Consequently, a product needs to be configured in order to conform to the requirements by the client (especially from from a process and  \acrshort{IS}-landscape perspective). This construct of a modularity is discussed in \ref{ref:proddev}. 
 	
-	dabei wird zum angebotenen service (crm) auch die notwendigen systeme beigeführt.
-	in outsourcing ist diese komponente variabel (kunden können system auch mitbringen)
-	die systemkomponente wird von den providern beigefügt, um die dienstleistung zu realisieren. system werden nicht entwickelt. wohl aber services (und dementsprechend dann auch solutions)
+	 In creation of new services is roughly split into three philosophies: \acrfull{NSD} \citep{cowell1988new}, service engineering \citep{9783540253242} and service design\footnote{Service design is originating from design thinking} \citep{rowe1987design}. \acrshort{NSD} builds on new product development and emphasizes the entire process that is linked to development, which for instance includes activities like market assessment, financial analysis and market launch \citep{cooper1988new}. Service engineering, as the name suggests, seeks to include engineering know-how from product development into service development. Service design puts the service artifact into the center of development focuses on the problem solving aspect by including users deeply into the design process. 
+	 
+	 As client and provider collaborate closely in the creation of an individual solution and the solution itself stands in center of the process, the service design approach is adapted for this process. The modular approach of products and solutions adapts aspects from service engineering. The \acrfull{DDDP} \citep{dcdd} is used in the following\footnote{The reader is referred to literature for information regarding generic service design. This section  highlights characteristics \wrt the thesis.}, which consists of four phases: discover, define, develop and deliver.
+	 
+	 \begin{figure}[caption={Solution Design process}, label={fig:soldes}]
+	 	\begin{subfigure}[c]{.45\textwidth}
+	 		\begin{center}
+	 			\includegraphics{figures/processes/solutiondesign.pdf}
+	 		\end{center}
+	 	\end{subfigure}
+	 	\begin{subfigure}[c]{.45\textwidth}
+	 		\begin{center}
+	 			\begin{tikzpicture}
+	 			[node distance=.5cm, start chain=going below,font=\sffamily]
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (eins)      {process service definition};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (zwei)      {match product};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (drei)      {specify solution};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (vier)      {develop solution};
+	 			\node[punktchain, rounded corners=0pt, join=by {-}] (fuenf)      {deliver solution};
+	 			
+	 			\end{tikzpicture}
+	 		\end{center}
+	 	\end{subfigure}
+	 	
+	 \end{figure}
+ 
+ 	\subsubsection{process service definition}
+ 	The first two detail processes represent the discover phase of the double diamond process. Its purpose is to identify the problem or needs to be addressed through design. In this case, the client's service definition object originates from the sales process and holds requirements. However, these requirements will define the solution space, but not the concrete service (solution). The \acrshort{DDDP} proposes tools like user journey maps to understand and discover the problem. This tool is seen as a very helpful means, as in context of omni-channel the customer experience can be mapped across different contact channels. Outcome of this detail process is the client's problem that is used in the following detail process. 
+ 	
+	\subsubsection{match product}
+	Products of the service provider are managed in the portfolio. In this detail process, the identified problem is used to match an existing product. Requirements regarding used systems in the provider's setting need to be included into this selection process. If no applicable product is found and the identified problem is deemed a reasonable addition to the portfolio (\ie it addresses a market demand), the product development process can be initiated. 
 	
-	service design mit modularen komponenenten des service engineerings beschreibt das solution design. 
-	modulare komponenten weil produktkonzept. wiederverwendung. modularität. 
+ 	\subsubsection{specify solution}
+ 	This detail process relates to the \textit{define} phase of the \acrshort{DDDP}. The matched product is now fitted to the problem, which results in a limited number of preliminary solutions. The idea is to get an estimate of the product's application in the client context, so that an offer can be created in the sales process. As the outsourcing deal is not closed at this point in time, the concrete implementation is not taking place in this detail process. 
+ 	
+	\subsubsection{develop solution}
+	The development necessitates are an commitment of the client, so that the efforts of implementing the solution are not in vain. Taking the process, people and technology perspective of \acrshort{CRM}, these aspects do also apply on a solution. The importance of the different aspects may vary, as self-service solutions do require more focus on technology, while staffing is driving solutions with direct \acrshort{CSR} involvement. Outcome of this detail process is a detailed design of the solution's components. 
 	
-	requirements sind in der service definition zu finden, die im sales prozess übermittelt werden. 
+ 	\subsubsection{deliver solution}
+	 
+	 The last detail process finalizes the solution and eventually integrates it into the transition. A feedback mechanism to the portfolio shares insights of the product application to improve further use. Final testing, evaluation and approval are required before completing the solution design process.
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%	kurzer schwenk zu soziotechnischen systemen -> core IS einleitung?
+	
+
+%	in outsourcing ist diese komponente variabel (kunden können system auch mitbringen)
+	%die systemkomponente wird von den providern beigefügt, um die dienstleistung zu realisieren. system werden nicht %entwickelt. wohl aber services (und dementsprechend dann auch solutions)
+	
+
+
+	
+%	service design prozess: double diamond process. warum? gut für CJ (wichtig für omni-channel)
+%	Viewing the service design process from the service designer perspective
+	
+%	requirements sind in der service definition zu finden, die im sales prozess übermittelt werden. 
 	 
 	
 	
-	def solution, def product, def service architecture, service product, service konfiguration.  bottom up (sd, pd, pm)
-	ref zu product development und so ... 
+%	def solution, def product, def service architecture, service product, service konfiguration.  bottom up (sd, pd, pm)
+%	ref zu product development und so ... 
 	
-	servitiza
 	
 \section{Management Processes}
 
+\begin{figure}[caption={Solution-Product-Portfolio structure }, label={fig:prodstructure}]
+	{	\includegraphics[width=.8\textwidth]{figures/producterm.pdf}}
+	
+\end{figure} 
+
+
+
 	\subsection{Product Development}
+	\label{sec:proddev}
 	
-	NSD vs SE vs SD
+	As discussed in \ref{sec:soldef}, \acrshort{BPO} providers offer an integration of product and services for their clients, which can be called solutions. In order to industrialize these customized solutions, the concept of modular service architectures from service engineering \citep{Bohmann2006} can be applied to structure into three levels: service architecture, service product and service configuration. These are represented in the framework through the portfolio (management process), product (development process) and solution (design process), respectively. 
 	
+	The service architecture assures that service products or configurations are performing efficiently by maintaining their modular constituents. The service product puts together modules of the service architecture and targets specific markets. These are then configured towards a client, which is called a solution in this thesis. 
 	
-	SD: viewing it from the designer perspective
+	Core of this process is to create new products that address a market need \wrt the existing portfolio. The defining object of this process is the product. In contrast to solution \textit{design}, this process starts with a market perspective and therefore justifies the selection of a new product/service development perspective. 
 	
-	NSD: marketing- getrieben. passt hier besser. deshalb auch product development.
-	produkte im sinne eines bpo providers verstehen. 
+	Servitization makes clear boundaries between the traditional interpretations of services and products blurry. Like a solution, a product is always composed of both parts. The term product is used here to emphasize the orientation towards markets and therefore a \textit{standardization}, which is not given for client-specific solutions. However, \acrshort{BPO} providers do not manufacture a good, which is why a service-dominant perspective must be taken.  
 	
-	new product development 
+	A plethora of product development processes, activities and frameworks exist in literature. The work of  \cite{cooper1988new} is seen as very influential in new product development. Adaptions for service development are existing \citep{Edgett_1996}. Moreover, a dedicated framework for new service development is presented in \citep{cowell1988new}. A tabular comparison of their constituents is located in \ref{app:pdframeworks} and serves as basis for the process structure. 
+	
+	 The product development process starts with an idea. As idea generation can take place in various ways and is  creative in its nature, the benefits of including it in a process model can be questioned. However, the screening of ideas can be structured more clearly, because a process that enables a standardized way of \textit{evaluating ideas} is meaningful. The complete process is shown in \Fig \ref{fig:pd} and continues with a market and technical assessment as proposed by \citep{Edgett_1996}, which subsumes the third section in \ref{app:pdframeworks}. The following detail processes are based on \citep{cowell1988new}. 
+	
+	 
+	\begin{figure}[caption={Product Development process}, label={fig:pd}]
+		\begin{subfigure}[c]{.45\textwidth}
+			\begin{center}
+				\includegraphics{figures/processes/productdevelopment.pdf}
+			\end{center}
+		\end{subfigure}
+		\begin{subfigure}[c]{.45\textwidth}
+			\begin{center}
+				\begin{tikzpicture}
+				[node distance=.5cm, start chain=going below,font=\sffamily]
+				\node[punktchain, rounded corners=0pt, join=by {-}] (eins)      {evaluate idea};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (zwei)      {assess market requirements};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (drei)      {assess technical requirements};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (vier)      {conceptualize product};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (fuenf)      {perform business analysis};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (fuenf)      {develop product};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (fuenf)      {test product};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (fuenf)      {deliver product};
+				\end{tikzpicture}
+			\end{center}
+		\end{subfigure}
+		
+	\end{figure}
+
+	\subsubsection{evaluate idea}
+	This first detail process has the aim to give decision support for an initial go/no go decision \wrt an idea for a new product, \ie whether to allocate resources for a deeper analysis. The formulation of evaluation criteria is an important step, with need to be aligned with business objectives and with respect to the portfolio. A product idea that solves a problem that is already addressed by another product in the portfolio might not be continued. 
+	\subsubsection{assess  market requirements}
+	With an initial go decision being made, the an investigation into market requirements is performed to evaluate whether a demand exists. \citep{Edgett_1996} splits this step further into a preliminary, nonscientific assessment and market research, which are both seen as part of this detail process. With respect to the domain, market requirements can originate from a client or customer perspective. 
+	\subsubsection{assess technical requirements}
+	This detail process investigates into the question \textit{how} the product must be constituted to perform its task. The dimensions people, process and technology can instance this from a \acrshort{CRM} point of view. In terms of technology, a product may be more or less limited to certain systems that provide required functionality. People, \ie, \acrshort{CSR}s, may need a certain skill set. Lastly, requirements regarding processes can play a role for quality standards, regarding legal issues or for realization of efficiency gains.
+
+	\subsubsection{conceptualize product}
+	The translation of requirements into a product concept is captured in this detail process. It brings together market  and technical requirements in order to create a preliminary design, which is more detailed than the idea in the beginning. It enables a more thorough reflection on the portfolio in two ways. On the one hand, its fit can be compared to existing products, \ie, towards the provider's offerings for clients. On the other hand, the concept can be assessed regarding its components and therefore its fit in the service architecture. 
+	
+	\subsubsection{perform business analysis}
+	After a concept is existing, a detailed analysis leads to a final go/no go decision ahead of the actual product development. Aspects can include the attractiveness of the product concept, its chances of failure, required resources, costing or the response of competitors \citep[\p{302}]{cowell1988_new}. Insights of the concept's fit regarding the service architecture provide data for cost estimation and its practicability. 
+
+	\subsubsection{develop product}
+	Analogous to the \textit{develop solution} detail process, the transformation of the concept into a marketable product is constituting this step. As a product is developed without aiming at a specific client business, it needs to utilize abstraction as a means for enabling an application in different scenarios. However, the degree of abstraction depends on the product's integration into other \acrshort{CRM} systems, \ie its ability to work stand-alone. The trade-off between implementation effort in a solution and abstraction needs to be considered: the more abstract a product, the less simple is its application in a solution. 
+	
+	\subsubsection{test product}
+	The reason for modeling an explicit testing detail process in Product Development in contrast to Solution Design is seen in the fact that a product is always the basis of a solution. Consequently, a product needs to be assessed for its quality, reliability and performance in a rigorous manner as there is no related data existing. Testing of a solution can build on the product testing.
+
+	\subsubsection{deliver product}
+	Reusing the terminology of solution design, the final detail process passes the final product into the portfolio. In addition to the actual product, marketing material and documentation needs to be created that enables use in the sales in solution design process, respectively. 
+	
+	%SD: viewing it from the designer perspective
+	
+%	NSD: marketing- getrieben. passt hier besser. deshalb auch product development. produkte im sinne eines bpo providers verstehen. 
+	
+%	new product development 
 	
 	\subsection{Portfolio Management}
-	
+		\label{sec:portmang}
+		
+		This is done by managing resources that make up products. These resources can be people, process or technological aspects of \acrshort{CRM} solutions, which by themselves can be components of multiple products. This process
 	cooper
+	\citep{cooper1999new}
 	
+	
+	 \begin{figure}[caption={Solution Design process}, label={fig:soldes}]
+		\begin{subfigure}[c]{.45\textwidth}
+			\begin{center}
+				\includegraphics{figures/processes/portfoliomanagement.pdf}
+			\end{center}
+		\end{subfigure}
+		\begin{subfigure}[c]{.45\textwidth}
+			\begin{center}
+				\begin{tikzpicture}
+				[node distance=.5cm, start chain=going below,font=\sffamily]
+				\node[punktchain, rounded corners=0pt, join=by {-}] (eins)      {maintain product};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (zwei)      {maintain component};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (drei)      {evaluate product};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (vier)      {priorize product};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (fuenf)      {balance resources};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (sechs)      {terminate product};
+				\node[punktchain, rounded corners=0pt, join=by {-}] (sieben)      {communicate portfolio};
+				\end{tikzpicture}
+			\end{center}
+		\end{subfigure}
+		
+	\end{figure}
+
+
+
+
+
+
+
 	\subsection{Quality Management}
+		\label{sec:qualmang}
 	benachmarking!! ref mod!
 	\subsection{People Lifecycle Management}
+		\label{sec:plmang}
 	
 	gross bord 98
 	Investitionsziele: platz 2 personalentwicklung \citep{ccnet2016}, beschaffung platz 4
 	\subsection{Workforce Management}
+		\label{sec:wofom}
 	variants: plan, control?
 	Hier muss auch Qualitätskontrolle rein. Heißt aber eigentlich Personaleinsatzplanung
 	

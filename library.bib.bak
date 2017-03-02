@@ -1745,10 +1745,11 @@
 }
 
 @TechReport{itgov2005,
-  author = {{IT Governance Institute}},
-  title  = {Governance of Outsourcing},
-  year   = {2005},
-  url    = {http://www.isaca.org/Knowledge-Center/Research/Documents/Governance-of-Outsourcing_res_Eng_0105.pdf},
+  author      = {{IT Governance Institute}},
+  title       = {Governance of Outsourcing},
+  institution = {{IT Governance Institute}},
+  year        = {2005},
+  url         = {http://www.isaca.org/Knowledge-Center/Research/Documents/Governance-of-Outsourcing_res_Eng_0105.pdf},
 }
 
 @Book{0273705601,
@@ -1766,6 +1767,160 @@
   year    = {2017},
   url     = {https://en.oxforddictionaries.com/definition/account},
   urldate = {02.02.2017},
+}
+
+@Article{reinartz2004customer,
+  author    = {Reinartz, Werner and Krafft, Manfred and Hoyer, Wayne D},
+  title     = {The customer relationship management process: Its measurement and impact on performance},
+  journal   = {Journal of marketing research},
+  year      = {2004},
+  volume    = {41},
+  number    = {3},
+  pages     = {293--305},
+  publisher = {American Marketing Association},
+}
+
+@Article{Saren_1984,
+  author    = {M. A. Saren},
+  title     = {A classification and review of models of the intra-firm innovation process},
+  journal   = {R{\&}D Management},
+  year      = {1984},
+  volume    = {14},
+  number    = {1},
+  pages     = {11--24},
+  month     = {jan},
+  doi       = {10.1111/j.1467-9310.1984.tb00504.x},
+  publisher = {Wiley-Blackwell},
+}
+
+@Article{Momme_2002,
+  author    = {Jesper Momme},
+  title     = {Framework for outsourcing manufacturing: strategic and operational implications},
+  journal   = {Computers in Industry},
+  year      = {2002},
+  volume    = {49},
+  number    = {1},
+  pages     = {59--75},
+  month     = {sep},
+  doi       = {10.1016/s0166-3615(02)00059-3},
+  publisher = {Elsevier {BV}},
+}
+
+@InBook{Bohmann2006,
+  pages     = {377--401},
+  title     = {Modulare Servicearchitekturen},
+  publisher = {Springer Berlin Heidelberg},
+  year      = {2006},
+  author    = {B{\"o}hmann, Tilo and Krcmar, Helmut},
+  editor    = {Bullinger, Hans-J{\"o}rg and Scheer, August-Wilhelm},
+  address   = {Berlin, Heidelberg},
+  isbn      = {978-3-540-29473-3},
+  booktitle = {Service Engineering: Entwicklung und Gestaltung innovativer Dienstleistungen},
+  doi       = {10.1007/3-540-29473-2_16},
+  url       = {http://dx.doi.org/10.1007/3-540-29473-2_16},
+}
+
+@InBook{Spath2006,
+  pages     = {463--502},
+  title     = {Entwicklung hybrider Produkte --- Gestaltung materieller und immaterieller Leistungsb{\"u}ndel},
+  publisher = {Springer Berlin Heidelberg},
+  year      = {2006},
+  author    = {Spath, Dieter and Demu{\ss}, Lutz},
+  editor    = {Bullinger, Hans-J{\"o}rg and Scheer, August-Wilhelm},
+  address   = {Berlin, Heidelberg},
+  isbn      = {978-3-540-29473-3},
+  booktitle = {Service Engineering: Entwicklung und Gestaltung innovativer Dienstleistungen},
+  doi       = {10.1007/3-540-29473-2_20},
+  url       = {http://dx.doi.org/10.1007/3-540-29473-2_20},
+}
+
+@Article{cowell1988new,
+  author    = {Cowell, Donald W},
+  title     = {New service development},
+  journal   = {Journal of Marketing Management},
+  year      = {1988},
+  volume    = {3},
+  number    = {3},
+  pages     = {296--312},
+  publisher = {Taylor \& Francis},
+}
+
+@Book{9783540253242,
+  title     = {Service Engineering},
+  publisher = {Springer},
+  year      = {2005},
+  author    = {Schneider, K.},
+  isbn      = {3540253246},
+  date      = {2005-09-15},
+  ean       = {9783540253242},
+  pagetotal = {856},
+  url       = {http://www.ebook.de/de/product/3901151/k_schneider_service_engineering.html},
+}
+
+@Book{rowe1987design,
+  title     = {Design Thinking},
+  publisher = {MIT Press},
+  year      = {1987},
+  author    = {Rowe, P.G.},
+  isbn      = {9780262181228},
+  lccn      = {lc86008402},
+  url       = {https://books.google.de/books?id=Tda5QgAACAAJ},
+}
+
+@Article{cooper1988new,
+  author    = {Cooper, Robert G},
+  title     = {The new product process: a decision guide for management},
+  journal   = {Journal of Marketing Management},
+  year      = {1988},
+  volume    = {3},
+  number    = {3},
+  pages     = {238--255},
+  publisher = {Taylor \& Francis},
+}
+
+@Misc{dcdd,
+  author  = {{Design Council}},
+  title   = {Design methods for developing services},
+  year    = {2005},
+  url     = {https://connect.innovateuk.org/documents/3338201/3753639/Design+methods+for+developing+services.pdf},
+  urldate = {2017-03-01},
+}
+
+@Article{Easingwood_1986,
+  author    = {Christopher J. Easingwood},
+  title     = {New Product Development For Service Companies},
+  journal   = {Journal of Product Innovation Management},
+  year      = {1986},
+  volume    = {3},
+  number    = {4},
+  pages     = {264--275},
+  month     = {dec},
+  doi       = {10.1111/1540-5885.340264},
+  publisher = {Wiley-Blackwell},
+}
+
+@Article{Edgett_1996,
+  author    = {Scott J. Edgett},
+  title     = {The new product development process for commercial financial services},
+  journal   = {Industrial Marketing Management},
+  year      = {1996},
+  volume    = {25},
+  number    = {6},
+  pages     = {507--515},
+  month     = {nov},
+  doi       = {10.1016/s0019-8501(96)00067-3},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{cooper1999new,
+  author    = {Cooper, Robert G and Edgett, Scott J and Kleinschmidt, Elko J},
+  title     = {New product portfolio management: practices and performance},
+  journal   = {Journal of product innovation management},
+  year      = {1999},
+  volume    = {16},
+  number    = {4},
+  pages     = {333--351},
+  publisher = {Wiley Online Library},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

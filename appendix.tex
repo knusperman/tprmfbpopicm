@@ -32,7 +32,7 @@ The search is done on scopus and queries are \enquote{TITLE-ABS-KEY ( ( omnichan
 
 \begin{table}[caption={multi- and omni-channel publication comparison}, label=tab:crmnotioncomparison]
 	\centering
-	\begin{tabular}{p{1cm}| p{2cm} |p{4.3cm}|p{3cm}   } 
+	\begin{tabular}{p{1cm}| p{4cm} |p{4cm}    } 
 	\textbf{Year} & \textbf{"Multi-channel"} & \textbf{"Omni-channel"} \\ \hline 
 	2016          & 32            & 15                                                                       \\
 	2015          & 33            & 10                                                                   \\
@@ -57,6 +57,7 @@ The search is done on scopus and queries are \enquote{TITLE-ABS-KEY ( ( omnichan
 		\quelle{\citep[\p{98}]{schewe2007}} } 
 \end{figure}
 \subsection{Selected reference models}
+
 \label{app:refmods}
 	\begin{figure}[caption={SCOR Model}, label={fig:scor}]
 	{	\includegraphics[width=.8\textwidth]{figures/scor.pdf}\\
@@ -67,6 +68,32 @@ The search is done on scopus and queries are \enquote{TITLE-ABS-KEY ( ( omnichan
 	{	\includegraphics[width=.6\textwidth]{figures/retailh.pdf}
 	\\ \parbox{0.6\textwidth}{\quelle{\citep{becker2004handelsinformationssysteme}}}}
 
+	
+\end{figure}
+
+\subsection{icebricks example}
+
+\begin{figure}[caption={icebricks process structure example: Retail-H \acrshort{CRM} process}, label={fig:soldes}]
+	\begin{subfigure}[c]{.45\textwidth}
+		\begin{tikzpicture}
+		[node distance=.5cm, start chain=going below,font=\sffamily]
+		\node[punktchain, rounded corners=0pt, fill= gray!10, join=by {-}] (eins)      {maintain customer master data};
+		\node[punktchain, rounded corners=0pt, join=by {-}] (zwei)      {maintain customer contacts};
+		\node[punktchain, rounded corners=0pt, join=by {-}] (drei)      {perform goods planning};
+		\node[punktchain, rounded corners=0pt, join=by {-}] (drei)      {...};
+		\end{tikzpicture}
+		\caption{selection of CRM process components (detail processes)}\label{fig:retailh:main}
+	\end{subfigure}
+	\begin{subfigure}[c]{.45\textwidth}
+		\begin{tikzpicture}
+		[node distance=.5cm, start chain=going below,font=\sffamily]
+		\node[punktchain, join=by {-}] (eins)      {maintain customer basic data};
+		\node[punktchain,join=by {-}] (zwei)      {maintain customer views};
+		\node[punktchain,  join=by {-}] (drei)      {evaluate customer roles};
+		\node[punktchain,  join=by {-}] (drei)      {...};
+		\end{tikzpicture}
+		\caption{selection of maintain customer master data detail process}\label{fig:retailh:detail}
+	\end{subfigure}
 	
 \end{figure}
 
@@ -90,7 +117,7 @@ The search is done on scopus and queries are \enquote{TITLE-ABS-KEY ( ( omnichan
 \end{table}
 \subsection{Financial engineering in the outsourcing deal}
 \label{app:fineng}
-	\begin{figure}[caption={Outsourcing provider processes}, label={fig:scheweproc}]
+	\begin{figure}[caption={Financial engineering in the outsourcing deal}, label={fig:scheweproc}]
 	{	\includegraphics[width=.8\textwidth]{figures/financialengineering.pdf}
 		
  }
@@ -98,6 +125,33 @@ The search is done on scopus and queries are \enquote{TITLE-ABS-KEY ( ( omnichan
 
 \end{figure}
 
+
+\subsection{Frameworks for the Product Development process}
+\label{app:pdframeworks}
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[caption={Product Development process derivation}, label=tab:nsdframeworkds]
+	\centering
+\begin{tabular}{p{4cm}|p{5cm} |p{4.7cm}}
+	\textbf{\cite{cowell1988new}} & \textbf{\cite{Edgett_1996}} adapted from \cite{cooper1988new}  & \textbf{Process in thesis}   \\ \hline \hline
+	idea generation                 &                                         \\ \hline
+	idea screening                  & idea screening   & evaluate idea                      \\ \hline
+	& \textbullet \: preliminary market assessment     &assess market requirements    \\
+	& \textbullet \: preliminary technical assessment  &assess technical requirements       \\
+	& \textbullet \: detailed market study / market research \\ \hline
+	concept development and testing &                       & conceptualize product                  \\ \hline
+	business analysis               & business/financial analysis           & perform business analysis  \\ \hline
+	\multirow{4}{*}{development}    & \textbullet \: product development      &	\multirow{4}{*}{develop product}               \\ 
+	& \textbullet \: process procedures                      \\
+	& \textbullet \: system design \& testing                \\
+	& \textbullet \: personell training                      \\\hline
+	testing                         & test market / trial sell       & test product         \\ \hline
+	                      & pre-commercialization \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\: business analysis \\ \hline
+	commercialization               & full-scale launch                   & deliver product    \\ \hline
+	& post-launch review \& analysis         
+\end{tabular}\\
+\quelle{adapted from \citep{Edgett_1996, cowell1988new}}
+\end{table}
 
 \subsection{Some Appendix Subsection}
 
