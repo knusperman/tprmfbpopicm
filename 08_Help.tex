@@ -34,7 +34,7 @@ You can use ToDo notes using the \texttt{\textbackslash todo\{text\}}  command. 
 Please use the \texttt{\textbackslash enquote\{text\}} command for \enquote{direct quotes}.
 
 \subsection{Colors}
-This template comes with the colors defined in the \glspl{CD} of the \acrshort{ERCIS} and \acrshort{WWU}. \Tab \ref{tab:colors} lists the color names. You can apply them to text by using the  \\ \texttt{\textbackslash textcolor\{color name\}\{text\}} command.
+This template comes with the colors defined in the  of the \acrshort{ERCIS} and . \Tab \ref{tab:colors} lists the color names. You can apply them to text by using the  \\ \texttt{\textbackslash textcolor\{color name\}\{text\}} command.
 	
 \begin{table}[caption={Colors defined by the template}, label=tab:colors]
 	\centering
@@ -72,7 +72,7 @@ Figures float, \ie, they do not necessarily appear at exact the same position yo
 \subsection{Subfigures}
 Sometimes it might be handy to contrast figures, \ie, by placing them next to each other. The template uses the \textit{subcaption} package to provide subfigures. The following example contains two figures, where each subfigure has its own \texttt{\textbackslash label} and \texttt{\textbackslash caption}. Additionally, the whole figure has its own \textit{caption} and \textit{label}. That means, you can reference subfigures  \fig \ref{fig:subfig1} and \fig  \ref{fig:subfig}. Only the whole figure will be listed in the table of figures.
 
-Subfigures are not limited to images, but may also include listings or tables. \Fig \ref{fig:subfig} shows a sample database query expressed in \ac{SQL} (\fig \ref{fig:subfig1}) and as query plan in relational algebra  (\fig \ref{fig:subfig2}).
+Subfigures are not limited to images, but may also include listings or tables. \Fig \ref{fig:subfig} shows a sample database query expressed in  (\fig \ref{fig:subfig1}) and as query plan in relational algebra  (\fig \ref{fig:subfig2}).
  
 \begin{figure}[caption={Exemplary use of subfigures}, label={fig:subfig}]
 	
@@ -89,7 +89,7 @@ Subfigures are not limited to images, but may also include listings or tables. \
 		AND 
 			r.c = s.c; 
 		\end{lstlisting}
-		\caption{\gls{SQL} select statement}\label{fig:subfig1}
+		\caption{select statement}\label{fig:subfig1}
 	\end{subfigure}
 	\begin{subfigure}[b]{.53\textwidth}
 		\centering	
@@ -324,31 +324,13 @@ The name and matriculation number of the student will automatically be displayed
 \chapter{Compiling the document}
 In order to generate a PDF-file from your \TeX-file you have to run the following commands. We assume you have a master file \path{00_thesis.tex} that you want to typeset.
 
-\begin{lstlisting}[float=htp, caption={Commands to compile this document}, label={lst:compiling}, language=bash, morekeywords={pdflatex, bibtex, makeglossaries}]
-pdflatex 00_thesis
-pdflatex 00_thesis
-makeglossaries 00_thesis
-bibtex 00_thesis
-pdflatex 00_thesis
-pdflatex 00_thesis
-\end{lstlisting}
 
 Alternatively, you can use your favorite task runner. This thesis comes with a \textit{Grunt} file to kick-start your \LaTeX writing.
 
 When running, Grunt will monitor your thesis and on file changes, the PDF-file is automatically rebuild using the commands from listing \ref{lst:compiling}.
  
-Please make sure to have node.js and the \gls{npm} installed. Now you can open a command prompt at the document root and run the commands in listing \ref{lst:grunt}. 
+Please make sure to have node.js and the installed. Now you can open a command prompt at the document root and run the commands in listing
 
-\begin{lstlisting}[float=htp, caption={Installing and running Grunt}, label={lst:grunt}, language=bash]
-# Install Grunt via npm (use sudo on Unix-based OS)
-npm install -g grunt-cli
-
-# Install Grunt plugins / dependencies
-npm install
-
-# Run the Grunt listener 
-grunt
-\end{lstlisting}
 
 \section{Known Issues}
 Under some configurations on Windows machines, the \texttt{makeglossaries} command silently fails, which results in empty lists of accronyms and symbols. Same goes for the implicitly called \texttt{makeindex} command. In this case, you have to install \texttt{Perl}\footnote{https://www.perl.org/get.html} on your machine.

@@ -261,7 +261,7 @@
   title     = {Referenzmodellierung: Gestaltung und Verteilung von Konstruktionsprozessen},
   publisher = {Logos-Verlag},
   year      = {2003},
-  author    = {Brocke, J.V.},
+  author    = {Jan vom Brocke},
   series    = {Advances in information systems and management science},
   isbn      = {9783832501792},
   url       = {https://books.google.de/books?id=5wV2Ol2Cw4gC},
@@ -1075,7 +1075,7 @@
   publisher = {Emerald},
 }
 
-@TechReport{v,
+@TechReport{accenture2015,
   author      = {Accenture},
   title       = {Digital Transformation In The Age Of The Customer},
   institution = {Accenture},
@@ -1921,6 +1921,29 @@
   number    = {4},
   pages     = {333--351},
   publisher = {Wiley Online Library},
+}
+
+@Misc{oxfordprioritize,
+  author  = {{Oxford Dictionary}},
+  title   = {prioritize},
+  year    = {2017},
+  url     = {https://en.oxforddictionaries.com/definition/prioritize},
+  urldate = {02.02.2017},
+}
+
+@Misc{radicati2016,
+  author  = {{Radicati Group}},
+  title   = {Email Statistics Report, 2016-2020},
+  year    = {2016},
+  url     = {http://www.radicati.com/wp/wp-content/uploads/2016/01/Email_Statistics_Report_2016-2020_Executive_Summary.pdf},
+  urldate = {2017-02-28},
+}
+
+@PhdThesis{clever2016,
+  author = {Nico Christoph Clever},
+  title  = {icebricks - Konstruktion und Anwendung eines Prozessmodellierungswerkzeugs},
+  school = {WWU Münster},
+  year   = {2016},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

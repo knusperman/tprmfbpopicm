@@ -1,4 +1,4 @@
-\begin{thebibliography}{140}
+\begin{thebibliography}{142}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -155,6 +155,11 @@ Cohen, L., and Young, A. 2006. {\it Multisourcing: Moving Beyond Outsourcing to
 Cooper, R.~G. 1988. \enquote{The new product process: a decision guide for
   management,} {\it Journal of Marketing Management\/} (3:3), pp. 238--255.
 
+\bibitem[{Cooper et~al.(1999)Cooper, Edgett, and Kleinschmidt}]{cooper1999new}
+Cooper, R.~G., Edgett, S.~J., and Kleinschmidt, E.~J. 1999. \enquote{New
+  product portfolio management: practices and performance,} {\it Journal of
+  product innovation management\/} (16:4), pp. 333--351.
+
 \bibitem[{Cowell(1988)}]{cowell1988new}
 Cowell, D.~W. 1988. \enquote{New service development,} {\it Journal of
   Marketing Management\/} (3:3), pp. 296--312.
@@ -307,7 +312,8 @@ Hsieh, P.-L., and Wei, S.-L. 2017. \enquote{Relationship formation within
   Pacific Management Review\/} .
 
 \bibitem[{{IT Governance Institute}(2005)}]{itgov2005}
-{IT Governance Institute} 2005. \enquote{Governance of Outsourcing,} Tech. rep.
+{IT Governance Institute} 2005. \enquote{Governance of Outsourcing,} Tech.
+  rep., {IT Governance Institute}.
 
 
 \bibitem[{K{\"o}nig et~al.(1996)K{\"o}nig, Heinzl, Rumpf, and von
@@ -439,24 +445,28 @@ Neslin, S.~A., and Shankar, V. 2009. \enquote{Key Issues in Multichannel
 {Oxford Dictionary} 2017{\natexlab{d}}. \enquote{outsourcing,} .
 \newline\urlprefix\url{http://www.oed.com/view/Entry/257590;jsessionid=6087DE922B96255E6490B5969FD99574?redirectedFrom=outsourcing}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{e}})}]{oxfordprospect}
-{Oxford Dictionary} 2017{\natexlab{e}}. \enquote{prospect,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{e}})}]{oxfordprioritize}
+{Oxford Dictionary} 2017{\natexlab{e}}. \enquote{prioritize,} .
+\newline\urlprefix\url{https://en.oxforddictionaries.com/definition/prioritize}\newline\urldateprefix02.02.2017
+
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{f}})}]{oxfordprospect}
+{Oxford Dictionary} 2017{\natexlab{f}}. \enquote{prospect,} .
 \newline\urlprefix\url{https://en.oxforddictionaries.com/definition/prospect}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{f}})}]{oxfordtransformation}
-{Oxford Dictionary} 2017{\natexlab{f}}. \enquote{prospect,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{g}})}]{oxfordtransformation}
+{Oxford Dictionary} 2017{\natexlab{g}}. \enquote{prospect,} .
 \newline\urlprefix\url{https://en.oxforddictionaries.com/definition/transformation}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{g}})}]{oxfordrequest}
-{Oxford Dictionary} 2017{\natexlab{g}}. \enquote{request,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{h}})}]{oxfordrequest}
+{Oxford Dictionary} 2017{\natexlab{h}}. \enquote{request,} .
 \newline\urlprefix\url{https://en.oxforddictionaries.com/definition/request}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{h}})}]{oxfordreview}
-{Oxford Dictionary} 2017{\natexlab{h}}. \enquote{review,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{i}})}]{oxfordreview}
+{Oxford Dictionary} 2017{\natexlab{i}}. \enquote{review,} .
 \newline\urlprefix\url{https://en.oxforddictionaries.com/definition/review}\newline\urldateprefix02.02.2017
 
-\bibitem[{{Oxford Dictionary}(2017{\natexlab{i}})}]{oxfordtransition}
-{Oxford Dictionary} 2017{\natexlab{i}}. \enquote{transition,} .
+\bibitem[{{Oxford Dictionary}(2017{\natexlab{j}})}]{oxfordtransition}
+{Oxford Dictionary} 2017{\natexlab{j}}. \enquote{transition,} .
 \newline\urlprefix\url{https://en.oxforddictionaries.com/definition/transition}\newline\urldateprefix02.02.2017
 
 \bibitem[{Payne and Frow(2004)}]{payne2004role}
