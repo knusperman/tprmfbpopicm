@@ -1,8 +1,12 @@
-\begin{thebibliography}{142}
+\begin{thebibliography}{146}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
 \providecommand{\urldateprefix}{Access date: }
+
+\bibitem[{Accenture(2015)}]{accenture2015}
+Accenture 2015. \enquote{Digital Transformation In The Age Of The Customer,}
+  Tech. rep., Accenture.
 
 \bibitem[{Adams et~al.(1992)Adams, Nelson, and Todd}]{Adams_1992}
 Adams, D.~A., Nelson, R.~R., and Todd, P.~A. 1992. \enquote{Perceived
@@ -33,6 +37,17 @@ Alchian, A.~A., and Demsetz, H. 1972. \enquote{Production, information costs,
   and economic organization,} {\it The American economic review\/} (62:5), pp.
   777--795.
 
+\bibitem[{Andersson et~al.(2006)Andersson, Eriksson, and
+  Torstensson}]{Andersson_2006}
+Andersson, R., Eriksson, H., and Torstensson, H. 2006. \enquote{Similarities
+  and differences between {TQM}, six sigma and lean,} {\it The {TQM}
+  Magazine\/} (18:3), pp. 282--296.
+
+\bibitem[{Antony et~al.(2007)Antony, Antony, Kumar, and Cho}]{Antony_2007}
+Antony, J., Antony, F.~J., Kumar, M., and Cho, B.~R. 2007. \enquote{Six sigma
+  in service organisations,} {\it International Journal of Quality {\&}
+  Reliability Management\/} (24:3), pp. 294--311.
+
 \bibitem[{APICS(2015)}]{APICS2015}
 APICS 2015. \enquote{{American Production and Inventory Control Society -
   Supply Chain Operations Reference model (SCOR)},} .
@@ -48,24 +63,12 @@ Bartell, S.~M. 1998. \enquote{Information systems outsourcing: a literature
   review and agenda for research,} {\it International Journal of Organization
   Theory and Behavior\/} (1), pp. 17--44.
 
-\bibitem[{Becker et~al.(2015)Becker, Clever, Holler, and
-  Shitkova}]{becker2015icebricks}
-Becker, J., Clever, N., Holler, J., and Shitkova, M. 2015. \enquote{icebricks,}
-  in {\it International Conference on Design Science Research in Information
-  Systems\/}, Springer, pp. 361--365.
-
 \bibitem[{Becker et~al.(2007)Becker, Delfmann, and Knackstedt}]{Becker2007}
 Becker, J., Delfmann, P., and Knackstedt, R. 2007. \enquote{{Adaptive reference
   modeling: Integrating configurative and generic adaptation techniques for
   information models},} in {\it Reference Modeling: Efficient Information
   Systems Design Through Reuse of Information Models\/}, , Springer Nature, pp.
   27--58.
-
-\bibitem[{Becker and Kahn(2011)}]{Becker2011}
-Becker, J., and Kahn, D. 2011. \enquote{{The Process in Focus},} in {\it
-  Process Management: A Guide for the Design of Business Processes\/},
-  J.~Becker, M.~Kugeler, and M.~Rosemann,  (eds.), Berlin, Heidelberg:
-  Springer, pp. 1--13, 2nd ed.
 
 \bibitem[{Becker et~al.(2012{\natexlab{a}})Becker, Kugeler, and
   Rosemann}]{becker2012pm}
@@ -106,12 +109,6 @@ Bravard, J.-L., and Morgan, R. 2006. {\it Smarter Outsourcing: An executive
   relationships\/}, FT Press.
 
 
-\bibitem[{Brocke(2003)}]{brocke2003referenzmodellierung}
-Brocke, J. 2003. {\it Referenzmodellierung: Gestaltung und Verteilung von
-  Konstruktionsprozessen\/}, Advances in information systems and management
-  science, Logos-Verlag.
-
-
 \bibitem[{Brynjolfsson et~al.(2013)Brynjolfsson, Hu, and
   Rahman}]{Brynjolfsson20131}
 Brynjolfsson, E., Hu, Y., and Rahman, M. 2013. \enquote{Competing in the age of
@@ -141,6 +138,10 @@ Chen, P. P.-S.~S. 1976. \enquote{The Entity-Relationship Model: Toward a
   Unified View of Data,} {\it ACM Transactions on Database Systems\/} (1:1),
   pp. 9--36.
 \newblock Reprinted in \cite{Stonebraker:1988:RDS}.
+
+\bibitem[{Clever(2016)}]{clever2016}
+Clever, N.~C. 2016. {\it icebricks - Konstruktion und Anwendung eines
+  Prozessmodellierungswerkzeugs\/}, Ph.D. thesis, WWU Münster.
 
 \bibitem[{Cohen and Young(2006)}]{cohen2006multisourcing}
 Cohen, L., and Young, A. 2006. {\it Multisourcing: Moving Beyond Outsourcing to
@@ -271,12 +272,6 @@ Gross, J., Bordt, J., and Musmacher, M. 2006. {\it Business Process
 \bibitem[{Habermas(1973)}]{habermas1973}
 Habermas, J. 1973. {\it Wirklichkeit und Reflexion. Walter Schulz zum 60.
   Geburtstag\/}, Neske, chap. Wahrheitstheorien, pp. 211--265.
-
-\bibitem[{Hammer(2015)}]{Hammer2015}
-Hammer, M. 2015. \enquote{{What is Business Process Management?}} in {\it
-  Handbook on Business Process Management 1\/}, J.~{Vom Brocke} and
-  M.~Rosemann,  (eds.), Berlin, Heidelberg: Springer, chap.~1, pp. 3--16, 2nd
-  ed.
 
 \bibitem[{Helmke et~al.(2012)Helmke, Uebel, and Dangelmaier}]{Helmke_2012}
 Helmke, S., Uebel, M., and Dangelmaier, W. 2012. \enquote{Inhalte des
@@ -524,6 +519,15 @@ P{\"{u}}ster, J. 2015. {\it {Prozessmodelle f{\"{u}}r Einzelhandel,
   Handelsinformationssysteme}\/}, Advances in information systems and
   management science, Berlin: Logos Verlag.
 
+\bibitem[{Pyzdek and Keller(2014)}]{9780071840538}
+Pyzdek, T., and Keller, P.~A. 2014. {\it The Six Sigma Handbook\/}, McGraw-Hill
+  Education Ltd.
+
+
+\bibitem[{{Radicati Group}(2016)}]{radicati2016}
+{Radicati Group} 2016. \enquote{Email Statistics Report, 2016-2020,} .
+\newline\urlprefix\url{http://www.radicati.com/wp/wp-content/uploads/2016/01/Email_Statistics_Report_2016-2020_Executive_Summary.pdf}\newline\urldateprefix2017-02-28
+
 \bibitem[{Rai et~al.(1996)Rai, Borah, and Ramaprasad}]{rai1996critical}
 Rai, A., Borah, S., and Ramaprasad, A. 1996. \enquote{Critical success factors
   for strategic alliances in the information technology industry: An empirical
@@ -599,8 +603,18 @@ Seiffert, H. 2006. {\it Einf{\"u}hrung in die Wissenschaftstheorie:
 Shannon, C.~E., and Weaver, W. 1949. {\it The mathematical theory of
   communication\/}, University of Illinois Press.
 
+\bibitem[{Sharp(2003)}]{9781555582777}
+Sharp, D.~E. 2003. {\it Call Center Operation\/}, Elsevier Science \&
+  Technology.
+
+
 \bibitem[{Simon(1996)}]{simon1996sciences}
 Simon, H.~A. 1996. {\it The sciences of the artificial\/}, MIT press.
+
+\bibitem[{Slack et~al.(2011)Slack, Brandon-Jonas, and Johnston}]{9780273756194}
+Slack, N., Brandon-Jonas, A., and Johnston, R. 2011. {\it Essentials of
+  Operations Management with Myomla\/}, Pearson/Education.
+
 
 \bibitem[{Snowdon et~al.(2016)Snowdon, Fersht, and McGann}]{hfs2016top}
 Snowdon, J., Fersht, P., and McGann, B.~S. 2016. \enquote{THE HfS BPO TOP 50,}
@@ -663,17 +677,17 @@ Verhoef, P., Kannan, P., and Inman, J. 2015. \enquote{From Multi-Channel
   Retailing to Omni-Channel Retailing: Introduction to the Special Issue on
   Multi-Channel Retailing,} {\it Journal of Retailing\/} (91:2), pp. 174--181.
 
+\bibitem[{vom Brocke(2003)}]{brocke2003referenzmodellierung}
+vom Brocke, J. 2003. {\it Referenzmodellierung: Gestaltung und Verteilung von
+  Konstruktionsprozessen\/}, Advances in information systems and management
+  science, Logos-Verlag.
+
+
 \bibitem[{Vom~Brocke and Buddendick(2006)}]{vom2006reusable}
 Vom~Brocke, J., and Buddendick, C. 2006. \enquote{Reusable conceptual
   models--requirements based on the design science research paradigm,} in {\it
   Proceedings of the First International Conference on Design Science Research
   in Information Systems and Technology (DESRIST)\/}, Citeseer, pp. 576--604.
-
-\bibitem[{vom Brocke et~al.(2014)vom Brocke, Schmiedel, Recker, Trkman,
-  Mertens, and Viaene}]{VomBrocke2014a}
-vom Brocke, J., Schmiedel, T., Recker, J., Trkman, P., Mertens, W., and Viaene,
-  S. 2014. \enquote{{Ten Principles of Good Business Process Management},} {\it
-  Business Process Management Journal\/} (20:4), pp. 530--548.
 
 \bibitem[{Walker et~al.(2002)Walker, Craig-Lees, Hecker, and
   Francis}]{Walker_2002}

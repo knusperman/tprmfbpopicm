@@ -2,22 +2,9 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: 00_thesis.aux
 The style file: assets/misq.bst
-Case mismatch error between cite keys Schewe2007 and schewe2007
----line 384 of file 00_thesis.aux
- : \citation{Schewe2007
- :                     }
-I'm skipping whatever remains of this command
 Database file #1: library.bib
-Warning--I didn't find a database entry for "Gross2007"
-Warning--I didn't find a database entry for "hippnerwilde2011"
-Warning--I didn't find a database entry for "radial2016"
-Warning--I didn't find a database entry for "ccnet2016."
-Warning--I didn't find a database entry for "acc2015ce"
 Warning--I didn't find a database entry for "p"
-Warning--I didn't find a database entry for "Becker2012Gom"
-Warning--I didn't find a database entry for "ccn2016"
-Warning--I didn't find a database entry for "cowell1988_new"
-Warning--I didn't find a database entry for "Stonebraker:1988:RDS"
+Warning--I didn't find a database entry for "cowell"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 `urldate' is a missing field, not a string, for entry becker2012pm
 while executing---line 1733 of file assets/misq.bst
@@ -31,8 +18,6 @@ Warning--can't use both author and editor fields in Bohmann2006
 `urldate' is a missing field, not a string, for entry Bohmann2006
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry 0273705601
-while executing---line 1733 of file assets/misq.bst
-`urldate' is a missing field, not a string, for entry brocke2003referenzmodellierung
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Brynjolfsson20131
 while executing---line 1733 of file assets/misq.bst
@@ -79,11 +64,17 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry PorterHeppelmann15hbr
 while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry 9780071840538
+while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry rowe1987design
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry 9783540253242
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry seiffert2006einfhrung
+while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry 9781555582777
+while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry 9780273756194
 while executing---line 1733 of file assets/misq.bst
 Warning--can't use both author and editor fields in Spath2006
 `urldate' is a missing field, not a string, for entry Spath2006
@@ -92,47 +83,49 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry servitization
 while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry brocke2003referenzmodellierung
+while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Winter2008Hevner
 while executing---line 1733 of file assets/misq.bst
-You've used 142 entries,
+You've used 146 entries,
             3448 wiz_defined-function locations,
-            1542 strings with 29728 characters,
-and the built_in function-call counts, 151499 in all, are:
-= -- 18331
-> -- 2685
-< -- 199
-+ -- 1470
-- -- 855
-* -- 9047
-:= -- 16009
-add.period$ -- 395
-call.type$ -- 142
-change.case$ -- 869
-chr.to.int$ -- 167
-cite$ -- 145
-duplicate$ -- 16344
-empty$ -- 9487
-format.name$ -- 1253
-if$ -- 31301
+            1547 strings with 30310 characters,
+and the built_in function-call counts, 152269 in all, are:
+= -- 18375
+> -- 2697
+< -- 197
++ -- 1474
+- -- 859
+* -- 9117
+:= -- 16209
+add.period$ -- 403
+call.type$ -- 146
+change.case$ -- 885
+chr.to.int$ -- 165
+cite$ -- 149
+duplicate$ -- 16395
+empty$ -- 9575
+format.name$ -- 1261
+if$ -- 31425
 int.to.chr$ -- 13
 int.to.str$ -- 1
-missing$ -- 1183
-newline$ -- 485
-num.names$ -- 575
-pop$ -- 6341
+missing$ -- 1195
+newline$ -- 501
+num.names$ -- 587
+pop$ -- 6402
 preamble$ -- 1
-purify$ -- 992
+purify$ -- 1015
 quote$ -- 0
-skip$ -- 7020
+skip$ -- 6962
 stack$ -- 0
-substring$ -- 12837
-swap$ -- 9655
-text.length$ -- 86
+substring$ -- 12944
+swap$ -- 9556
+text.length$ -- 83
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1185
+type$ -- 1212
 warning$ -- 3
-while$ -- 831
+while$ -- 832
 width$ -- 0
-write$ -- 1592
-(There were 37 error messages)
+write$ -- 1630
+(There were 39 error messages)

@@ -1,18 +1,2 @@
-
-
-*** Unable to execute: '"makeindex"  -s "00_thesis.ist" -t "00_thesis.glg" -o "00_thesis.gls" "00_thesis.glo"' ***
-
-Failed with error code 127.
-
-Status report:
-
-sh: makeindex: command not found
-
-makeindex didn't create a transcript.
-Check that makeindex has been installed and
-is on your system's PATH.
-Your PATH environment variable is set to: 
-/usr/bin:/bin:/usr/sbin:/sbin
-Try manually running:
-"makeindex"  -s "00_thesis.ist" -t "00_thesis.glg" -o "00_thesis.gls" "00_thesis.glo"
-
+Warning: File '00_thesis.glo' is empty.
+Have you used any entries defined in glossary 'glssymbol'?
