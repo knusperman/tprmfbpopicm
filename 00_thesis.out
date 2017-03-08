@@ -6,7 +6,7 @@
 \BOOKMARK [0][-]{section*.12}{Symbols}{}% 6
 \BOOKMARK [0][-]{chapter.1}{Motivation}{}% 7
 \BOOKMARK [0][-]{chapter.2}{Methodology}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Epistemological perspective}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.1}{Epistemological Perspective}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.2}{Design Science}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.3}{Empirical Research}{chapter.2}% 11
 \BOOKMARK [0][-]{chapter.3}{Research Background}{}% 12
@@ -20,7 +20,7 @@
 \BOOKMARK [2][-]{subsection.3.2.3}{icebricks as a Process Modeling Language}{section.3.2}% 20
 \BOOKMARK [0][-]{chapter.4}{Case}{}% 21
 \BOOKMARK [1][-]{section.4.1}{Organizational Setting}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Use of a Reference Model for BPO providers in CRM}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Use of a Reference Model for BPO Providers in CRM}{chapter.4}% 23
 \BOOKMARK [1][-]{section.4.3}{Design Science Research Application}{chapter.4}% 24
 \BOOKMARK [2][-]{subsection.4.3.1}{Problem Identification}{section.4.3}% 25
 \BOOKMARK [2][-]{subsection.4.3.2}{Solution Objectives}{section.4.3}% 26
@@ -47,19 +47,34 @@
 \BOOKMARK [2][-]{subsection.5.4.2}{Portfolio Management}{section.5.4}% 47
 \BOOKMARK [2][-]{subsection.5.4.3}{Quality Management}{section.5.4}% 48
 \BOOKMARK [2][-]{subsection.5.4.4}{People Lifecycle Management}{section.5.4}% 49
-\BOOKMARK [2][-]{subsection.5.4.5}{Workforce Management}{section.5.4}% 50
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 51
-\BOOKMARK [0][-]{appendix*.184}{Appendix}{}% 52
-\BOOKMARK [1][-]{section.Alph0.1}{Customer relationship management}{appendix*.184}% 53
-\BOOKMARK [2][-]{subsection.Alph0.1.1}{CRM notions}{section.Alph0.1}% 54
-\BOOKMARK [2][-]{subsection.Alph0.1.2}{Multi- and Omni-channel publications}{section.Alph0.1}% 55
-\BOOKMARK [2][-]{subsection.Alph0.1.3}{Multi- and Omnichannel separation}{section.Alph0.1}% 56
-\BOOKMARK [2][-]{subsection.Alph0.1.4}{Outsourcing provider processes}{section.Alph0.1}% 57
-\BOOKMARK [2][-]{subsection.Alph0.1.5}{Selected reference models}{section.Alph0.1}% 58
-\BOOKMARK [2][-]{subsection.Alph0.1.6}{icebricks example}{section.Alph0.1}% 59
-\BOOKMARK [2][-]{subsection.Alph0.1.7}{Knowledge Management frameworks}{section.Alph0.1}% 60
-\BOOKMARK [2][-]{subsection.Alph0.1.8}{Financial engineering in the outsourcing deal}{section.Alph0.1}% 61
-\BOOKMARK [2][-]{subsection.Alph0.1.9}{Frameworks for the Product Development process}{section.Alph0.1}% 62
-\BOOKMARK [2][-]{subsection.Alph0.1.10}{Some Appendix Subsection}{section.Alph0.1}% 63
-\BOOKMARK [0][-]{subsection.Alph0.1.10}{References}{}% 64
-\BOOKMARK [0][-]{authorshipstatement.0}{Declaration of Authorship}{}% 65
+\BOOKMARK [2][-]{subsection.5.4.5}{Operations Management}{section.5.4}% 50
+\BOOKMARK [0][-]{chapter.6}{Demonstration}{}% 51
+\BOOKMARK [1][-]{section.6.1}{Process Framework}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.2}{Internal Services}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.2.1}{...}{section.6.2}% 54
+\BOOKMARK [1][-]{section.6.3}{Client Services}{chapter.6}% 55
+\BOOKMARK [2][-]{subsection.6.3.1}{...}{section.6.3}% 56
+\BOOKMARK [1][-]{section.6.4}{Customer Services}{chapter.6}% 57
+\BOOKMARK [2][-]{subsection.6.4.1}{...}{section.6.4}% 58
+\BOOKMARK [0][-]{chapter.7}{Evaluation}{}% 59
+\BOOKMARK [1][-]{section.7.1}{Process Framework}{chapter.7}% 60
+\BOOKMARK [1][-]{section.7.2}{Internal Services}{chapter.7}% 61
+\BOOKMARK [2][-]{subsection.7.2.1}{...}{section.7.2}% 62
+\BOOKMARK [1][-]{section.7.3}{Client Services}{chapter.7}% 63
+\BOOKMARK [2][-]{subsection.7.3.1}{...}{section.7.3}% 64
+\BOOKMARK [1][-]{section.7.4}{Customer Services}{chapter.7}% 65
+\BOOKMARK [2][-]{subsection.7.4.1}{...}{section.7.4}% 66
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 67
+\BOOKMARK [0][-]{appendix*.191}{Appendix}{}% 68
+\BOOKMARK [1][-]{section.Alph0.1}{Customer relationship management}{appendix*.191}% 69
+\BOOKMARK [2][-]{subsection.Alph0.1.1}{CRM notions}{section.Alph0.1}% 70
+\BOOKMARK [2][-]{subsection.Alph0.1.2}{Multi- and Omni-channel publications}{section.Alph0.1}% 71
+\BOOKMARK [2][-]{subsection.Alph0.1.3}{Multi- and Omnichannel separation}{section.Alph0.1}% 72
+\BOOKMARK [2][-]{subsection.Alph0.1.4}{Outsourcing Provider Processes}{section.Alph0.1}% 73
+\BOOKMARK [2][-]{subsection.Alph0.1.5}{Selected Reference Models}{section.Alph0.1}% 74
+\BOOKMARK [2][-]{subsection.Alph0.1.6}{icebricks Example}{section.Alph0.1}% 75
+\BOOKMARK [2][-]{subsection.Alph0.1.7}{Knowledge Management frameworks}{section.Alph0.1}% 76
+\BOOKMARK [2][-]{subsection.Alph0.1.8}{Financial engineering in the outsourcing deal}{section.Alph0.1}% 77
+\BOOKMARK [2][-]{subsection.Alph0.1.9}{Frameworks for the Product Development process}{section.Alph0.1}% 78
+\BOOKMARK [2][-]{subsection.Alph0.1.10}{Some Appendix Subsection}{section.Alph0.1}% 79
+\BOOKMARK [0][-]{subsection.Alph0.1.10}{References}{}% 80

@@ -7,7 +7,7 @@
 \contentsline {chapter}{Symbols}{X}{section*.12}
 \contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Methodology}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Epistemological perspective}{4}{section.2.1}
+\contentsline {section}{\numberline {2.1}Epistemological Perspective}{4}{section.2.1}
 \contentsline {subsubsection}{Ad 1. Object of cognition}{5}{subsubsection*.13}
 \contentsline {subsubsection}{Ad 2. Relationship between cognition and the object of cognition}{5}{subsubsection*.14}
 \contentsline {subsubsection}{Ad 3. Concept of truth}{5}{subsubsection*.15}
@@ -19,147 +19,174 @@
 \contentsline {section}{\numberline {3.1}Domain}{9}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Business Process Outsourcing}{9}{subsection.3.1.1}
 \contentsline {subsubsection}{Theory of the Firm}{9}{subsubsection*.19}
-\contentsline {subsubsection}{The value chain}{10}{subsubsection*.21}
-\contentsline {subsubsection}{(Business Process) Outsourcing}{10}{subsubsection*.22}
-\contentsline {subsubsection}{Process orientation}{12}{subsubsection*.23}
-\contentsline {subsubsection}{A framework for BPO participants}{12}{subsubsection*.24}
-\contentsline {subsubsection}{Outsourcing client}{14}{subsubsection*.28}
-\contentsline {subsubsection}{Outsourcing Provider}{14}{subsubsection*.31}
+\contentsline {subsubsection}{The Value Chain}{10}{subsubsection*.20}
+\contentsline {subsubsection}{(Business Process) Outsourcing}{10}{subsubsection*.21}
+\contentsline {subsubsection}{Process Orientation}{12}{subsubsection*.22}
+\contentsline {subsubsection}{A Framework for BPO Participants}{12}{subsubsection*.23}
+\contentsline {subsubsection}{Outsourcing Client}{14}{subsubsection*.27}
+\contentsline {subsubsection}{Outsourcing Provider}{14}{subsubsection*.30}
 \contentsline {subsection}{\numberline {3.1.2}Customer Relationship Management}{16}{subsection.3.1.2}
-\contentsline {subsubsection}{Voice}{20}{subsubsection*.36}
-\contentsline {subsubsection}{E-Mail}{20}{subsubsection*.37}
-\contentsline {subsubsection}{Direct Messenger}{21}{subsubsection*.38}
-\contentsline {subsubsection}{Video}{21}{subsubsection*.39}
-\contentsline {subsubsection}{Social Media}{22}{subsubsection*.41}
-\contentsline {subsubsection}{Website}{22}{subsubsection*.42}
-\contentsline {subsubsection}{App}{23}{subsubsection*.43}
-\contentsline {subsubsection}{Non-Digital Channels}{23}{subsubsection*.44}
-\contentsline {subsubsection}{Self-Services}{23}{subsubsection*.45}
-\contentsline {subsubsection}{Multi-Channel and Omni-Channel CRM}{24}{subsubsection*.46}
+\contentsline {subsubsection}{Voice}{20}{subsubsection*.35}
+\contentsline {subsubsection}{E-Mail}{20}{subsubsection*.36}
+\contentsline {subsubsection}{Direct Messenger}{21}{subsubsection*.37}
+\contentsline {subsubsection}{Video}{21}{subsubsection*.38}
+\contentsline {subsubsection}{Social Media}{22}{subsubsection*.40}
+\contentsline {subsubsection}{Website}{22}{subsubsection*.41}
+\contentsline {subsubsection}{App}{23}{subsubsection*.42}
+\contentsline {subsubsection}{Non-Digital Channels}{23}{subsubsection*.43}
+\contentsline {subsubsection}{Self-Services}{23}{subsubsection*.44}
+\contentsline {subsubsection}{Multi-Channel and Omni-Channel CRM}{24}{subsubsection*.45}
 \contentsline {subsection}{\numberline {3.1.3}Customer Relationship Management Business Process Outsourcing Providers}{26}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Reference Modeling}{27}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Concept}{28}{subsection.3.2.1}
-\contentsline {subsubsection}{The Model as a construct}{28}{subsubsection*.50}
-\contentsline {subsubsection}{Reference Models and Application Models}{28}{subsubsection*.51}
-\contentsline {subsubsection}{Construction}{30}{subsubsection*.53}
-\contentsline {subsubsection}{Selected Reference Models}{30}{subsubsection*.54}
+\contentsline {subsubsection}{The Model as a Construct}{28}{subsubsection*.48}
+\contentsline {subsubsection}{Reference Models and Application Models}{28}{subsubsection*.49}
+\contentsline {subsubsection}{Construction}{30}{subsubsection*.51}
+\contentsline {subsubsection}{Selected Reference Models}{30}{subsubsection*.52}
 \contentsline {subsection}{\numberline {3.2.2}Benefits}{31}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}icebricks as a Process Modeling Language}{32}{subsection.3.2.3}
-\contentsline {subsubsection}{Correctness}{33}{subsubsection*.57}
-\contentsline {subsubsection}{Relevance}{34}{subsubsection*.59}
-\contentsline {subsubsection}{Economic efficiency}{34}{subsubsection*.60}
-\contentsline {subsubsection}{Clarity}{35}{subsubsection*.61}
-\contentsline {subsubsection}{Comparability}{35}{subsubsection*.62}
-\contentsline {subsubsection}{Systematic Design}{35}{subsubsection*.63}
+\contentsline {subsubsection}{Correctness}{33}{subsubsection*.55}
+\contentsline {subsubsection}{Relevance}{34}{subsubsection*.57}
+\contentsline {subsubsection}{Economic efficiency}{34}{subsubsection*.58}
+\contentsline {subsubsection}{Clarity}{35}{subsubsection*.59}
+\contentsline {subsubsection}{Comparability}{35}{subsubsection*.60}
+\contentsline {subsubsection}{Systematic Design}{35}{subsubsection*.61}
 \contentsline {chapter}{\numberline {4}Case}{36}{chapter.4}
 \contentsline {section}{\numberline {4.1}Organizational Setting}{36}{section.4.1}
-\contentsline {section}{\numberline {4.2}Use of a Reference Model for BPO providers in CRM}{37}{section.4.2}
+\contentsline {section}{\numberline {4.2}Use of a Reference Model for BPO Providers in CRM}{37}{section.4.2}
 \contentsline {section}{\numberline {4.3}Design Science Research Application}{40}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Problem Identification}{41}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Solution Objectives}{42}{subsection.4.3.2}
-\contentsline {subsubsection}{General objectives}{43}{subsubsection*.70}
-\contentsline {subsubsection}{Stakeholder-related objectives}{44}{subsubsection*.71}
+\contentsline {subsubsection}{General objectives}{43}{subsubsection*.65}
+\contentsline {subsubsection}{Stakeholder-related objectives}{44}{subsubsection*.66}
 \contentsline {section}{\numberline {4.4}Limitations}{45}{section.4.4}
 \contentsline {chapter}{\numberline {5}Reference Model Construction}{46}{chapter.5}
 \contentsline {section}{\numberline {5.1}Process Framework}{46}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Set structural goals}{46}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Set macro structure}{47}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}Set process structure}{49}{subsection.5.1.3}
-\contentsline {subsubsection}{Sales-related}{49}{subsubsection*.76}
-\contentsline {subsubsection}{Management-related}{49}{subsubsection*.77}
-\contentsline {subsubsection}{Operations-related}{50}{subsubsection*.78}
+\contentsline {subsubsection}{Sales-related}{49}{subsubsection*.71}
+\contentsline {subsubsection}{Management-related}{49}{subsubsection*.72}
+\contentsline {subsubsection}{Operations-related}{50}{subsubsection*.73}
 \contentsline {subsection}{\numberline {5.1.4}Set design goals}{52}{subsection.5.1.4}
 \contentsline {subsection}{\numberline {5.1.5}Set design structure}{52}{subsection.5.1.5}
-\contentsline {subsubsection}{Framework composition}{53}{subsubsection*.79}
-\contentsline {subsubsection}{Framework details}{54}{subsubsection*.81}
-\contentsline {subsubsection}{Addressing the design goals}{56}{subsubsection*.83}
+\contentsline {subsubsection}{Framework composition}{53}{subsubsection*.74}
+\contentsline {subsubsection}{Framework details}{54}{subsubsection*.76}
+\contentsline {subsubsection}{Addressing the design goals}{56}{subsubsection*.78}
 \contentsline {section}{\numberline {5.2}Customer Processes}{57}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Inbound}{58}{subsection.5.2.1}
-\contentsline {subsubsection}{route inquiry}{60}{subsubsection*.88}
-\contentsline {subsubsection}{preprocess inquiry}{62}{subsubsection*.90}
-\contentsline {subsubsection}{classify inquiry}{62}{subsubsection*.92}
-\contentsline {subsubsection}{process inquiry}{64}{subsubsection*.94}
-\contentsline {subsubsection}{review Inquiry}{65}{subsubsection*.96}
+\contentsline {subsubsection}{Route Inquiry}{60}{subsubsection*.83}
+\contentsline {subsubsection}{Preprocess Inquiry}{62}{subsubsection*.85}
+\contentsline {subsubsection}{Classify Inquiry}{62}{subsubsection*.87}
+\contentsline {subsubsection}{Process Inquiry}{64}{subsubsection*.89}
+\contentsline {subsubsection}{Review Inquiry}{65}{subsubsection*.91}
 \contentsline {subsection}{\numberline {5.2.2}Outbound Service}{67}{subsection.5.2.2}
-\contentsline {subsubsection}{prepare contact}{68}{subsubsection*.99}
-\contentsline {subsubsection}{contact customer}{69}{subsubsection*.101}
-\contentsline {subsubsection}{evaluate contact}{70}{subsubsection*.103}
+\contentsline {subsubsection}{Prepare Contact}{68}{subsubsection*.94}
+\contentsline {subsubsection}{Contact Customer}{69}{subsubsection*.96}
+\contentsline {subsubsection}{Evaluate Contact}{70}{subsubsection*.98}
 \contentsline {subsection}{\numberline {5.2.3}Self-Service}{73}{subsection.5.2.3}
+\contentsline {subsubsection}{Identify Customer Needs}{74}{subsubsection*.101}
+\contentsline {subsubsection}{Process Customer Needs}{75}{subsubsection*.102}
+\contentsline {subsubsection}{Present Solution}{75}{subsubsection*.103}
+\contentsline {subsubsection}{Evaluate Solution}{75}{subsubsection*.104}
 \contentsline {subsection}{\numberline {5.2.4}Knowledge Management}{76}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Client Processes}{78}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Sales}{80}{subsection.5.3.1}
-\contentsline {subsubsection}{identify prospects}{80}{subsubsection*.111}
-\contentsline {subsubsection}{approach prospects}{82}{subsubsection*.112}
-\contentsline {subsubsection}{evaluate \acrshort {RFP}}{82}{subsubsection*.113}
-\contentsline {subsubsection}{create offer}{82}{subsubsection*.115}
-\contentsline {subsubsection}{negotiate contract}{83}{subsubsection*.116}
-\contentsline {subsubsection}{perform due diligence}{83}{subsubsection*.118}
-\contentsline {subsubsection}{create commercial deal}{84}{subsubsection*.119}
-\contentsline {subsubsection}{create contract}{84}{subsubsection*.120}
-\contentsline {subsection}{\numberline {5.3.2}Transition}{84}{subsection.5.3.2}
-\contentsline {subsubsection}{develop transition plan}{85}{subsubsection*.122}
-\contentsline {subsubsection}{transfer business}{86}{subsubsection*.123}
-\contentsline {subsubsection}{transfer people, process, technology}{86}{subsubsection*.124}
-\contentsline {subsubsection}{perform \acrshort {PMO} phase}{87}{subsubsection*.125}
-\contentsline {subsubsection}{perform \acrshort {TMO} phase}{87}{subsubsection*.127}
-\contentsline {subsection}{\numberline {5.3.3}Account Management}{87}{subsection.5.3.3}
-\contentsline {subsubsection}{build client relationship}{87}{subsubsection*.129}
-\contentsline {subsubsection}{manage disputes}{88}{subsubsection*.130}
-\contentsline {subsubsection}{monitor service performance}{89}{subsubsection*.131}
-\contentsline {subsubsection}{propose innovation}{89}{subsubsection*.132}
-\contentsline {subsubsection}{manage contract}{89}{subsubsection*.133}
-\contentsline {subsubsection}{renegotiate contract}{89}{subsubsection*.134}
-\contentsline {subsubsection}{end contract}{90}{subsubsection*.136}
-\contentsline {subsection}{\numberline {5.3.4}Solution Design}{90}{subsection.5.3.4}
-\contentsline {subsubsection}{process service definition}{91}{subsubsection*.139}
-\contentsline {subsubsection}{match product}{92}{subsubsection*.140}
-\contentsline {subsubsection}{specify solution}{92}{subsubsection*.142}
-\contentsline {subsubsection}{develop solution}{92}{subsubsection*.143}
-\contentsline {subsubsection}{deliver solution}{92}{subsubsection*.144}
-\contentsline {section}{\numberline {5.4}Management Processes}{92}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Product Development}{93}{subsection.5.4.1}
-\contentsline {subsubsection}{evaluate idea}{94}{subsubsection*.148}
-\contentsline {subsubsection}{assess market requirements}{94}{subsubsection*.150}
-\contentsline {subsubsection}{assess technical requirements}{95}{subsubsection*.151}
-\contentsline {subsubsection}{conceptualize product}{95}{subsubsection*.152}
-\contentsline {subsubsection}{perform business analysis}{96}{subsubsection*.154}
-\contentsline {subsubsection}{develop product}{96}{subsubsection*.156}
-\contentsline {subsubsection}{test product}{96}{subsubsection*.157}
-\contentsline {subsubsection}{deliver product}{96}{subsubsection*.159}
-\contentsline {subsection}{\numberline {5.4.2}Portfolio Management}{96}{subsection.5.4.2}
-\contentsline {subsubsection}{maintain product}{97}{subsubsection*.161}
-\contentsline {subsubsection}{maintain component}{98}{subsubsection*.162}
-\contentsline {subsubsection}{evaluate portfolio}{98}{subsubsection*.164}
-\contentsline {subsubsection}{prioritize portfolio}{99}{subsubsection*.165}
-\contentsline {subsubsection}{balance resources}{99}{subsubsection*.167}
-\contentsline {subsubsection}{terminate product, component}{99}{subsubsection*.169}
-\contentsline {subsubsection}{update portfolio}{99}{subsubsection*.170}
-\contentsline {subsection}{\numberline {5.4.3}Quality Management}{100}{subsection.5.4.3}
-\contentsline {subsubsection}{define service scope}{101}{subsubsection*.173}
-\contentsline {subsubsection}{measure service quality data}{101}{subsubsection*.174}
-\contentsline {subsubsection}{analyze service quality data}{102}{subsubsection*.175}
-\contentsline {subsubsection}{improve service quality}{102}{subsubsection*.176}
-\contentsline {subsubsection}{control \& report service quality}{102}{subsubsection*.177}
-\contentsline {subsection}{\numberline {5.4.4}People Lifecycle Management}{102}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Workforce Management}{103}{subsection.5.4.5}
-\contentsline {subsubsection}{forecast service volume}{104}{subsubsection*.179}
-\contentsline {subsubsection}{plan capacity requirements}{104}{subsubsection*.180}
-\contentsline {subsubsection}{plan available capacity}{104}{subsubsection*.181}
-\contentsline {subsubsection}{plan schedule}{104}{subsubsection*.182}
-\contentsline {subsubsection}{control operations}{104}{subsubsection*.183}
-\contentsline {chapter}{\numberline {6}Conclusion}{105}{chapter.6}
-\contentsline {chapter}{Appendix}{106}{appendix*.184}
+\contentsline {section}{\numberline {5.3}Client Processes}{79}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Sales}{81}{subsection.5.3.1}
+\contentsline {subsubsection}{Identify Prospects}{81}{subsubsection*.111}
+\contentsline {subsubsection}{Approach Prospects}{83}{subsubsection*.112}
+\contentsline {subsubsection}{Evaluate \acrshort {RFP}}{83}{subsubsection*.113}
+\contentsline {subsubsection}{Create Offer}{83}{subsubsection*.115}
+\contentsline {subsubsection}{Negotiate Contract}{84}{subsubsection*.116}
+\contentsline {subsubsection}{Perform Due DIligence}{84}{subsubsection*.118}
+\contentsline {subsubsection}{Create Commercial Deal}{85}{subsubsection*.119}
+\contentsline {subsubsection}{Create Contract}{85}{subsubsection*.120}
+\contentsline {subsection}{\numberline {5.3.2}Transition}{85}{subsection.5.3.2}
+\contentsline {subsubsection}{Develop Transition Plan}{86}{subsubsection*.122}
+\contentsline {subsubsection}{Transfer Business}{87}{subsubsection*.123}
+\contentsline {subsubsection}{Transfer People, Process, Technology}{87}{subsubsection*.124}
+\contentsline {subsubsection}{Perform \acrshort {PMO} Phase}{88}{subsubsection*.125}
+\contentsline {subsubsection}{Perform \acrshort {TMO} Phase}{88}{subsubsection*.127}
+\contentsline {subsection}{\numberline {5.3.3}Account Management}{88}{subsection.5.3.3}
+\contentsline {subsubsection}{Build Client Relationship}{88}{subsubsection*.129}
+\contentsline {subsubsection}{Manage Disputes}{89}{subsubsection*.130}
+\contentsline {subsubsection}{Monitor Service Performance}{90}{subsubsection*.131}
+\contentsline {subsubsection}{Propose Innovation}{90}{subsubsection*.132}
+\contentsline {subsubsection}{Manage Contract}{90}{subsubsection*.133}
+\contentsline {subsubsection}{Renegotiate Contract}{90}{subsubsection*.134}
+\contentsline {subsubsection}{End Contract}{91}{subsubsection*.136}
+\contentsline {subsection}{\numberline {5.3.4}Solution Design}{91}{subsection.5.3.4}
+\contentsline {subsubsection}{Process Service Definition}{92}{subsubsection*.139}
+\contentsline {subsubsection}{Match Product}{93}{subsubsection*.140}
+\contentsline {subsubsection}{Specify Solution}{93}{subsubsection*.142}
+\contentsline {subsubsection}{Develop Solution}{93}{subsubsection*.143}
+\contentsline {subsubsection}{Deliver Solution}{93}{subsubsection*.144}
+\contentsline {section}{\numberline {5.4}Management Processes}{93}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Product Development}{94}{subsection.5.4.1}
+\contentsline {subsubsection}{Evaluate Idea}{96}{subsubsection*.147}
+\contentsline {subsubsection}{Assess Market Requirements}{96}{subsubsection*.149}
+\contentsline {subsubsection}{Assess Technical Requirements}{97}{subsubsection*.150}
+\contentsline {subsubsection}{Conceptualize Product}{97}{subsubsection*.151}
+\contentsline {subsubsection}{Perform Business Analysis}{97}{subsubsection*.153}
+\contentsline {subsubsection}{Develop Product}{97}{subsubsection*.155}
+\contentsline {subsubsection}{Test Product}{97}{subsubsection*.156}
+\contentsline {subsubsection}{Deliver Product}{98}{subsubsection*.158}
+\contentsline {subsection}{\numberline {5.4.2}Portfolio Management}{98}{subsection.5.4.2}
+\contentsline {subsubsection}{Maintain Product}{98}{subsubsection*.160}
+\contentsline {subsubsection}{Maintain Component}{99}{subsubsection*.161}
+\contentsline {subsubsection}{Evaluate Portfolio}{100}{subsubsection*.163}
+\contentsline {subsubsection}{Prioritize Portfolio}{100}{subsubsection*.164}
+\contentsline {subsubsection}{Balance Resources}{100}{subsubsection*.166}
+\contentsline {subsubsection}{Terminate Product, Component}{101}{subsubsection*.168}
+\contentsline {subsubsection}{Update Portfolio}{101}{subsubsection*.169}
+\contentsline {subsection}{\numberline {5.4.3}Quality Management}{101}{subsection.5.4.3}
+\contentsline {subsubsection}{Define Service Scope}{102}{subsubsection*.172}
+\contentsline {subsubsection}{Measure Service Quality Data}{103}{subsubsection*.173}
+\contentsline {subsubsection}{Analyze Service Quality Data}{103}{subsubsection*.174}
+\contentsline {subsubsection}{Improve Service Quality}{103}{subsubsection*.175}
+\contentsline {subsubsection}{Control \& Report Service Quality}{104}{subsubsection*.176}
+\contentsline {subsection}{\numberline {5.4.4}People Lifecycle Management}{104}{subsection.5.4.4}
+\contentsline {subsubsection}{Attract Employee Talent}{105}{subsubsection*.178}
+\contentsline {subsubsection}{Recruit Employee}{106}{subsubsection*.179}
+\contentsline {subsubsection}{Train Employee}{106}{subsubsection*.180}
+\contentsline {subsubsection}{Integrate Employee}{106}{subsubsection*.181}
+\contentsline {subsubsection}{Develop Employee}{107}{subsubsection*.182}
+\contentsline {subsubsection}{Incentivize Employee}{107}{subsubsection*.183}
+\contentsline {subsubsection}{Retain Employee}{107}{subsubsection*.184}
+\contentsline {subsubsection}{Let Go Employee}{107}{subsubsection*.185}
+\contentsline {subsection}{\numberline {5.4.5}Operations Management}{108}{subsection.5.4.5}
+\contentsline {subsubsection}{Forecast Service Volume}{109}{subsubsection*.187}
+\contentsline {subsubsection}{Plan Capacity Requirements}{109}{subsubsection*.188}
+\contentsline {subsubsection}{Plan Schedule}{110}{subsubsection*.189}
+\contentsline {subsubsection}{Control Operations}{110}{subsubsection*.190}
+\contentsline {chapter}{\numberline {6}Demonstration}{111}{chapter.6}
+\contentsline {section}{\numberline {6.1}Process Framework}{111}{section.6.1}
+\contentsline {section}{\numberline {6.2}Internal Services}{111}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}...}{111}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Client Services}{111}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}...}{111}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Customer Services}{111}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}...}{111}{subsection.6.4.1}
+\contentsline {chapter}{\numberline {7}Evaluation}{112}{chapter.7}
+\contentsline {section}{\numberline {7.1}Process Framework}{112}{section.7.1}
+\contentsline {section}{\numberline {7.2}Internal Services}{112}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}...}{112}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.3}Client Services}{112}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}...}{112}{subsection.7.3.1}
+\contentsline {section}{\numberline {7.4}Customer Services}{112}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}...}{112}{subsection.7.4.1}
+\contentsline {chapter}{\numberline {8}Conclusion}{113}{chapter.8}
+\contentsline {chapter}{Appendix}{114}{appendix*.191}
 \save@tocdepth \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Customer relationship management}{106}{section.Alph0.1}
-\contentsline {subsection}{\numberline {A.1}CRM notions}{106}{subsection.Alph0.1.1}
-\contentsline {subsection}{\numberline {A.2}Multi- and Omni-channel publications}{106}{subsection.Alph0.1.2}
-\contentsline {subsection}{\numberline {A.3}Multi- and Omnichannel separation}{107}{subsection.Alph0.1.3}
-\contentsline {subsection}{\numberline {A.4}Outsourcing provider processes}{108}{subsection.Alph0.1.4}
-\contentsline {subsection}{\numberline {A.5}Selected reference models}{109}{subsection.Alph0.1.5}
-\contentsline {subsection}{\numberline {A.6}icebricks example}{110}{subsection.Alph0.1.6}
-\contentsline {subsection}{\numberline {A.7}Knowledge Management frameworks}{111}{subsection.Alph0.1.7}
-\contentsline {subsection}{\numberline {A.8}Financial engineering in the outsourcing deal}{111}{subsection.Alph0.1.8}
-\contentsline {subsection}{\numberline {A.9}Frameworks for the Product Development process}{112}{subsection.Alph0.1.9}
-\contentsline {subsection}{\numberline {A.10}Some Appendix Subsection}{113}{subsection.Alph0.1.10}
+\contentsline {section}{\numberline {A}Customer relationship management}{114}{section.Alph0.1}
+\contentsline {subsection}{\numberline {A.1}CRM notions}{114}{subsection.Alph0.1.1}
+\contentsline {subsection}{\numberline {A.2}Multi- and Omni-channel publications}{114}{subsection.Alph0.1.2}
+\contentsline {subsection}{\numberline {A.3}Multi- and Omnichannel separation}{115}{subsection.Alph0.1.3}
+\contentsline {subsection}{\numberline {A.4}Outsourcing Provider Processes}{116}{subsection.Alph0.1.4}
+\contentsline {subsection}{\numberline {A.5}Selected Reference Models}{117}{subsection.Alph0.1.5}
+\contentsline {subsection}{\numberline {A.6}icebricks Example}{118}{subsection.Alph0.1.6}
+\contentsline {subsection}{\numberline {A.7}Knowledge Management frameworks}{119}{subsection.Alph0.1.7}
+\contentsline {subsection}{\numberline {A.8}Financial engineering in the outsourcing deal}{119}{subsection.Alph0.1.8}
+\contentsline {subsection}{\numberline {A.9}Frameworks for the Product Development process}{120}{subsection.Alph0.1.9}
+\contentsline {subsection}{\numberline {A.10}Some Appendix Subsection}{121}{subsection.Alph0.1.10}
 \reset@tocdepth 
-\contentsline {chapter}{References}{113}{subsection.Alph0.1.10}
+\contentsline {chapter}{References}{121}{subsection.Alph0.1.10}

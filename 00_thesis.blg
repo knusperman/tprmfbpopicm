@@ -4,8 +4,12 @@ The top-level auxiliary file: 00_thesis.aux
 The style file: assets/misq.bst
 Database file #1: library.bib
 Warning--I didn't find a database entry for "p"
+Warning--I didn't find a database entry for "Whitt_2006"
 Warning--I didn't find a database entry for "cowell"
+Warning--I didn't find a database entry for "Stonebraker:1988:RDS"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+`urldate' is a missing field, not a string, for entry Batt2002
+while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry becker2012pm
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry becker2007epistemological
@@ -22,6 +26,8 @@ while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Brynjolfsson20131
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Butler1998
+while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry 9780130176158
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Chen:2012:BIA
 while executing---line 1733 of file assets/misq.bst
@@ -68,13 +74,15 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry rowe1987design
 while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry 9780470525906
+while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry 9783540253242
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry seiffert2006einfhrung
 while executing---line 1733 of file assets/misq.bst
-`urldate' is a missing field, not a string, for entry 9781555582777
-while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry 9780273756194
+while executing---line 1733 of file assets/misq.bst
+`urldate' is a missing field, not a string, for entry 0273708473
 while executing---line 1733 of file assets/misq.bst
 Warning--can't use both author and editor fields in Spath2006
 `urldate' is a missing field, not a string, for entry Spath2006
@@ -87,45 +95,45 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Winter2008Hevner
 while executing---line 1733 of file assets/misq.bst
-You've used 146 entries,
+You've used 157 entries,
             3448 wiz_defined-function locations,
-            1547 strings with 30310 characters,
-and the built_in function-call counts, 152269 in all, are:
-= -- 18375
-> -- 2697
-< -- 197
-+ -- 1474
-- -- 859
-* -- 9117
-:= -- 16209
-add.period$ -- 403
-call.type$ -- 146
-change.case$ -- 885
-chr.to.int$ -- 165
-cite$ -- 149
-duplicate$ -- 16395
-empty$ -- 9575
-format.name$ -- 1261
-if$ -- 31425
+            1618 strings with 32591 characters,
+and the built_in function-call counts, 167525 in all, are:
+= -- 20301
+> -- 2944
+< -- 211
++ -- 1613
+- -- 940
+* -- 10041
+:= -- 17700
+add.period$ -- 434
+call.type$ -- 157
+change.case$ -- 956
+chr.to.int$ -- 176
+cite$ -- 160
+duplicate$ -- 18110
+empty$ -- 10497
+format.name$ -- 1377
+if$ -- 34594
 int.to.chr$ -- 13
 int.to.str$ -- 1
-missing$ -- 1195
-newline$ -- 501
-num.names$ -- 587
-pop$ -- 6402
+missing$ -- 1297
+newline$ -- 537
+num.names$ -- 631
+pop$ -- 7099
 preamble$ -- 1
-purify$ -- 1015
+purify$ -- 1097
 quote$ -- 0
-skip$ -- 6962
+skip$ -- 7623
 stack$ -- 0
-substring$ -- 12944
-swap$ -- 9556
-text.length$ -- 83
+substring$ -- 14415
+swap$ -- 10539
+text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1212
+type$ -- 1305
 warning$ -- 3
-while$ -- 832
+while$ -- 909
 width$ -- 0
-write$ -- 1630
-(There were 39 error messages)
+write$ -- 1752
+(There were 42 error messages)

@@ -1,44 +1,45 @@
 \select@language {english}
-\contentsline {figure}{\numberline {1}{\ignorespaces Design science research cycles\relax }}{7}{figure.caption.18}
-\contentsline {figure}{\numberline {2}{\ignorespaces Outsourcing ERM\relax }}{13}{figure.caption.25}
-\contentsline {figure}{\numberline {3}{\ignorespaces BPO B2B2B/C Chain\relax }}{14}{figure.caption.27}
-\contentsline {figure}{\numberline {4}{\ignorespaces BPO market composition\relax }}{15}{figure.caption.32}
-\contentsline {figure}{\numberline {5}{\ignorespaces CRM in the field of marketing\relax }}{16}{figure.caption.33}
-\contentsline {figure}{\numberline {6}{\ignorespaces CRM processes\relax }}{17}{figure.caption.34}
-\contentsline {figure}{\numberline {7}{\ignorespaces Channel matrix\relax }}{19}{figure.caption.35}
-\contentsline {figure}{\numberline {8}{\ignorespaces Design Process of Reusable Conceptual Models\relax }}{29}{figure.caption.52}
-\contentsline {figure}{\numberline {9}{\ignorespaces icebricks meta model\relax }}{34}{figure.caption.58}
-\contentsline {figure}{\numberline {10}{\ignorespaces Model levels\relax }}{38}{figure.caption.65}
-\contentsline {figure}{\numberline {11}{\ignorespaces Procedure for framework construction\relax }}{46}{figure.caption.72}
-\contentsline {figure}{\numberline {12}{\ignorespaces BPO chain provider scope with stakeholders\relax }}{49}{figure.caption.75}
-\contentsline {figure}{\numberline {13}{\ignorespaces Framework design influences\relax }}{53}{figure.caption.80}
-\contentsline {figure}{\numberline {14}{\ignorespaces Framework\relax }}{55}{figure.caption.82}
-\contentsline {figure}{\numberline {15}{\ignorespaces \acrshort {ERM} of customer-facing services\relax }}{58}{figure.caption.86}
-\contentsline {figure}{\numberline {16}{\ignorespaces Inbound service process\relax }}{59}{figure.caption.87}
-\contentsline {figure}{\numberline {17}{\ignorespaces route inquiry detail process\relax }}{61}{figure.caption.89}
-\contentsline {figure}{\numberline {18}{\ignorespaces preprocess inquiry detail process\relax }}{63}{figure.caption.91}
-\contentsline {figure}{\numberline {19}{\ignorespaces classify inquiry detail process\relax }}{64}{figure.caption.93}
-\contentsline {figure}{\numberline {20}{\ignorespaces process inquiry detail process\relax }}{66}{figure.caption.95}
-\contentsline {figure}{\numberline {21}{\ignorespaces review inquiry detail process\relax }}{67}{figure.caption.97}
-\contentsline {figure}{\numberline {22}{\ignorespaces Outbound Service process\relax }}{68}{figure.caption.98}
-\contentsline {figure}{\numberline {23}{\ignorespaces prepare contact detail process\relax }}{71}{figure.caption.100}
-\contentsline {figure}{\numberline {24}{\ignorespaces contact customer detail process\relax }}{72}{figure.caption.102}
-\contentsline {figure}{\numberline {25}{\ignorespaces evaluate contact detail process\relax }}{72}{figure.caption.104}
-\contentsline {figure}{\numberline {26}{\ignorespaces Self-Service process\relax }}{74}{figure.caption.105}
-\contentsline {figure}{\numberline {27}{\ignorespaces Self-Service detail processes\relax }}{75}{figure.caption.106}
-\contentsline {figure}{\numberline {28}{\ignorespaces Knowledge Management main process variants\relax }}{78}{figure.caption.107}
-\contentsline {figure}{\numberline {29}{\ignorespaces Outsourcing process framework comparison\relax }}{80}{figure.caption.109}
-\contentsline {figure}{\numberline {30}{\ignorespaces Sales process\relax }}{81}{figure.caption.110}
-\contentsline {figure}{\numberline {31}{\ignorespaces Transition process\relax }}{85}{figure.caption.121}
-\contentsline {figure}{\numberline {32}{\ignorespaces Account Management process\relax }}{88}{figure.caption.128}
-\contentsline {figure}{\numberline {33}{\ignorespaces Solution Design process\relax }}{91}{figure.caption.138}
-\contentsline {figure}{\numberline {34}{\ignorespaces Solution-Product-Portfolio structure\relax }}{93}{figure.caption.146}
-\contentsline {figure}{\numberline {35}{\ignorespaces Product Development process\relax }}{95}{figure.caption.147}
-\contentsline {figure}{\numberline {36}{\ignorespaces Portfolio Management process\relax }}{97}{figure.caption.160}
-\contentsline {figure}{\numberline {37}{\ignorespaces Quality Management process\relax }}{101}{figure.caption.172}
-\contentsline {figure}{\numberline {38}{\ignorespaces Workforce Management process\relax }}{104}{figure.caption.178}
-\contentsline {figure}{\numberline {39}{\ignorespaces Outsourcing provider processes\relax }}{109}{figure.caption.188}
-\contentsline {figure}{\numberline {40}{\ignorespaces SCOR Model\relax }}{109}{figure.caption.189}
-\contentsline {figure}{\numberline {41}{\ignorespaces Retail-H\relax }}{110}{figure.caption.190}
-\contentsline {figure}{\numberline {42}{\ignorespaces icebricks process structure example: Retail-H \acrshort {CRM} process\relax }}{111}{figure.caption.191}
-\contentsline {figure}{\numberline {43}{\ignorespaces Financial engineering in the outsourcing deal\relax }}{112}{figure.caption.193}
+\contentsline {figure}{\numberline {1}{\ignorespaces Design Science Research Cycles\relax }}{7}{figure.caption.18}
+\contentsline {figure}{\numberline {2}{\ignorespaces Outsourcing ERM\relax }}{13}{figure.caption.24}
+\contentsline {figure}{\numberline {3}{\ignorespaces BPO B2B2B/C Chain\relax }}{14}{figure.caption.26}
+\contentsline {figure}{\numberline {4}{\ignorespaces BPO Market Composition\relax }}{15}{figure.caption.31}
+\contentsline {figure}{\numberline {5}{\ignorespaces CRM in the Field of Marketing\relax }}{16}{figure.caption.32}
+\contentsline {figure}{\numberline {6}{\ignorespaces CRM Processes\relax }}{17}{figure.caption.33}
+\contentsline {figure}{\numberline {7}{\ignorespaces Channel Matrix\relax }}{19}{figure.caption.34}
+\contentsline {figure}{\numberline {8}{\ignorespaces Design Process of Reusable Conceptual Models\relax }}{29}{figure.caption.50}
+\contentsline {figure}{\numberline {9}{\ignorespaces icebricks Meta Model\relax }}{34}{figure.caption.56}
+\contentsline {figure}{\numberline {10}{\ignorespaces Model Levels\relax }}{38}{figure.caption.62}
+\contentsline {figure}{\numberline {11}{\ignorespaces Procedure for Framework Construction\relax }}{46}{figure.caption.67}
+\contentsline {figure}{\numberline {12}{\ignorespaces BPO Chain Provider Scope with Stakeholders\relax }}{49}{figure.caption.70}
+\contentsline {figure}{\numberline {13}{\ignorespaces Framework Design Influences\relax }}{53}{figure.caption.75}
+\contentsline {figure}{\numberline {14}{\ignorespaces Framework\relax }}{55}{figure.caption.77}
+\contentsline {figure}{\numberline {15}{\ignorespaces \acrshort {ERM} of Customer-facing Services\relax }}{58}{figure.caption.81}
+\contentsline {figure}{\numberline {16}{\ignorespaces \textsc {Inbound Service} process\relax }}{59}{figure.caption.82}
+\contentsline {figure}{\numberline {17}{\ignorespaces Route Inquiry Detail Process\relax }}{61}{figure.caption.84}
+\contentsline {figure}{\numberline {18}{\ignorespaces Preprocess Inquiry Detail Process\relax }}{63}{figure.caption.86}
+\contentsline {figure}{\numberline {19}{\ignorespaces Classify Inquiry Detail Process\relax }}{64}{figure.caption.88}
+\contentsline {figure}{\numberline {20}{\ignorespaces Process Inquiry Detail Process\relax }}{66}{figure.caption.90}
+\contentsline {figure}{\numberline {21}{\ignorespaces Review Inquiry Detail Process\relax }}{67}{figure.caption.92}
+\contentsline {figure}{\numberline {22}{\ignorespaces \textsc {Outbound Service} Process\relax }}{68}{figure.caption.93}
+\contentsline {figure}{\numberline {23}{\ignorespaces Prepare Contact Detail Process\relax }}{71}{figure.caption.95}
+\contentsline {figure}{\numberline {24}{\ignorespaces Contact Customer Detail Process\relax }}{72}{figure.caption.97}
+\contentsline {figure}{\numberline {25}{\ignorespaces Evaluate Contact Detail Process\relax }}{72}{figure.caption.99}
+\contentsline {figure}{\numberline {26}{\ignorespaces \textsc {Self-Service} Process\relax }}{74}{figure.caption.100}
+\contentsline {figure}{\numberline {27}{\ignorespaces \textsc {Self-Service} detail processes\relax }}{76}{figure.caption.105}
+\contentsline {figure}{\numberline {28}{\ignorespaces \textsc {Knowledge Management} Main Process Variants\relax }}{79}{figure.caption.106}
+\contentsline {figure}{\numberline {29}{\ignorespaces Outsourcing Process Framework Comparison\relax }}{81}{figure.caption.109}
+\contentsline {figure}{\numberline {30}{\ignorespaces \textsc {Sales} Process\relax }}{82}{figure.caption.110}
+\contentsline {figure}{\numberline {31}{\ignorespaces \textsc {Transition} Process\relax }}{86}{figure.caption.121}
+\contentsline {figure}{\numberline {32}{\ignorespaces \textsc {Account Management} Process\relax }}{89}{figure.caption.128}
+\contentsline {figure}{\numberline {33}{\ignorespaces \textsc {Solution Design} Process\relax }}{92}{figure.caption.138}
+\contentsline {figure}{\numberline {34}{\ignorespaces Solution-Product-Portfolio structure\relax }}{95}{figure.caption.145}
+\contentsline {figure}{\numberline {35}{\ignorespaces \textsc {Product Development }Process\relax }}{96}{figure.caption.146}
+\contentsline {figure}{\numberline {36}{\ignorespaces \textsc {Portfolio Management} Process\relax }}{99}{figure.caption.159}
+\contentsline {figure}{\numberline {37}{\ignorespaces \textsc {Quality Management} Process\relax }}{102}{figure.caption.171}
+\contentsline {figure}{\numberline {38}{\ignorespaces \textsc {People Lifecycle Management} Process\relax }}{105}{figure.caption.177}
+\contentsline {figure}{\numberline {39}{\ignorespaces \textsc {Operations Management} Process\relax }}{109}{figure.caption.186}
+\contentsline {figure}{\numberline {40}{\ignorespaces Outsourcing provider processes\relax }}{117}{figure.caption.195}
+\contentsline {figure}{\numberline {41}{\ignorespaces SCOR Model\relax }}{117}{figure.caption.196}
+\contentsline {figure}{\numberline {42}{\ignorespaces Retail-H\relax }}{118}{figure.caption.197}
+\contentsline {figure}{\numberline {43}{\ignorespaces icebricks process structure example: Retail-H \acrshort {CRM} process\relax }}{119}{figure.caption.198}
+\contentsline {figure}{\numberline {44}{\ignorespaces Financial engineering in the outsourcing deal\relax }}{120}{figure.caption.200}

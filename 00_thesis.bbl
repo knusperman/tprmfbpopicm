@@ -1,4 +1,4 @@
-\begin{thebibliography}{146}
+\begin{thebibliography}{157}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -63,6 +63,17 @@ Bartell, S.~M. 1998. \enquote{Information systems outsourcing: a literature
   review and agenda for research,} {\it International Journal of Organization
   Theory and Behavior\/} (1), pp. 17--44.
 
+\bibitem[{Batt(2002)}]{Batt2002}
+Batt, R. 2002. \enquote{Managing Customer Services: Human Resource Practices,
+  Quit Rates, and Sales Growth,} {\it The Academy of Management Journal\/}
+  (45:3), pp. 587--597.
+
+
+\bibitem[{Batt and Moynihan(2002)}]{Batt_2002}
+Batt, R., and Moynihan, L. 2002. \enquote{The viability of alternative call
+  centre production models,} {\it Human Resource Management Journal\/} (12:4),
+  pp. 14--34.
+
 \bibitem[{Becker et~al.(2007)Becker, Delfmann, and Knackstedt}]{Becker2007}
 Becker, J., Delfmann, P., and Knackstedt, R. 2007. \enquote{{Adaptive reference
   modeling: Integrating configurative and generic adaptation techniques for
@@ -120,6 +131,11 @@ Brynjolfsson, E., Hu, Y., and Rahman, M. 2013. \enquote{Competing in the age of
 Butler, T. 1998. \enquote{Towards a hermeneutic method for interpretive
   research in information systems,} {\it Journal of Information Technology\/}
   (13:4), pp. 285--300.
+
+
+\bibitem[{Chapman(2005)}]{9780130176158}
+Chapman, S.~N. 2005. {\it Fundamentals of Production Planning and Control\/},
+  PRENTICE HALL.
 
 
 \bibitem[{Chen et~al.(2012)Chen, Chiang, and Storey}]{Chen:2012:BIA}
@@ -209,10 +225,21 @@ Diller, H. 1995. \enquote{Beziehungsmarketing,} {\it
   Report},} .
 \newline\urlprefix\url{http://dimensiondatacx.com/summary-report/}\newline\urldateprefix2016-12-01
 
+\bibitem[{Easton and Goodale(2005)}]{Easton_2005}
+Easton, F.~F., and Goodale, J.~C. 2005. \enquote{Schedule Recovery: Unplanned
+  Absences in Service Operations,} {\it Decision Sciences\/} (36:3), pp.
+  459--488.
+
 \bibitem[{Edgett(1996)}]{Edgett_1996}
 Edgett, S.~J. 1996. \enquote{The new product development process for commercial
   financial services,} {\it Industrial Marketing Management\/} (25:6), pp.
   507--515.
+
+\bibitem[{Ernst et~al.(2004)Ernst, Jiang, Krishnamoorthy, and
+  Sier}]{Ernst_2004}
+Ernst, A., Jiang, H., Krishnamoorthy, M., and Sier, D. 2004. \enquote{Staff
+  scheduling and rostering: A review of applications, methods and models,} {\it
+  European Journal of Operational Research\/} (153:1), pp. 3--27.
 
 \bibitem[{Evans(2014)}]{evansted}
 Evans, P. 2014. \enquote{How data will transform Business,} .
@@ -245,6 +272,11 @@ Franceschini, F., Galetto, M., Pignatelli, A., and Varetto, M. 2003.
 \bibitem[{Frow and Payne(2007)}]{Frow_2007}
 Frow, P., and Payne, A. 2007. \enquote{Towards the `perfect' customer
   experience,} {\it Journal of Brand Management\/} (15:2), pp. 89--101.
+
+\bibitem[{Gans et~al.(2003)Gans, Koole, and Mandelbaum}]{Gans_2003}
+Gans, N., Koole, G., and Mandelbaum, A. 2003. \enquote{Telephone Call Centers:
+  Tutorial, Review, and Research Prospects,} {\it Manufacturing {\&} Service
+  Operations Management\/} (5:2), pp. 79--141.
 
 \bibitem[{Gill and Johnson(2002)}]{gilljohnson}
 Gill, J., and Johnson, P. 2002. {\it Research Methods for Managers\/}, London:
@@ -306,6 +338,11 @@ Hsieh, P.-L., and Wei, S.-L. 2017. \enquote{Relationship formation within
   online brand communities: Bridging the virtual and the real,} {\it Asia
   Pacific Management Review\/} .
 
+\bibitem[{Hur et~al.(2009)Hur, Mabert, and Bretthauer}]{Hur_2009}
+Hur, D., Mabert, V.~A., and Bretthauer, K.~M. 2009. \enquote{Real-Time Work
+  Schedule Adjustment Decisions: An Investigation and Evaluation,} {\it
+  Production and Operations Management\/} (13:4), pp. 322--339.
+
 \bibitem[{{IT Governance Institute}(2005)}]{itgov2005}
 {IT Governance Institute} 2005. \enquote{Governance of Outsourcing,} Tech.
   rep., {IT Governance Institute}.
@@ -364,6 +401,11 @@ Mani, D., Barua, A., and Whinston, A. 2010. \enquote{An Empirical Analysis of
   the Impact of Information Capabilities Design on Business Process Outsourcing
   Performance,} {\it MIS Quarterly\/} (34:1), pp. 39--62.
 
+
+\bibitem[{Mehrotra et~al.(2009)Mehrotra, Ozlük, and Saltzman}]{Mehrotra_2009}
+Mehrotra, V., Ozlük, O., and Saltzman, R. 2009. \enquote{Intelligent
+  Procedures for Intra-Day Updating of Call Center Agent Schedules,} {\it
+  Production and Operations Management\/} (19:3), pp. 353--367.
 
 \bibitem[{Meise(2001)}]{Meise2001}
 Meise, V. 2001. \enquote{{Das Vorgehensmodell zur Konstruktion von
@@ -490,6 +532,10 @@ Perunovi{\'c}, Z., and Pedersen, J.~L. 2007. \enquote{Outsourcing process and
   theories,} in {\it Proceedings of the POMS 18th Annual Conference, May 4--7,
   Dallas, Texas, 007\/}, vol.~3.
 
+\bibitem[{Pfeffer(1998)}]{pfeffer1998seven}
+Pfeffer, J. 1998. \enquote{Seven practices of successful organizations,} {\it
+  California management review\/} (40:2), pp. 96--124.
+
 \bibitem[{Pine and Gilmore(1998)}]{gilmore1998}
 Pine, B., and Gilmore, J. 1998. \enquote{Welcome to the experience economy,}
   {\it Harvard Business Review\/} (76:3), pp. 97--105.
@@ -567,6 +613,11 @@ Rubenstein-Montano, B., Liebowitz, J., Buchwalter, J., McCaw, D., Newman, B.,
   and Rebeck, K. 2001. \enquote{A systems thinking framework for knowledge
   management,} {\it Decision Support Systems\/} (31:1), pp. 5--16.
 
+\bibitem[{Russell et~al.(2010)Russell, Bernard, and Taylor}]{9780470525906}
+Russell, R.~S., Bernard, W., and Taylor, I. I.~I. 2010. {\it Operations
+  Management: Creating Value Along the Supply Chain\/}, JOHN WILEY \& SONS INC.
+
+
 \bibitem[{Ryals and Payne(2001)}]{ryals2001customer}
 Ryals, L., and Payne, A. 2001. \enquote{Customer relationship management in
   financial services: towards information-enabled relationship marketing,} {\it
@@ -603,17 +654,17 @@ Seiffert, H. 2006. {\it Einf{\"u}hrung in die Wissenschaftstheorie:
 Shannon, C.~E., and Weaver, W. 1949. {\it The mathematical theory of
   communication\/}, University of Illinois Press.
 
-\bibitem[{Sharp(2003)}]{9781555582777}
-Sharp, D.~E. 2003. {\it Call Center Operation\/}, Elsevier Science \&
-  Technology.
-
-
 \bibitem[{Simon(1996)}]{simon1996sciences}
 Simon, H.~A. 1996. {\it The sciences of the artificial\/}, MIT press.
 
 \bibitem[{Slack et~al.(2011)Slack, Brandon-Jonas, and Johnston}]{9780273756194}
 Slack, N., Brandon-Jonas, A., and Johnston, R. 2011. {\it Essentials of
   Operations Management with Myomla\/}, Pearson/Education.
+
+
+\bibitem[{Slack et~al.(2007)Slack, Chambers, and Johnston}]{0273708473}
+Slack, N., Chambers, S., and Johnston, R. 2007. {\it Operations Management (5th
+  Edition)\/}, Trans-Atlantic Publications, Inc.
 
 
 \bibitem[{Snowdon et~al.(2016)Snowdon, Fersht, and McGann}]{hfs2016top}
@@ -659,6 +710,11 @@ Thomas, O. 2006{\natexlab{b}}. {\it Management von Referenzmodellen : Entwurf
   und Realisierung eines Informationssystems zur Entwicklung und Anwendung von
   Referenzmodellen\/}, Ph.D. thesis, Universit{\"a}t des Saarlandes,
   Saarbr{\"u}cken.
+
+\bibitem[{Tuten and Neidermeyer(2004)}]{Tuten_2004}
+Tuten, T.~L., and Neidermeyer, P.~E. 2004. \enquote{Performance, satisfaction
+  and turnover in call centers,} {\it Journal of Business Research\/} (57:1),
+  pp. 26--34.
 
 \bibitem[{van Heijst et~al.(1997)van Heijst, van~der Spek, and
   Kruizinga}]{van_Heijst_1997}
