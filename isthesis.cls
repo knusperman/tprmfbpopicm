@@ -936,6 +936,7 @@
 }
 
 \newcommand{\references}[1]{%
+	\pagebreak
     \addcontentsline{toc}{chapter}{\bibname}%
     \bibliography{#1}%
     \pagebreak%

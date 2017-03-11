@@ -4,8 +4,6 @@ The top-level auxiliary file: 00_thesis.aux
 The style file: assets/misq.bst
 Database file #1: library.bib
 Warning--I didn't find a database entry for "p"
-Warning--I didn't find a database entry for "Whitt_2006"
-Warning--I didn't find a database entry for "cowell"
 Warning--I didn't find a database entry for "Stonebraker:1988:RDS"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 `urldate' is a missing field, not a string, for entry Batt2002
@@ -95,45 +93,45 @@ while executing---line 1733 of file assets/misq.bst
 while executing---line 1733 of file assets/misq.bst
 `urldate' is a missing field, not a string, for entry Winter2008Hevner
 while executing---line 1733 of file assets/misq.bst
-You've used 157 entries,
+You've used 159 entries,
             3448 wiz_defined-function locations,
-            1618 strings with 32591 characters,
-and the built_in function-call counts, 167525 in all, are:
-= -- 20301
-> -- 2944
-< -- 211
-+ -- 1613
-- -- 940
-* -- 10041
-:= -- 17700
-add.period$ -- 434
-call.type$ -- 157
-change.case$ -- 956
-chr.to.int$ -- 176
-cite$ -- 160
-duplicate$ -- 18110
-empty$ -- 10497
-format.name$ -- 1377
-if$ -- 34594
+            1626 strings with 32854 characters,
+and the built_in function-call counts, 171165 in all, are:
+= -- 20796
+> -- 2973
+< -- 215
++ -- 1638
+- -- 949
+* -- 10243
+:= -- 18016
+add.period$ -- 440
+call.type$ -- 159
+change.case$ -- 967
+chr.to.int$ -- 178
+cite$ -- 162
+duplicate$ -- 18550
+empty$ -- 10717
+format.name$ -- 1392
+if$ -- 35362
 int.to.chr$ -- 13
 int.to.str$ -- 1
-missing$ -- 1297
-newline$ -- 537
-num.names$ -- 631
-pop$ -- 7099
+missing$ -- 1314
+newline$ -- 543
+num.names$ -- 639
+pop$ -- 7267
 preamble$ -- 1
-purify$ -- 1097
+purify$ -- 1110
 quote$ -- 0
-skip$ -- 7623
+skip$ -- 7791
 stack$ -- 0
-substring$ -- 14415
-swap$ -- 10539
-text.length$ -- 92
+substring$ -- 14840
+swap$ -- 10770
+text.length$ -- 94
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1305
+type$ -- 1323
 warning$ -- 3
-while$ -- 909
+while$ -- 925
 width$ -- 0
-write$ -- 1752
+write$ -- 1774
 (There were 42 error messages)

@@ -2116,7 +2116,7 @@
 
 @Article{Easton_2005,
   author    = {Fred F. Easton and John C. Goodale},
-  title     = {Schedule Recovery: Unplanned Absences in Service Operations{\ast}},
+  title     = {Schedule Recovery: Unplanned Absences in Service Operations},
   journal   = {Decision Sciences},
   year      = {2005},
   volume    = {36},
@@ -2204,7 +2204,7 @@
   publisher = {University of California Press Journals},
 }
 
-@Article{gr,
+@Article{Whitt2006,
   author    = {Ward Whitt},
   title     = {The Impact of Increased Employee Retention on Performance in a Customer Contact Center},
   journal   = {Manufacturing {\&} Service Operations Management},
@@ -2215,6 +2215,19 @@
   month     = {jul},
   doi       = {10.1287/msom.1060.0106},
   publisher = {Institute for Operations Research and the Management Sciences ({INFORMS})},
+}
+
+@Article{Babin_2016,
+  author    = {Ron Babin and Adrian Quayle},
+  title     = {{ISO} 37500 {\textendash} Comparing outsourcing life-cycle models},
+  journal   = {Strategic Outsourcing: An International Journal},
+  year      = {2016},
+  volume    = {9},
+  number    = {3},
+  pages     = {271--286},
+  month     = {nov},
+  doi       = {10.1108/so-04-2016-0013},
+  publisher = {Emerald},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

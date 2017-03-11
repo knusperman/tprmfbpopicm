@@ -1,4 +1,4 @@
-\begin{thebibliography}{157}
+\begin{thebibliography}{159}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL: }
@@ -57,6 +57,11 @@ APICS 2015. \enquote{{American Production and Inventory Control Society -
 Aron, R., Clemons, E.~K., and Reddi, S. 2005. \enquote{Just right outsourcing:
   understanding and managing risk,} {\it Journal of Management Information
   Systems\/} (22:2), pp. 37--55.
+
+\bibitem[{Babin and Quayle(2016)}]{Babin_2016}
+Babin, R., and Quayle, A. 2016. \enquote{{ISO} 37500 {\textendash} Comparing
+  outsourcing life-cycle models,} {\it Strategic Outsourcing: An International
+  Journal\/} (9:3), pp. 271--286.
 
 \bibitem[{Bartell(1998)}]{bartell1998information}
 Bartell, S.~M. 1998. \enquote{Information systems outsourcing: a literature
@@ -759,6 +764,11 @@ Walker, R.~H., and Francis, H. 2003. \enquote{Customer Service and Relationship
 \bibitem[{Wernerfelt(1984)}]{wernerfelt1984resource}
 Wernerfelt, B. 1984. \enquote{A resource-based view of the firm,} {\it
   Strategic management journal\/} (5:2), pp. 171--180.
+
+\bibitem[{Whitt(2006)}]{Whitt2006}
+Whitt, W. 2006. \enquote{The Impact of Increased Employee Retention on
+  Performance in a Customer Contact Center,} {\it Manufacturing {\&} Service
+  Operations Management\/} (8:3), pp. 235--252.
 
 \bibitem[{Wiig et~al.(1997)Wiig, de~Hoog, and van~der Spek}]{Wiig_1997}
 Wiig, K.~M., de~Hoog, R., and van~der Spek, R. 1997. \enquote{Supporting
