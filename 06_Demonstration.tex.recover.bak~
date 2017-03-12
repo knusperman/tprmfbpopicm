@@ -32,9 +32,7 @@ Documents and interview transcripts are foundation of the following practical ex
 \end{table}
 
 	Regarding the overall split into management, client and customer processes, interviewees conveyed that Arvato divides into global and local responsibilities.
-	Interview partners in a global role reflect on differences between country organizations, while a local view is scoped within a country organization. Managerial processes were found on a global level. Client and customer processes were discussed from a global and local perspective. 
-	
-	Product orientation of Arvato and its competitors was affirmed in the interviews. Compatibility between the understanding of portfolio, products and solutions in this work and Arvato is given.
+	Interview partners in a global role reflect on differences between country organizations, while a local view is scoped within a country organization. Managerial processes were found on a global level. Client and customer processes were discussed from a global and local perspective. Product orientation of Arvato and its competitors was affirmed in the interviews. 
 	
 	 The provider model is shown in \Fig \ref{fig:arvatofram} and detailed in the remainder of this chapter.
 	
@@ -84,52 +82,28 @@ Documents and interview transcripts are foundation of the following practical ex
 	 \textsc{Sales} and \textsc{Account Management} can be linked together in country organizations inside Arvato. This view was taken in interview 8 and therefore a scoping of process boundaries was necessary. The starting point of \textsc{Account Management} was seen at the latest with signing of the contract and therefore exists during \textsc{Transition}. Constituents of the reference process were named in the interview, namely service performance monitoring, contract management and especially relationship management. The interview emphasized change management, that is not explicitly modeled as a detail process, but captured in \textit{manage disputes}, \textit{propose innovation} and \textit{renegotiate contract}. As a lifecycle analogy was stated, \textit{end contract} is a suitable last detail process. 
           
    	\subsection{Solution Design}
-	\textsc{Solution Design} as a process in the reference model corresponds to the field of action of a same-named \textit{organizational unit} within the German Arvato organization. This unit also consults in pre-sales activities, that are not part of this process. 
+	\textsc{Solution Design} as a process in the reference model corresponds to the field of action of a same-named \textit{organizational unit} within the German Arvato organization. This unit also influences \textsc{Consultative Selling} through conducting proactive pre-sales activities, that are not part of this process. 
 	
-	The interviewee stated that starting point during pre-sales is the \textit{identification of potentials for improvement}, from which service requirements are derived. Then, with help of the product portfolio, a client-specific solution is created. The following development is conducted by IT. While the transformation towards a product-oriented organization is aimed, it was admitted that this is work in progress. 
+	The interviewee stated that starting point during pre-sales is the \textit{identification of potentials for improvement}, from which service requirements are derived.
+	Then, with help of the product portfolio, a client-specific solution is created. The following development is conducted by IT. 
 	
-	Abstracting from organizational structure, one can state that the described process at Arvato is covered in parts of \textsc{Consultative Selling} and \textsc{Solution Design}. As intended by the modeling of a separate \textsc{Solution Design} process, it supports during sales activities. The following justifies the split between consulting and design. 
+	Abstracting from organizational structure, one can state that the described process at Arvato is covered in parts of \textsc{Consultative Selling} and \textsc{Solution Design}. As intended by the modeling of a separate \textsc{Solution Design} process, it supports during sales activities. 
 	
-	The reference process starts with \textit{process service challenge}, that assumes challenges are identified in \textsc{Consultative Selling} and used in \textsc{Solution Design} to identify the problem. The specification of these challenges in a proactive or reactive manner is seen as core part of the consultative business and consequently must be located as part of \textsc{Consultative Selling}. In turn, designing is focus of this process. 
+	The reference process starts with \textit{process service challenge}, that assumes challenges are identified in \textsc{Consultative Selling} and used in \textsc{Solution Design} to identify the problem. These challenges can be proactively 
 	
+	While the transformation towards a product-oriented organization is aimed, it was admitted that this is work in progress. 
+
 	\section{Management Processes}
-	Aim of demonstrating these processes must be their applicability across client businesses, which is embodied through a global pendant at Arvato. Product- and portfolio-related activities fall under responsibility of global \textit{Portfolio \& Solution Design}. It is per definition task of \textit{Operations} to handle service delivery on an executing level. To capture ambitions within Arvato to align operational business across the organization, a global operations initiative was founded to create a framework for harmonization and standardization. Hence, the \textsc{Quality Management}, \textsc{People Lifecycle Management} and \textsc{Operations Management} reference processes must cover their sphere of activity.
-	
-	Interviews 4 and 5 were subject to processes that strive for alignment across the organization. In addition, documents regarding the available global operations framework are considered for demonstration. 
 	%%%%%%%%%%
-	\subsection{Product Development \& Portfolio Management}
+	\subsection{Product Development}
+	SD: plattform noch nicht definiert
 	
-	Arvato is in the process of establishing a product orientation. Building a common mindset in differentiating products and solutions is one challenge. Because of this, a separated product development process, isolated from \textsc{Solution Design}, is not defined. However, it was stated that products must be conceptual, derived from market instead of client requirements and the basis for client-specific solution. Essentially, this constitutes the existence of a separate \textsc{Product Development} process as specified in the reference model. 
+	\subsection{Portfolio Management}
+	sales und delivery portfolio
+	communication wird in SD genannt
 	
-	Awareness for \textsc{Portfolio Management} is existing at Arvato and justified in aspirations to standardize and harmonize \acrshort{CRM} platforms. Furthermore increased transparency was named as one driver, that signifies two views that are taken on the portfolio at Arvato. The \textit{Sales Portfolio} conveys an external view on the products that is communicated towards clients, while the \textit{Delivery Portfolio} links products to internal components and splits these into people, process and platform components. 
-	
-	A comparison to the reference model demonstrates similarities. With platform components being understood as technology components, the reference model's portfolio structure is a suitable representation of practice at Arvato. 
-	In addition to components that relate to one or multiple products, the need of having additional documentation and marketing material was stated, so that a use in \textsc{Solution Design} and \textsc{Consultative Selling} is enabled. 
 	
 	\subsection{Quality Management}
-	Quality is deliberately defined widely within this process, so that individual \acrshort{CSR} and overall service delivery performance is covered. The global operations framework lists staff performance management, quality management and client communication as components, that can be put into relation to the \textsc{Quality Management} reference process. While client communication is part of \textsc{Account Management}, the idea of constant improvement of service delivery is conveyed within \textsc{Quality Management} as well as the reporting function. 
-	
-	 
 	\subsection{People Lifecycle Management}
-	People, Employee or Agent Lifecycle Management is seen as an integral constituent of HR management in the organization. The mission of People Lifecycle Management at Arvato is the creation of \enquote{a professional environment that attracts the right talent, where performance is rewarded through empowerment, continuous learning and personal development – enabling people to achieve their potential while efficiently and effectively surpassing customer expectations.} 
-	
-	To demonstrate the applicability of \textsc{People Lifecycle Management} to the organizational context, lifecycle constituents at Arvato can be compared with reference detail processes. 
-	
-	individual kram ist bei mir in quality management. 
-		
-		
 	\subsection{Operations Management}
-	statemetn
-	\enquote{Putting the right people, with the right skills, in the right place, at the right time, to balance our client expectations, optimize internal efficiencies, while considering our unique employee requirements.}
-	
-	plan, execute, control, analyze
-	forecasting, cap plan, scheduling, rtm, analyze
-	external, internal, 
-	External Volume Forecast Process
-Internal Volume Forecast Process
-Volume Forecast Comparison Process
-Internal AHT Forecast Process
-Internal Shrinkage Forecast Process
-
-	
 	

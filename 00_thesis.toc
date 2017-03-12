@@ -115,7 +115,7 @@
 \contentsline {subsubsection}{Renegotiate Contract}{89}{subsubsection*.129}
 \contentsline {subsubsection}{End Contract}{90}{subsubsection*.130}
 \contentsline {subsection}{\numberline {5.3.4}Solution Design}{90}{subsection.5.3.4}
-\contentsline {subsubsection}{Process Service Definition}{91}{subsubsection*.133}
+\contentsline {subsubsection}{Process Service Challenge}{91}{subsubsection*.133}
 \contentsline {subsubsection}{Match Product}{91}{subsubsection*.134}
 \contentsline {subsubsection}{Specify Solution}{92}{subsubsection*.135}
 \contentsline {subsubsection}{Develop Solution}{92}{subsubsection*.136}
@@ -140,64 +140,63 @@
 \contentsline {subsubsection}{Update Portfolio}{99}{subsubsection*.155}
 \contentsline {subsection}{\numberline {5.4.3}Quality Management}{100}{subsection.5.4.3}
 \contentsline {subsubsection}{Define Service Scope}{101}{subsubsection*.157}
-\contentsline {subsubsection}{Measure Service Quality Data}{101}{subsubsection*.158}
+\contentsline {subsubsection}{Measure Service Quality Data}{102}{subsubsection*.158}
 \contentsline {subsubsection}{Analyze Service Quality Data}{102}{subsubsection*.159}
 \contentsline {subsubsection}{Improve Service Quality}{102}{subsubsection*.160}
-\contentsline {subsubsection}{Control \& Report Service Quality}{102}{subsubsection*.161}
+\contentsline {subsubsection}{Control \& Report Service Quality}{103}{subsubsection*.161}
 \contentsline {subsection}{\numberline {5.4.4}People Lifecycle Management}{103}{subsection.5.4.4}
 \contentsline {subsubsection}{Attract Employee Talent}{104}{subsubsection*.163}
 \contentsline {subsubsection}{Recruit Employee}{105}{subsubsection*.164}
 \contentsline {subsubsection}{Train Employee}{105}{subsubsection*.165}
 \contentsline {subsubsection}{Integrate Employee}{105}{subsubsection*.166}
 \contentsline {subsubsection}{Develop Employee}{105}{subsubsection*.167}
-\contentsline {subsubsection}{Incentivize Employee}{105}{subsubsection*.168}
+\contentsline {subsubsection}{Incentivize Employee}{106}{subsubsection*.168}
 \contentsline {subsubsection}{Retain Employee}{106}{subsubsection*.169}
 \contentsline {subsubsection}{Let Go Employee}{106}{subsubsection*.170}
 \contentsline {subsection}{\numberline {5.4.5}Operations Management}{106}{subsection.5.4.5}
-\contentsline {subsubsection}{Forecast Service Volume}{107}{subsubsection*.172}
+\contentsline {subsubsection}{Forecast Service Volume}{108}{subsubsection*.172}
 \contentsline {subsubsection}{Plan Capacity Requirements}{108}{subsubsection*.173}
 \contentsline {subsubsection}{Plan Schedule}{108}{subsubsection*.174}
 \contentsline {subsubsection}{Control Operations}{109}{subsubsection*.175}
 \contentsline {chapter}{\numberline {6}Demonstration}{110}{chapter.6}
 \contentsline {section}{\numberline {6.1}Process Framework}{110}{section.6.1}
-\contentsline {section}{\numberline {6.2}Customer Processes}{111}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Inbound \& Outbound Services}{111}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.2}Customer Processes}{112}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Inbound \& Outbound Services}{112}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Self-Services \& Knowledge Management}{112}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Client Processes}{112}{section.6.3}
+\contentsline {section}{\numberline {6.3}Client Processes}{113}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Consultative Selling}{113}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Transition}{113}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Account Management}{113}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}Account Management}{114}{subsection.6.3.3}
 \contentsline {subsection}{\numberline {6.3.4}Solution Design}{114}{subsection.6.3.4}
-\contentsline {section}{\numberline {6.4}Management Processes}{114}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Product Development}{114}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Portfolio Management}{114}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Quality Management}{114}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}People Lifecycle Management}{114}{subsection.6.4.4}
-\contentsline {subsection}{\numberline {6.4.5}Operations Management}{114}{subsection.6.4.5}
-\contentsline {chapter}{\numberline {7}Evaluation}{115}{chapter.7}
-\contentsline {section}{\numberline {7.1}Modeling Methodology}{115}{section.7.1}
-\contentsline {section}{\numberline {7.2}Model Content}{115}{section.7.2}
-\contentsline {subsubsection}{Solution Objectives 1: Generic Reference Model}{115}{subsubsection*.178}
-\contentsline {subsubsection}{Solution Objectives 2: Application for Arvato CRM}{115}{subsubsection*.179}
-\contentsline {subsubsection}{Solution Objectives 3: Documentation of Construction}{115}{subsubsection*.180}
-\contentsline {subsubsection}{Solution Objectives 4: Process Modeling Language }{115}{subsubsection*.181}
-\contentsline {subsubsection}{Solution Objectives 5: Use for Sales Activities}{116}{subsubsection*.182}
-\contentsline {subsubsection}{Solution Objectives 6: Use in Cross-Client Communication}{116}{subsubsection*.183}
-\contentsline {subsubsection}{Solution Objectives 7: Use in Representing Omni-Channel}{116}{subsubsection*.184}
-\contentsline {chapter}{\numberline {8}Conclusion}{117}{chapter.8}
-\contentsline {chapter}{Appendix}{118}{appendix*.185}
+\contentsline {section}{\numberline {6.4}Management Processes}{115}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Product Development \& Portfolio Management}{115}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Quality Management}{116}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}People Lifecycle Management}{116}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Operations Management}{116}{subsection.6.4.4}
+\contentsline {chapter}{\numberline {7}Evaluation}{117}{chapter.7}
+\contentsline {section}{\numberline {7.1}Modeling Methodology}{117}{section.7.1}
+\contentsline {section}{\numberline {7.2}Model Content}{117}{section.7.2}
+\contentsline {subsubsection}{Solution Objectives 1: Generic Reference Model}{117}{subsubsection*.178}
+\contentsline {subsubsection}{Solution Objectives 2: Application for Arvato CRM}{117}{subsubsection*.179}
+\contentsline {subsubsection}{Solution Objectives 3: Documentation of Construction}{117}{subsubsection*.180}
+\contentsline {subsubsection}{Solution Objectives 4: Process Modeling Language }{117}{subsubsection*.181}
+\contentsline {subsubsection}{Solution Objectives 5: Use for Sales Activities}{118}{subsubsection*.182}
+\contentsline {subsubsection}{Solution Objectives 6: Use in Cross-Client Communication}{118}{subsubsection*.183}
+\contentsline {subsubsection}{Solution Objectives 7: Use in Representing Omni-Channel}{118}{subsubsection*.184}
+\contentsline {chapter}{\numberline {8}Conclusion}{119}{chapter.8}
+\contentsline {chapter}{Appendix}{120}{appendix*.185}
 \save@tocdepth \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Customer relationship management}{118}{section.Alph0.1}
-\contentsline {subsection}{\numberline {A.1}CRM Notions}{118}{subsection.Alph0.1.1}
-\contentsline {subsection}{\numberline {A.2}Multi- and Omni-Channel Publications}{118}{subsection.Alph0.1.2}
-\contentsline {subsection}{\numberline {A.3}Multi- and Omnichannel Separation}{119}{subsection.Alph0.1.3}
-\contentsline {subsection}{\numberline {A.4}Outsourcing Provider Processes}{120}{subsection.Alph0.1.4}
-\contentsline {subsection}{\numberline {A.5}Selected Reference Models}{121}{subsection.Alph0.1.5}
-\contentsline {subsection}{\numberline {A.6}icebricks Example}{122}{subsection.Alph0.1.6}
-\contentsline {subsection}{\numberline {A.7}Knowledge Management frameworks}{123}{subsection.Alph0.1.7}
-\contentsline {subsection}{\numberline {A.8}Financial Engineering in the Outsourcing Deal}{123}{subsection.Alph0.1.8}
-\contentsline {subsection}{\numberline {A.9}Frameworks for the Product Development process}{124}{subsection.Alph0.1.9}
-\contentsline {subsection}{\numberline {A.10}Portfolio Management Definition}{125}{subsection.Alph0.1.10}
-\contentsline {subsection}{\numberline {A.11}Consultative Selling Process}{126}{subsection.Alph0.1.11}
+\contentsline {section}{\numberline {A}Customer relationship management}{120}{section.Alph0.1}
+\contentsline {subsection}{\numberline {A.1}CRM Notions}{120}{subsection.Alph0.1.1}
+\contentsline {subsection}{\numberline {A.2}Multi- and Omni-Channel Publications}{120}{subsection.Alph0.1.2}
+\contentsline {subsection}{\numberline {A.3}Multi- and Omnichannel Separation}{121}{subsection.Alph0.1.3}
+\contentsline {subsection}{\numberline {A.4}Outsourcing Provider Processes}{122}{subsection.Alph0.1.4}
+\contentsline {subsection}{\numberline {A.5}Selected Reference Models}{123}{subsection.Alph0.1.5}
+\contentsline {subsection}{\numberline {A.6}icebricks Example}{124}{subsection.Alph0.1.6}
+\contentsline {subsection}{\numberline {A.7}Knowledge Management frameworks}{125}{subsection.Alph0.1.7}
+\contentsline {subsection}{\numberline {A.8}Financial Engineering in the Outsourcing Deal}{125}{subsection.Alph0.1.8}
+\contentsline {subsection}{\numberline {A.9}Frameworks for the Product Development process}{126}{subsection.Alph0.1.9}
+\contentsline {subsection}{\numberline {A.10}Portfolio Management Definition}{127}{subsection.Alph0.1.10}
+\contentsline {subsection}{\numberline {A.11}Consultative Selling Process}{128}{subsection.Alph0.1.11}
 \reset@tocdepth 
-\contentsline {chapter}{References}{127}{subsection.Alph0.1.11}
+\contentsline {chapter}{References}{129}{subsection.Alph0.1.11}
