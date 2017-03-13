@@ -172,31 +172,30 @@
 \contentsline {subsection}{\numberline {6.4.1}Product Development \& Portfolio Management}{115}{subsection.6.4.1}
 \contentsline {subsection}{\numberline {6.4.2}Quality Management}{116}{subsection.6.4.2}
 \contentsline {subsection}{\numberline {6.4.3}People Lifecycle Management}{116}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Operations Management}{116}{subsection.6.4.4}
-\contentsline {chapter}{\numberline {7}Evaluation}{117}{chapter.7}
-\contentsline {section}{\numberline {7.1}Modeling Methodology}{117}{section.7.1}
-\contentsline {section}{\numberline {7.2}Model Content}{117}{section.7.2}
-\contentsline {subsubsection}{Solution Objectives 1: Generic Reference Model}{117}{subsubsection*.178}
-\contentsline {subsubsection}{Solution Objectives 2: Application for Arvato CRM}{117}{subsubsection*.179}
-\contentsline {subsubsection}{Solution Objectives 3: Documentation of Construction}{117}{subsubsection*.180}
-\contentsline {subsubsection}{Solution Objectives 4: Process Modeling Language }{117}{subsubsection*.181}
-\contentsline {subsubsection}{Solution Objectives 5: Use for Sales Activities}{118}{subsubsection*.182}
-\contentsline {subsubsection}{Solution Objectives 6: Use in Cross-Client Communication}{118}{subsubsection*.183}
-\contentsline {subsubsection}{Solution Objectives 7: Use in Representing Omni-Channel}{118}{subsubsection*.184}
-\contentsline {chapter}{\numberline {8}Conclusion}{119}{chapter.8}
-\contentsline {chapter}{Appendix}{120}{appendix*.185}
+\contentsline {subsection}{\numberline {6.4.4}Workforce Management}{116}{subsection.6.4.4}
+\contentsline {chapter}{\numberline {7}Evaluation}{118}{chapter.7}
+\contentsline {subsubsection}{Solution Objectives 1: Generic Reference Model}{118}{subsubsection*.178}
+\contentsline {subsubsection}{Solution Objectives 2: Application for Arvato CRM}{119}{subsubsection*.179}
+\contentsline {subsubsection}{Solution Objectives 3: Documentation of Construction}{120}{subsubsection*.180}
+\contentsline {subsubsection}{Solution Objectives 4: Process Modeling Language }{120}{subsubsection*.181}
+\contentsline {subsubsection}{Solution Objectives 5: Use for Sales Activities}{120}{subsubsection*.182}
+\contentsline {subsubsection}{Solution Objectives 6: Use in Cross-Client Communication}{121}{subsubsection*.183}
+\contentsline {subsubsection}{Solution Objectives 7: Use in Representing Omni-Channel}{121}{subsubsection*.184}
+\contentsline {chapter}{\numberline {8}Conclusion}{123}{chapter.8}
+\contentsline {chapter}{Appendix}{124}{appendix*.185}
 \save@tocdepth \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Customer relationship management}{120}{section.Alph0.1}
-\contentsline {subsection}{\numberline {A.1}CRM Notions}{120}{subsection.Alph0.1.1}
-\contentsline {subsection}{\numberline {A.2}Multi- and Omni-Channel Publications}{120}{subsection.Alph0.1.2}
-\contentsline {subsection}{\numberline {A.3}Multi- and Omnichannel Separation}{121}{subsection.Alph0.1.3}
-\contentsline {subsection}{\numberline {A.4}Outsourcing Provider Processes}{122}{subsection.Alph0.1.4}
-\contentsline {subsection}{\numberline {A.5}Selected Reference Models}{123}{subsection.Alph0.1.5}
-\contentsline {subsection}{\numberline {A.6}icebricks Example}{124}{subsection.Alph0.1.6}
-\contentsline {subsection}{\numberline {A.7}Knowledge Management frameworks}{125}{subsection.Alph0.1.7}
-\contentsline {subsection}{\numberline {A.8}Financial Engineering in the Outsourcing Deal}{125}{subsection.Alph0.1.8}
-\contentsline {subsection}{\numberline {A.9}Frameworks for the Product Development process}{126}{subsection.Alph0.1.9}
-\contentsline {subsection}{\numberline {A.10}Portfolio Management Definition}{127}{subsection.Alph0.1.10}
-\contentsline {subsection}{\numberline {A.11}Consultative Selling Process}{128}{subsection.Alph0.1.11}
+\contentsline {section}{\numberline {A}Customer relationship management}{124}{section.Alph0.1}
+\contentsline {subsection}{\numberline {A.1}CRM Notions}{124}{subsection.Alph0.1.1}
+\contentsline {subsection}{\numberline {A.2}Multi- and Omni-Channel Publications}{124}{subsection.Alph0.1.2}
+\contentsline {subsection}{\numberline {A.3}Multi- and Omnichannel Separation}{125}{subsection.Alph0.1.3}
+\contentsline {subsection}{\numberline {A.4}Outsourcing Provider Processes}{126}{subsection.Alph0.1.4}
+\contentsline {subsection}{\numberline {A.5}Selected Reference Models}{127}{subsection.Alph0.1.5}
+\contentsline {subsection}{\numberline {A.6}icebricks Example}{128}{subsection.Alph0.1.6}
+\contentsline {subsection}{\numberline {A.7}Knowledge Management frameworks}{129}{subsection.Alph0.1.7}
+\contentsline {subsection}{\numberline {A.8}Financial Engineering in the Outsourcing Deal}{129}{subsection.Alph0.1.8}
+\contentsline {subsection}{\numberline {A.9}Frameworks for the Product Development process}{130}{subsection.Alph0.1.9}
+\contentsline {subsection}{\numberline {A.10}Portfolio Management Definition}{131}{subsection.Alph0.1.10}
+\contentsline {subsection}{\numberline {A.11}Consultative Selling Process}{132}{subsection.Alph0.1.11}
+\contentsline {subsection}{\numberline {A.12}Workforce Management Process}{132}{subsection.Alph0.1.12}
 \reset@tocdepth 
-\contentsline {chapter}{References}{129}{subsection.Alph0.1.11}
+\contentsline {chapter}{References}{133}{section*.197}
