@@ -2238,4 +2238,42 @@
   urldate = {02.03.2017},
 }
 
+@Book{9783832540920,
+  title     = {Referenzprozessmodell Fur Eine Serviceorientierte It-Leistungsverrechnung (Advances in Information Systems and Management Science) (German Edition)},
+  publisher = {Logos Verlag Berlin},
+  year      = {2015},
+  author    = {Hendrik Fechner},
+  isbn      = {978-3-8325-4092-0},
+  url       = {https://www.amazon.com/Referenzprozessmodell-Serviceorientierte-Leistungsverrechnung-Information-Management/dp/383254092X?SubscriptionId=0JYN1NVW651KCA56C102&tag=techkie-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=383254092X},
+}
+
+@Article{lee2009multi,
+  author  = {Lee, Jae-Nam and Heng, Cheng Suang and Lee, Jung},
+  title   = {Multi-vendor outsourcing: Relational structures and organizational learning from a social relation perspective},
+  journal = {ICIS 2009 Proceedings},
+  year    = {2009},
+  pages   = {71},
+}
+
+@Article{Rosemann_2006,
+  author    = {Michael Rosemann},
+  title     = {Potential pitfalls of process modeling: part A},
+  journal   = {Business Process Management Journal},
+  year      = {2006},
+  volume    = {12},
+  number    = {2},
+  pages     = {249--254},
+  month     = {mar},
+  doi       = {10.1108/14637150610657567},
+  publisher = {Emerald},
+}
+
+@Misc{oxfordperformance,
+  author  = {{Oxford Dictionary}},
+  title   = {performance},
+  year    = {2017},
+  url     = {https://en.oxforddictionaries.com/definition/performance},
+  urldate = {12.03.2017},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
